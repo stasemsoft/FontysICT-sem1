@@ -1,98 +1,102 @@
-# Softwarematerial - Overzicht
+<!-- TRANSLATED by md-translate -->
+# Software Material - Overview
 
+## Introduction
 
-## Inleiding
-Dit is een verzameling (open) software-materiaal van het startsemester FHICT (Fontys Hogeschool voor ICT). Het is openbaar toegankelijk voor iedereen en vrij van copyright. Het is in de loop der jaren gemaakt en verzameld door docenten, met hier en daar toevoegingen door studenten! FHICT verwijst naar dit materiaal vanuit een canvas-course, daar staat de FHICT-specifieke info, terwijl deze github-pages redelijk FHICT-onafhankelijk zijn.
-
----
-
-## Structuur van dit materiaal
-
-In het theorie-materiaal onderscheiden we:
-+ `Tutorial`: practical steps, learning oriented.
-+ `How-to guide`: practical steps, problem oriented.
-+ `Discussion`: theoretical, understanding oriented.
-+ `Reference`: theoretical, information oriented. Accurate and complete.
-
-De opdrachten zijn te verdelen in:
-+ `Training` (voorheen exercises): 'vingeroefeningen', horen bij een stukje theorie om te oefenen, maar zijn als bewijsmateriaal om je docent te overtuigen niet te gebruiken.
-+ `Wedstrijd`: Om je docent te overtuigen dat je het niet alleen snapt maar ook doet ga je zelf opdrachten verzinnen, variëren en uitbreiden op bestaande opdrachten!
-
-Zie [meer uitleg](https://stasemsoft.github.io/softwarematerial/docs/meta) over de uitgangspunten.
+D [...]  [...]  [...]
 
 ---
 
-## Eerste Hulp Bij Vasthangen
+## Structure of this material
 
-+ [How-to](https://stasemsoft.github.io/softwarematerial/docs/basic/howto): Technisch-inhoudelijke vragen vind je in de How-to. Staat je antwoord er niet bij? Laat het horen! (ook als je het antwoord zelf al hebt gevonden. Vast dank!)
-+ [how to Look At A Tutorial](docs/process/howtoLookAtATutorial.md)
+In the theory material we distinguish:
 
-+ [Frequently Asked Questions](https://stasemsoft.github.io/softwarematerial/docs/FAQ): Als je vragen hebt over de cursus bij FHICT: kijk eerst eens in de FAQ
- of anderen dezelfde vraag ook al hadden.
-+ [some more really powerful help can be found
-    here](https://chat.openai.com/chat)
+* `Tutorial`: praktische stappen, leergericht.
+* `How-to guide`: praktische stappen, probleemgericht.
+* `Discussie`: theoretisch, gericht op begrip.
+* `Reference`: theoretisch, informatiegericht. Nauwkeurig en volledig.
 
----
+The assignments can be divided into:
 
-## Personas / Volgorde
+*
+[...]
 
-Vergelijk jezelf met de personas en lees de tips: Heb je al programmeerervaring? Of juist nog helemaal niet?
-
-[intro](docs/personas/intro)
+See [more explanation](https://stasemsoft.github.io/softwarematerial/docs/meta) on the principles.
 
 ---
 
-## Onderdelen
+## First Aid for Hanging on
+
+* [How-to](https://stasemsoft.github.io/softwarematerial/docs/basic/howto): Technical-content questions can be found in the How-to. Is your answer not there? Let's hear it! (Even if you already found the answer yourself - thanks!)
+* [How To Look At A Tutorial](docs/process/howtoLookAtATutorial.md)
+* [Frequently Asked Questions](https://stasemsoft.github.io/softwarematerial/docs/FAQ): If you have questions about the course at FHICT: check out the FAQ first
+
+Whether others had the same question as well.
+
+* [meer echt krachtige hulp is te vinden
+hier] (https://chat.openai.com/chat)
+
+---
+
+## Personas / Order
+
+Compare yourself to the
+
+[
+
+---
+
+## Parts
 
 ### 1. Computational Thinking
 
-De manier van denken, goed om iets van te weten... Oorspronkelijk gebruikt als materiaal om kennis met elkaar en met de docent te maken. Werkt het best al discussiërend met stift bij het whiteboard.
+The way of thinking, good to know something about.... Originally used as material for making knowledge with each other and with the teacher. Works best while discussing with marker at whiteboard.
 
-+ [Computational Thinking](https://stasemsoft.github.io/softwarematerial/docs/computational)
-
----
-
-### 2. Toolbox Basis: Basisconcepten van programmeren (zonder objecten)
-
-Een introductie in programmeren (nog zonder objecten).
-
-+ [Toolbox basis](https://stasemsoft.github.io/softwarematerial/docs/basic/)
+* [Computational Thinking](https://stasemsoft.github.io/softwarematerial/docs/computational)
 
 ---
 
-### 3. Toolbox Verdiepend: Objects en Classes
+### 2. Toolbox Basics: Basic concepts of programming (without objects)
 
-Verdieping, programmeren met objecten
+An introduction to programming (still without objects).
 
-+ [Toolbox Verdiepend: Objects en Classes](https://stasemsoft.github.io/softwarematerial/docs/objects/)
+* [Toolbox base](https://stasemsoft.github.io/softwarematerial/docs/basic/)
 
 ---
 
+### 3. Toolbox Deepening: Objects and Classes
 
-## Diversen
+V
+
+* [Toolbox Deepening: Objects and Classes](https://stasemsoft.github.io/softwarematerial/docs/objects/)
+
+---
+
+## Miscellaneous
 
 ### Software Engineering
 
-Dit betreft een aantal niet-programmeer aspecten die een beginnend software engineer moet kennen en kunnen.
+D
 
-+ [Software Engineering](https://stasemsoft.github.io/softwarematerial/docs/software%20engineering/)
-
-
----
-
-### Het Software Profiel bij FHICT
-
-+ [Het Software Profiel](https://stasemsoft.github.io/softwarematerial/docs/softwareprofiel/)
+* [Software Engineering](https://stasemsoft.github.io/softwarematerial/docs/software%20engineering/)
 
 ---
 
-### verder...
+#
 
-+ [Motivatie, Concentratie, thuiswerken](docs/process/motivatieconcentratie): Niet onbelangrijk tijdens een gemiddelde  corona-crisis...
+* [The Software Profile](https://stasemsoft.github.io/softwarematerial/docs/softwareprofiel/)
 
-+ [Workshops](https://stasemsoft.github.io/softwarematerial/docs/workshops/)
+---
 
-### Waar vind ik dit materiaal
-+ [op Github pages](https://stasemsoft.github.io/softwarematerial/) (hier het meest leesbaar)
-of in een
-+ [Github-repository](https://github.com/stasemsoft/softwarematerial) (pull requests met verbeteringen welkom)
+### further...
+
+* [Motivation, Concentration, Working at Home](docs/process/motivation-concentration): Not unimportant during an average corona crisis....
+* [Workshops](https://stasemsoft.github.io/softwarematerial/docs/workshops/)
+
+### Where do I find this material
+
+*
+
+or in a
+
+*

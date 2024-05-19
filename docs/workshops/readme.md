@@ -1,66 +1,65 @@
-# Workshops (en inspi voor meer...)
-Informatie voor workshops en inspiratie voor meer.
+<!-- TRANSLATED by md-translate -->
+# Workshops (and insp for more...)
 
-## Weekschema Workshops
-Een mogelijk weekschema voor FHICT. Het is de bedoeling dat softwaredocenten tijdens de Verdieping binnen hun cluster overleggen welke workshops wanneer door wie (samen?) gedaan worden.
+Information for workshops and inspiration for more.
 
-## Design Challenge (tussen oriëntatie en verdieping)
+## Week schedule Workshops
 
-+ git-workshop (versiebeheer)
+A possible weekly schedule for FHICT. During the Floor, software teachers are supposed to discuss within their cluster which workshops are done by whom (together?).
+
+## Design Challenge (between orientation and floor)
+
+* git-workshop (versiebeheer)
 
 ## Verdiepingsperiode
 
 ### 1e week Verdieping
 
-+ [CRC workshop](../objects/crc/crc)
-+ Overview inhoud van de verdieping
-+ demo: introductie class / object / ctor
+* [CRC workshop](../objects/crc/crc)
+* Overview inhoud van de verdieping
+* demo: introductie class / object / ctor
 
 ### 2e week Verdieping
 
-+ demo: property & override ToString() (met herhaling class / object / ctor), bijvoorbeeld [Crossing](Crossing)
-+ Methods met (eigen) classes als parameter en returntype.
-+ van class diagram naar code.
+* demo: property & override ToString() (with repeat class / object / tor), for example [Crossing](Crossing)
+* Methods with (own) classes as parameter and return type.
+* from class diagram to code.
 
 ### 3e week Verdieping
 
-+ 'as' / (Casting?) / ('is'?)
-+ multipliciteit: class diagram vs code
-+ [Compiler Error Quiz](errorquiz)
-+ [Game of Life](conway)
-+ demo: een wat groter voorbeeld met class/object/ctor/propg etc... bijvoorbeeld [Virusinator](Virusinator)
-+ [git-workshop](git)
+* 'as' / (Casting?) / ('is'?)
+* multipliciteit: class diagram vs code
+* [Compiler Error Quiz](errorquiz)
+* [Game of Life](conway)
+* demo: een wat groter voorbeeld met class/object/ctor/propg etc... bijvoorbeeld [Virusinator](Virusinator)
+* [git-workshop](git)
 
 ### 4e week Verdieping
 
-+ unit test (game)
-+ Files lezen/schrijven
-+ Database select/insert/update  (Jeroen maakt deze)
-+ [Web API maken](webApi01_CS/MaakJeEigenApi.pdf)
-+ demo: voorproefje S2: interfaces & inheritance
-        (studenten hebben hier vlak voor de deadline wellicht geen interesse in...)
-        voor de definitieve profielkeuze
-+ [GUI vs Domain](GuiVsDomain)
+* unit test (game)
+* Read/write files
+* Database select/ insert/ update (Jeroen makes it)
+* [Web Create API](webApi01_CS/MaakJeigenApi.pdf)
+* demo: preview S2: interfaces & inheritance
+(students may not be interested in this right before the deadline...)
+for the final profile selection
+* [GUI vs Domain](GuivsDomain)
 
 ### Laatste weken Verdieping
 
-Hier laten we de studenten hard werken aan het product vanwege de deadlines, eventueel workshops op aanvraag of ad hoc.
+Here we let the students work hard on the product because of the deadlines, possibly workshops on request or ad hoc.
 
+* [99 bottles of beer on the wall](99 BottlesOfBeer)
+* [Compare OOP in other languages?](OOP_languages/)
+1. Python: Infra uses python in semester 2.
+2. Javascript: GUI nowadays often a web-GUI, then javascript is never far away.
+3. PHP: Many students come into contact with PHP anyway.
+4... any other languages?
 
-+ [99 bottloes of beer on the wall](99bottlesOfBeer)
+## Sea inspiratie...
 
-+ [Vergelijking OOP in andere talen?](OOP_languages/)
-  1. Python: Infra gebruikt python in semester 2.
-  2. Javascript: GUI tegenwoordig vaak een web-GUI, dan is javascript nooit ver weg.
-  3. PHP: Veel studenten komen sowieso in aanraking met PHP.
-  4. ... nog andere talen?
+Loose ideas and unfinished workshops. Take advantage of it!
 
-
-
-## Meer inspiratie...
-
-Losse ideeën en onaffe workshops in. Doe er uw voordeel mee!
-
-+ [Web API maken](webApi01_CS/MaakJeEigenApi.pdf)
-+ [Sinterklaas-demo-inspiratie](inspi/SintEnPiet.zip)
-+ [galgje-ish (demo)](galgje-ish/galgjeish)
+* [Web Create API](webApi01_CS/MaakJeigenApi.pdf)
+* [Sinterklaas-demo-inspiration](inspi/SintEnPiet.zip)
+* [galgje-ish (demo) ](galgje-ish/galgjeish)

@@ -1,46 +1,42 @@
+<!-- TRANSLATED by md-translate -->
 # Frequently Asked Questions
 
-Hier worden vragen en antwoorden opgenomen die voor iedereen van belang kunnen zijn die met dit materiaal bezig is.
-
+Here questions and answers are included that may be of interest to anyone working on this material.
 
 ## Errata
 
-Module: S Oriëntatie Product Proof of Concept,
-onder 'Lesmateriaal' staat een link 'Exercises: Arrays', die naar een verkeerde plek verwijst. Moet zijn:
-naam: 'softwarematerial/basic'
-url:  'https://stasemsoft.github.io/softwarematerial/docs/basic/'
+Module: S Orientation Product Proof of Concept,
+Under 'Lecture material' there is a link 'Exercises: Arrays', which refers to a wrong place. Must be:
+name: 'softwarematerial/basic'
+url: 'https://stasemsoft.github.io/softwarematerial/docs/basic/'
 
+## Do I have to use C# in the starter?
 
-## Moet ik per se C# gebruiken in het startsemester?
+You need to convince your teacher that you master the required skills at the required level! In part, this may be possible with pieces of code in other languages and environments: Talk to your teacher!
 
-Je moet je docent overtuigen dat je de gewenste vaardigheden op het vereiste niveau beheerst! Voor een deel zal dit wellicht mogelijk zijn met stukken code in andere talen en omgevingen: overleg met je docent!
+On the other hand: If you can continue to use a language you already know expect of course you can show some extras in there, and not just the minimum requested. We would also like to point out that Semester 2 on software goes further into Asp.NET: It's useful if you're already home in C#.
 
-Anderzijds: als je een taal mag blijven gebruiken die je al kent verwachten we natuurlijk dat je daar wat extra's in kunt laten zien, en niet alleen maar het minimale gevraagde. Ook willen we je erop wijzen dat semester 2 bij software verder op Asp.NET in gaat: het is daarvoor handig als je al thuis bent in C#.
+A concept like 'methods with parameters and returns values' can be shown in a lot of languages. A teacher may ask questions about types (in statically typed languages).
 
-Een concept als 'methods met parameters en returnvalues' kun je in een heleboel talen laten zien. Een docent zal hierbij wellicht vragen stellen over types (in staticly typed languages).
+What about the pro job? Always consult with the teacher. For the deepening of software you always have to do business individually (consultation with your teacher), where the teacher may still require C#.
 
-En in de proftaak? Overleg altijd met de docent. Voor de verdieping in software moet je altijd wel zaken individueel moeten doen (overleg met je docent), daar kan de docent eventueel alsnog C# eisen.
+And if there is one student on the team with a lot of experience who prefers a different language and tries to convince his teammates?
+What is important though is that everyone from the team who goes into S should be able to explain the software of the protask (not on every detail, but certainly globally). If the whole team's behind it and that one student realizes that he has to help the others, that you have to work together, there's talk about it.
 
-En als er nu 1 student in het team is met veel ervaring en die heeft een voorkeur voor een andere taal en probeert zijn teamgenoten hiervan te overtuigen?
-Wat wel belangrijk is: iedereen uit het team die in S verdiept moet de software van de proftaak kunnen uitleggen (niet op elk detail, maar zeker wel globaal). Als het hele team er achter staat en ‘die ene student’ beseft dat ie de anderen mee moet laten helpen, dat jullie samen moeten werken, valt er over te praten.
+## What are the names OIS11, FUN12, OIS12 that I come across here and there?
 
-## Wat betekenen de namen OIS11, FUN12, OIS12 die ik hier en daar tegenkom?
+Part of the teaching material comes from the (former) subjects OIS11, FUN12 and OIS12 at FHICT, hence these afkos are (still) visible here and there. 'OIS' stood for Orientation in ICT & Software Engineering and 'FUN' for FUNdamentals.
 
-Een deel van het lesmateriaal is afkomstig uit de (voormalige) vakken OIS11, FUN12 en OIS12 bij FHICT, vandaar dat deze afko's hier en daar (nu nog) zichtbaar zijn. 'OIS' stond voor Oriëntatie in ICT & Software Engineering en 'FUN' voor FUNdamentals.  
+## What's the first day look like?
 
+Purpose: to meet: students among themselves and also with the teacher. We want them to get mixed up, talk, argue. At the same time we want to introduce them to typical software ideas & co. Under the title Computational Thinking are a number of challenges that students can work with on the first day without needing a development environment. The whiteboard pen is presented to them by FHICT, for which we ask them to draw schematics and models (not with a digital tool). They need that marker later here and there, so press the heart they keep (ISSD likes to sell them new ones, if they lose him...).
 
-## Hoe ziet de eerste dag er uit?
+Everything is on the Homepage and in the Modules, there are no separate kick-off slides. Depending on your own style you walk through it or put yourself to reading. Demand Based: Let them look for themselves! A little unrest may well arise in the classroom... ;-)
 
-Doel: kennismaken: studenten onderling en ook met de docent. We willen dat ze wat door elkaar gaan lopen, praten, discussiëren. Tegelijk willen we ze laten kennismaking met typische softwaredenkselheidjes & co. Onder de noemer Computational Thinking staan een aantal challenges waar studenten die eerste dag mee aan de slag kunnen zonder dat ze een ontwikkelomgeving nodig hebben. De whiteboardstift krijgen ze cadeau van FHICT, daarvoor in return vragen wij dat ze schema’s en modellen tekenen (dus niet met een digitaal tool). Ze hebben die stift later nog nodig hier en daar, dus druk ze op het hart dat ze die bewaren (ISSD verkoopt hun graag nieuwe, als ze hem kwijtraken...).
+## How am I gonna get the semester?
 
-Alles staat op de Homepage en in de Modules, er zijn geen aparte kick-off-slides. Afhankelijk van je eigen stijl loop je er kort doorheen of zet je zelf aan het lezen. Demand Based: laat ze ook zelf maar een beetje zoeken! Een beetje onrust mag er best ontstaan in de klas…  ;-)
+For some students it is not clear what is expected of them. The page " pertaining to learning outcomes" (for a link see the Home page of your S1-SOFT course) is not clear enough for all cases. Answering the question (asked by lecturer): 'What did you do with the feedback?' is important here! To get and capture feedback (feed pulse) you need to talk to your teacher.
 
+## Where can I report found errors in the material?
 
-## Hoe wordt bepaald of ik het semester ga halen?
-
-Voor sommige studenten is niet duidelijk wat van hen verwacht wordt. De pagina ’Toelichting van de leeruitkomsten’ (voor een link zie de Home-page van je S1-SOFT-course) blijkt niet voor alle gevallen duidelijk genoeg. Het beantwoorden van de vraag (door docent gesteld): 'Wat heb je met de feedback gedaan?' is hierbij belangrijk! Om feedback te krijgen én vast te leggen (feedpulse) moet je in gesprek gaan met je docent.
-
-
-## Waar kan ik gevonden fouten in het materiaal melden?
-
-Het materiaal staat in git (op GitHub, om precies te zijn): verbeter fouten liefst via de 'verbeter deze pagina' onderaan de pagina's!  Het inhoudelijke materiaal vind je allemaal op: https://stasemsoft.github.io/softwarematerial/ .       
+The material is in git (on GitHub, to be precise): prefer to correct errors via the 'improve this page' at the bottom of the pages! The content material can be found at: https://stasemsoft.github.io/softwarematerial/ .

@@ -1,57 +1,68 @@
+<!-- TRANSLATED by md-translate -->
 # Explanation - Array & Lists
 
-C# kent, net als de meeste andere programmeertalen, naast klassen nog meer complexe datatypes. Twee voorbeelden daarvan zijn **array’s** en **lists**. Beide types zijn bedoeld om meerdere waardes van een type te kunnen bewaren. Bijvoorbeeld een verzameling getallen, een lijst van strings of een aantal boten. Soms weet je van te voren niet hoeveel waardes je precies moet onthouden en soms zijn het er gewoon te veel om allemaal op te slaan als losse variabelen. Dit zijn allemaal goede redenen om collecties te gebruiken. 
+C#, like most other programming languages, has more complex data types in addition to classes. Two examples of this are **array derivatives** and **lists**. Both types are intended to store multiple values of a type. For example, a set of numbers, a list of strings or a number of boats. Sometimes you don't know in advance exactly how many values to remember and sometimes it's just too many to store all as single variables. These are all good reasons to use collections.
 
-We kijken eerst naar array’s. Dit is het basistype om meerdere waardes van een en hetzelfde type te kunnen bewaren. Dit datatype werkt ook in de niet object-georiënteerde programmeertalen, zoals bijvoorbeeld C.
+First, we're looking at array derivatives. This is the basic type for storing multiple values of one and the same type. This data type also works in the non-object-oriented programming languages, such as C.
 
 ## Array's
-Bekijk het volgende voorbeeldje:
+
+Look at the following example:
+
 ```csharp
 double[] getallen = new double[10]; 
 getallen[0] = 2.5; 
 MessageBox.Show("Getal nummer 1 = " + getallen[0]);
 ```
-Hier wordt een array van doubles aangemaakt. Om precies te zien een array van precies 10 doubles. Op de tweede regel code wordt het eerste getal in de rij gelijk gemaakt aan 2,5. Met de \[blokhaken\] kun je elementen een nieuwe waarde geven. Ook kun je getallen opvragen met de \[blokhaken\]. Dit zie je op de regel daaronder, in de messagebox. Simpel toch? Wat voor getallenreeks wordt er in onderstaand stukje code dan opgeslagen in de array?
+
+An array of doubles is created here. To see exactly an array of exactly 10 doubles. On the second line of code, the first number in the row is equal to 2,5. With the [block hooks] you can give elements a new value. You can also get numbers with the [block hooks]. This is shown on the line below, in the message box. Simple, right? What number sequence is then stored in the array in the piece of code below?
+
 ```csharp
 int[] getallen = new int[10]; 
 for (int i = 0; i < getallen.Length; i++) 
 { 
-	getallen[i] = (i + 1) * 5; 
+    getallen[i] = (i + 1) * 5; 
 }
 ```
-Zoals je ziet heeft een array altijd een vaste grootte. In beide voorbeelden hierboven wordt plek gereserveerd voor 10 getallen (doubles of integers). Met de Length eigenschap van een array (ook te zien in bovenstaande stukje code) kun je opvragen hoeveel elementen je maximaal in de array kunt opslaan. Uiteraard kun je ook andere zaken dan integers en doubles opslaan met een array. Zo kun je bijvoorbeeld ook een array van strings of je eigen objecten aanmaken. Probeer eens uit! Een array kan wel altijd maar 1 soort (type) variabele opslaan.
 
-Net als bij klassen moet je een array aanmaken met new. Wanneer je dat niet doet krijg je daar van Visual Studio een melding over. 
+As you can see, an array always has a fixed size. In both examples above, space is reserved for 10 numbers (doubles or integers). The Length property of an array (also shown in the above piece of code) allows you to retrieve how many elements you can store in the array. Of course you can also save other things than integers and doubles with an array. For example, you can also create an array of strings or your own objects. Try it out! An array can always save only one type (type) variable.
 
-**Let op**: We beginnen te tellen bij **0**. Het eerste element in een array staat op positie 0. Het getal op _index_ 5 is het zesde getal in de reeks.
+As with classes, you have to create an array with new. If you don't, you'll be notified by Visual Studio.
 
-**Breinbrekers**: Wist je dat een string eigenlijk een char\[\] array is? En wist je dat je ook een array van array’s (van array’s (van array’s…)) kunt maken (2D- en 3D-array’s)? Leuke uitdagingen om mee te spelen!
+**Please note**: We start counting at ****. The first element in an array is at position 0. The number on _index_ 5 is the sixth number in the series.
 
+**Breinbreakers**: Did you know that a string is actually a char[] array? And did you know that you can also create an array of array derivatives (2D and 3D array derivatives)? Nice challenges to play with!
 
 ## Lists
-Het nadeel van een array is dat je van te voren moet specificeren hoeveel plekken je wilt reserveren voor je data. Echter, niet altijd is dit van te voren bekend. Wanneer je een gebruiker zelf elementen laat toevoegen in het systeem weet je niet hoeveel er toegevoegd zullen worden. Daarom is de List bedacht: de meegroeiende array. Wanneer je meer plek nodig hebt zal de List automagisch groeien in maximale grootte.
+
+The disadvantage of an array is that you have to specify in advance How many places you want to reserve for your dates. However, this is not always known in advance. When you have a user add elements to the system you do not know how many will be added. That's why the List was conceived: the co-growing array. When you need more space, the List will automatically grow in maximum size.
+
 ```csharp
 int[] getallen = new int[10]; 
 for (int i = 0; i < 10; i++) 
 { 
-	getallen[i] = i * 10; 
+    getallen[i] = i * 10; 
 } 
 
 getallen[10] = 10 * 10;
 ```
-In bovenstaand stukje code worden een array van maximaal 10 integers aangemaakt. Vervolgens worden de tafel van 10 getal voor getal aan de array toegevoegd. Na de for-loop wordt het laatste element aan de array toegevoegd, 10 x 10. Echter, deze zal niet meer passen. Er kunnen maximaal 10 integers in de array en 0 x 10 tot en met 9 x 10 zijn al toegevoegd. Dat zijn er dus al 10 in totaal. Het getal 100 zal niet meer passen en geeft dan een _IndexOutOfRangeException_ foutmelding. In onderstaand voorbeeld wordt een alternatief met een List gegeven.
+
+An array of up to 10 integers is created in the above piece of code. Then the table of 10 number for number is added to the array. After the for-loop, the last element is added to the array, 10 x 10. However, this will not fit anymore. Up to 10 integers in the array and 0 x 10 to 9 x 10 are already added. So there are already 10 in total. The number 100 will no longer fit and then displays an _IndexOutOutOfRangeException_ error message. In the example below an alternative is given with a List.
+
 ```csharp
 List<int> getallen = new List<int>(); 
 for (int i = 0; i < 10; i++) 
 { 
-	getallen.Add(i * 10); 
+    getallen.Add(i * 10); 
 } 
 
 getallen.Add(10 * 10);
 ```
-Dit stuk code zal niet meer de aangeven dat er geen plek meer is voor het getal 100. De List groeit mee met de vraag. Als er meer plek nodig is zal de List dus plek vrijmaken. Een array kan dit niet uit zichzelf!
 
-Hieronder zie je een voorbeeld met een List van strings. In plaats van de for-loop wordt de foreach gebruik. Dit is een nieuw soort herhalingsstructuur waarin er om de loop al een element uit de collectie wordt gehaald om er mee verder te werken. Dit scheelt dus weer code! Dit werkt overigens ook met array’s.
+This piece of code will no longer indicate that there is no room for the number 100. The List grows with demand. So if there's more room needed, the List will clear a space. An array cannot do this on its own!
+
+Below you see an example with a List of strings. Instead of the for-loop, the foreach is used. This is a new kind of repetition structure in which an element is already removed from the collection to work with it. This saves code again! This also works with array derivatives.
+
 ```csharp
 string s = ""; 
 List<string> woorden = new List<string>(); 
@@ -59,26 +70,31 @@ woorden.Add("Hallo");
 woorden.Add("allemaal!"); 
 foreach (var woord in woorden) 
 { 
-	s = s + woord + " "; 
+    s = s + woord + " "; 
 } 
 MessageBox.Show(s);
 ```
-Waarschijnlijk zie je het al, maar de tekst “Hallo allemaal!” zal verschijnen in een MessageBox. Bij elke iteratie (elke keer dat C# door de collectie loopt) pakt hij het volgende element uit de verzameling. Deze stopt hij in de variabele woord. Deze variable bevat altijd het element wat op dat moment actueel is in de herhaling. Hij pakt dus eest element met index 0, daarna die met index 1, index 2, en zo voorts. Je hoeft dus niet zelf meer de index bij te houden en ook het element wordt automatisch voor je uit de collectie gepakt.
+
+Probably you already see it, but the text "Hello all!" will appear in a MessageBox. At each iteration (every time C# passes through the collection) he takes the following element from the collection. He puts these in the variable word. This variable always contains the element that is current in the repetition at that time. So he takes an element with index 0, then the one with index 1, index 2, and so on. So you don't have to keep track of the index anymore and the element is automatically taken out of the collection.
 
 ### List methoden
-Het leuke van alles opslaan in een List is dat je er gemakkelijk elementen in terug kunt vinden. Daar gebruiken we twee methodes voor, de Contains en IndexOf. Met de Contains methode kun je controleren of een element voorkomt in de List. Deze geeft dus true of false terug. De IndexOf methode geeft de index terug van het element dat je zoekt. Als het element niet is gevonden zal -1 terug worden gegeven.
+
+The fun of saving everything in a List is that you can easily find elements in it. We use two methods, the Contains and IndexOf. With the Contains method you can check if an element is present in the List. So this one returns true or false. The IndexOr method returns the index of the element you are looking for. If the element is not found, -1 will be returned.
+
 ```csharp
 List<string> talen = new List<string>(); 
 talen.Add("Java"); 
 ... 
 if (talen.Contains("C#")) 
 { 
-	MessageBox.Show("C# komt voor in de lijst!"); 
+    MessageBox.Show("C# komt voor in de lijst!"); 
 }
 ```
-In bovenstaand voorbeeld wordt het gebruik van de Contains methode laten zien. Aan de talen List worden verschillende strings toegevoegd. Allereerst wordt de string “Java” aan de List toegevoegd. Op de drie puntjes kunnen nog andere talen zijn toegevoegd.
 
-Als je weet dat een bepaald element in de List voorkomt kun je met de IndexOf methode kijken op welke index het element staat. Bekijk onderstaand voorbeeld.
+The above example shows the use of the Contains method. Different strings are added to the languages List. First, the string "Java" is added to the List. Other languages may have been added to the three dots.
+
+If you know that a particular element appears in the List, you can use the IndexO or method to see which index the element is on. See the example below.
+
 ```csharp
 List<string> talen = new List<string>(); 
 talen.Add("Java"); 
@@ -87,48 +103,53 @@ talen.Add("Java");
 int index = talen.IndexOf("C#"); 
 MessageBox.Show("C# staat op index " + index);
 ```
-Wanneer C# niet in de lijst zou staat zou de IndexOf methode aangeven dat de index gelijk is aan -1. Dat is een code die wordt gebruikt wanneer het element waarvan de index van wordt opgevraagd niet wordt gevonden in de List. Dat kun je natuurlijk ook voorkomen door eerst met Contains te kijken of het element voorkomt in de List. Probeer het eens zelf uit en kijk of je de twee kunt combineren!
 
-**Tip**: De Contains en IndexOf methodes werken ook voor strings!
+If C# was not in the list, the IndexOf method would indicate that the index is equal to -1. That is a code that is used when the element whose index is requested is not found in the List. You can also prevent that by first checking with Contains to see if the element occurs in the List. Try it yourself and see if you can combine the two!
 
+**Tip**: The Contains and IndexOf methods also work for strings!
 
-## Voorbeelden
+## Examples
+
 ### List en foreach
+
 ```csharp
 public List<int> GeefTafelVan(int tafelVan) 
 { 
-	List<int> getallen = new List<int>(); 
-	for (int i = 0; i <= 10; i++) 
-	{ 
-		getallen.Add(i * tafelVan); 
-	} 
-	return getallen; 
+    List<int> getallen = new List<int>(); 
+    for (int i = 0; i <= 10; i++) 
+    { 
+    	getallen.Add(i * tafelVan); 
+    } 
+    return getallen; 
 }
 ```
-In de code hierboven zie je een methode die de tafel van een getal teruggeeft, in de vorm van een List van integers. Je zou deze als volgt kunnen gebruiken:
+
+In the code above you see a method that returns the table of a number, in the form of a List of integers. You could use these as follows:
+
 ```csharp
 List<int> tafelVanVijf = GeefTafelVan(5); 
 foreach (var getal in tafelVanVijf) 
 { 
-	Console.Out.WriteLine(getal); 
+    Console.Out.WriteLine(getal); 
 }
 ```
 
+### Array in for-loop
 
-### Array en for-loop
 ```csharp
 char[] woord = { 'H','a','l','l','o','!' }; 
 for (int i = 0; i < woord.Length; i++) 
 { 
-	Console.Out.Write(woord[i]); 
+    Console.Out.Write(woord[i]); 
 }
 
 Console.Out.Write(Environment.NewLine);
 ```
-Hierboven zie je een stukje code om een array van characters op te slaan. Met een for-loop kun je de gegevens ophalen en afdrukken naar de console. Probeer het zelf eens uit!
 
+Above you see a piece of code to save an array of characters. With a for-loop you can retrieve the data and print it to the console. Try it yourself!
 
-### List en Contains
+List in Containers
+
 ```csharp
 List<double> inworp = new List<double>(); 
 inworp.Add(.5); 
@@ -137,18 +158,20 @@ inworp.Add(.5);
 
 if (inworp.Contains(.5)) 
 { 
-	MessageBox.Show("Er is minstens 1 " + "muntstuk van vijftig cent ingeworpen!"); 
+    MessageBox.Show("Er is minstens 1 " + "muntstuk van vijftig cent ingeworpen!"); 
 }
 ```
-Hierboven zie je een stukje code met een lijst van prijzen, opgeslagen als lijst van doubles. Wanneer een gebruiker een muntstuk van 50 cent heeft ingeworpen zal er een MessageBox worden weergegeven.
 
+Above you see a piece of code with a list of prizes, stored as a list of doubles. When a user has inserted a 50 cent coin, a MessageBox will be displayed.
 
 ### List en IndexOf
+
 ```csharp
 List<double> inworp = new List<double>(); 
 if (inworp.IndexOf(.5) == -1) 
 { 
-	MessageBox.Show("Er is geen muntstuk " + "van vijftig cent ingeworpen!"); 
+    MessageBox.Show("Er is geen muntstuk " + "van vijftig cent ingeworpen!"); 
 }
 ```
-Bijna hetzelfde voorbeeld als hierboven. Hier wordt de IndexOf methode gebruikt om de index van het eerste vijftig cent munstuk in de lijst op te vragen. Als deze -1 teruggeeft is er geen muntstuk van vijftig cent gevonden.
+
+Almost the same example as above. Here the IndexOf method is used to get the index of the first fifty cents munpiece in the list. If this negative 1 returns, no 50 cent coin was found.

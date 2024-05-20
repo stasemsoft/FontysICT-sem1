@@ -21,16 +21,16 @@ The assignments can be divided into:
 + `Training` (formerly exercises): `finger exercises`, belong to a piece of theory to practice, but are not to be used as evidence to convince your teacher.
 + `Competition`: to convince your teacher that you not only understand it but also do it, you are going to make up your own assignments, vary and expand on existing ones!
 
-See [more explanation](https://stasemsoft.github.io/softwarematerial/docs/meta) on the principles. 
+See [more explanation](https://stasemsoft.github.io/FontysICT-sem1/docs/meta) on the principles. 
 
 ---
 
 ## First Aid when Getting Stuck
 
-+ [How-to](https://stasemsoft.github.io/softwarematerial/docs/basic/howto): Technical-content questions can be found in the How-to. Is your answer not there? Let's hear it! (Even if you already found the answer yourself - thanks!)
++ [How-to](https://stasemsoft.github.io/FontysICT-sem1/docs/basic/howto): Technical-content questions can be found in the How-to. Is your answer not there? Let's hear it! (Even if you already found the answer yourself - thanks!)
 + [how to use a Tutorial](docs/process/howtoLookAtATutorial.md)
 
-+ [Frequently Asked Questions](https://stasemsoft.github.io/softwarematerial/docs/FAQ): If you have questions about the course at FHICT: check out the FAQ first Whether others had the same question as well.
++ [Frequently Asked Questions](https://stasemsoft.github.io/FontysICT-sem1/docs/FAQ): If you have questions about the course at FHICT: check out the FAQ first Whether others had the same question as well.
 + [some more really powerful help can be found here](https://chat.openai.com/chat)
 + [or here](https://www.perplexity.ai), but be sure you understand the outcome!!; furthermore be explicit about using AI-help!! 
 
@@ -50,7 +50,7 @@ Compare yourself to the personas and read the tips: Do you already have programm
 
 The way of thinking, good to know something about.... Originally used as material for making knowledge with each other and with the teacher. Works best while discussing with marker at whiteboard.
 
-+ [Computational Thinking](https://stasemsoft.github.io/softwarematerial/docs/computational)
++ [Computational Thinking](https://stasemsoft.github.io/FontysICT-sem1/docs/computational)
 
 ---
 
@@ -58,7 +58,7 @@ The way of thinking, good to know something about.... Originally used as materia
 
 An introduction to programming (still without objects).
 
-+ [Toolbox Basics](https://stasemsoft.github.io/softwarematerial/docs/basic/)
++ [Toolbox Basics](https://stasemsoft.github.io/FontysICT-sem1/docs/basic/)
 
 ---
 
@@ -66,7 +66,7 @@ An introduction to programming (still without objects).
 
 Deepening, programming with objects
 
-+ [Toolbox Deepening: Objects and Classes](https://stasemsoft.github.io/softwarematerial/docs/objects/)
++ [Toolbox Deepening: Objects and Classes](https://stasemsoft.github.io/FontysICT-sem1/docs/objects/)
 
 ---
 
@@ -77,23 +77,25 @@ Deepening, programming with objects
 
 This covers some non-programming aspects that a beginning software engineer should know and be able to do.
 
-+ [Software Engineering](https://stasemsoft.github.io/softwarematerial/docs/software%20engineering/)
++ [Software Engineering](https://stasemsoft.github.io/FontysICT-sem1/docs/software%20engineering/)
 
 
 ---
 
 ### The Profile 'ICT & Software Engineering' at Fontys ICT
 
-+ [The Profile](https://stasemsoft.github.io/softwarematerial/docs/softwareprofiel/)
++ [The Profile](https://stasemsoft.github.io/FontysICT-sem1/docs/softwareprofiel/)
 
 ---
 
 ### finally...
 
 + [Motivation, Concentration, Working from home](docs/process/motivatieconcentratie)
-+ [Workshops](https://stasemsoft.github.io/softwarematerial/docs/workshops/)
++ [Workshops](https://stasemsoft.github.io/FontysICT-sem1/docs/workshops/)
 
 ### Where to find this material
-+ [op Github pages](https://stasemsoft.github.io/softwarematerial/) (most readable here)
++ [op Github pages](https://stasemsoft.github.io/FontysICT-sem1/) (most readable here)
 or in a
-+ [Github-repository](https://github.com/stasemsoft/softwarematerial) (pull requests with improvements welcome)
++ [Github-repository](https://github.com/stasemsoft/FontysICT-sem1) (pull requests with improvements welcome)
+
+

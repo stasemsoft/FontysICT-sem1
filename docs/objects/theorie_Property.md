@@ -1,12 +1,13 @@
-# Theorie Property
+<!-- TRANSLATED by md-translate -->
+# Theory Property
 
-Een `property` verleent je toegang tot een *eigenschap* van een `object`. Je hebt properties vermoedelijk al eerder gebruikt, nu leer je hoe je ze ook zelf kan maken.
+A "property" gives you access to a "property" of a "property." You probably used properties before, now you learn how to make them yourself.
 
 ## Gebruik van bestaande property
 
-Je hebt in Visual Studio waarschijnlijk al de `property editor` gezien, zeker als je een WinForm app gemaakt hebt. Je kunt hier allerlei *eigenschappen* (`properties`) van een *Form*, *Button*, *TextBox* en nog vele andere `Controls` bekijken en aanpassen.
+You've probably already seen the "property editor" in Visual Studio, especially if you've created a WinForm app. Here you can view and customize all kinds of _properties_ of a _Form_, _Button_, _TextBox_ and many other .
 
-Als je vanuit code de *Text* van een *TextBox*  opvraagt (`get`) of een waarde geeft (`set`) gebruik je properties.
+If you request the _Text_ of a _TextBox_ from code, or you specify a value, use properties.
 
 ```cs
 string input = TextBoxInput.Text;
@@ -16,15 +17,16 @@ result = ...
 LabelOutput.Text = result;
 ```
 
-## Eigen properties voor eigen objecten
+## Own properties for own objects
 
-Stel, je hebt een Stopwatch klasse,
-dan zou deze een private field seconds kunnen hebben.
-Wil je dat dit field alleen gelezen kan worden door andere code,
-kun je een property hiervoor aanmaken.
-De conventie is dat fields geschreven worden met kleine letters;
-properties worden begonnen met een hoofdletter.
-Zie onderstaand voorbeeld:
+Suppose you have a Stopwatch class,
+Then this one could have a private field seconds.
+Do you want this field to be read only by other code,
+you can create a property for this.
+The convention is that fields are written with lowercase letters;
+Properties are started with a capital letter.
+See the example below:
+
 ```cs
 class Stopwatch
 {
@@ -36,7 +38,8 @@ class Stopwatch
 }
 ```
 
-Hieronder staan een paar manier waarop deze `class` wél en níet gebruikt kan/mag worden.
+Below are a few ways in which this class may not be used.
+
 ```cs
 Stopwatch sw = new Stopwatch();
 int tijd1 = sw.seconds;                  // Mag niet, omdat field seconds private is.
@@ -44,7 +47,8 @@ int tijd2 = sw.Seconds;                  // Mag wel (hoofdletter) omdat de prope
 sw.Seconds = 10;                        // Mag niet (geen setter)
 ```
 
-Een andere mogelijkheid is om een field op een bepaalde manier in te stellen. We zouden bijvoorbeeld de stopwatch instelbaar kunnen maken met minuten:
+Another possibility is to set a field in a certain way. For example, we could make the stopwatch adjustable with minutes:
+
 ```cs
 class Stopwatch
 {
@@ -65,18 +69,12 @@ sw.Minutes = 5;                         // Instellen in minuten
 int tijd = sw.Seconds;                  // Uitlezen in seconden (300)
 ```
 
+## External bronnen
 
+* [CSharp.Net tutorials](http://csharp.net-tutorials.com/classes/properties/)
+* [MS programming Guide](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties)
+* [CodeProject](https://www.codeproject.com/Articles/1006217/Diving-into-OOP-Day-Properties-in-Csharp-A-Practic)
+* [MSDN](https://msdn.microsoft.com/en-us/library/windows/desktop/aa370889(v=vs.85).aspx)
 
-
-## Externe bronnen
-
-+ [CSharp.Net tutorials](http://csharp.net-tutorials.com/classes/properties/)
-
-+ [MS programming Guide](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties)
-
-+ [CodeProject](https://www.codeproject.com/Articles/1006217/Diving-into-OOP-Day-Properties-in-Csharp-A-Practic)
-
-+ [MSDN](https://msdn.microsoft.com/en-us/library/windows/desktop/aa370889(v=vs.85).aspx)
-
-Wil je meer lezen over properties dan vind je op MSDN een goede uitleg (negeer voor nu het uitgebreidere voorbeeld onder de kop Example).
-[MSDN over properties](http://msdn.microsoft.com/en-us/library/w86s7x04.aspx)
+If you want to read more about properties, you can find a good explanation on MSDN (for now ignore the more extensive example under the example header).
+[MSDN on properties](http://msdn.microsoft.com/en-us/library/w86s7x04.aspx)

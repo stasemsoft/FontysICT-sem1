@@ -1,2 +1,2 @@
-Deze directory bevat oude, niet meer gelinkte documenten. Veelal pdf's en docx's die vervangen zijn door markdown-documenten. 
-
+<!-- TRANSLATED by md-translate -->
+This directory contains old, unlinked documents. Mostly pdfs and docx's replaced by markdown documents.

@@ -1,7 +1,7 @@
-# Training - Listmethodes - Digitale muziekcollectie
+# Training - List methods - Digital music collection
 
-Maak een applicatie om je digitale muziekcollectie bij te gaan houden. Laat de gebruiker van je app een album toevoegen aan je collectie. Gebruik daar een List voor. Geef alle albums weer in een ListBox. 
+Create an application to keep track of your digital music collection. Allow the user of your app to add an album to your collection. Use a List for this. Display all albums in a ListBox.
 
-De gebruiker moet ook albums kunnen zoeken in de collectie. Maak daar functionaliteit voor. Ook moeten er albums verwijderd kunnen worden. Hiervoor moet de gebruiker het regelnummer van het album doorgeven wat er verwijderd dient te worden. Bij het toevoegen moet er worden gecontroleerd of het album niet al in de collectie zit.
+The user should also be able to search for albums in the collection. Implement functionality for this. Albums should also be able to be removed. The user must provide the index number of the album to be removed. When adding, make sure to check if the album is not already in the collection.
 
-*Tip: Gebruik de Contains en IndexOf methodes van Lists.*
+*Tip: Use the Contains and IndexOf methods of Lists.*

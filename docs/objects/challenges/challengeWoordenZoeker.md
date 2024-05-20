@@ -1,43 +1,42 @@
-# Challenge WoordenZoeker
+# Challenge Word Finder
 
 
-| Versie | 1 - Jan Oonk |
+| Version | 1 - Jan Oonk |
 | --- | --- |
-| Niveau | 4 of 5. |
-| Leerdoelen | Class, Property, Constructor, private/public, UI separation, algoritme, file read/write. |
-| Vereiste voorkennis | Method, GUI, Basic Types, If. |
-| Challenge Type | Programming, algoritme. |
-
+| Level | 4 or 5.
+| Learning Objectives | Class, Property, Constructor, private/public, UI separation, algorithm, file read/write. |
+| Prior knowledge required | Method, GUI, Basic Types, If. |
+| Challenge Type | Programming, Algorithm.
 
 
 ![woordenzoeker](figures/woordenzoeker.png "woordenzoeker")
 
-Op basis van een set woorden (uit een tekstbestand) een woordenzoeker puzzel van een opgegeven breedte x hoogte genereren. Woorden worden verstopt zowel horizontaal (links-rechts al dan niet achtste voren) als verticaal (boven-beneden al dan niet achterste voren).
+Based on a set of words (from a text file), generate a word search puzzle of a specified width x height. Words are hidden both horizontally (left-right whether eighth-front or not) and vertically (top-bottom whether rear-front or not).
 
-Zorg ervoor dat de woorden binnen het speelveld blijven en niet “wrappen” naar de andere kant van het speelveld.
-Daarna moet de speler de woorden kunnen zoeken. Een deel van het spelersscherm bestaat uit overzicht van woorden die gezocht moeten worden en ander deel is het speelveld van letters.
+Make sure the words stay within the playing area and do not "wrap" to the other side of the playing area.
+Then the player should be able to search for the words. Part of the player screen consists of overview of words to be searched and other part is the playing field of letters.
 
-De speler kan woorden aanstrepen in het speelveld door letters te kiezen middels de linkerknop van de muis. Een letter die al geselecteerd is, wordt bij opnieuw aanklikken ge-de-selecteerd. De gekozen letters worden meteen automatisch gecontroleerd na aanklikken.
-Letters kunnen alleen worden geselecteerd in dezelfde richting als de vorige geselecteerde letter(s).
+The player can mark words in the playfield by selecting letters using the left button of the mouse. A letter that has already been selected is de-selected when clicked again. The selected letters are automatically checked after clicking.
+Letters can only be selected in the same direction as the previously selected letter(s).
 
-Als de geselecteerde letters als woord worden herkend in de lijst van verstopte woorden dan wordt dit woord doorgestreept.
-Tijdens het selecteren van letters worden deze oranje omcirkeld.
+If the selected letters are recognized as a word in the list of hidden words then this word is crossed out.
+While selecting letters, they are circled in orange.
 
-Als de geselecteerde letters een nog te zoeken woord vormen worden de cirkels definitief groen.
+If the selected letters form a word yet to be searched for, the circles turn permanently green.
 
-Letters kunnen vaker worden geselecteerd en onderdeel zijn van meerdere woorden.
+Letters can be selected more often and be part of multiple words.
 
-Laat een timer zien hoe lang de speler al aan het spelen is.
-
-
-## Concepten
-
-+ Zeker: Class, constructor, private/public, property, field, method, file handling, enum, List.
-+ Hoogstwaarschijnlijk: method/constructor overloading, UML, excepties, static, casting.
-+ Eventueel: XAML
+Show a timer how long the player has been playing.
 
 
-## Bronnen
+## Concepts
+
++ Sure: Class, constructor, private/public, property, field, method, file handling, enum, List.
++ Most likely: method/constructor overloading, UML, exceptions, static, casting.
++ Possibly: XAML
+
+
+## Resources
 
 + [Sprite Font Generator](https://www.scirra.com/forum/sprite-font-generator-v3_t86546)
 + [Write Text on a Bitmap](https://stackoverflow.com/questions/6311545/c-sharp-write-text-on-bitmap)
@@ -48,18 +47,17 @@ Laat een timer zien hoe lang de speler al aan het spelen is.
 + [What difference is there between WebClient and HTTPWebRequest classes in .NET?](https://stackoverflow.com/questions/4988286/what-difference-is-there-between-webclient-and-httpwebrequest-classes-in-net)
 + [JSON Parser](https://www.newtonsoft.com/json)
 
-
-## Variatie / extra features:
-+ niveau 1  -  sla de highscores (is verstreken speeltijd) en de naam van de speler op in een bestand.
-+ niveau 1 -   Variatie toevoegen, via een menuoptie, om getallen te zoeken i.p.v. woorden.
-+ niveau 1 -  moeilijkheid van de te genereren puzzel is in te stellen via een start menu o.i.d., bijv. door woorden vaker achterste voren in de puzzel te zetten, diagonaal te plaatsen. 
-+ niveau 1 -  Als alle woorden gevonden zijn dient de speler de overgebleven letters in de juiste volgorde te zetten om zo een woord of correcte zin te vormen.
-+ niveau 1 -  categoriseer de woorden in thema’s, zodat verstopte woorden allemaal met elkaar te maken hebben bijv. categorie/thema Planten, Films o.i.d. 
-+ niveau 1 -  De woorden, die in de te genereren puzzel worden verstopt, uit een database halen i.p.v. een bestand. Maak eerst een eenvoudig database model en ontwerp. 
-+ niveau 1 -  Voeg leuke soundeffects toe bij bepaalde events zoals correct woord, incorrect woord, letter selecteren, puzzel af e.d. 
-+ niveau 1 -  Als op escape wordt gedrukt, worden de eventuele geselecteerde letters gedeselecteerd. 
-+ niveau 1 - 2e letter selectie manier inbouwen: letters kunnen ook worden geselecteerd door de linkerknop in te houden en te slepen. Alle letters worden geselecteerd tussen beginletter en muispositie. Bij loslaten wordt het woord, dat gevormd wordt door de selecteerde letters, gecontroleerd. Is het fout/nog niet goed dan kan in dezelfde richting opnieuw worden geselecteerd (door de normale manier of deze nieuwe manier), de vorige geselecteerde letters blijven dus actief (oranje).
-+ niveau 1 - Als je letters selecteert door deze aan te klikken en je kiest de volgende letter niet in dezelfde richting en/of de letter is niet aangesloten met 1 van de zojuist eerdere geselecteerde letters dan worden al deze geselecteerde letters gedeselecteerd.
-+ niveau 2 - sla de highscores op op een centrale plek (file of database). Maak hiervoor een eenvoudige webservice.
-+ niveau 2 - spelers willen graag hun highscores op een eerlijke manier met elkaar vergelijken, dus zorg ervoor dat de puzzels op exact dezelfde manier aan de verschillende spelers wordt gepresenteerd, dus alle letters in een puzzel en verstopte woorden staan op exact dezelfde plek. Toon de highscores per puzzel. Geef hiervoor elke puzzel een unieke naam of id. Toon dit in een selectiemenu zodat je een bepaalde puzzel kan inladen.
-+ niveau 3 - Al snel blijkt de highscore webservice (zie eerdere uitbreiding) te zijn gehacked door script kiddies die de url hebben weten te achterhalen. Verzin een manier om de webservice te beveiligen, zodat er niet onrealistische of onterechte highscores kunnen worden verstuurd naar de webservice.
+## Variation / additional features:
++ level 1 - save the high scores (is elapsed play time) and player name to a file.
++ level 1 - add variation, via a menu option, to search numbers instead of words.
++ level 1 - difficulty of the puzzle to be generated can be set via a start menu or the like, e.g. by putting words more often backwards in the puzzle, diagonally.
++ level 1 - Once all the words have been found, the player must put the remaining letters in the correct order to form a word or correct sentence.
++ level 1 - categorize the words into themes, so that hidden words are all related to each other e.g. category/theme Plants, Movies or similar.
++ level 1 - Get the words, which are hidden in the puzzle to be generated, from a database instead of a file. Create a simple database model and design first.
++ level 1 - Add nice soundeffects to certain events like correct word, incorrect word, letter select, puzzle finish etc.
++ level 1 - When escape is pressed, any selected letters are deselected.
++ level 1 - Build in 2nd letter selection way: letters can also be selected by holding and dragging the left button. All letters are selected between initial letter and mouse position. On release, the word formed by the selected letters is checked. If it is wrong/not right yet, it can be selected again in the same direction (by the normal way or this new way), so the previous selected letters remain active (orange).
++ level 1 - If you select letters by clicking on them and you do not select the next letter in the same direction and/or the letter is not connected to 1 of the previously selected letters then all these selected letters will be deselected.
++ level 2 - store the high scores in a central place (file or database). Create a simple web service for this purpose.
++ level 2 - players like to compare their high scores in a fair way, so make sure that the puzzles are presented in exactly the same way to the different players, so all letters in a puzzle and hidden words are in exactly the same place. Display high scores for each puzzle. To do this, give each puzzle a unique name or id. Show this in a selection menu so you can load a particular puzzle.
++ Level 3 - Soon the highscore webservice (see previous extension) turns out to have been hacked by script kiddies who managed to figure out the url. Devise a way to secure the web service so that unrealistic or unjustified high scores cannot be sent to the web service.

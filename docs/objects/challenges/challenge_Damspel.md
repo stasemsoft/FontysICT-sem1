@@ -1,15 +1,15 @@
-# Challenge Classes voor een Damspel
+# Challenge Classes for a Game of Checkers
 
 
 
-Ideaal als je dit op een whiteboard kunt doen waar je met een groepje mensen bij gaat staan. Praat er over welke _classes_ je nodig denkt te hebben als je een **Damspel** gaat programmeren. Probeer **samen** tot een goed eindresultaat te komen.
+Ideal if you can do this on a whiteboard where you will stand with a group of people. Talk about what _classes_ you think you will need if you are going to program a **Dam game**. Try **together** to get to a good end result.
 
 
-Als je alle *classes* hebt bedacht, bedenk dán hoe je die classes precies zou noemen: schrijf die namen op. Denk er aan dat ook de *huidige toestand* van het spel in objecten opgeslagen moet zijn.  
+When you have figured out all the *classes*, then think about what exactly you would call those classes: write those names down. Remember that also the *current state* of the game must be stored in objects.  
 
 
 
-Let bij deze challenge op het volgende:
-+ Een *class name* begint met een hoofdletter!
-+ Als een *object* van deze *class* 1 voorwerp voorstelt, gebruik dan een  **enkelvoud** als naam (dus *Student*, *Monster*, of *Pion*).
-+ In een samengestelde naam begint elk nieuw woord met een **hoofdletter** (dus *KameelBult*, *StudentResultaat*, *SchaakBord*).
+Please note the following for this challenge:
++ A *class name* begins with a capital letter!
++ If an *object* of this *class* represents 1 object, use a **single** as the name (i.e., *Student*, *Monster*, or *Pion*).
++ In a compound name, each new word begins with a **capital** letter (so *CameelBump*, *StudentResult*, *SchessBoard*).

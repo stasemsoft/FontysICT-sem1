@@ -1,39 +1,38 @@
-# Voorbeeld class Aapje
+# Example class Monkey
 
-## Voorbeeld
+## Example
 ```cs
-class Aapje {
-   private string Soort;
-   private int Leeftijd;
+class Monkey {
+   private string Species;
+   private int Age;
 
-   public void SetSoort(string soort) {
-      Soort = soort;
+   public void SetSpecies(string species) {
+      Species = species;
    }
 
-   public string MaakGeluid() {
-      return "Oek oek oek";
+   public string CreateSound() {
+      return "Oek oek oek."
    }
 
    public override string ToString() {
-      return Soort + " zegt " +
-      MaakGeluid();
+      return Kind + " says " +
+      CreateSound();
    }
 
 }
 ```
 
-Hier wordt een klasse _Aapje_ gemaakt. Elk aapje wat je aanmaakt in de code is van een bepaalde soort en heeft een leeftijd. De leeftijd is een geheel getal (integer) en het soort aap is een string.
+Here a class _Monkey_ is created. Each monkey you create in the code is of a certain kind and has an age. The age is an integer and the type of monkey is a string.
 
-Maak een aapje aan met:
+Create a monkey with:
 
 ```cs
-Aapje kong = new Aapje();
-kong.SetSoort("Gorilla");
+Monkey kong = new Monkey();
+kong.SetSpecies("Gorilla");
 ```
 
-Elk aapje kan ook als string worden weergegeven met de ToString method. Probeer het zelf eens uit:
+Each monkey can also be rendered as a string using the ToString method. Try it out for yourself:
 
 ```cs
 Console.Out.WriteLine(kong);
 ```
-

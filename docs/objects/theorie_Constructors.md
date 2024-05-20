@@ -1,14 +1,14 @@
 # Constructor
 
-Wat gebeurt er dan precies onder water als je een object aanmaakt met new?
+So what exactly happens underwater when you create an object with new?
 
-Het statement `new Clown()` is bedoeld om van de class `Clown` een nieuw object aan te maken. Het statement roept de zogenaamde `constructor` aan. Een constructor lijkt op een `method`,  maar is geen gewone method.  
+The statement `new Clown()` is intended to create a new object from the class `Clown`. The statement calls the so-called `constructor`. A constructor looks like a `method`, but is not a regular method.  
 
-Hoe herken je een constructor in C#-code:
-+ Constructor heeft altijd exact dezelfde naam als de class.
-+ Constructor heeft geen return-type  en ook geen void ervoor.
+How to recognize a constructor in C# code:
++ Constructor always has exactly the same name as the class.
++ Constructor has no return type and also no void in front of it.
 
-Als je een nieuwe class aanmaakt zal die er zo uitzien: 
+If you create a new class it will look like this:
 
 ```cs
 public class Clown
@@ -18,7 +18,7 @@ public class Clown
 }
 ```
 
-Hee, maar waar is die `constructor` dan? Nou, wat er eigenlijk onderwater gebeurt: als de compiler een class vertaalt die geen constructor heeft wordt er impliciet een supersimpele aangemaakt, dit noemen we een `default constructor`. De compiler doet alsof er dit staat: 
+Hey, but where is this `constructor` then? Well, what actually happens underwater: when the compiler translates a class that has no constructor, it implicitly creates a supersimple one, this is called a `default constructor`. The compiler pretends that it says this:
 
 ```cs
 public class Clown
@@ -32,13 +32,13 @@ public class Clown
 }
 ```
 
-Dit lijkt wat overbodig, maar we kunnen een constructor parameters geven: net als bij methods. 
+This seems a bit redundant, but we can give a constructor parameters: just like with methods.
 
 
 ```cs
 public class Clown
 {
-   // Fields    <--  Fields maken we private!
+   // Fields <-- Fields we make private!
    private string name;
    private int height;
 
@@ -46,113 +46,113 @@ public class Clown
    // constructors
    public Clown(string name, int height)
    {
-      this.name = name;     // het woord 'this' geeft aan 
-                            // dat het Field 'name' wordt bedoeld.  
-                            // de 'name' achter het gelijkteken is de parameter. 
-      this.height = height; 
+      this.name = name; // the word 'this' indicates
+                            // that the Field 'name' is meant.  
+                            // the 'name' after the equals sign is the parameter.
+      this.height = height;
    }
 
-   // methods 
-   public string TalkAboutYourself()  
-   { 
+   // methods
+   public string TalkAboutYourself()
+   {
       return "My name is " + this.name
-               + "and I’m " + this.height + " centimeters tall.";
+               + "and I'm " + this.height + " centimeters tall.";
    }
 
 }
 ```
 
 
-Door de constructor parameters wordt het mogelijk bij het aanmaken van een object van type Clown meteen een naam en hoogte mee te geven: 
+The constructor parameters make it possible to immediately assign a name and height when creating an object of type Clown:
 
 ```cs
-Clown eenClown    = new Clown("Popov", 170);  
-Clown andereCloen = new Clown("Bassie", 186);
+Clown aClown = new Clown("Popov", 170);
+Clown otherClown = new Clown("Bassie", 186);
 ```
 
 
-We hebben dan dus 2 objecten van het type Clown, hier schematisch weergegeven: 
+So we then have 2 objects of type Clown, shown here schematically:
 
 ![](../../ctor-clown-objects.png)
 
 
-In de praktijk werken programmeurs vaak met `class diagrams`, zoals hieronder een voorbeeld. Meestal hebben class diagrams meerdere classes. 
+In practice, programmers often work with `class diagrams`, as an example below. Usually class diagrams have multiple classes.
 
 
 ![](../../ctor-class-Clown.png)
 
 
-Een class wordt als een rechthoek weergegeven, bestaande uit 3 delen: 
-1. bovenin staat de **naam van de class**
-2. Dan volgt de **data**, hier de Fields waarin waarden opgeslagen kunnen worden: name en height. 
-3. Onderin staat het **gedrag** (behavior): hier de constructor en de method die Clown heeft. 
+A class is represented as a rectangle consisting of 3 parts:
+1. at the top is the **name of the class**.
+2. Then follows the **data**, here the Fields in which values can be stored: name and height.
+3. At the bottom is the **behavior** (behavior): here the constructor and the method that Clown has.
 
-Merk op dat de types áchter de naam staan: dus `name: string`  in plaats van zoal we het in C# gewend zijn: `string name`. 
-
-
-Zoals je in de code in de class boven ziet : tussen `public` en `Clown()` staat géén returntype, verder is de naam `Clown` gelijk aan die van de class: zo weten we dat het een constructor is. 
+Notice that the types are after the name: so `name: string` instead of what we are used to in C#: `string name`.
 
 
+As you can see in the code in the class above : between `public` and `Clown()` there is no return type, furthermore the name `Clown` is the same as the name of the class: that is how we know it is a constructor.
 
-Let op: code hoort thuis in classes, niet in forms!
 
 
-## Wat is constructor overloading?
+Note: code belongs in classes, not in forms!
 
-*Constructor overloading* betekent dat binnen een class meerdere  constructors bestaan. 
-Je kunt dan op verschillende manier objecten aanmaken. 
 
-Bijvoorbeeld: als je de lengte van een Clown weet geef je die mee, en anders niet: 
+## What is constructor overloading?
+
+*Constructor overloading* means that multiple constructors exist within a class.
+You can then create objects in different ways.
+
+For example: if you know the length of a Clown you give it, otherwise you do not:
 
 ```cs
-Clown eenClown    = new Clown("Popov");  
-Clown andereClown = new Clown("Bassie", 186);
+Clown oneClown = new Clown("Popov");
+Clown otherClown = new Clown("Bassie", 186);
 ```
 
-Aan het aantal parameters en het type ervan ziet de compiler dan welke constructor er uitgevoerd moet worden: 
+From the number of parameters and their type, the compiler then sees which constructor to execute:
 
 
 ```cs
 public class Clown
 {
-   // Fields    <--  Fields maken we private!
+   // Fields <-- Fields we make private!
    private string name;
    private int height;
 
 
-   // constructors 
+   // constructors
    public Clown(string name, int height)
    {
-      this.name = name;    
-      this.height = height; 
+      this.name = name;
+      this.height = height;
    }
 
    public Clown(string name)
    {
-      this.name = name;    
-      this.height = 175;   // DIT IS NOG NIET HELEMAAL ZOALS WE HET WILLEN !! Lees verder!! 
+      this.name = name;
+      this.height = 175; // THIS IS NOT QUITE AS WE WANT! Read on!!!
    }
 
-   // methods 
+   // methods
    public string TalkAboutYourself()
    {
       return "My name is " + this.name
-               + "and I’m " + this.height + " centimeters tall.";
+               + "and I'm " + this.height + " centimeters tall.";
    }
 
 }
 ```
 
-Je ziet dat een Clown waarvan we de lengte niet meegeven in deze code de lengte 175 krijgt. 
+You can see that a Clown whose length we do not specify in this code is given the length 175.
 
-In bovenstaande code zit nog iets wat we eigenlijk niet willen: je ziet dat de code van de constructors erg op elkaar lijkt. We kunnen de constructor-code nog optimaliseren: 
+The above code contains something else we don't really want: you can see that the code of the constructors is very similar. We can still optimize the constructor code:
 
 ```cs
-   // constructors 
+   // constructors
    public Clown(string name, int height)
    {
-      this.name = name;    
-      this.height = height; 
+      this.name = name;
+      this.height = height;
    }
 
    public Clown(string name) : this(name, 175)
@@ -160,27 +160,26 @@ In bovenstaande code zit nog iets wat we eigenlijk niet willen: je ziet dat de c
    }
 ```
 
-Op het moment dat de tweede constructor aangeroepen wordt, staat daar: `this(name, 175)`: dat betekent zoveel als: roep van `this` (mezelf) de constructor aan die als parameters een string en een int verwacht: gebruik de waarde van `name`  en voor de height: `175`. 
+The moment the second constructor is called, it says: `this(name, 175)`: that means as much as: call from `this` (myself) the constructor that expects as parameters a string and an int: use the value of `name` and for the height: `175`.
 
-Kun je een voordeel verzinnen van deze 'this-constructie'? 
+Can you think of an advantage of this `this` construction?
 
 ## Magic Numbers
-Overigens willen we geen hardgecodeerde getallen in code, dat noemen we `magic numbers`: geen idee waar ze vandaan komen en wat ze betekenen. Het is bijvoorbeeld netter om een `constante` aan te maken, die een duidelijke naam te geven, en die te gebruiken: 
+By the way, we don't want hard-coded numbers in code, we call those `magic numbers`: no idea where they come from and what they mean. For example, it is neater to create a `constant`, give it a clear name, and use it:
 
 ```cs
 // https://en.wikipedia.org/wiki/Average_human_height_by_country
 public const int averagePersonHeight = 175;
 ```
 
-Zo wordt van de aanroep  `... : this(name,averagePersonHeight)` opeens duidelijker wat die betekent. 
+Thus, from the call `.... : this(name,averagePersonHeight)` suddenly becomes clearer what it means.
 
-Ook zie je dat in commentaar een bron wordt vermeld! Dat maakt het mogelijk om het te controleren, valideren en eventueel verbeteren: 
-+ Gaat het hier om een wereldwijd gemiddelde of een Nederlands getal? (Popov is een Rus). 
-+ In de tabel is een aparte kolom voor mannen en vrouwen: heeft de programmeur daar rekening mee gehouden? 
-+ Over een paar jaar is het mogelijk terug te zoeken of de waarden wellicht veranderd zijn. 
+You can also see that in comments a source is mentioned! That makes it possible to check, validate and possibly improve it:
++ Is this a global average or a Dutch number (Popov is a Russian).
++ In the table there is a separate column for men and women: did the programmer take that into account?
++ In a few years it will be possible to look back to see if the values may have changed.
 
-Zie [microsoft docs: constants](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constants)
+See [microsoft docs: constants](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constants)
 
-## Relevante trainingen
-Invaders en Galgje.
-
+## Relevant trainings.
+Invaders and Gallows.

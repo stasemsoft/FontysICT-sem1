@@ -1,44 +1,40 @@
-# Over motivatie en concentratie (oa. bij thuiswerken)
+# About motivation and concentration (a.k.a. working from home)
 
-Tijdens de coronacrisis is het lastig je goed te concentreren terwijl je alles van thuis uit moet doen. Zo is deze pagina ontstaan, maar er staat ook info over concentreren in het algemeen.
+Difficult to concentrate well when you have to do everything from home? That's how this page came about, but it also has info on concentrating in general.
 
-De kunst is om op een thuiswerkdag ‘ritme’ in je dag te brengen waarmee jij je motivatie kunt behouden. Dat houdt in op normale tijd opstaan en naar bed gaan, kleren aan, op 'normale' tijden eten. Ook lichaamsbeweging hoort erbij, en zorg ook dat je niet de hele dag op een stoel zit! Misschien heb je de mogelijkheid je werkplek zo in te richten dat je af en toe een tijdje kunt staan tijdens het werk.
-
-
-## Aannames
-
-+ We gaan ervan uit dat elke student vanaf 9u00 online is. De digitale lessen beginnen om 9u00 uur.
-+ Ben je er vanwege bijzondere omstandigheden niet bij, kun je niet inloggen of is er iets anders aan de hand, meld dit altijd bij je docent van de dag.
-+ Elke dag vindt in de loop van de middag een feedpulse-moment plaats.
+The trick is to bring 'rhythm' into your day on a work-at-home day that will help you maintain your motivation. That includes getting up and going to bed at normal times, putting on clothes, eating at "normal" times. Exercise is also part of it, and also make sure you don't sit in a chair all day! You may have the ability to set up your workplace so that you can occasionally stand for a while while working.
 
 
-## hoe kun je het beste online leren en werken?
+## Assumptions
 
-+ Maak een dagplanning. Wat wil je vandaag bereiken?
-+ Wees gedisciplineerd. Dat klinkt logisch; je hebt immers discipline nodig voor vrijwel alles dat je doet in het leven. Maar als het om online leren en werken gaat, geldt dat in het kwadraat. Kortom: wees gedisciplineerd, houd je aan de dagplanning die je hebt opgesteld.
-+ Communiceer duidelijk met elkaar of met teamgenoten! Omdat je elkaar minder ‘ziet’, kan er onduidelijkheid en frustratie ontstaan. Communicatie is daarom key. Duidelijke communicatie kan zo eenvoudig zijn als je agenda goed up-to-date houden zodat het helder is waar je bent en waaraan je werkt. Houd je aan afspraken en deadlines.
-+ Je kunt dit ook wel ‘de plicht van transparantie’ noemen. Je kunt wachten tot iemand je vraagt om een projectupdate te geven, of aan te geven waarom je bepaalde zaken prioriteit geeft boven andere, of wat je verwachting en deadlines zijn. Maar je kunt dit alles ook proactief doen.
-+ Elimineer afleiding. Mute je smartphone en zet Windows in stille modus wanneer je van start gaat. Je kunt écht niet leren en werken, en tegelijkertijd al je notificaties lezen.
-+ Neem voldoende pauzes. Eet, drink en beweeg in deze pauzes.
++ We assume that every student is online from 9:00 am. Digital classes will begin at 9am.
++ If you are not there due to special circumstances, cannot log in, or something else is going on, always report this to your instructor for the day.
++ There will be a feedpulse moment each day during the afternoon.
 
 
-## Wat zijn eigenschappen van een goede thuiswerkplek?
+## how can you best learn and work online?
 
-+ Op maat: Comfortabel kunnen zitten is vereiste nummer één. Dus vormen een goed afgesteld bureau, een stoel die je kunt instellen en een ergonomisch toetsenbord en muis de basis van je thuiswerkplek.
-+ Licht: Het is bewezen dat je productiever wordt als je werkt bij daglicht, omdat dat je bioritme in stand houdt.
-+ Temperatuur: Een studie van de Universiteit van Helsinki toont aan dat we minder productief worden bij een temperatuur onder de 15 graden. Stijgt de temperatuur naar boven de 25 graden, dan worden we suf. “De beste temperatuur is zo’n 21 graden”, aldus Karin Verkuijlen, arbeidshygiënist bij de Arbo Unie (arbounie.nl).
-+ Verbinding: Zorg dat je een goede internetverbinding hebt en je laptop tijdig kunt aansluiten op het stroomnetwerk.
++ Make a daily schedule. What do you want to accomplish today?
++ Be disciplined. This sounds logical; after all, you need discipline for almost everything you do in life. But when it comes to online learning and work, that applies squarely. In short: be disciplined, stick to the daily schedule you set.
++ Communicate clearly with each other or teammates! Because you "see" each other less, ambiguity and frustration can arise. Therefore, communication is key. Clear communication can be as simple as keeping your calendar well up to date so that it is clear where you are and what you are working on. Keep appointments and deadlines.
++ You can also call this "the duty of transparency. You can wait until someone asks you to give a project update, or indicate why you prioritize certain things over others, or what your expectation and deadlines are. But you can also do all this proactively.
++ Eliminate distractions. Mute your smartphone and put Windows in silent mode when you get started. You really can't learn and work and read all your notifications at the same time.
++ Take plenty of breaks. Eat, drink and exercise during these breaks.
 
 
-## Omgaan met elkaar in deze situatie
+## What are characteristics of a good home office?
 
-Vind je het moeilijk om  je draai te vinden in deze situatie of kun je je moeilijk focussen op je studie? Neem dan contact op met je semestercoach. Hij heeft een luisterend oor voor jouw situatie.
++ Tailored: Being able to sit comfortably is requirement number one. So a properly adjusted desk, a chair you can adjust and an ergonomic keyboard and mouse are the foundation of your home office.
++ Light: It has been proven that you become more productive if you work in daylight because it maintains your biorhythms.
++ Temperature: A study by the University of Helsinki shows that we become less productive when the temperature is below 15 degrees. If the temperature rises above 25 degrees, we become drowsy. "The best temperature is about 21 degrees," said Karin Verkuijlen, occupational hygienist at Arbo Unie (arbounie.nl).
++ Connection: Make sure you have a good Internet connection and can connect your laptop to the power network in a timely manner.
 
-Of zoek contact via het social medium
+
+## Dealing with each other in this situation
+
+Are you finding it difficult to cope in this situation or having trouble focusing on your studies? Then contact your semester coach. He has a listening ear for your situation.
+
+Or find contact through the social medium
+
 [Stay connected](https://fontys.edu/Student-guide-Fontys-helps/Stay-connected.htm)
 
-## Bronnen / Zie ook
-
-+ [Gezond en vitaal thuiswerken](https://fontys.nl/Over-Fontys/Informatie-over-werken-en-studeren-tijdens-de-Corona-periode/Gezond-en-vitaal-thuiswerken.htm)
-+ Een mail van het startsemester FHICT aan alle studenten, 27mrt2020 (terug te vinden in canvas als announcement)
-+

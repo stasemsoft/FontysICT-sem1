@@ -1,64 +1,64 @@
-| Datum | Week 11/12 |
-| --- | --- |
-| Versie | 2018 - Marcel V, Inge |
-| Leerdoelen | Analyse, Ontwerp, Realisatie |
-| Vereiste voorkennis | Analyse |
-| Challenge Type | Integrale Toepassing |
+| Date | Week 11/12 |
+| ------------------- | ---------------------------- |
+| Version | 2018 - Marcel V, Inge |
+| Learning Objectives | Analysis, Design, Realization |
+| Required Prior Knowledge | Analysis |
+| Challenge Type | Integral Application |
 
 
 
 
-Aan: Software ontwikkelgroep &quot;De Goeroes&quot;
-Betreft: specificatie hotelreserveringssysteem
-Beste ontwikkelaars,
-Hierbij de specificaties voor het te bouwen hotelsysteem zoals afgesproken:
-### Omschrijving
-Hotel Reeënrust werkt nu nog met een ingewikkeld systeem van Excel bestanden
-om de reserveringen bij te houden. Graag zouden ze de reserveringen
-in een applicatie willen bijhouden, zodat de werknemers van de receptie
-de reserveringen gemakkelijk kunnen invoeren.
-Later zou een website ook prettig zijn, zodat klanten zelf
-hun reservering kunnen doen, maar voor nu ligt de focus op de applicatie
-voor de receptie.
-Het is belangrijk dat de applicatie gebruiksvriendelijk is en de gebruiker
-de juiste meldingen krijgt.
+To: Software development group &quot;The Gurus&quot;
+Subject: hotel reservation system specification
+Dear developers,
+Herewith the specifications for the hotel system to be built as agreed upon:
+### Description.
+Hotel Reeënrust is currently working with a complicated system of Excel files
+to keep track of the reservations. They would like to keep the reservations
+in an application, so that the employees at the front desk can
+can easily enter the reservations.
+Later, a website would also be nice, so customers could
+make their reservations, but for now the focus is on the application
+for the front desk.
+It is important that the application be user-friendly and that the user
+gets the right notifications.
 
 ### Scenario
 
-Een klant belt naar de receptie om een kamer te reserveren.
-De receptionist(e) voert de klantgegevens in en kijkt welke kamer
-voor de opgegeven periode beschikbaar is.
-Als de reservering voor meer dan 4 personen is,
-zullen er meerdere kamers gereserveerd moeten worden.
-Verder geeft de klant per gereserveerde kamer aan
-of er gebruik gemaakt wordt van het ontbijt en/of diner.
-De receptioniste kan op elk gewenst moment een overzicht opvragen
-van alle reserveringen in het hotel. Tevens kan zij een lijst inzien
-waarin per datum staat welke kamers deelnemen aan het ontbijt of diner.
-De klantgegevens worden opgeslagen in een tekstbestand.
+A customer calls the front desk to reserve a room.
+The receptionist enters the customer information and checks to see which room
+room is available for the specified time period.
+If the reservation is for more than 4 people,
+multiple rooms will need to be reserved.
+Furthermore the customer indicates per reserved room
+Whether breakfast and/or dinner will be used.
+The receptionist can at any time request an overview
+of all reservations in the hotel. She can also view a list
+which shows per date which rooms participate in breakfast or dinner.
+The customer data is stored in a text file.
 
 ### Requirements
 
-- De medewerker kan klantgegevens invoeren (NAW gegevens)
-- De medewerker kan een reserveringen doen. Een reservering kan alleen in de toekomst plaatsvinden.
-- De medewerker kan zien welke kamers voor een bepaalde periode beschikbaar zijn.
-- De klantgegevens worden opgeslagen in een tekstbestand.
-- De medewerker kan een overzicht raadplegen met alle reserveringen.
-- De medewerker kan van een bepaalde datum een overzicht raadplegen waarin aangegeven staat welke kamers deelnemen aan het ontbijt of diner.
+- The employee can enter customer data (name and address).
+- The employee can make a reservation. A reservation can only be made in the future.
+- The employee can see which rooms are available for a certain period of time.
+- The customer data is stored in a text file.
+- The employee can view an overview of all reservations.
+- The employee can consult an overview of a certain date showing which rooms participate in breakfast or dinner.
 
 
-### Eigenschappen van het hotel
-- Er zijn 120 kamers. Kamer 13 bestaat niet.
-- Alle kamers zijn geschikt voor maximaal 4 personen (dit zou in de toekomst kunnen veranderen)
+### Properties of the hotel
+- There are 120 rooms. Room 13 does not exist.
+- All rooms can accommodate up to 4 people (this might change in the future)
 
 
 ### Extra
 
-- Het zou mooi zijn als ook de reserveringen opgeslagen kunnen worden in een tekstbestand. (Hint: Hiervoor dien je gebruik te maken van “Serialization”)
+- It would be nice if reservations could also be saved in a text file. (Hint: For this you need to use "Serialization")
 
 
-Hoogachtend verblijven wij,
+Yours faithfully,
 
-Dhr. Drs. P. van Trommelen
-Directeur Hotel Reeënrust
+Mr. Drs. P. van Trommelen
+Director Hotel Reeënrust
 ![](figures/logo_hotel.png "logo hotel")

@@ -1,20 +1,20 @@
-# Training method MaalDrie
+#Training Method MealThree
 
-Deze opdracht is ooit geschreven als een WinForm-opdracht, maar je mag ook een variatie hierop maken, zoals een Console app.
+This command was once written as a WinForm command, but you may also create a variation of it, such as a Console app.
 
-Gegeven is de volgende methode:
+Given is the following method:
 
 ```cs
-int MaalDrie(int input)
+int GrindThree(int input)
 {
   int output = input * 3;
   return output;
 }
 ```
 
-+ Maak een programma met onder meer een ListBox dat bovenstaande methode aanroept met parameterwaarde 2. De returnwaarde van de methode wordt dan 6. Sla die returnwaarde op in een variabele met de naam output.
-+ Voeg de waarde van de returnwaarde (6, die je in de variabele uitkomst hebt staan) toe aan de ListBox met `listBoxX.Items.Add(uitkomst);` waarbij `listBoxX` de duidelijke naam is die jij de ListBox gegeven hebt.
-+ Test je programma.
-+ Breid je programma uit met een lus die 10 maal doorlopen wordt. Roep in die lus de methode MaalDrie aan maar nu met parameter 1, 2, 3, 4... t/m 10. Dus de methode MaalDrie wordt 10 maal aangeroepen.
++ Create a program that includes a ListBox that calls the above method with parameter value 2. The return value of the method then becomes 6. Store that return value in a variable named output.
++ Add the value of the return value (6, which you have in the variable output) to the ListBox with `listBoxX.Items.Add(output);` where `listBoxX` is the distinct name you gave the ListBox.
++ Test your program.
++ Extend your program with a loop that is run 10 times. In that loop, call the method GrindThree but now with parameters 1, 2, 3, 4.... to 10. So the method GrindThree is called 10 times.
 
 ![listbox](figures/maaldrie.png)

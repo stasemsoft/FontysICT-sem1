@@ -1,59 +1,60 @@
-# Toolbox Verdiepend: Objects en Classes
-
-## Algemene info
-
-+ [Wat kan ik als ik de module 'objects' voldoende doorlopen heb?](resultaatformulier)
+# Toolbox Deepening: Objects and Classes
 
 
-## Introductie met OOP
+## General info
 
-+ [Reference: Hoe programmeer je met objecten? (hero vs monsters)](tutorial_Class)
-+ [Lijst C# begrippen](https://www.homeandlearn.co.uk/csharp/csharp.html)
++ [What can I do if I have sufficiently completed the objects module?](resultaatformulier)
+
+
+## Introduction to OOP
+
++ [Reference: How to program with objects? (hero vs monsters)](tutorial_Class)
++ [Lijst C# terms](https://www.homeandlearn.co.uk/csharp/csharp.html)
 
 ## Classes, objecten en constructors
 
-+ [Reference: Classes maken en gebruiken](theorie_zelf-classes-maken.md)
-+ [Reference: Van Class Diagram naar code](theorie_ClassDiagram)
++ [Reference: Creating and using classes](theorie_zelf-classes-maken.md)
++ [Reference: From Class Diagram to Code](theorie_ClassDiagram)
 + [Reference: Constructor](theorie_Constructors)
 
-## Properties en encapsulation
+## Properties in encapsulation
 
-+ [Reference: private en public](theorie_PrivatePublic)
++ [Reference: private and public](theorie_PrivatePublic)
 + [Reference: Property](theorie_Property)
 
 ## Methods
 
 + [Reference: methods in classes](theorie_Methods)
 
-## Casting en override ToString()
+## Casting and override ToString()
 
-+ [Reference: Casting en 'as'](theorie_Cast)
-+ [Reference: Jouw object als string](theorie_class-override_ToString)
++ [Reference: Casting and 'as'](theorie_Cast)
++ [Reference: Your object as string](theorie_class-override_ToString)
 + [Reference: override ToString](theorie_OverrideToString)
 
 ## Enum
 
 + [Reference: Enum](theorie_Enum)
 + [Reference: Enums](enum/naslag_Enum) ![Bas](../personas/figures/bas-xsmall.png)
-+ [Training: Stoplicht](enum/training_Stoplicht) ![Bas](../personas/figures/bas-xsmall.png)
-+ [Training: School Cijfers](enum/training_SchoolCijfers) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
++ [Training: Traffic light](enum/training_Stoplicht) ![Bas](../personas/figures/bas-xsmall.png)
++ [Training: School Grades](enum/training_SchoolCijfers) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
 + [Training: Pizzeria](enum/training_pizzeria) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
 
 
 ## Gecombineerd
 
-+ [Reference: Voorbeeld class Aapje](theorie_Classes_voorbeeld_Aapje)
-+ [Reference: Voorbeeld class Dierenverzorgen](theorie_Classes_voorbeeld_Dierenverzorger)
-+ [Reference: Voorbeeld class Speler](theorie_Classes_voorbeeld_Speler)
-+ [Reference: Voorbeelden OOP: pinautomaat](example_PinAutomaat)
-+ [Training: ObjectOriented Invuloefening](exercise_ObjectOrientedOefening)
-+ [Training: Oplossing bij Training ObjectOriented Invuloefening](solution_ObjectOriented) 
++ [Reference: Voorbeeldclass Aapje](theorie_Classes_voorbeeld_Aapje)
++ [Reference: Sample class Animal Care](theorie_Classes_voorbeeld_Dierenverzorger)
++ [Reference: Example class Player](theorie_Classes_voorbeeld_Speler)
++ [Reference: Examples OOP: cash machine](example_PinAutomaat)
++ [Training: ObjectOriented Fill-in-the-blank exercise](exercise_ObjectOrientedOefening)
++ [Training: Solution to Training ObjectOriented Fill-in-the-blank exercise](solution_ObjectOriented) 
 + [Training: Traffic Light](training_Class_TrafficLight)
-+ [Training: De Marimba en de Bas](training_Marimba_and_Bass)
++ [Training: The Marimba and the Bass](training_Marimba_and_Bass)
 
 ## Challenges
 
-+ [Challenge: Verzameling](challenges)
++ [Challenge: A Collection](challenges)
 
 ## Extra
 
@@ -61,7 +62,7 @@
 
 + [Reference: GUI vs Domain](theorie_GuiSeparation)
 
-### Git
+### Git - In Dutch
 
 + [Reference: Wat is Git?](https://www.youtube.com/watch?v=t7hLWkd0qok&list=PLMtxBdV6mf-4xgPCNX9EBYKSh8zg11mFY)
 + [Reference: Getting Started](https://www.youtube.com/watch?v=Fs3qpKD6GWE&list=PLMtxBdV6mf-4xgPCNX9EBYKSh8zg11mFY&index=2)
@@ -69,12 +70,12 @@
 + [Reference: git](https://stasemsoft.github.io/softwarematerial/docs/legacy/infoENGit.pdf)
 + Unit tests
 
-### File Handling en Exception Handling
+### File Handling and Exception Handling
 
 + [Reference: File Handling](theorie_FileHandling)
 + [Training: FileHandling](challenges/challengeFileHandling)
 + [Training: Exception Handling](challenges/challengeExceptionHandling), zie ook
-[zip met startmateriaal](challenges/challengeException-Naamgenerator.zip).
+[zip with starting material](challenges/challengeException-Naamgenerator.zip).
 
 ### Database
 
@@ -90,29 +91,29 @@
 
 
 
-## Best practices Voor de wanna-be Software Engineer
+## Best practices for the wanna-be Software Engineer
 
-Mensen die Software Engineer willen worden zullen hier zeker van smullen:
+People who want to become Software Engineers will definitely enjoy this:
 
 + [Theorie So you wanna be a Software Engineer](theorie_AdvancedSoftwareEngineering).
 
-Als je de volgende video van Tim Corey nog niet bekeken had is dat nu zeker een aanrader!
+If you had not yet watched the following video by Tim Corey, it is definitely recommended now!
 
 + [video Tim Corey: Top 10 C# Best Practices](https://www.youtube.com/watch?v=-9b8NRqjUFM)
 + [Software Craftmanship Manifesto](http://manifesto.softwarecraftsmanship.org/)
 + [Clean Code - Uncle Bob / Lesson 1](https://www.youtube.com/watch?v=7EmboKQH8lM)
 
 
-## Verder Verdiepend materiaal
+## Further Deepening Material
 
 + [external resources](https://stasemsoft.github.io/softwarematerial/docs/process/infoExternalResources)
 + [C# Basics ](https://www.youtube.com/playlist?list=PLYMOUCVo86jGzNXPgyKB-B1IvE1LoXKi6) - video 1 t/m 39  
 + [Chapter 2 Classes](https://git.fhict.nl/I872272/ProgrammingChallenges/blob/master/Documentation/OOP.pdf)  
-+ [howto: Als ik vasthang? Over oplossen problemen](https://stasemsoft.github.io/softwarematerial/docs/process/knowProgrammerSearchScheme)
-+ [Lijst C# begrippen](https://www.homeandlearn.co.uk/csharp/csharp.html)
++ [howto: If I get stuck? About problem solving](https://stasemsoft.github.io/softwarematerial/docs/process/knowProgrammerSearchScheme)
++ [Lijst C# concepts](https://www.homeandlearn.co.uk/csharp/csharp.html)
 
 
 
-## Oud materiaal, niet meer gebruikt bij FHICT
+## Old material, no longer used at FHICT
 
 + [link naar oud materiaal: WinForms-specifiek](winforms/winforms-specific)

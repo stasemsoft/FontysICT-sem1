@@ -1,14 +1,14 @@
-# Challenge Lesrooster
+#Challenge Class Schedule
 
 
-Ideaal als je dit op een whiteboard kunt doen waar je met een groepje mensen bij gaat staan. Praat er over welke *classes* je nodig denkt te hebben als je een **Lesrooster** app gaat programmeren. Probeer **samen** tot een goed eindresultaat te komen.
+Ideal if you can do this on a whiteboard where you will stand with a group of people. Talk about what *classes* you think you will need if you are going to program a **Lesson Schedule** app. Try **together** to get to a good end result.
 
 
-Als je alle *classes* hebt bedacht, bedenk dán hoe je die classes precies zou noemen: schrijf die namen op.
+When you have thought of all the *classes*, think about what exactly you would call those classes: write those names down.
 
 
 
-Let bij deze challenge op het volgende:
-+ Een *class name* begint met een *Hoofdletter*!
-+ Als een *object* van deze *class* 1 voorwerp voorstelt, gebruik dan een  *enkelvoud* als naam (dus *Student*, *Monster*, of *Pion*).
-+ In een samengestelde naam begint elk nieuw woord met een *hoofdletter* (dus *KameelBult*, *StudentResultaat*, *SchaakBord*).
+Pay attention to the following:
++ A *class name* starts with a *main letter*!
++ If an *object* of this *class* represents 1 object, use a *single* as the name (i.e., *Student*, *Monster*, or *Pion*).
++ In a compound name, each new word begins with a *capital* (so *CameelBump*, *StudentResult*, *SchessBoard*).

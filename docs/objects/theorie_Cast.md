@@ -1,45 +1,46 @@
-# Casting en 'as'
+# Casting and 'as'
 
-## Wat is casting?
-Een voorbeeld van casting in C#
+## What is casting?
+An example of casting in C#
 
 ```cs
-Product product = (Product) ListBoxProducten.Items[2];
+Product product = (Product) ListBoxProducts.Items[2];
 ```
 
-Uit de `Items` van een `ListBox` genaamd *ListBoxProducten*
-wordt hier het item met *index* 2 uitgelezen.
-De Items zijn van type *Object* maar de ontwikkelaar wéét dat alle
-*items* in de *ListBox* van *type* `Product` zijn,
-en wil dit item dus in een variabele van type `Product` stoppen:
-dit kan door een `cast` te gebruiken: Het `(Product)` meteen rechts
-van het **=**-teken is de `cast` en geeft aan dat wat er rechts van staat
-behandeld moet worden als zijnde van het type `Product`.
+From the `Items` of a `ListBox` named *ListBoxProducts*
+the item with *index* 2 is read out here.
+The Items are of type *Object* but the developer knows that all the
+*Items* in the *ListBox* are of *type* `Product`,
+and so wants to put this item into a variable of type `Product`:
+this can be done by using a `cast`: The `(Product)` immediately to the right
+of the **=** sign is the `cast` and indicates that whatever is to the right of it
+should be treated as being of type `Product`.
 
 
-## Waarom is casten onveilig en moet je het zo weinig mogelijk gebruiken?
-Alle zogenaamde statisch getypeerde talen (*statically-typed languages*)
-als C#, Java, C en C++ ondersteunen casting.
-*Statically typed* wil zoveel zeggen als:
-`Compile time` (dus op het moment dat het programma wordt gecompileerd) wordt van elke waarde en variabele vastgesteld wat het type is.
-Dat type kan `runtime` (tijdens het uitvoeren van het programma)
-niet meer veranderen: de compiler kan hierdoor een hoop fouten opsporen
-en de ontwikkelaars waarschuwen. Ontwikkelaars gebruiken dit als een soort vangnet.
-Door te gaan `casten` maak je gaten in dat vangnet:
-je zegt tegen de compiler: bemoei je er niet mee:
+## Why is cast unsafe and should be used as little as possible?
+All so-called statically-typed languages (*statically-typed languages*)
+such as C#, Java, C and C++ support casting.
+*Statically typed* means as much as:
+`Compile time` (that is, at compile time), the type of each value and variable is determined.
+That type can `runtime` (during the execution of the program)
+no longer change: this allows the compiler to detect a lot of errors
+and alert the developers. Developers use this as a kind of safety net.
+By going `caste` you create holes in that safety net:
+you tell the compiler: don't interfere:
 Trust me, I know what I'm doing.  
 
 
-## Een beter alternatief
-In C# kan je in plaats van de compiler buiten spel zetten “Trust me, I know what I’m doing” ook gebruik maken van de kennis van die compiler.
+## A better alternative
+In C#, instead of sidelining the compiler's "Trust me, I know what I'm doing", you can use that compiler's knowledge.
 
-Stel, we hebben het volgende programma gemaakt:
+Suppose we created the following program:
 
 ![fig:cast](figures/cast01.png "casting")
 
-Zodra er op een knop gedrukt wordt, moet de tekst van het label veranderen in: “You pressed button: x”, waarbij x dan 1, 2 of 3 is.
 
-De gemakkelijkste manier om dit te programmeren is door alle 3 de buttons 1 gezamenlijke buttonhandler methode te laten hebben:
+As soon as a button is pressed, the label text should change to: "You pressed button: x", where x is then 1, 2 or 3.
+
+The easiest way to program this is to have all 3 buttons have 1 common buttonhandler method:
 
 ```cs
 private void NumberButton_Click(object sender, EventArgs e)
@@ -49,26 +50,26 @@ private void NumberButton_Click(object sender, EventArgs e)
 }
 ```
 
-Maar stel nou dat je per ongeluk het label Click event ook aan deze methode koppelt.
-Als je dan op het label klikt dan krijg je:
+But suppose you accidentally attach the label Click event to this method as well.
+Then when you click on the label you get:
 
 ```cs
 Exception Unhandled
-System.InvalidCastException: "unable to cast object object of type ... to ... . "
+System.InvalidCastException: "unable to cast object of type ... to ... . "
 ```
 
-Het casten lukt hier niet en dus crasht je programma. Er is een nettere manier om van type te veranderen: met de *as* operator. Met *as* zeg je niet tegen de compiler: “vertrouw me, ik weet wat ik doe”, maar zeg je juist: “ik denk dat dit gaat, maar controleer het even voor me!”. De code ziet er dan als volgt uit:
+Casting fails here and so your program crashes. There is a neater way to change type: with the *as* operator. With *as* you don't say to the compiler "trust me, I know what I'm doing", but rather you say "I think this goes, but check it for me!". The code then looks like this:
 
 ```cs
 Button numberButton = sender as Button;
 ```
 
-Het mooie hiervan is dat `numberButton` nu een geldig `Button` object wordt, maar als de conversie mislukt dan krijgt numberButton waarde `null`.
+The beauty of this is that `numberButton` now becomes a valid `Button` object, but if the conversion fails then numberButton gets value `null`.
 
-Hier kunnen we gebruik van maken door te controleren op null:
+We can take advantage of this by checking for null:
 
 ```cs
-private void NumberButton_Click(object sender,  EventArgs e)
+private void NumberButton_Click(object sender, EventArgs e)
 {
   Button numberButton = sender as Button;
   if (numberButton != null)
@@ -78,10 +79,10 @@ private void NumberButton_Click(object sender,  EventArgs e)
 }
 ```
 
-Of netter nog:
+Or neater still:
 
 ```cs
-private void NumberButton_Click(object sender,  EventArgs e)
+private void NumberButton_Click(object sender, EventArgs e)
 {
   Button numberButton = sender as Button;
   if (numberButton == null)
@@ -95,10 +96,10 @@ private void NumberButton_Click(object sender,  EventArgs e)
 }
 ```
 
-Zo heb je geen `silent fail` meer, waardoor je gewezen wordt op de fout in je programma. 
+This way you no longer have a `silent fail`, pointing out the error in your program.
 
 
 
 
-## Meer info
+## More info
 + [https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions)

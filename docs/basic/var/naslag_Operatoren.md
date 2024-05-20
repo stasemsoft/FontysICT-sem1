@@ -1,45 +1,45 @@
-# Naslag basiskennis: Int en double bewerkingen (operatoren)
+# Basic knowledge: Int and double operations (operators)
 
-Onderstaande bewerkingen zijn zowel op `int` `typen` als
-op `double` typen van toepassing:
+The operations below apply to both `int` `types` and
+to `double` types:
 ```cs
 int k;
 k = 5 + 10;
 ```
-Aan variabele *k* wordt in de laatste regel code de waarde `15` toegekend
-omdat het `+`teken de waarden `5` en `10` bij elkaar optelt.
+Variable *k* is assigned the value `15` in the last line of code
+because the `+` sign adds the values `5` and `10` together.
 ```cs
 int i = 2;
 int k;
 k = i + 1;
 ```
-Aan variabele *k* wordt in de laatste regel code de waarde 3 toegekend
-omdat het `+`teken de waarden `2` en `1` bij elkaar optelt.
+Variable *k* is assigned the value 3 in the last line of code
+because the `+` sign adds the values `2` and `1` together.
 ```cs
 int i = -8;
 int k;
 k = 1 + i;
 ```
-Aan variabele *k* wordt in de laatste regel code de waarde `-7` toegekend
-omdat het `+`teken de waarden `1` en `-8` bij elkaar optelt.
+Variable *k* is assigned the value `-7` in the last line of code
+because the `+` sign adds the values `1` and `-8` together.
 ```cs
 int i = 5;
 int j = 3;
 int k;
 k = i + j;
 ```
-Aan variabele *k* wordt in de laatste regel code de waarde `8` toegekend
-omdat het `+`teken de waarden uit *i* en *j* bij elkaar op telt.
-Bij bovenstaande voorbeelden kan de operator (het `+`teken)
-worden vervangen door één van de volgende mogelijkheden:
+Variable *k* is assigned the value `8` in the last line of code
+because the `+` sign adds up the values from *i* and *j*.
+In the above examples, the operator (the `+` sign) can be
+can be replaced with one of the following:
 
-| Symbool | Uitwerking |
+| symbol | elaboration |.
 | --- | --- |
-| + | Optellen |
-| - | Aftrekken |
-| * | Vermenigvuldigen |
-| / | Delen |
-| % | Geeft de rest na deling. Bijvoorbeeld: |
-|  | 7 % 5 = 2 |
-|  | 11 % 2 = 1 |
-|  | 6 % 2 = 0 |
+| + | Add
+| - | Subtraction |
+| * | Multiply |
+| / | Divide
+| % | Returns the remainder after division. For example: |
+| | 7 % 5 = 2 |
+| | 11 % 2 = 1 |
+| | 6 % 2 = 0 |

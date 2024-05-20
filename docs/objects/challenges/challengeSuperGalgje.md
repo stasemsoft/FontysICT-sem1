@@ -1,24 +1,23 @@
-### Super-galgje
+### Super-gallery
 
-| Niveau | 4 of 5 |
+| Level | 4 or 5
 | --- | --- |
-| Leerdoelen | Class, Property, Constructor, private/public, UI separation, algoritme. |
-| Vereiste voorkennis | Method, GUI, Basic Types, If. |
-| Challenge Type | Programming, algoritme. |
+| Learning Objectives | Class, Property, Constructor, private/public, UI separation, algorithm |.
+| Prior knowledge required | Method, GUI, Basic Types, If. |
+| Challenge Type | Programming, Algorithm.
 
-#### Opdracht
-Galgje is een spel waarbij een speler het woord moet raden dan de computer in gedachten heeft. Opdracht: schrijf galgje en maak gebruik van de object georiënteerde mogelijkheden van `C#`.
-1. Te programmeren `classes`: `Woord` en `Form1` (form).
-2. Te programmeren `property` in de `class` *Woord*: *AantalLetters*.
-3. Te programmeren `methode` in de `classe` *Woord*: `bool IsGoed(string woord)`
-4. Te programmeren `classes`: *Woord*, *SpelStatus*, *Form1*.
-5. *Form1* heeft een referentie naar 1 *SpelStatus*-object en geen referentie naar *Woord*.
-6. Te programmeren `properties` in de `class` *Woord*: *AantalLetters* (`read-only property`).
-7. Te programmeren `methoden` in de `class` *Woord*: `bool IsGoed(string woord)`.
-8. Te programmeren `property` in de `class` *SpelStatus*: *HetWoord* van het `type` *Woord* (dus NIET van het `type string`).
-9. Verder kun je in de `class` *SpelStatus* `methodes` en/of `properties` toevoegen die de status van het spel zoals het aantal geraden letters bijhouden.
+#### Assignment
+Gallows is a game where a player must guess the word than the computer has in mind. Assignment: write gallows and use the object-oriented capabilities of `C#`.
+1. `classes` to be programmed: `Word` and `Form1` (form).
+2. `property` to be programmed in the `class` *Word*: *Number ofLetters*.
+3. Programmable `method` in the `class` *Word*: `pool IsGood(string word)`.
+4. `classes` to be programmed: *Word*, *PlayStatus*, *Form1*.
+5. *Form1* has a reference to 1 *PlayStatus* object and no reference to *Word*.
+6. Programmable `properties` in the `class` *Word*: *Number ofLetters* (`read-only property`).
+7. Programmable `methods` in the `class` *Word*: `pool IsGood(string word)`.
+8. Programmable `property` in the `class` *PlayStatus*: *TheWord* of the `type` *Word* (that is, NOT of the `type string`).
+9. Furthermore, in the `class` *PlayStatus* you can add `methods` and/or `properties` that track the status of the game such as the number of letters guessed.
 
-#### Eisen voor gevorderden:
-1. Programmeer er nog een `class` *Speler* bij en zorg ervoor dat je met twee personen het spel tegen elkaar (tegen de computer) kunt spelen.
-2. `Class` *Speler* heeft een `property` van het `type` *SpelStatus* en diverse `methodes` die jij zelf bedenkt. Het form krijgt 2 *Speler*-objecten en verder geen enkel ander object.
- 
+#### Advanced Requirements:
+1. Program in another `class` *Player* and make sure that two people can play the game against each other (against the computer).
+2. `Class` *Player* has a `property` of the `type` *PlayStatus* and various `methods` that you invent yourself. The form gets 2 *Player* objects and no other objects.

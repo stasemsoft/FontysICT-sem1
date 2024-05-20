@@ -1,15 +1,13 @@
-# Solution voor de Invuloefening 
+# Solution for the Fill-in Exercise
 
-Vul de volgende woorden op de juiste plaats in: `Class`, `instance`, `method`, `operation`, `object`, `Field`. Let op: een woord kan meerdere malen in de tekst voorkomen.
+Fill in the following words in the correct place: `Class`, `instance`, `method`, `operation`, `object`, `Field`. Note that a word may appear more than once in the text.
 
-Een programmeur moet van zijn baas binnen een game de `class` "Karakter" programmeren. "Karakter" is reeds gespecificeerd door middel van een kaartje waar alle verantwoordelijkheden op staan. Ook krijgt hij een klassendiagram met een duidelijk overzicht van de `operations` (waaronder MoveForward en ValDoodNeer) 
-en `attributes` (zoals bijvoorbeeld AantalLevens, HaarKleur en AantalWapens).
+A programmer must program the `class` "Character" from his boss within a game. "Character" is already specified by means of a card that lists all the responsibilities. He is also given a class diagram with a clear overview of the `operations` (including MoveForward and ValDoodNeer)
+and `attributes` (such as, for example, Number ofLives, HairColor and Number ofWeapons).
 
-De programmeur neemt het kaartje en opent het bestaande project in Visual Studio. Daar gaat hij dan de nieuwe `class` in programmeren. Als eerste programmeert hij `Fields` voor AantalLevens en HaarKleur en vervolgens mapt hij de `operaties` MoveForward en ValDoorNeer naar C#-methoden.
+The programmer takes the card and opens the existing project in Visual Studio. There he then proceeds to program the new `class` into it. First, he programs `Fields` for NumberLives and HairColor and then maps the `operations` MoveForward and ValDoorNeer to C# methods.
 
-Als hij de `class` helemaal heeft geprogrammeerd gaat hij deze testen door er met de new-operator een `object` (of: `instance`) van aan te maken. Hij roept de `method` MoveForward aan om te testen of het karakter de goede kant op beweegt.
-Ja, het werkt! Hij maakt nog een instantie van Karakter aan om te testen of het programma dan nog steeds werkt. Ja! 
+Once he has the `class` completely programmed he goes to test it by creating an `object` (or: `instance`) from it with the new-operator. He calls the `method` MoveForward to test if the character is moving in the right direction.
+Yes, it works! He creates another instance of Character to test whether the program then still works. Yes!
 
-Met een voldaan gevoel gaat de programmeur aan het eind van de dag naar huis.
-
-
+Feeling satisfied, the programmer goes home at the end of the day.

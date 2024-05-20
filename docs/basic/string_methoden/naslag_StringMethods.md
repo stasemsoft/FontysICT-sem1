@@ -1,106 +1,106 @@
-# Naslag basiskennis: String bewerkingen (String methods)
+# Basic knowledge: String operations (String methods)
 
-Hieronder worden enkele veelgebruikte String functies gedemonstreerd en kort toegelicht.
-Dit document is geschreven als een *naslagwerk*,
-het is niet specifiek geschreven om uit te leren hoe je met variabelen programmeert.
+Some common String functions are demonstrated and briefly explained below.
+This document is written as a *naslag work*,
+it is not specifically written to teach how to program with variables.
 
 
-## String’s samenvoegen
-Met het `plus` teken kunnen strings aan elkaar worden geplakt.
+## String merging
+The `plus` character allows strings to be concatenated together.
 ```cs
-string tekst = "een tekst.";
-string woorden = "Hier staat";
-string s = woorden + tekst;
+string text = "a text."
+string words = "Says here."
+string s = words + text;
 ```
 
-De `s` `variabele` krijgt hier de waarde `"Hier staateen tekst."` Merk op dat niet automatisch spaties worden toegevoegd.
+The `s` `variable` is given the value `"Here is a text."` Note that spaces are not automatically added.
 ```cs
-  string tekst = "tekst.";
-  string woorden = "Hier staat";
-  string s = woorden + " een " + tekst;
+  string text = "text."
+  string words = "Here stands";
+  string s = words + " a " + text;
 ```
 
-Met het &quot;+&quot;-teken kunnen strings aan elkaar worden geplakt. De &quot;s&quot; variabele krijgt hier de waarde &quot;Hier staat een tekst.&quot;
+The &quot;+&quot;sign allows strings to be concatenated together. The &quot;s&quot; variable here is given the value &quot;Here is a text.&quot;
 
 ## IndexOf
 
-De plaats van een String binnen een andere String bepalen:
-De *Positie* variabele krijgt de waarde `1`.
-Merk op dat de positie van de eerste gevonden &quot;e&quot; in de String
-wordt gevonden (waarbij vanaf `0` wordt geteld):
+Determine the position of a String within another String:
+The *Position* variable is given the value `1`.
+Note that the position of the first &quot;e&quot; found in the String is
+is found (counting from `0`):
 ```cs
-string tekst = "regel tekst";
-int positie = tekst.IndexOf("e");
+string text = "line of text";
+int position = text.IndexOf("e");
 ```
 
-Er kan ook naar meerdere letters achter elkaar gezocht worden:
+Multiple letters can also be searched for in sequence:
 ```cs
-string tekst = "regel tekst";
-int positie = tekst.IndexOf("tek");
+string text = "line of text";
+int position = text.IndexOf("tek");
 ```
 
-De &quot;Positie&quot; variabele krijgt de waarde 6.
-**Niet gevonden** geeft `-1`:
+The &quot;Position&quot; variable is given the value 6.
+**Not found** returns `-1`:
 ```cs
-string tekst = "regel tekst";
-int positie = tekst.IndexOf("a");
+string text = "line of text";
+int position = text.IndexOf("a");
 ```
-De &quot;Positie&quot; variabele krijgt de waarde -1. De waarde -1 betekent dus: de String komt niet voor binnen de andere String.
+The &quot;Position&quot; variable is given the value -1. So the value -1 means: the String does not occur within the other String.
 
 ## Substring
 
-Een stukje uit een string kopiëren:
+Copy a piece from a string:
 ```cs
-string tekst = "regel tekst";
-string deelTekst = tekst.Substring(0, 1);
+string text = "line of text";
+string partText = text.Substring(0, 1);
 ```
 
-wat heeft als resultaat dat in deelTekst de waarde &quot;r&quot; komt te staan omdat van de oorspronkelijke tekst vanaf positie 0 precies 1 letter gekopieerd wordt.
+which results in the value &quot;r&quot; appearing in partText because exactly 1 letter is copied from the original text starting from position 0.
 
-Nog enkele voorbeelden met Substring.
+Some more examples with Substring.
 ```cs
-"abc".Substring(0,1)  // dit geeft "a" (begin vanaf karakter met index 0, neem 1 karakter)
-"abc".Substring(0,2)  // geeft "ab" (begin vanaf karakter met index 0, neem 2 karakters)
-"abc".Substring(1,1)  // geeft "b" (begin vanaf index 1, neem 1 karakter)
+"abc".Substring(0,1) // this gives "a" (start from character with index 0, take 1 character)
+"abc".Substring(0,2) // this gives "ab" (start from character with index 0, take 2 characters)
+"abc".Substring(1,1) // returns "b" (start from index 1, take 1 character)
 ```
-Goeie oefening: Typ deze eens in in een Console app, probeer te voorspellen wat er uitkomt en print de waarde met `Console.WriteLine()`, controleer of het klopt wat je dacht. Speel hiermee tot je snapt hoe het werkt. Dan kun je vast ook voorspellen wat hier uit komt:
+Good exercise: type this once into a Console app, try to predict what comes out and print the value with `Console.WriteLine()`, check to see if what you thought is correct. Play around with this until you understand how it works. Then I'm sure you'll be able to predict what comes out of this as well:
 
 ```cs
-Console.WriteLine("abcdef".Substring(1,1));  // hoe lang en welke letters?
-// Voer regel voor regel in (nadat je gezien hebt of je regel ervoor snapt):
+Console.WriteLine("abcdef".Substring(1,1)); // How long and what letters?
+// Enter line by line (after seeing if you understand line before it):
 Console.WriteLine("abcdef".Substring(3,2));
 Console.WriteLine("abcdef".Substring(0,6));
-// Wat zou er gebeuren bij:
+// What would happen to:
 Console.WriteLine("abcdef".Substring(0,7));
-// of bij:
+// or at:
 Console.WriteLine("abcdef".Substring(7,1));
-// belangrijk dat je gezien hebt wat er bij die laatste 2 gebeurt!
+// important that you saw what happens at those last 2!
 ```
 
 
 ```cs
-string tekst = "regel tekst";
-string deelTekst = tekst.Substring(6, 5);
+string text = "line of text";
+string partText = text.Substring(6, 5);
 ```
-Deze code heeft als resultaat dat in deelTekst de waarde &quot;tekst&quot; komt te staan omdat van de oorspronkelijke tekst vanaf positie 6 precies 5 letters gekopieerd worden.
+This code results in the value &quot;text&quot; appearing in partText because exactly 5 letters are copied from the original text starting from position 6.
 
 ## Length
 
-Aantal tekens van de String bepalen. Achter `Length` hoeven
-geen haakjes openen en sluiten geplaatst te worden omdat het
-een `property` (eigenschap) van de string is en niet een `method`
-die je uitvoert.
+Define the number of characters in a string. Behind `Length
+no open and close parenthesis because it is
+a `property` (property) of the string and not a `method`
+that you execute.
 ```cs
-string tekst = "regel tekst";
-int lengte = tekst.Length;
+string text = "line of text";
+int length = text.Length;
 ```
 
-Deze code heeft als resultaat dat in lengte de waarde `11` komt te staan omdat de tekst precies elf lang is. Merk op: dit is inclusief spaties in de tekst.
-De `double quotes` om begin en einde van de String waarde aan te geven worden niet meegeteld.
+This code results in the value `11` appearing in length because the text is exactly eleven long. Note: this includes spaces in the text.
+The `double quotes` to indicate beginning and end of the String value are not included.
 ```cs
-string tekst = "";
-int lengte = tekst.Length;
+string text = "";
+int length = text.Length;
 ```
 
-Deze code heeft als resultaat dat in *lengte* de waarde `0` komt te staan
-omdat geen tekens in de string staan.
+This code results in the value `0` appearing in *length*
+because there are no characters in the string.

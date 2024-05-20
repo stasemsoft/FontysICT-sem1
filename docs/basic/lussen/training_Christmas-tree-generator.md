@@ -1,33 +1,65 @@
-# Training - Christmas Tree Generator
+#Training - Christmas Tree Generator
 
-Maak een methode waarmee je op een willekeurige positie op het scherm een kerstboom van een bepaalde hoogte kan maken in een bepaalde kleur. Ook moet het symbool kunnen worden meegegeven. In het screenshot hieronder hebben we de kerstbomen de volgende parameters/eigenschappen:
+  
 
-| Kleur | Hoogte | Left/x | Top/y | Tekensymbool |
-|-------|---------|-------|--------|----------------|
-| Rood | 10 | 10 | 10 | 8 |
-| Groen | 5 | 20 | 5| 5 |
+Create a method that allows you to create a Christmas tree of a certain height in a certain color at any position on the screen. It should also be possible to include the symbol. In the screenshot below, we have given the Christmas trees the following parameters/properties:
 
-Gebruik een _Console_ applicatie.
-Tip: gebruik **Console.ReadKey()** om te voorkomen dat het programma direct na opstarten weer afsluit.
+  
 
-![Chistmas tree](figures/christmas-tree.png)
+| Color | Height | Left/x | Top/y | Symbol |
 
-## Stappenplan
-1. Een bepaald karakter op het scherm laten afdrukken
-2. Een horizontale lijn van meerdere karakters laten afdrukken
-3. Een horizontale lijn van meerdere karakters laten afdrukken op willekeurige positie
-4. Een horizontale lijn van meerdere karakters laten afdrukken op willekeurige positie in een bepaalde kleur
-5. Een kerstboom vorm maken
-6. Meerdere kerstbomen
+|-------|---------|-------|--------|----------------|  
 
-## Uitbreidingen
-- Niveau ** Vul de kerstboom met de karakters van een gegeven string, dus bijv. "abc" dan wordt de hele kerstboom gevuld met deze letters
-- Niveau ** Vraag aan de gebruiker op welke positie de kerstoom moet worden geplaatst
-- Niveau *** Plaats een willekeurig aantal kerstbomen met allemaal verschillende eigenschappen op een willekeurige plek, echter wel geheel binnen het venster.
-- Niveau ** Versier de kerstboom met willekeurig op te hangen gekleurde kerstballen (een letter O). De kerstballen mogen niet te dicht bij elkaar hangen, er moeten minimaal 2 vakjes tussen zitten.
-- Niveau *** Maak een grafische variant in WinForms die van Windows GDI Graphics gebruik maakt.
+| Red | 10 | 10 | 10 | 8  |
 
-## Bronnen
-- [Color in Console App](https://www.dotnetperls.com/console-color)
-- [Console.SetCursorPosition](https://docs.microsoft.com/en-us/dotnet/api/system.console.setcursorposition?view=net-5.0)
-- [Console.ReadLine](https://docs.microsoft.com/en-us/dotnet/api/system.console.readline?view=net-5.0)
+| Green | 5 | 20 | 5 | 5 |
+
+  
+
+Use a _Console_ application.  
+
+Tip: use **Console.ReadKey()** to prevent the program from shutting down again immediately after startup.
+
+  
+
+
+![[christmas-tree.png]]
+  
+
+## Roadmap  
+
+1. Print a certain character on the screen  
+
+2. Have a horizontal line of several characters printed  
+
+3.Have a horizontal line of multiple characters printed at any position  
+
+4. Have a horizontal line of multiple characters printed at random position in a specific color  
+
+5. Create a Christmas tree shape
+
+6. Multiple Christmas trees
+
+  
+
+## Extensions
+
+- Level ** Fill the Christmas tree with the characters of a given string, so e.g. “abc” then the whole Christmas tree will be filled with these letters  
+
+- Level ** Ask the user at what position to place the Christmas tree  
+
+- Level *** Place any number of Christmas trees with all different properties in a random position, however entirely within the window.  
+
+- Level ** Decorate the Christmas tree with randomly hung colored baubles (a letter O). The baubles must not hang too close together, there must be at least 2 squares between them.  
+
+- Level *** Create a graphic in WinForms that uses Windows GDI Graphics.
+
+  
+
+## Resources.  
+
+- Color in Console App](https://www.dotnetperls.com/console-color)  
+
+- Console.SetCursorPosition](https://docs.microsoft.com/en-us/dotnet/api/system.console.setcursorposition?view=net-5.0)  
+
+- Console.ReadLine](https://docs.microsoft.com/en-us/dotnet/api/system.console.readline?view=net-5.0)

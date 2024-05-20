@@ -1,7 +1,13 @@
-# Training - For - Drankjesschema
+# Training - For - Beverage Schedule.
 
-Maak een applicatie waarmee je drankjes kunt toevoegen aan een **Listbox**. Als gebruiker moet je de soort van het drankje kunnen invoeren, bijvoorbeeld Red Bull of Whisky. Ook moet je het aantal van dat soort drankje kunnen ingeven, bijvoorbeeld 1, 3 of 6. Met een druk op de knop wordt het juiste aantal drankjes toegevoegd aan de lijst. Zet een volgnummer achter de soort van de drankje. Stel dat je drie drankjes wilt toevoegen. Dan zal er achtereenvolgens “whisky 1”, “whisky 2” en “whisky 3” worden toegevoegd aan de lijst. 
+  
 
-Houdt onderaan de lijst ook het totaal aantal drankjes bij.
+Create an application that allows you to add drinks to a **Listbox**. As a user, you should be able to enter the type of drink, for example Red Bull or Whisky. You should also be able to enter the number of that type of drink, for example 1, 3 or 6. Pressing the button will add the correct number of drinks to the list. Put a sequential number after the type of drink. Suppose you want to add three drinks. Then “whiskey 1”, “whiskey 2” and “whiskey 3” will be added successively to the list.
 
-![Userinterface](figures/Drankjesschema-ui.png)
+  
+
+Also keep track of the total number of drinks at the bottom of the list.
+
+  
+
+![[Drankjesschema-ui.png]]

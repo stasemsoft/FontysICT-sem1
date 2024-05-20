@@ -1,20 +1,20 @@
-## Brief2
+## Letter2
 
 
 ![](figures/logo_hotel.png "logo hotel")
 
  
-Aan: Software ontwikkelgroep &quot;De Goeroes&quot;
-Betreft: specificatie hotelreserveringssysteem
+To: Software development group &quot;The Gurus&quot;
+Subject: hotel reservation system specification
 
-Beste Goeroes,
-Naar aanleiding van ons gesprek afgelopen woensdag stuur ik u hierbij de specificatie van ons hotelsysteem. Bij vragen kunt u mij altijd bellen. Ik ben de telefoniste dus ik zit altijd bij de telefoon.
-We willen in ons systeem alle 4-persoons kamers van ons hotel kunnen zien zodat we op elk moment kunnen zien welke kamers er vrij zijn en welke niet.
-Ik wil alle namen van de bezoekers kunnen zien, per kamer netjes gesorteerd. En ook wil ik kunnen zien wie er allemaal voor het diner en voor het ontbijt heeft gereserveerd. De bezoekersgegevens die type ik zelf wel in het systeem in, samen met de datum waarop ze hun kamer willen huren.
-Mijn baas wil ook nog de adressen van de bezoekers kunnen zien en de datums waarop een kamer gereserveerd is. Maar dat hoeft niet op het scherm, mag ook in een bestand staan.
-De files met informatie moeten elke dag worden gebackup-upped, maar dat regelt onze computerman, dat hoeven jullie niet te doen.
-Als u nog tijd over heeft: bij het reserveren willen we wel heel snel meerdere personen tegelijk aan een het diner of ontbijt kunnen koppelen. Bijvoorbeeld door een kamer te selecteren en dat hij dan automatisch al die personen van die kamer koppelt.
-Bedankt voor uw inzet, 
-Groetjes,
+Dear gurus,
+Following our conversation last Wednesday, I hereby send you the specification of our hotel system. If you have any questions you can always call me. I am the operator so I am always by the phone.
+We want to be able to see in our system all the 4-bed rooms of our hotel so we can see at any time which rooms are free and which are not.
+I want to be able to see all the names of visitors, sorted neatly by room. And I also want to be able to see who made reservations for dinner and breakfast. I'll type the visitor data into the system myself, along with the date they want to rent their room.
+My boss also wants to be able to see the visitors' addresses and the dates a room was reserved. But that doesn't have to be on the screen, may also be in a file.
+The files with information must be backed up every day, but our computer guy takes care of that, you don't have to.
+If you still have time to spare: when making reservations we do want to be able to link several people at once to a dinner or breakfast. For example, by selecting a room and then it automatically links all those people from that room.
+Thank you for your efforts,
+Greetings,
 Marieke van Trommelen
-Receptioniste Grand Hotel D'n Gaarkeuken
+Receptionist Grand Hotel D'n Gaarkeuken

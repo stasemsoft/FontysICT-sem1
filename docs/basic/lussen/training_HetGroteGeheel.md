@@ -1,5 +1,9 @@
-# Training - While - Het grote geheel
+# Training - While - The big picture
 
-Maak een applicatie met een while loop met daarbij een variabele "totaal". In deze while loop wordt een willekeurig cijfer gegenereerd. Deze willekeurige cijfer wordt bij de variabele "totaal" opgeteld. Wanneer de variabele "totaal" hoger is dan 1000, wordt er een melding gegeven "Het getal is nu hoger!".
+  
 
-Breid het programma uit dat je zelf het "hoger dan getal" kan invoeren.
+Create an application with a while loop including a variable “total”. In this while loop, a random digit is generated. This random number is added to the variable “total”. When the variable “total” exceeds 1000, a message is given “The number is now higher!”.
+
+  
+
+Extend the program that you can enter the “higher than number” yourself.

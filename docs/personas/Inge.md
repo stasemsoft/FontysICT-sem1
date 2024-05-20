@@ -1,48 +1,48 @@
 # Inge, intermediate
 
 <img style="float: left; padding-right: 10px;" width="150" src="https://stasemsoft.github.io/softwarematerial/docs/personas/figures/inge-small.png">
-Waar 'Inge' staat mag naar eigen behoefte ook 'Ivo' gelezen worden en waar 'zij' staat mag ook 'hij' gelezen worden.
+Where "Inge" appears may also read "Ivo" as needed, and where "she" appears may also read "he.
 
-Inge heeft al programmeerervaring. Misschien heeft ze al *methods* gemaakt, misschien nog niet, of bijna niet. We duiken er dan ook meteen in om daar achter te komen, daarna van daaruit verder te werken.
+Inge already has programming experience. Maybe she has already made *methods*, maybe not yet, or not nearly. So we'll dive right in to find out, then work from there.
 
-Hieronder een aantal fasen of stappen die Inga kan  doorlopen. Een Stap zou ongeveer 1 dag werk kunnen zijn voor een gemiddelde student.
+Here are some stages or steps that Inge might go through. One Step might be about 1 day's work for an average student.
 
-Deze opdrachten vind je in de [Toolkit basis](../basic) in de categorieën
+You can find these assignments in the Toolkit Basics in the categories
 [Variabele, assignment, types, debugger](../basic/#variabele-assignment-typen-debugger-eerste-stapjes-in-c)
 
+## Step 1
 
-## Stap 1
+- What is a method, how to work with returnvalues and how to use parameters?
 
--   Wat is een method, hoe werk ik met returnvalues en hoe kan ik parameters gebruiken?
-
-Hierover vind je trainingsopdrachten in de  [Toolkit basis: categorie methods](../basic/#method-zelf-maken-en-aanroepen), bijvoorbeeld: 
+You can find training assignments about this in the Toolkit Basics, for example: 
 + [Training method marathon](../basic/methoden/training_methodmarathon)
 
 
 ---
 
-## Stap 2
+## Step 2
 
--   Methods (herhaling/uitbreiding)
--   Wat kan ik met Collections (met name List en Array in C#)?
+- Methods (repetition/expansion).
+- What can I do with Collections (especially List and Array in C#)?
 
-Ook hierover vind je opdrachten in de  [Toolkit basis: categorie lussen](../basic/#lus--loop--herhaling), bijvoorbeeld de pittige: 
+You will also find assignments on these in the Toolkit Basics: category loops, for example, the snappy ones:
+
 + [Training Christmas Tree Generator](../basic/lussen/training_Christmas-tree-generator)
 
 
 ---
 
-## Stap 3: Wedstrijd 
+## Step 3: Contest
 
-+ Na genoeg te hebben getraind is het tijd om verschillende zaken in grotere app te combineren (een ***Wedstrijd***-app). 
-+ Probeer ook eens voordat je begint met coderen om op te schrijven WAT een app moet gaan doen en HOE. 
++ After training enough, it's time to combine several things into bigger app (a ***Wedding*** app).
++ Also, before you start coding, try writing down WHAT an app is supposed to do and HOW.
 
-In de  [Toolkit basis](../basic) staan (onder andere in categorie 
-['Integrale Opdrachten'](../basic/#integrale-opdrachten)
-, maar ook bij ['Vingeroefening, Training, Challenge'](../basic/#vingeroefening-training-challenge) ) ideeën voor wedstrijd-apps. Ook mag je zelf wat verzinnen! Het gaat er om dat je grotere apps maakt waarin je veelvuldig methods maakt, loops gebruikt, collecties, ... , hoe meer hoe beter!!  Succes en veel plezier.
-
-
-Programmeren zit in de basis van ICT, elke ICT'er moet 'iets' weten over programmeren. **Inge** heeft al wat programmeerervaring en heeft dus tijd om ***extra aandacht*** te besteden aan het leren programmeren. Heeft ze in haar verdere ICT-carriëre altijd wat aan! 
+In the Toolkit Basics there are (among other categories
+['Integral Assignments'](../basic/#integrale-opdrachten)
+, but also at ['Little Exercise, Training, Challenge'](../basic/#vingeroefening-training-challenge) ) ideas for contest apps. You are also welcome to come up with your own! The point is to make bigger apps in which you make frequent methods, use loops, collections, ... , the more the better!!!  Good luck and have fun.
 
 
-Succes en veel plezier! 
+Programming is in the basics of ICT, every ICT person should know 'something' about programming. **Inge** already has some programming experience and therefore has time to pay ***extra attention*** to learning how to program. It will always be useful in her further ICT career!
+
+
+Good luck and have fun!

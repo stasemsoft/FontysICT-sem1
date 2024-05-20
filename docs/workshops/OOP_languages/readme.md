@@ -1,40 +1,41 @@
-# OOP in diverse talen
+# OOP in various languages
 
-## Inleiding
-Er zijn een aantal concepten die algemeen gezien worden als definiërend voor Object Oriented ontwikkelen. Deze begrippen komen in veel OOP languages voor, maar worden in verschillende talen net wat anders genoteerd (andere syntax).
+## Introduction
+There are a number of concepts that are commonly seen as defining Object Oriented development. These concepts appear in many OOP languages, but are noted slightly differently in different languages (different syntax).
 
-+ De concepten `class` en  `object`/`instance`.
-+ `constructor` (of `initializer`, `instance creating`, `new`)
++ The concepts `class` and `object`/`instance`.
++ `constructor` (or `initializer`, `instance creating`, `new`)
 + `Encapsulation` (`properties`, `accessors`, `private`)
-+ `static` methods, fields en properties.
-+ `interface` (`protocol`, `abstract base class`)(dus NIET als in: User Interface!)
++ `static` methods, fields and properties.
++ `interface` (`protocol`, `abstract base class`)(so NOT as in: User Interface!)
 + `inheritance` (sub class, super class, base class, derived class).
-+ Kun je er nog meer verzinnen of vinden internet?
++ Can you make up or find more internet?
 
 
-Aantal talen die interessant zijn om te bekijken omdat er een redelijk kans is dat je ze tegen gaat komen:
-+ Java (C# en Java liggen dicht bij elkaar (hoe komt dat?)).
+Number of languages that are interesting to look at because there is a reasonable chance you will encounter them:
++ Java (C# and Java are close (how come?)).
 + Kotlin: Android.
 + Swift: iOS.
-+ Python:  (Applied Data Science; Infra semester 2).
-+ C++ : bedacht om OOP mogelijk te maken in (een uitbreiding op) C. C++ is net als C gericht op performance.
-+ ... of ben je geïnteresseerd in een andere taal...
++ Python: (Applied Data Science; Infra semester 2).
++ C++ : devised to enable OOP in (an extension to) C. C++, like C, focuses on performance.
++ ... or are you interested in another language ...
+
 
 ![fig:Historie](figures/familytree.png "family tree")
 
-## De opdracht
+## The assignment
 
-Kies een taal uit die jou interessant lijkt en ga op internet zoeken hoe de OOP-concepten in die taal geïmplementeerd zijn.
-Is er een student of docent die een taal al kent? Misschien staat de docent te popelen om in haar/zijn favo taal een demo te geven?
+Pick a language that seems interesting to you and go on the Internet to find how OOP concepts are implemented in that language.
+Is there a student or teacher who already knows a language? Perhaps the teacher is eager to give a demo in her/his favo language?
 
-+ Kun je alle concepten terugvinden? Zo nee, bestaan ze wel in die taal? Waarom niet? Hebben ze een andere oplossing?
-+ Lijkt het op wat je gewend bent? Misschien lijkt het handiger? Elegante syntax? Of juist minder leesbaar?
-+ Is de taal 'van huis uit' bedoeld voor OOP of lijkt het er later 'aan vastgeplakt' te zijn?
-+ Neem een programma dat je eerder geprogrammeerd hebt en bedenk hoe anders het zou worden in deze taal. Leesbaarder? Korter?
-+ Er komen vast nog andere vragen boven als je er  mee bezig bent.
-+ Spreek ook af wat je op het einde wil opleveren: een (geschreven) document?, een video?, presentatie? 
++ Can you find all the concepts? If not, do they exist in that language? Why not? Do they have another solution?
++ Is it similar to what you are used to? Maybe it seems more convenient? Elegant syntax? Or just less readable?
++ Is the language 'natively' intended for OOP or does it seem to have been 'glued on' later?
++ Take a program you've programmed before and consider how different it would be in this language. More readable? Shorter?
++ Other questions are bound to surface as you work on it.
++ Also agree on what you want to deliver at the end: a (written) document?, a video?, presentation?
 
-## Bronnen
+## Resources
 
 + [https://en.wikipedia.org/wiki/Generational_list_of_programming_languages](https://en.wikipedia.org/wiki/Generational_list_of_programming_languages)
 + [https://www.quora.com/Which-are-the-major-programming-language-families?share=1](https://www.quora.com/Which-are-the-major-programming-language-families?share=1)

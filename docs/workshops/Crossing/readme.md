@@ -1,8 +1,8 @@
 # Crossing
 
-Voorbeeld (console app) met een class *Crossing* die *TrafficLights* kan hebben die niet tegelijk op *groen* mogen staan.
+Example (console app) with a class *Crossing* that can have *TrafficLights* that may not be on *green* at the same time.
 
-Als uitgangspunt kun je de trainingsopdracht *TrafficLight* gebruiken en van daaruit verder uitbreiden. Zie [[../../objects/training_Enum_TrafficLight]]. 
+As a starting point, you can use the training command *TrafficLight* and expand from there. See [[../../objects/training_Enum_TrafficLight]]. 
 
-Voorbeeldcode / mogelijke uitwerking:
+Sample code/possible elaboration:
 [Crossing.zip](Crossing.zip)

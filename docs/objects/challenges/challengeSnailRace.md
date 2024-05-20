@@ -1,38 +1,31 @@
 # Challenge SnailRace
 
-| --- | --- |
-| Versie | 2018 - FHICT |
-| Leerdoelen | Realisatie |
-| Vereiste voorkennis | Classes |
-| Challenge Type | Integrale Realisatie |
+### Introduction
 
+For the **Great Snail Race 2025**, starting from an empty project with Visual Studio
+an application must be created to run a Snail Race.
 
-### Inleiding
-
-Voor de **Grote Slakkenrace 2021** moet vanaf een leeg project met Visual Studio
-een applicatie gemaakt worden om een SlakkenRace mee te kunnen houden.
-
-1.	Maak een nieuw Windows Form Project aan.
-2.	Hernoem ‘Form1’ naar ‘SnailRaceForm’. Als je dit doet door in de *Solution Explorer* de *file* te *renamen* stelt Visual Studio voor dat ie het *Code Element* (in dit geval dus het Form) ook hernoemt: mooi!
-3.	Maak een nieuwe class Snail aan. `Ctrl+Shift+A` (of rechtermuisknop op project in *Solution Explorer*), een *class name*/*file name* intypen en `OK`.
-4.	Zet op het Form onder elkaar 5 PictureBoxes, recht onder elkaar, gebruik voor elk het plaatje ‘snail.jpg’. Als je het slim doet sleep je er 1 op je *Form*, voegt er een plaatje aan toe en kopieert de *PictureBox* nog een aantal maal (gebruik `ctrl+C` en `ctrl+V`).
-5.	Voeg een button met Text ‘Race’ toe. 
-6.	Maak in class Snail een constructor aan met (voor nu) 2 parameters:
-	1.	int minimumSpeed
-	2.	int maximumSpeed
-7.	Voeg 2 private Fields toe (ook wel member variabelen of instance variabelen genoemd):
-	1.	minimumSpeed
-	2.	maximumSpeed
-8.	Class Snail moet nu een `Field` ‘pictureBox’ van het type PictureBox krijgen (voeg hiervoor aan het begin van de file toe: `using System.Windows.Forms;`). Let op: een *professional software engineer* zou het zo niet doen: Als je al een betere manier weet doe het dan op die manier! Fields maken we altijd private. 
-9.	Voeg een `Field` toe aan het Form (dus buiten een methode gedeclareerd) van type List&lt;Snail&gt;:
+1. Create a new Windows Form Project.
+2. Rename 'Form1' to 'SnailRaceForm'. If you do this by *renaming* the *file* in the *Solution Explorer* Visual Studio suggests that it renames the *Code Element* (in this case the Form) as well: great!
+Create a new class Snail. `Ctrl+Shift+A` (or right-click on project in *Solution Explorer*), type a *class name*/*file name* and `OK`.
+4. On the Form, put 5 PictureBoxes, right under each other, use the image 'snail.jpg' for each. If you do it smart you drag 1 onto your *Form*, add an image to it and copy the *PictureBox* several more times (use `ctrl+C` and `ctrl+V`).
+5. Add a button with Text 'Race'.
+6. In class Snail, create a constructor with (for now) 2 parameters:
+	1. int minimumSpeed
+	2. int maximumSpeed
+7. Add 2 private Fields (also called member variables or instance variables):
+	1. minimumSpeed
+	2. maximumSpeed
+8. Class Snail should now be given a `Field` 'pictureBox' of type PictureBox (to do this, add at the beginning of the file: `using System.Windows.Forms;`). Note: a *professional software engineer* would not do it this way: If you already know a better way do it that way! Fields we always make private.
+9. Add a `Field` to the Form (so outside a method declared) of type List&lt;Snail&gt;:
 
 ```cs
 List<Snail> snails = new List<Snail>();
 ```
 
-10.	Voeg in SnailRaceForm_Load (als je deze nog niet hebt, dubbelklik dan op het Form) de volgende code toe:
+10. In SnailRaceForm_Load (if you don't already have it, double-click the Form), add the following code:
 
-```cs 
+```cs
 snails.Add( new Snail(2,8) );
 snails.Add( new Snail(1,8) );
 snails.Add( new Snail(4,6) );
@@ -40,12 +33,12 @@ snails.Add( new Snail(3,8) );
 snails.Add( new Snail(3,9) );
 ```
 
-11.	Verzin (en realiseer) een manier om elke snail te laten weten welke PictureBox daar bij hoort.
-12.	Voeg nog een smalle maar hoge PictureBox toe rechts op het scherm.
-13.	Als op button Race wordt geklikt glijden alle slakken om de beurt een stukje naar rechts totdat de eerste(n) tegen de muur gelopen is/zijn.
-	1.	Let op: alle slakken moeten allemaal evenveel beurten krijgen. 
-	2.	Voeg in class Snail een methode toe ‘GlijEenStukje()’die de X-waarde aanpast en een boolean waarde retourneert: true als die slak in die beurt tegen de muur botste, en anders false.
-	3.	Een MessageBox meldt achteraf de winnaar(s). 
-	4.	Gebruik 1 Random-object in het hele programma. 
-	5.	Hou met de ‘stapgrootte’ van elke slak met zijn minimum- en maximumsnelheid. Bijvoorbeeld een slak die minimum 3 en maximum 6 heeft moet per beurt een random getal tussen 3 en 6 opschuiven (Of de waarden 3 en 6 ook mogen mag je zelf bepalen).
-14.	Elke winnaar krijgt er een bedrag bij. Dit bedrag kan later veranderen maar op dit moment is dat 12,25 euro. Voeg labels toe met van elke racer het bedrag dat hij tot nu toe verdiend heeft. Gebruik hiervoor string formatting.
+11. Invent (and realize) a way to let each snail know which PictureBox belongs to it.
+12. Add another narrow but high PictureBox to the right of the screen.
+13. When button Race is clicked, all snails slide to the right in turn until the first one(s) hit the wall.
+	Note that all snails must be given the same number of turns.
+	2. In class Snail, add a method 'SlideA Piece()'that adjusts the X value and returns a boolean value: true if that snail hit the wall in that turn, and false otherwise.
+	3. A MessageBox reports the winner(s) afterwards.
+	4. Use 1 Random object in the whole program.
+	5. Keep with the 'step size' of each snail with its minimum and maximum speed. For example a snail that has minimum 3 and maximum 6 must step up a random number between 3 and 6 per turn (Whether the values 3 and 6 are also allowed is up to you).
+14. Each winner gets an amount of money. This amount can change later but at the moment it is 12.25 euros. Add labels with the amount each racer has earned so far. Use string formatting for this.

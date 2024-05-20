@@ -1,27 +1,27 @@
 # CRC: Class, Responsibility, Collaboration
 
-CRC-cards zijn bedacht door 2 guru's in de OOP-wereld, namelijk Ward Cunningham en Kent Beck. (als je niet weet wat OOP betekent kun je vast wel een manier bedenken om hier achter te komen?)
+CRC cards were invented by 2 gurus in the OOP world, namely Ward Cunningham and Kent Beck (if you don't know what OOP means I'm sure you can figure out a way to find out?).
 
-Nodig: Een stapel A4'tjes en pennen (ja, op papier werkt dit het beste!). Van elk A4'tje kun je 4 'kaartjes' maken (een schaar is ook handig). Als je een hoge tafel hebt waar je aan kunt staan met 2 a 6 personen werkt dat prima. Ieder legt een paar (nog lege) kaartjes voor zich... en start...
+Needed: A stack of A4 sheets and pens (yes, on paper this works best!). From each A4 sheet you can make 4 'cards' (scissors will also come in handy). If you have a high table at which you can stand with 2 to 6 people that works fine. Everyone puts a few (still empty) cards in front of them... and start...
 
-Voorbereiding: Als je de korte introvideo hieronder en het voorbeeld daaronder bekijkt weet je waarschijnlijk al genoeg om zelf aan de slag te gaan!
+Preparation: If you watch the short intro video below and the example below, you probably already know enough to get started yourself!
 
-## bronnen
+## resources
 
-+ [Korte introvideo 'Using CRC cards'](https://www.youtube.com/watch?v=Bxgn6qJ-bYY)
++ [Short intro video 'Using CRC cards'](https://www.youtube.com/watch?v=Bxgn6qJ-bYY)
 
-+ [Voorbeeld startsemester FHICT](figures/crc_example_patientdossier.jpg)
++ [Dutch Example startsemester FHICT](figures/crc_example_patientdossier.jpg)
 
-## Oefenmateriaal
+## Practice materials
 
-+ [challenge PlatenMaatschappij](challengePlatenMaatschappij)
++ [challenge Record Company](ChallengePlatenMaatschappij.md)
 
-## eventuele extra bronnen
+## any additional resources
 
-Als je na het bekijken van bovenstaande bronnen geen idee hebt kun je hier nog verder kijken:
+If after looking at the above sources you have no idea you can look further here:
 
-+ [CRC volgens wikipedia](https://en.wikipedia.org/wiki/Class-responsibility-collaboration_card)
++ [CRC according to wikipedia](https://en.wikipedia.org/wiki/Class-responsibility-collaboration_card)
 
-+ [Example (helaas met een digitaal tool)](https://www.youtube.com/watch?v=otKUer13HnA)
++ [Example (unfortunately with a digital tool)](https://www.youtube.com/watch?v=otKUer13HnA)
 
 + [CRC cards](https://www.youtube.com/watch?v=19ULQDkEkd8)

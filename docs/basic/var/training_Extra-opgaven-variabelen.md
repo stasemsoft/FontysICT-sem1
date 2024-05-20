@@ -1,48 +1,48 @@
-# Extra opgaven variabelen/strings 
+# Additional tasks variables/strings
 
-## Casus 1 - Vind het woord 
-Schrijf een programma dat voldoet aan de volgende requirements: 
-+ Gebruiker kan een zin (een regel tekst) invoeren. 
-+ Gebruiker kan een woord (een stuk tekst zonder spaties) invoeren in een tweede invoerveld. 
-+ Het programma toont de positie (index) op het scherm waar het ingevoerde woord zich in de zin bevindt. De positie begint bij 1 te tellen. Als het woord niet voorkomt in de zin dan is de positie 0. 
+## Case Study 1 - Find the Word
+Write a program that satisfies the following requirements:
++ User can enter a sentence (a line of text).
++ User can enter a word (a piece of text without spaces) in a second input field.
++ The program displays the position (index) on the screen where the entered word is in the sentence. The position starts counting at 1. If the word is not in the sentence then the position is 0.
 
-Bijvoorbeeld in de zin "De appel valt niet ver van de boom." komt het woord "appel" voor op positie 4. 
+For example, in the sentence "The apple doesn't fall far from the tree." the word "apple" occurs at position 4.
 
-## Casus 2 - BMI-calculator 
-Schrijf een programma dat de BMI van een persoon uitrekent en op het scherm laat zien. 
-Tip: voorafgaand aan het programmeren (=realisatiefase) ga je een kort vooronderzoek (=analyse) uitvoeren waarbij je de volgende vragen beantwoordt: 
-+ Wat is BMI? 
-+ Hoe reken je voor een man/vrouw van een bepaalde leeftijd de BMI uit? 
+## Case Study 2 - BMI Calculator
+Write a program that calculates a person's BMI and displays it on the screen.
+Tip: prior to programming (=realization phase), you will conduct a brief preliminary research (=analysis) answering the following questions:
++ What is BMI?
++ How do you calculate BMI for a man/woman of a certain age?
  
-## Casus 3 - Oppervlakte-calculator 
-Schrijf een programma dat de oppervlakte van een cirkel uitrekent. De gebruiker vult de middellijn van de cirkel in en het programma toont de oppervlakte van de cirkel met die middellijn op het scherm. 
+## Case study 3 - Area calculator
+Write a program that calculates the area of a circle. The user enters the centerline of the circle and the program displays the area of the circle with that centerline on the screen.
 
-Tip: voer een korte analyse uit waarbij je het antwoord op de vraag Hoe reken je de oppervlakte van een cirkel uit? achterhaald. 
+Tip: Perform a brief analysis in which you find out the answer to the question How do you calculate the area of a circle?
 
-## Casus 4 - Listbox-vuller 
-Maak een programma met een ListBox, een TextBox en een Button. Als de gebruiker op de Button klikt dan wordt de tekst die in de TextBox staat (de gebruiker kan er intypen wat hij wil) toegevoegd aan de lijst in de ListBox. 
+## Case Study 4 - Listbox filler
+Create a program with a ListBox, a TextBox and a Button. When the user clicks the Button then the text that is in the TextBox (the user can type in whatever he wants) is added to the list in the ListBox.
 
-## Casus 5 - Ak-tester 
-Maak een programma waarmee de gebruiker een tekst kan invoeren en op een knop kan klikken. Na het klikken op de knop verschijnt er een tekst in beeld die aangeeft op welke positie de zinsnede ak voorkomt. 
+## Case Study 5 - Ak-tester
+Create a program that allows the user to enter a text and click a button. After clicking the button, a text appears on the screen indicating the position at which the phrase ak occurs.
 
-Voorbeeld-scenario: de gebruiker vult het woord "goudakaas" in. Het programma moet dan na een druk op de knop de uitkomst 5 tonen (omdat de - eerstvoorkomende - substring ak op de 5e plaats staat). 
+Example scenario: the user enters the word "goudakaas". The program should then show the result 5 after pressing the button (because the - first-occurring - substring ak is at the 5th position).
 
-## Casus 6 - Je werkelijke leeftijd 
-Maak een programma dat gegeven de naam van de gebruiker (voornaam + achternaam) en zijn leeftijd de "werkelijke leeftijd" die gebruiker op het scherm toont. 
+## Case Study 6 - Your actual age
+Create a program that given the user's name (first name + last name) and his age shows the "actual age" that user is on the screen.
 
-De "werkelijke leeftijd" van een gebruiker wordt als volgt bepaald:
-+ De ingevulde leeftijd minus 12 vermenigvuldigt met het tiende deel van het aantal letters van zijn volledige naam. 
+The "actual age" of a user is determined as follows:
++ The entered age minus 12 multiplied by the tenth part of the number of letters of his full name.
 
-## Casus 7 - Raad-een-getal (if-statement) 
-Opdracht: schrijf een applicatie die voldoet aan de volgende requirements: 
-+ De gebruiker moet een getal kunnen invullen in een TextBox (dus niet een ander control gebruiken dan een TextBox). De gebruiker vult een getal in en klikt op een knop. 
-+ Indien na het klikken op de knop het getal gelijk is aan 3 dan heeft de gebruiker het goed en verschijnt er een tekst die dat aan de gebruiker meedeelt. Als er een ander getal dan 3 wordt ingevuld verschijnt er een andere tekst met de melding dat dit niet goed is. 
+## Case Study 7 - Guess-a-number (if-statement)
+Assignment: write an application that satisfies the following requirements:
++ The user must be able to enter a number in a TextBox (i.e. not use a control other than a TextBox). The user enters a number and clicks a button.
++ If after clicking the button the number is equal to 3 then the user is correct and a text appears informing the user of this. If a number other than 3 is entered, another text appears notifying the user that it is not correct.
 
-Zodra dit werkt breidt dan je applicatie uit met de volgende functionaliteit: 
-+ Je programma geeft bij een fout antwoord van de gebruiker aan of het getal hoger is of lager dan het te raden getal 3. 
+Once this works then extend your application with the following functionality:
++ Your program, if the user's answer is wrong, indicates whether the number is higher or lower than the number 3 to be guessed.
  
-## Casus 8 - Afstanden omrekenen naar km 
-In Engeland gebruiken ze 'inch', 'foot', 'yard' en 'mile'. Maak een programma met een textbox, radio button en knop om dit om te rekenen naar kilometers. 
-De gebruiker kan een aantal invoeren in de textbox en dan met radio buttons kiezen wat dat voorstelt. 
+## Case Study 8 - Converting distances to km.
+In England they use 'inch', 'foot', 'yard' and 'mile'. Create a program with a text box, radio button and button to convert this to kilometers.
+The user can enter a number in the textbox and then use radio buttons to choose what that represents.
 
-Bijvoorbeeld 1 invoeren in de textbox en dan de radio button voor 'mile' selecteren. Als er op de knop wordt gedrukt wordt het aantal kilometers  weergegeven. In dit voorbeeld 1,6 km. Rond altijd af op 1 cijfer achter de komma. 
+For example, enter 1 in the textbox and then select the radio button for 'mile'. When the button is pressed, the number of miles is displayed. In this example 1.6 km. Always round off to 1 decimal place.

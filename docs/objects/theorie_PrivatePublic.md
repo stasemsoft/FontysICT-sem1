@@ -1,92 +1,89 @@
-# Private en Public
+# Private and Public
 
 ### Private
-- *Information hiding*: `Fields` binnen een `class` maken we altijd `private`.
-- Voordeel: beter onderhoudbare software, programmeurs kunnen vanuit andere `classes` niet zomaar in de *internals* van jouw `class`, maar gebruiken de daarvoor bedoelde `methods` en/of `properties`.
+- Information hiding*: `Fields` within a `class` are always made `private`.
+- Advantage: better maintainable software, programmers can not just enter the *internals* of your `class` from other `classes`, but use the appropriate `methods` and/or `properties`.
 
 
 ### Methods
-`Methods` die van buitenaf aanroepbaar moeten zijn zijn dus typisch `public`. Als het `methodes` betreft die alleen bedoeld zijn voor gebruik binnen de `class` kun je ze beter `private` maken.
+`Methods` that must be callable from the outside are thus typically `public`. If they are `methods` that are only meant to be used within the `class` you better make them `private`.
 
 ### Properties
-Een property definieert vaak een manier om de waarde van een veld op te vragen of zelfs te veranderen. Het opvragen kan vaak `public` zijn, maar het is bij de meeste velden niet de bedoeling dat de waarde van buitenaf veranderd kan worden.
+A property often defines a way to retrieve or even change the value of a field. The retrieval can often be `public`, but for most fields it is not intended that the value can be changed from the outside.
 
 ```cs
-class Persoon
+class Person
 {
-   // Maak Velden private
-   private string naam;
-   private int leeftijd;
+   // Make Fields private
+   private string name;
+   private int age;
 
-   public Persoon(string Naam, int Leeftijd)
+   public Person(string Name, int Age)
    {
-      this.naam = Naam;
-      this.leeftijd = Leeftijd;
+      this.name = Name;
+      this.age = Age;
    }
 
 }
 ```
 
-Het is nu niet mogelijk van buitenaf de waarde van een `veld` als `leeftijd` te veranderen:
+It is now not possible to externally change the value of a `field` like `age`:
 
 ```cs
-Persoon persoon = new Persoon("Pietje Puk");
-int leeftijd = persoon.leeftijd;  // dit werkt dus NIET!
+Person person = new Person("Pietje Puk");
+int age = person.age; // so this does NOT work!
 ```
 
-Uiteraard kan er in `class` *Persoon* een `methode` gemaakt worden die de waarde van `veld` *leeftijd* teruggeeft, een zogenaamde *get-method*:
+Of course, in `class` *Person* a `method` can be created that returns the value of `field` *age*, a so-called *get-method*:
 
 ```cs
-public int GetLeeftijd()
+public int GetLife()
 {
-   return this.leeftijd;
+   return this.age;
 }
 ```
 
-zodat de leeftijd opgevraagd kan worden:
+so that the age can be retrieved:
 
 ```cs
-int leeftijd = persoon.GetLeeftijd();
+int age = person.GetAge();
 ```
 
-Merk op dat de *leeftijd* van buitenaf dus niet veranderd kan worden, maar alleen opgevraagd!
+Note that the *age* cannot therefore be changed from the outside, only queried!
 
-### Waarom?
+### Why?
 
-Wat is hier nu het voordeel van? Nou, binnen een jaar zal de ontwikkelaar van deze `class` de eerste klachten krijgen dat niet de leeftijden niet goed berekend worden, aangezien dat de *leeftijd* geen vaste waarde is: op het moment dat de *persoon* jarig is moet de waarde opgehoogd worden.
-In dit geval kun je zien dat het verstandiger is de *geboortedatum* van de persoon op te slaan (die verandert namelijk niet) en dan wordt bij het opvragen van de *leeftijd* de goede waarde berekend.
-De programmeur kan nu zonder problemen de `class` veranderen:
+So what is the advantage of this? Well, within a year, the developer of this `class` will get the first complaints that not the ages are not calculated correctly, since that the *age* is not a fixed value: at the moment the *person* has a birthday, the value must be incremented.
+In this case, you can see that it is wiser to store the *date of birth* of the person (since it does not change) and then when the *age* is requested, the correct value is calculated.
+The programmer can now change the `class` without any problems:
 
 ```cs
-class Persoon
+class Person
 {
-   // velden
-   private string naam;
-   private DateTime geboortedatum;
+   // fields
+   private string name;
+   private DateTime date of birth;
 
-   public int GetLeeftijd()
+   public int GetLife()
    {
-      int leeftijd;
-      ... // voeg hier code toe om de leeftijd te berekenen mbv de geboortedatum.
-      return leeftijd;
+      int age;
+      ... // add code here to calculate the age using the date of birth.
+      return age;
    }
 ```
 
-Doordat het veld *leeftijd* `private` was kan de programmeur dit aanpassen zonder dat er elders problemen ontstaan in code die hier gebruik van maakt, externe code roept namelijk de methode *GetLeeftijd()* aan en die zal na de wijziging zonder problemen werken.
+Because the field *age* was `private` the programmer can change it without causing problems elsewhere in code that uses it, external code calls the method *GetAge()* and it will work without problems after the change.
 
 
 
 ### Encapsulation
-Stel dat er een bug zit in (de waarde van velden van) een bepaalde `class`, dan is het ook prettig te weten dat (in geval van `private` velden) de bug ergens in de `class` moet zitten. Dit wordt `Encapsulaton` genoemd: een stukje gedrag van een programma wordt afgeschermd. Hierdoor wordt het makkelijker een deel van je programma te hergebruiken.
-Encapsulatie betekent kortweg dat een groep fields, methodes en overige eigenschappen
-gezien worden als een enkel, afgebakende eenheid of object.
-Dit klinkt wat droog, dus een andere bewoor-ding die mogelijk duidelijker is
-door encapsulatie te zien als het vermogen van een klasse om fields en methodes
-die niet interessant zijn voor anderen, te verbergen.
-De beste reden om bepaalde onderdelen van je klasse af te schermen is dat je code makkelijker in het gebruik wordt. Klassen gebruiken private fields om hun toestand bij te houden; hoeveel levens heb ik nog, hoe snel mag ik bewegen, et cetera. Deze informatie is voor andere code niet per sé interessant, maar wel essentieel voor de werking van de klasse. Als iedereen zomaar die fields aan zou kunnen passen, wordt de werking van je klasse een stuk onbetrouwbaarder en willekeuriger: wanneer je zelf de enige bent die het aantal levens aan kunt passen, weet je ook precies waar in je code het voor kan komen dat je levens op 0 worden gezet. Dit voordeel valt weg als iedereen het aantal levens aan kan passen.
-
-
-
+Suppose there is a bug in (the value of fields of) a certain `class`, then it is also nice to know that (in case of `private` fields) the bug must be somewhere in the `class`. This is called `Encapsulaton`: a piece of behavior of a program is shielded. This makes it easier to reuse part of your program.
+Encapsulation simply means that a group of fields, methods and other properties
+are seen as a single, delimited unit or object.
+This sounds a bit dry, so another wording that may be clearer is
+by viewing encapsulation as the ability of a class to keep fields and methods
+that are of no interest to others.
+The best reason to shield certain parts of your class is to make your code easier to use. Classes use private fields to keep track of their state; how many lives do I have left, how fast can I move, et cetera. This information is not necessarily of interest to other code, but it is essential to the operation of the class. If everyone could just change the fields, the functioning of your class becomes a lot more unreliable and random: if you are the only one who can change the number of lives, you know exactly where in your code it can happen that your lives are set to 0. This advantage falls away if everyone can adjust the number of lives.
 ### External References
 
 + [Over private](https://softwareengineering.stackexchange.com/questions/143736/why-do-we-need-private-variables)

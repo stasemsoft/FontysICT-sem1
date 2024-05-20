@@ -1,18 +1,18 @@
-# Training: Method cijfers naar woorden
+# Training: Method numbers to words
 
-Maak een methode `CijfersNaarWoorden` die als parameter een `String` heeft en als returnwaarde ook een `String`.
+Create a method `FiguresToWords` that has as parameter a `String` and as return value also a `String`.
 
-Schrijf een programma die de tekst van de gebruiker oppakt en daar alle cijfers vervangt door woorden. Dus als de gebruiker
-
-```
-Ik ben 20 jaar
-```
-
-invoert dan is de uitvoer
+Write a program that picks up the user's text and replaces all digits there with words. So if the user
 
 ```
-Ik ben tweenul jaar.
+I am 20 years old
 ```
 
-Voorwaarden:
-+ De functionaliteit die één cijfer verandert moet in een aparte methode komen (en die methode mag GEEN interactie met een eventuele user interface hebben). Noem deze methode VeranderCijfer.
+then the output is
+
+```
+I am tweenul years.
+```
+
+Conditions:
++ The functionality that changes one digit must be in a separate method (and that method must NOT interact with any user interface). Call this method ChangeDigit.

@@ -1,72 +1,72 @@
-# Wat kan ik als ik 'objects' beheers?
+# What can I do if I master "objects"?
 
-## Toelichting Verdiepend niveau
+## Explanation Advanced level
 
-Je past de volgende programmeer-concepten toe en hebt voorbeelden waaruit blijkt dat je de volgende concepten beheerst:
+You apply the following programming concepts and have examples that demonstrate your mastery of the following concepts:
 
-Voor het verdiepend niveau geldt alles wat bij het oriënterende niveau gold met de volgende extra eisen:
+For the in-depth level, everything that applied to the exploratory level applies with the following additional requirements:
 
-Je past alle genoemde programmeerconcepten toe. De focus hierbij is op leesbare (b.v. naamgeving, indentation) en onderhoudbare software programma’s (dus alleen een programma dat werkt is niet goed genoeg).
+You apply all of the programming concepts listed. The focus here is on readable (e.g. naming, indentation) and maintainable software programs (so just a program that works is not good enough).
 
-Je maakt een ontwerp (CRC, class diagram) waarin de belangrijkste functionaliteit terug te vinden is.
+You create a design (CRC, class diagram) that reflects the most important functionality.
 
-Je vraagt feedback van een docent met software engineeringskennis en laat zien dat je deze feedback verwerkt hebt.
+You ask for feedback from a teacher with software engineering knowledge and show that you have incorporated this feedback.
 
-Concepten/Onderwerpen:
-(GEEN AFVINK-LIJST!)
+Concepts/Topics:
+(NOT A CHECKLIST!)
 
 1. objects / classes
 1. constructors
 1. encapsulation:
     + private fields
-    + get/set- method en/of property
+    + Get/set method and/or property
 1. method/constructor overloading
 1. *override ToString()*.
 1. CRC / class diagram
-1. Methods met (eigen) Classes als parameter of return value.
-1. Classes in samenhang: *relations* (tussen classes)
+1. Methods with (own) Classes as parameter or return value.
+1. Classes in conjunction: *relationships* (between classes).
     + Multiplicity.
-1. Scheiding GUI en Domain.
+1. Separation of GUI and Domain.
 
-Ook heb je de volgende vaardigheden laten zien en/of er aan gewerkt:
+You have also demonstrated and/or worked on the following skills:
 
-+ V1. Leesbaarheid / Onderhoudbaarheid
-    + Coding Guidelines gevolgd?
-    + commentaar in code.  
-    Soms handig, maar ga geen onnodig commentaar toevoegen!
-    Als een variable-, method- of class-name uitlegt nodig heeft,
-    probeer dan eerst of je een betere naam kunt verzinnen.  
-+ V2. Algoritmiek
-+ V3. Feedback gevraagd van docent, genoteerd, verwerkt.
-+ V4. Professioneel gecommuniceerd. Met name ben ik op tijd, meld ik me af bij docent als ik er een keer niet of te laat ben.  
++ V1. Readability/Maintainability.
+    + Coding Guidelines followed?
+    + Comments in code.  
+    Sometimes useful, but don't go adding unnecessary comments!
+    If a variable-, method- or class-name needs explanation,
+    try to come up with a better name first.  
++ V2. Algorithm
++ V3. Feedback requested from teacher, noted, processed.
++ V4. Communicated professionally. In particular, I am on time, report to instructor if I am absent or late one time.  
 
 
-Een "soort" checklist (niet-compleet) die kan helpen:
-+ Om concepten onder de knie te krijgen en ermee te oefenen heb je een aantal 'trainingen' gedaan.
-+ In de 'wedstrijd' laat je zien wat je kunt. In een wedstrijd-app, een voor de 'wedstrijd' gemaakte app(licatie), laat je zien dat je weet hoe meerdere concepten binnen een onderhoudbare app worden gebruikt. De onderstaande regels gaan over je wedstrijd-apps!
-+ Om jezelf en een docent te overtuigen dat je classes kunt maken heb je minstens 10 classes gemaakt, waarvan minstens 5 binnen 1 wedstrijd-app.
-+ Deze classes hebben methods, fields, properties, constructors
-+ In minstens 5 classes heb je een zinvolle 'override ToString()' toegevoegd.
+A "sort of" checklist (non-complete) that can help:
++ To master concepts and practice with them you have done some "training".
++ In the 'contest' you show what you can do. In a contest app, an app(lication) created for the 'contest', you show that you know how multiple concepts are used within a maintainable app. The rules below are about your competition apps!
++ To convince yourself and a teacher that you can create classes, you have created at least 10 classes, of which at least 5 are within 1 contest app.
++ These classes have methods, fields, properties, constructors, etc.
++ In at least 5 classes you have added a meaningful 'override ToString()'.
 
 ---
 
 <!--
-## Info voor docenten
-Hoi collega's,
+## Info for teachers
+Hi colleagues,
 
-Het zal je opgevallen zijn dat de klok op het einde vh startsemester aan gaat! Dit betekent dat er meestal op het einde een paar twijfelgevallen ontstaan. Schroom in dat geval niet om met een of meer van je Unit-collega's te overleggen. Het is een idee om vast samen met je Unitters vast ergens in tijd een uur(?) te plannen waarop je die twijfelgevallen bespreekt. Als het binnen de unit niet lukt laat het dan svp. weten, dan kijken we of we het over Units heen geregeld krijgen. Als er vragen zijn over de precieze leeruitkomsten of het niveau, neem dan contact met de opperhoofden op.
+You will have noticed that the clock comes on at the end of the starting semester! This means that there are usually a few cases of doubt at the end. In that case, don't hesitate to consult with one or more of your Unit colleagues. It is an idea to firmly schedule an hour(?) somewhere in time with your Unitters when you discuss those doubtful cases. If it doesn't work out within the Unit please let us know and we'll see if we can get it arranged across Units. If there are questions about exact learning outcomes or level, please contact the chiefs.
 
-Zoals bekend gaat het er niet om dat ze 'vinklijstjes' afwerken maar dat ze snappen wat ze aan het doen zijn, jou hier van overtuigd hebben, en liefst een behoorlijke brok aan evidence hebben, individueel danwel proftaak. Als iemand in de proftaak een fantastisch framework gebruikt heeft en beweert dat daardoor classes overbodig geworden zijn, laat ze dat dan vooral beargumenteren (schriftelijk in het verdiepingsverslag) en laat ze een indivuele challenge maken waarin ze laten zien dat ze classes wel beheersen: misschien ben je wel overtuigd!?
+As we know, it's not about 'tick lists' but rather that they understand what they are doing, have convinced you of this, and preferably have a decent chunk of evidence, either individual or proftask. If someone has used a fantastic framework in the pro task and claims that this has made classes obsolete, let them argue this (in writing in the in-depth report) and let them make an indiviual challenge in which they show that they have mastered classes: maybe you are convinced!?
 
-Zelfde wat betreft GUI: Veel tijd aan een GUI besteden (WinForms, Asp.NET, verzin het maar...) is helemaal niet erg: áls ze tenminste ook flink wat classes, instances, ctors,... hebben gemaakt die voldoen aan onze wensen. Dat laatste draait het immers om.
+The same concerning GUI: spending a lot of time on a GUI (WinForms, Asp.NET, you name it...) is not bad at all: as long as they have made a lot of classes, instances, ctors,... that meet our needs. After all, that is what it is all about.
 
-Puntje op de i: Design, specifiek class diagram: ze moeten er over nagedacht hebben, hoeft niet individueel, mag in proftaak, wordt vaak achteraf gedaan (bespreek dan wat ze anders zouden doen, achteraf gezien), hoeft NIET formaal UML Class Diagram, maar wel graag consequent, het gaat erom dat ze (idealiter van te voren) nadenken over het probleem en niet spreekwoordelijk beginnen te 'debuggen met de lege file', wel hopelijk met docent besproken en feedback verwerkt!
+Dot on the i: Design, specific class diagram: they must have thought about it, does not have to be done individually, can be done in proftask, is often done afterwards (discuss what they would do differently, in hindsight), does NOT have to be a formal UML Class Diagram, but like to be consistent, it is about them (ideally in advance) thinking about the problem and not proverbially starting to 'debug with the empty file', hopefully discussed with teacher and feedback processed!
 
-Vraag ook naar de leercurve!
+Also ask about the learning curve!
 
-Voorbeeld: Bij een MBO Applicatie-ontwikkelaar die aangeeft dat ie alles al wist, niks nieuws heeft geleerd, kun je vertellen dat je het jammer vindt dat ie niet de kans heeft gegrepen iets nieuws te leren. Vraag vooral ook waarom niet.
+Example: With an MBO Application developer who indicates that he already knew everything, has not learned anything new, you can tell him that you regret that he has not seized the opportunity to learn something new. Above all, ask why not.
 
-Ander voorbeeld: iemand die nog nooit geprogrammeerd heeft, aangeeft dat ie pas vrij laat snapte hoe dat zat met bv. class vs. instance, of met encapsulation of constructors, maar wel een paar opdrachten laat zien en uitlegt heeft misschien wel superveel geleerd! (ook al is misschien niet alles comme-il-faut).    
+Another example: someone who has never programmed before, indicates that it took him quite a while to understand how things worked with class vs. instance, or with encapsulation or constructors, but shows and explains a few assignments, may have learned a lot! (Even though maybe not everything is comme-il-faut).    
 
-succes bij de afrondingen!
+good luck with the completions!
 -->

@@ -1,23 +1,23 @@
-# Training - Emmer vol laten lopen
+# Training - Filling a bucket
 
-Maak gebruik van de herhalingsstructuur **while** om een emmer te vullen door herhalend een beker water erin te doen totdat ie vol is. Visualiseer de emmer met een meegeleverde custom control **VerticalProgressBar** (zie Bronnen)**.** Deze class kan je gewoon toevoegen aan je Project via RMB op je Project > Add > Existing Item of door het bestand te slepen in je project (+ moet verschijnen tijdens slepen). Als je daarna je Project Build vind je de control in je ToolBox.
+Use the repetition structure **while** to fill a bucket by repeatedly adding a cup of water until it is full. Visualize the bucket with an included custom control **VerticalProgressBar** (see Resources)**.** You can simply add this class to your Project via RMB on your Project > Add > Existing Item or by dragging the file into your project (+ must appear while dragging). Then when you Build your Project you will find the control in your ToolBox.
 
-De gebruiker kan instellen hoe groot de emmer (in liters) is en hoe groot de beker (in centiliter) is.
+The user can set how big the bucket is (in liters) and how big the cup is (in centiliters).
 
 ![Userinterface](figures/Emmer-vol-laten-lopen-ui.png)
 
-Tip: Om ervoor te zorgen dat de emmer niet meteen vol is (doordat de computer te snel de lus uitvoert) én om de UI te updaten tijdens het uitvoeren van de lus, plaats onderstaande code **in** de lus structuur:
+Tip: To ensure that the bucket is not immediately full (due to the computer executing the loop too quickly) as well as to update the UI while executing the loop, place the following code **in** the loop structure:
 
 ```csharp
-Thread.Sleep(100); //doe niks voor 100 ms
+Thread.Sleep(100); //don't do anything for 100 ms
 Application.DoEvents(); //update UI
 ```
 
-Plaats nog wel even de volgende regel bovenin bij de overige using’s om de **Thread** class te kunnen gebruiken:
+Just be sure to place the following line at the top of the other using's to use the **Thread** class:
 
 ```csharp
 using System.Threading;
 ```
 
-## Bronnen
-- [Vertical Progressbar](https://www.codeproject.com/Articles/8422/Vertical-ProgressBar)
+## Resources.
+- Vertical Progress Bar](https://www.codeproject.com/Articles/8422/Vertical-ProgressBar)

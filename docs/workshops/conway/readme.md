@@ -3,44 +3,44 @@
 ![](figures/1g3_o_02.gif "example")
 
 
-Kijk ter introductie de uitleg wat the Game of Life is:
+As an introduction, watch the explanation of what the Game of Life is:
 [https://www.youtube.com/watch?v=ouipbDkwHWA](https://www.youtube.com/watch?v=ouipbDkwHWA)
 
-Professor John Conway, de ontwikkelaar van de Game of Life, is in april 2020 gestorven aan Covid-19.
+Professor John Conway, developer of the Game of Life, died of Covid-19 in April 2020.
 
-Hoewel de regels heel simpel zijn kun je er complexe dingen mee bouwen.
+Although the rules are very simple, you can build complex things with it.
 
 ![](figures/Galaxy_Conways_Game_of_Life.gif "galaxy")
 
-Als je echt los wilt gaan kan dat natuurlijk.
+If you really want to go wild, of course you can.
 
 ![](figures/Conway_Game_of_Life_Trefoil_Knot.gif "knot")
 
-In de workshop kijken we naar een simpele variant:
-1-dimensionaal.
 
-De omschrijving:
+In the workshop we look at a simple variation:
+1-dimensional.
+
+The description:
 `The evolution rule is based on a five-cell neighborhood, YYXYY, where the next generation of the center cell X depends on its own state and those of the four Y cells. The rule is: (1) a cell is born if it has 2 or 3 Y-neighbors alive, and (2) a living cell survives if it has 2 or 4 Y-neighbors.`
 
-Gegeven een array of string van bits kunnen we een volgende generatie berekenen.
+Given an array or string of bits, we can calculate a next generation.
 
-Regels:
-- buren: 2 cellen links en 2 rechts van huidige positie.
-- 0 wordt 1 als er 2 of 3 buren 1 zijn, blijft 0 anders.
-- 1 blijft 1 als er 2 of 4 buren 1 zijn, wordt 0 anders.
+Rules:
+- neighbors: 2 cells to the left and 2 to the right of current position.
+- 0 becomes 1 if there are 2 or 3 neighbors 1, remains 0 otherwise.
+- 1 remains 1 if 2 or 4 neighbors are 1, 0 becomes different.
 
 
-Beginnend met de string:
+Starting with the string:
+'000000010111111000000', the next generations are: 
 
-'000000010111111000000', krijgen we als volgende generatie:
+'000000001001101100000', after that:
 
-'000000001001101100000', daarna wordt het:
+'000000000110101010000', than
 
-'000000000110101010000', dan
+'000000001011111100000' and so on. 
 
-'000000001011111100000' en zo voort.
-
-Het ziet er wat leuker uit als je bijvoorbeeld met spatie en 'X' werkt:
+It looks a little nicer if you work with space and "X," for example:
 
 "       X XXXXXX      "
 
@@ -62,17 +62,17 @@ Het ziet er wat leuker uit als je bijvoorbeeld met spatie en 'X' werkt:
 
 "          X XXXXXX   "
 
-Je ziet dat hier een opschuivend maar herhalend patroon in ontstaat.
+You can see that there is a shifting but repeating pattern in this.
 
 
-## De opdracht
-Maak een programma dat gegeven een input de volgende generaties berekent en die onder elkaar op het scherm zet, zoals hierboven gebeurde.
+## The assignment
+Create a program that given an input calculates the next generations and puts them on the screen one below the other, as happened above.
 
 
-Als dat gelukt is en je hebt de smaak te pakken kun je proberen een eigen variatie te verzinnen op de regels, of je gaat voor de 'echte' Game of Life met een 2d array!
+Once that's done and you've got the hang of it, you can try making up your own variation on the rules, or you can go for the "real" Game of Life with a 2d array!
 
 
-## Bronnen
+## Resources
 
 + [video](https://www.youtube.com/watch?v=C2vgICfQawE)
 

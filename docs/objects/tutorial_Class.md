@@ -1,36 +1,26 @@
-# Hoe programmeer je met objecten?
+# How do you program with objects?
 
-## Aan de hand van Hero tegen Monsters
+## Using Hero against Monsters
 
-Hoe groter software wordt, hoe tijdrovender het  testen en onderhouden.
-Daarom wordt in de softwarewereld gezocht naar manieren om programma's onderhoudbaar te maken.
-Een van de meer succesvolle manieren is het werken met *objecten*.
-Een team dat een Computer Game maakt over een *hero* (held)
-die tegen *monsters* vecht
-zal liefst op één plek willen programmeren wat de eigenschappen
-van de hero  zijn
-en ook wat een monster is en wat je aan het monster kunt vragen.
+The bigger software gets, the more time-consuming the testing and maintenance.
+Therefore, the software world is looking for ways to make programs maintainable.
+One of the more successful ways is to work with *objects*.
+A team creating a Computer Game about a *hero* (hero)
+who fights *monsters*
+will preferably want to program in one place what the properties
+of the hero
+as well as what a monster is and what you can ask the monster to do.
 
 ![fig:MonsterGame](figures/MonsterGame.png "MonsterGame")
 
-
-Als er 2 monsters zijn worden er 2 *objecten* gemaakt,
-als er 8 monsters zijn worden er 8 *objecten* gemaakt.
-Elk van deze objecten representeert 1 monster.
-De eigenschappen en het gedrag van een monster wordt geprogrammeerd in
-een stuk van het programma dat we een `Class`
-(klasse) noemen en dat (in dit voorbeeld)
-de naam **Monster** krijgt.
-Voorbeeld in C# (hoe je dit in Visual Studio kunt doen komt een stukje verder):
-
-```cs
-class Monster {
-      ...
-}
-```
-
-waarbij op de plaats van de puntjes de code voor deze `class` komt.
-Voorbeeld in Java:
+If there are 2 samples, 2 *objects* are created,
+if there are 8 samples, 8 *objects* are created.
+Each of these objects represents 1 sample.
+The properties and behavior of a sample is programmed into
+a piece of the program that we call a `Class`
+(class) and which (in this example)
+is given the name **Monster**.
+Example in C# (how to do this in Visual Studio comes a bit further):
 
 ```cs
 class Monster {
@@ -38,7 +28,8 @@ class Monster {
 }
 ```
 
-Voorbeeld in Swift:
+where in the place of the dots comes the code for this `class`.
+Example in Java:
 
 ```cs
 class Monster {
@@ -46,51 +37,60 @@ class Monster {
 }
 ```
 
-Inderdaad, deze voorbeelden zijn hetzelfde.
-Je zult merken dat er echt wel verschillen zijn hoe je in de ene of de andere taal een `class` noteert, maar in welke taal je ook zit:
-*welke* `classes` je aanmaakt blijft hetzelfde!
+Sample in Swift:
 
-<p class="note">In veel programmeertalen is afgesproken dat de naam van een `class` met een hoofdletter begint.</p>
-Software Engineers bedenken in het begin van een project
-welke `objecten` er nodig zijn en daaruit volgt
-welke `classes` er geprogrammeerd gaan worden.
-Dit kun je grotendeels bedenken zonder te weten in welke taal
-de software gebouwd gaat worden.
-Je kunt dat enigszins vergelijken met het bouwen van een huis:
-Waar de muren, ramen en deuren komen (de structuur) kun je tot zekere hoogte
-bedenken en tekenen zonder te weten of het huis met bakstenen,
-van beton of van hout gebouwd gaat worden.
-Een `object` kan bepaalde eigenschappen hebben.
-Zo zal elk Monster in eerste instantie helemaal gezond zijn.
-Als de *hero* hem aanvalt zal het *monster*
-moe worden of gewond raken en
-uiteindelijk wellicht bezwijken.
+```cs
+class Monster {
+      ...
+}
+```
+
+Indeed, these examples are the same.
+You'll find that there really are differences in how you note a `class` in one language or another, but whatever language you're in:
+*whatever* `classes` you create remain the same!
+
+<p class="note">In many programming languages, it is agreed that the name of a `class` begins with a capital letter.</p>
+Software Engineers figure out in the beginning of a project
+what `objects` are needed and from that follows
+which `classes` are going to be programmed.
+You can largely figure this out without knowing what language
+the software will be built.
+You can compare this somewhat with building a house:
+Where the walls, windows and doors come (the structure) you can to some extent
+imagine and draw without knowing whether the house will be built with bricks,
+concrete or wood.
+An `object` can have certain properties.
+For example, each Monster will initially be completely healthy.
+If the *hero* attacks it, the *monster* will
+get tired or injured and
+eventually may succumb.
+
 
 ![class Monster](figures/ClassMonster.png "Class Monster")
 
 
-### Hoe maak ik een class aan in Visual Studio?
+### How do I create a class in Visual Studio?
 
-Klik met rechtermuisknop op het project en kies `Add Item`,
-kies daarna een `class`. Onderin het scherm kun je de gewenste
-`class name` aangeven (`file name` is `class name` met
-`extensie` *.cs*) en dan op de *OK*-knop.
+Right-click on the project and choose `Add Item`,
+then choose a `class`. At the bottom of the screen you can specify the desired
+`class name` (`file name` is `class name` with
+`extension` *.cs*) and then click the *OK* button.
 
-In veel programmeertalen is het gebruikelijk om elke `class` in een eigen file
-te programmeren. 
+In many programming languages it is common to program each `class` in its own file
+programming.
 
 
-## Gezondheid
+## Health
 
-In dit spel kunnen we dat realiseren
-door het monster *hitPoints* te geven:
-Voor een pas *aangemaakt* monster staat dit op 100,
-bij verwondingen wordt dit gehele getal steeds kleiner,
-bij 0 valt het monster verslagen neer.
-Een waarde als *hitPoints* die elk `object`
-van een bepaald `type` met zich meedraagt
-noemen we een `Field`
-We maken hiertoe in Monster een `field` *levenspunten* aan.
+In this game, we can accomplish that
+by giving the monster *hitPoints*:
+For a newly *created* monster, this stands at 100,
+with injuries, this integer gets smaller and smaller,
+at 0 the monster falls down defeated.
+A value like *hitPoints* that each `object`
+of a certain `type` carries with it
+we call a `Field`.
+For this purpose, we create a `field` *lifepoints* in Monster.
 
 ```cs
 class Monster {
@@ -98,50 +98,52 @@ class Monster {
 }
 ```
 
-Hiermee is bepaald dat **elk** monster *hitPoints* heeft.
-De waarde van dat getal kan per *monster object* verschillen:
-*Monster 1*  kan nog op 100 staan terwijl *monster 2* misschien
-nog maar 13 over heeft.
+This determines that **every** monster has *hitPoints*.
+The value of that number may vary from one *monster object* to another:
+*monster 1* may still be at 100 while *monster 2* may have
+has only 13 left.
 
-De code die in een `class` staat wordt gedeeld met alle `objecten`
-van die `class` (meestal zeggen we: alle `objecten` van dat `type`,
-want een `class` is een manier om een `type` te definiëren).
-Om een `object` van `class` *Monster* aan te maken:
-C# of Java:
+The code contained in a `class` is shared with all the `objects`
+of that `class` (usually we say all `objects` of that `type`,
+because a `class` is a way of defining a `type`).
+To create an `object` of `class` *Monster*:
+C# or Java:
 
 ```cs
 new Monster()
 ```
 
-(we zeggen dan ook wel dat er gebruik gemaakt wordt van de *new* `operator`)
-Hiermee wordt ergens in het geheugen een `object`
-van `type` *Monster* aangemaakt, we hebben echter géén manier
-om naar dat `object` te *verwijzen* (*refereren*).
-Vergelijk het met een ballon met gas: zolang je
-het touwtje hebt (de referentie naar de balon) kun je bij de ballon,
-maar als je het touwtje loslaat kun je niet meer bij de ballon komen.
-Zo'n *referentie* kunnen we opslaan in een `Field`
-(ook wel een variabele genoemd)
-en dat `Field` moet ergens in een `class` zitten:
-We maken hiervoor een *Game*-`object` aan dat
-de referenties naar alle *heroes* en *monsters* bevat.
-De code van het *Game* `object` komt in de `class` Game te staan.
+(we then say it uses the *new* `operator`)
+This creates an `object` somewhere in memory
+of `type` *Monster* is created somewhere in memory, however we have no way of
+to *reference* that `object`.
+Compare it to a balloon filled with gas: as long as you
+have the string (the reference to the balloon) you can reach the balloon,
+but if you let go of the string you can no longer reach the balloon.
+We can store such a *reference* in a `Field`
+(also called a variable)
+and that `Field` must be somewhere in a `class`:
+To do this, we create a *Game* `object` that contains
+contains the references to all the *heroes* and *monsters*.
+The code of the *Game* `object` will be in the `class` Game.
+
 
 ![](figures/ClassDiagram_A.png "Schematische weergave")
 
 ![](figures/ClassDiagram_B.png "Iets handigere schematische weergave")
-In `class` Hero is een `Field`
+
+In `class` Hero is a `Field`
 
 ```cs
 int numberDefeatedMonsters = 0;
 ```
-aangemaakt. De held wil namelijk graag dat de hele wereld weet hoeveel
-monsters er door hem/haar verslagen zijn.
-De `Class` *Game* heeft referenties naar 1 *hero* en
-2 monsters (*monster 1* en *monster 2*) en aan het ervoor vermelde
-`type` (dat zijn de `class` namen) kun je zien dat
-de *hero* zich gedraagt zoals in `class` 'Hero' geprogrammeerd is,
-terwijl de beide monsters zich gedragen volgens de code in `class` Monster.
+created. This is because the hero would like the whole world to know how many
+monsters have been defeated by him/her.
+The `Class` *Game* has references to 1 *hero* and
+2 monsters (*monster 1* and *monster 2*) and to the before mentioned
+`type` (those are the `class` names) you can tell that
+the *hero* behaves as programmed in `class` 'Hero',
+while both monsters behave according to the code in `class` Monster.
 
 ```cs
 public Game()
@@ -153,22 +155,22 @@ public Game()
 ```
 
 ## Attack
-Onze *hero* staat te popelen om een monster te gaan aanvallen.
-Hiervoor gaan we *gedrag* in de `class` *Hero* programmeren:
+Our *hero* is eager to start attacking a monster.
+For this we are going to program *behavior* into the `class` *Hero*:
 
-Dit wil zeggen dat je op een `object` van `type` *Hero*
-een *method* kunt aanroepen die *Attack* heet.
-Verder vertel je **welk** monster aangevallen wordt en
-hoeveel *schade* (*damage*)
-hierbij toegebracht wordt aan het monster (dus hoeveel er van de
-*hitPoints* punten van het monster af gaan).
-Als de method *Attack* op een *Held* `object` aangeroepen wordt
-wordt de code van die methode uitgevoerd.
+That is, on an `object` of `type` *Hero* you can
+can call a *method* called *Attack*.
+Furthermore, you tell **which** monster is being attacked and
+How much *damage* (*damage*)
+damage is inflicted on the monster (i.e. how much of the
+*hitPoints* points are taken from the monster).
+When the *Attack* method is called on a *Held* `object
+the code of that method is executed.
 
-De held roept dan van het tussen haakjes genoemde monster de method *LooseHealth*
-aan. Nu gaan we coderen hoe die method
-er uit kan zien: daartoe programmeren we de method
-*Attack* in de `class` *Hero* 
+The hero then calls the method *LooseHealth* from the bracketed monster.
+method. Now we will code what that method
+method can look like: for this purpose, we program the method
+*Attack* in the `class` *Hero*.
 
 ```cs
 void Attack(Monster monster, int damage)
@@ -177,22 +179,22 @@ void Attack(Monster monster, int damage)
 }
 ```
 
-ofwel: als op een `object` van type *Hero* (want in die class staat deze code)
-de method *Attack* wordt aangeroepen (met als parameters tussen haakjes
-aangegeven **welk** monster en hoeveel damage)
-roept die de method *LooseHealth*
-aan van het aangegeven monster. De binnengekomen info
-over hoeveelheid *damage* wordt doorgegeven. 
-In de method worden 2 zogenaamde parameters gebruikt, namelijk
-*monster* van het `type` *Monster* en
-*damage* van het `type` *int* (tussen haakjes te vinden na
-de methode naam).
-Het woord `void` wil zeggen dat er geen waarde wordt teruggegeven door de methode,
-Er kan ook in plaats van `void` een zogenaamd `return type` staan dat aangeeft
-wat voor soort waarde er terug gegeven wordt.
+or: if on an `object` of type *Hero* (because that class contains this code)
+the *Attack* method is called (with as parameters in brackets
+indicated in parentheses **which** monster and how much damage)
+it calls the method *LooseHealth*
+method of the specified monster. The incoming info
+about the amount of *damage* is passed on.
+In the method 2 so-called parameters are used, namely
+*sample* of the `type` *Sample* and
+*damage* of the `type` *int* (to be found between brackets after
+the method name).
+The word `void` means that no value is returned by the method,
+There may also be instead of `void` a so-called `return type` indicating
+what kind of value is returned.
 
-In `class` *Monster* moet vervolgens de `method` *LooseHealth*
-gecodeerd worden:
+In `class` *Monster*, the `method` *LooseHealth* must then be
+must then be encoded:
 
 ```cs
 void LooseHealth(int damage)
@@ -201,63 +203,61 @@ void LooseHealth(int damage)
 }
 ```
 
-Uitleg:
-- Wederom begint het met *void* omdat de methode niks teruggeeft.
-- Dan de methodenaam *LooseHealth*.
-- Tussen de haakjes de ene parameter, genaamd *damage* en van type *int*.
-- Tussen de accolades of *curly brackets* ('{' en '}') staat een assignment:
-  - Een assignment is te herkennen aan het =-teken (spreek uit als **wordt**).
-  - Rechts van de = staat een *expressie*, zeg maar een berekening, die uitgerekend (geëvalueerd) wordt. In dit geval: `this.hitPoints - damage`.
-  - Het woord *this* geeft aan dat er iets gedaan wordt met het *object* waar we nu 'in' zitten: het specifieke monster dus dat werd aangevallen en dat dus als parameter aan method *Attack* werd meegegeven. In methode *Attack* zie je dat van *DAT* specifieke monster de methode *LooseHealth* wordt aangeroepen.
-  - *Evaluatie* (berekening) van *this.hitPoints* geeft het *hitPoints*-getal van dat monster.
-  - De '`- damage`' zorgt dat de meegegeven waarde van de parameter hier vanaf getrokken wordt.
-  - De waarde van *this.hitPoints* (links van de =) wordt de uitkomst van de berekening.
+Explanation:
+- Again, it starts with *void* because the method returns nothing.
+- Then the method name *LooseHealth*.
+- Between the brackets the one parameter, called *damage* and of type *int*.
+- Between the curly brackets or *curly brackets* ('{' and '}') is an assignment:
+  - An assignment is identified by the = sign (pronounced **wordt**).
+  - To the right of the = is an *expression*, say a calculation, which is computed (evaluated). In this case, `this.hitPoints - damage`.
+  - The word *this* indicates that something is being done to the *object* we are now 'in': i.e., the specific monster that was attacked and thus passed as a parameter to method *Attack*. In method *Attack* you see that from * THAT* specific monster the method *LooseHealth* is called.
+  - *Evaluation* (calculation) of *this.hitPoints* gives the *hitPoints* number of that monster.
+  - The `- damage`' causes the given value of the parameter to be subtracted from this.
+  - The value of *this.hitPoints* (to the left of the =) becomes the result of the calculation.
 
 
-### Constructie van een object
-Net zoals we bij een methode aanvullende informatie mee kunnen
-geven in de vorm van `parameters` kunnen we dat bij het aanmaken
-van een nieuw `object` ook. Hiertoe gebruiken we een `constructor`:
-Een `constructor` ziet er ongeveer uit als een methode:
+### Construction of an object
+Just as we can give additional information in the form of
+in the form of `parameters` we can do the same when creating a new
+of a new `object`. To do so, we use a `constructor`:
+A `constructor` looks something like a method:
 
 ```cs
-Monster(int initialHealth)
+Sample(int initialHealth)
 {
   this.hitPoints = initialHealth;
 }
 ```
 
-Een `constructor` herken je alsvolgt:
-- De constructor lijkt heel erg op een normale methode, maar...
-- Er wordt geen `return-type` (of `void`) vermeld.
-- De naam (*Monster* in dit geval) is gelijk aan de naam van de `class`.
+A `constructor` can be recognized as follows:
+- The constructor looks very much like a normal method, but....
+- No `return-type` (or `void`) is specified.
+- The name (*Monster* in this case) is the same as the name of the `class`.
 
 ### Constructor in Visual Studio
 
-Je kunt natuurlijk de code hierboven zelf intypen (tussen de accolades van de `class`)
-maar als je op die plek intypt *ctor* en dan 2x op *tab* drukt
-doet Visual Studio een deel van het werk voor je.
-Als we nu `new Monster(125)` aanroepen vanuit code wordt er een object
-van type *Monster* geconstrueerd en daarvoor staat na constructie
-de *hitPoints*-waarde op het meegegeven getal, 125 dus in dit geval.
-Bij een `constructor` kunnen (net als bij een *normale* methode) ook
-meerdere parameters meegegeven worden.
+You can, of course, type the code above yourself (between the braces of the `class`)
+but if you type *ctor* in that spot and then press *tab* twice
+Visual Studio does some of the work for you.
+Now if we call `new Monster(125)` from code an object
+of type *Monster* is constructed and in front of it, after construction
+the *hitPoints* value is set to the given number, 125 in this case.
+With a `constructor` (just like with a *normal* method) you can also include
+multiple parameters.
 
+## What do we have now?
 
+We have now established a basis for a game in which a *hero* can attack *monsters*.
 
-## Wat hebben we nu?
+### To get it working
 
-We hebben nu een basis neergezet voor een spel waarin een *hero* *monsters* kan aanvallen.
+We'll explain why later, but just remember that we make every *Field* `private`.
+`Methods` and `classes` may be `private`.
 
-### Om het werkend te krijgen
+### Code so far
 
-Later wordt nog uitgelegd waarom, maar onthoudt vast dat we elk *Field* `private` maken.
-`Methods` en `classes` mogen `public` zijn.
-
-### Code tot nu toe
-
-Voor de volledigheid volgt nu de code van de classes zoals die tot hier beschreven is.
-Allereerst de `class` *Game*
+For completeness, here is the code of the classes as described up to here.
+First the `class` *Game*.
 
 ```cs
 namespace HereComeTheMonsters
@@ -274,7 +274,7 @@ namespace HereComeTheMonsters
 }
 ```
 
-dan `class` *Hero*
+then `class` *Hero*
 ```cs
 namespace HereComeTheMonsters
 {
@@ -295,7 +295,7 @@ namespace HereComeTheMonsters
 }
 ```
 
-en tot slot `class` *Monster*
+and finally `class` *Monster*
 
 ```cs
 namespace HereComeTheMonsters

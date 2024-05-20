@@ -2,97 +2,98 @@
 
 <img style="float: left; padding-right: 10px;" width="150" src="https://stasemsoft.github.io/softwarematerial/docs/personas/figures/bas-small.png">
 
-Waar 'Bas' staat mag naar eigen behoefte ook 'Barbara' gelezen worden en waar 'hij' staat mag ook 'zij' gelezen worden.
+Where "Bas" appears may also read "Barbara" as needed, and where "he" appears may also read "she.
 
-Bas heeft nog niet (of bijna niet) geprogrammeerd.
+Bas has not yet (or almost not) programmed.
 
-Hieronder een aantal fasen of stappen die je zou kunnen  doorlopen. Een Stap zou ongeveer 1 dag werk kunnen zijn voor een gemiddelde student.
+Below are some stages or steps that you could go through. One Step could be about 1 day's work for an average student.
 
 ---
 
-## Stap 1
-Als je deze vragen kunt beantwoorden ben je klaar met Stap 1:
+## Step 1
+If you can answer these questions you are done with Step 1:
 
--   [Vraag: Wat zijn de basisconstructies van programmeren?](../basic/#variabelen-assignment-typen-debugger-eerste-stapjes-in-c)
--   [variabelen / variables](../basic/#variabelen-assignment-typen-debugger-eerste-stapjes-in-c)
--   [Types zoals int, Double, Boolean](../basic/#variabelen-assignment-typen-debugger-eerste-stapjes-in-c)
--   [Type conversie/conversion (zoals Convert.ToString())](../basic/#variabelen-assignment-typen-debugger-eerste-stapjes-in-c)
--   [Wat is een project in programmeertermen?](../process/infoVisualStudioInstallatie)
--   [Wat is een statement?](../process/infoVisualStudioInstallatie)
--   [Wat is een conditioneel statement en waarvoor gebruik ik het?](../basic/#conditioneel)
+-   [Question: What are the basic constructs of programming?](../basic/#variabelen-assignment-typen-debugger-eerste-stapjes-in-c)
+-   [variables](../basic/#variabelen-assignment-typen-debugger-eerste-stapjes-in-c)
+-   [Types like int, Double, Boolean](../basic/#variabelen-assignment-typen-debugger-eerste-stapjes-in-c)
+-   [Type conversion (like Convert.ToString())](../basic/#variabelen-assignment-typen-debugger-eerste-stapjes-in-c)
+-   [What is a project in programming terms?](../process/infoVisualStudioInstallatie)
+-   [What is a statement?](../process/infoVisualStudioInstallatie)
+-   [What is a conditional statement and what do I use it for?](../basic/#conditioneel)
+
 
 Kies een opdracht om te maken. Als dat moeilijk is raden we aan er meer uit die categorie te maken:
 
 + [Training goeroe-calc](../basic/var/training_GoeroeCalc)
-+ [Training Software baas](../basic/var/training_softwareBaas)
-+ [Training Computerrekenen](../basic/var/training_ComputerRekenen)
++ [Training Software boss](../basic/var/training_softwareBaas)
++ [Training ComputerCalc](../basic/var/training_ComputerRekenen)
 
 
 
-Deze opdrachten vind je in de [Toolkit basis](../basic) in de categorieën 'Variabelen, assignment, typen, debugger: eerste stapjes in C#'. Ook in categorie 'Conditioneel' staan relevante opdrachten, zoals:
+You can find these assignments in the [Toolkit basics](../basic) in the categories 'Variables, assignment, typing, debugger: first steps in C#'. Also in category 'Conditional' are relevant assignments, such as:
 
 + [Training EuroDollarConvertor](../basic/var/training_Euro-Dollar-Converter)
-+ [Training CalorieënTracker](../basic/conditioneel/Calorieen-tracker)
++ [Training CalorieTracker](../basic/conditioneel/Calorieen-tracker)
 
 
-Praat regelmatig met je docent! Dat is degene die uiteindelijk bepaalt of hij/zij/ie overtuigd is van je kunnen. 
-
----
-
-
-## Stap 2
-
--   Wat is een herhalingsstructuur/loop, welke zijn er (in C#), en waarvoor gebruik ik die?
-
-Ook hierover vind je opdrachten in de  [Toolkit basis](../basic/#lus--loop--herhaling):
-+ [Training Worpengenerator](../basic/lussen/training_Worpengenerator)
-
-
-Praat regelmatig met je docent! Dat is degene die uiteindelijk bepaalt of hij/zij/ie overtuigd is van je kunnen. (bij de volgende stappen wordt dit niet meer elke keer genoemd, maar blijf het doen). 
+Talk to your teacher regularly! That is the one who ultimately determines whether he/she/it is convinced of your ability.
 
 ---
 
-## Stap 3
 
--   Wat is een method, hoe werk ik met returnvalues en hoe kan ik parameters gebruiken?
+## Step 2
 
-Ook hierover vind je opdrachten in de  [Toolkit basis](../basic/#method-zelf-maken-en-aanroepen):
+- What is a repeating structure/loop, which ones are there (in C#), and what do I use them for?
 
-+ [Training Bloeddruk](../basic/methoden/training_Bloeddruk)
-+ [Training MaalDrie](../basic/methoden/training_MethodMaaldrie)
+You will also find assignments on this in the  [Toolkit basics](../basic/#lus--loop--herhaling):
++ [Training Dice generator](../basic/lussen/training_Worpengenerator)
+
+
+Talk to your teacher regularly! That is the one who ultimately determines whether he/she/it is convinced of your ability. (The next steps won't mention this every time, but keep doing it).
+
+---
+
+## Step 3
+
+- What is a method, how to work with returnvalues and how to use parameters?
+
+Also about this you find commands in the  [Toolkit basics](../basic/#method-zelf-maken-en-aanroepen):
+
++ [Training Blood pressure](../basic/methoden/training_Bloeddruk)
++ [Training Times Three](../basic/methoden/training_MethodMaaldrie)
 + [Training Ampere](../basic/methoden/training_MethodAmpere)
 
 ---
 
-## Stap 4
+## Step 4
 
--   Methods (herhaling/uitbreiding)
--   Wat kan ik met Collections (met name List en Array in C#)?
+- Methods (repetition/expansion).
+- What can I do with Collections (especially List and Array in C#)?
 
-Ook hierover vind je opdrachten in de  [Toolkit basis](../basic/#collectie-list-array):
+You will also find commands about this in the  [Toolkit basics](../basic/#collectie-list-array):
 
 
-+ [Training Televisie](../basic/collecties/Televisie) 
-+ [Training Christmas-tree-generator (moeilijk)](../basic/lussen/training_Christmas-tree-generator)
++ [Training Television](../basic/collecties/Televisie) 
++ [Training Christmas-tree-generator (hard)](../basic/lussen/training_Christmas-tree-generator)
 
 ---
 
-## Stap 5
+## Step 5
 
-+ Vanaf nu blijf ik methods gebruiken.
-+ Loops / herhaling algo: project-Euler?
++ From now on I keep using methods.
++ Loops / repetition algo: project-Euler?
 
-Ook hierover vind je opdrachten in de  [Toolkit basis](../basic/#method-zelf-maken-en-aanroepen):
+You can also find commands about this in the  [Toolkit basics](../basic/#method-zelf-maken-en-aanroepen):
 
 + [Training method marathon](../basic/methoden/training_methodmarathon)
 
 
 ---
 
-## Stap 6: Wedstrijd
-+ Combineer verschillende zaken in grotere apps (dat noemen we een ***Wedstrijd***-app).
-+ Probeer ook eens voordat je begint met coderen om op te schrijven WAT een app moet gaan doen en HOE. Het antwoord op de de **Wat**-vraag nooemen we Analyse, het antwoord op de **Hoe**-vraag is het (technisch) design of ontwerp. 
+## Step 6: Contest
++ Combine different things into bigger apps (that's what we call a ***Match*** app).
++ Also, before you start coding, try writing down WHAT an app should do and HOW. The answer to the **What** question we call Analysis, the answer to the **How** question is the (technical) design or design.
 
-In de  [Toolkit basis](../basic) staan (onder andere in categorie 
-['Integrale Opdrachten'](../basic/#integrale-opdrachten)
-, maar ook bij ['Vingeroefening, Training, Challenge'](../basic/#vingeroefening-training-challenge) ) ideeën voor wedstrijd-apps. Ook mag je zelf wat verzinnen! Het gaat er om dat je grotere apps maakt waarin je veelvuldig methods maakt, loops gebruikt, collecties, ... , hoe meer hoe beter!!  Succes en veel plezier.
+The [Toolkit basic](../basic) contains (among others in category
+['Integral Assignments'](../basic/#integral-assignments))
+, as well as at ['Finger Exercise, Training, Challenge'](../basic/#finger exercise-training-challenge) ) ideas for competition apps. You are also welcome to come up with your own! The point is to make bigger apps where you make frequent methods, use loops, collections, ... , the more the better!!!  Good luck and have fun.

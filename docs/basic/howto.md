@@ -1,5 +1,5 @@
 <!-- TRANSLATED by md-translate -->
-# How To ...  (problem oriented)
+# How To ... (problem oriented)
 
 How can I open from one Form in a WinForm app with multiple Forms?
 The answer to these and many more questions:
@@ -23,7 +23,7 @@ static void Main()
 where "MyMainForm" is the name of your Form. When you start your app, a form will be created with the new MyMainForm. From this form, you can create the mainform itself. Then create a different form and invoke the method "ShowDialog":
 
 ```cs
-this.hide();  
+this.hide();
    SecondForm otherForm = new SecondForm();
    otherForm.ShowDialog();
 ```

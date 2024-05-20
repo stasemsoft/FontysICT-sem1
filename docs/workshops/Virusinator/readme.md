@@ -1,8 +1,8 @@
 # Virusinator
 
-Opzet voor een C#-programma voor het modelleren van een virusuitbraak. Demo gegeven op 2jun2020.
-In de opname nog enkele mogelijkheden aangegeven voor uitbreiding.
+Setup for a C# program for modeling a virus outbreak. Demo given on 2jun2020.
+Some more possibilities for extension indicated in the recording.
 
 
-Voorbeeldcode / mogelijke uitwerking:
+Sample code/possible elaboration:
 [het resultaat: Virusinator.zip](Virusinator.zip)

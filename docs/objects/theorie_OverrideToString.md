@@ -1,47 +1,47 @@
 # override ToString()
 
 ```cs
-class Persoon {
+class Person {
 
    // Field
-   private string naam;
+   private string name;
 
    // Property
-   public string Naam
+   public string Name
    {
-      get { return this.naam; }
+      get { return this.name; }
    }
 
    // ctor
-   public Persoon(string naam)  
+   public Person(string name)
    {
-      this.naam = naam;
+      this.name = name;
    }
 
    public override string ToString()
    {
-      return this.Naam;
+      return this.name;
    }
 }
 ```
 
 
-Tip bij het programmeren: zet je eigen objecten in de user interface. Hiermee wordt bedoeld dat je objecten zelf in de UI zet, geen strings of andere variabelen. Bijvoorbeeld om een Persoon-object aan een listbox toe te voegen:
+Programming tip: put your own objects in the user interface. By this we mean that you put objects themselves in the UI, not strings or other variables. For example, to add a Person object to a listbox:
 
 ```cs
-listBox1.Items.Add(new Persoon("Sjakie"));
+listBox1.Items.Add(new Person("Sjakie"));
 ```
 
-Gebruik casting om het object uit een UI-control te halen:
+Use casting to retrieve the object from a UI control:
 
 ```cs
-Persoon p = (Persoon)listBox1.Items[2];
+Person p = (Person)listBox1.Items[2];
 ```
 
-Programmeer een `ToString()`-methode in al je `classes` om te zorgen dat je altijd een goede tekstuele representatie van je objecten hebt.
-
+Program a `ToString()` method into all your `classes` to ensure that you always have a good textual representation of your objects.
 # Extra 
 
-+ [video 57 van kudvenkat over override ToString()](https://www.youtube.com/watch?v=MwPZLPNR3ns&t=0s&list=PLAC325451207E3105&index=57)
-+ [docs.microsoft over ToString()](https://docs.microsoft.com/en-us/dotnet/api/system.object.tostring?view=net-5.0)
++ [video 57, kudvenkat, override ToString()](https://www.youtube.com/watch?v=MwPZLPNR3ns&t=0s&list=PLAC325451207E3105&index=57)
++ [docs.microsoft about ToString()](https://docs.microsoft.com/en-us/dotnet/api/system.object.tostring?view=net-5.0)
++ [docs.microsoft about ToString()](https://docs.microsoft.com/en-us/dotnet/api/system.object.tostring?view=net-5.0)
 + [pptx](knowOverrideToString.pptx)

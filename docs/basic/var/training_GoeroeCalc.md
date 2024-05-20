@@ -1,60 +1,60 @@
-# Training Goeroe-calc: variabelen, bewerkingen en conversies: Een Console app(lication)
+# Training Guru-calc: variables, operations and conversions: A Console app(lication)
 
-(Concepten: int, double, bewerkingen en conversies)
+(Concepts: int, double, operations and conversions)
 
-## Voorbereiding
+## Preparation
 
-Ken je het verschil tussen een int, double en string?
+Do you know the difference between an int, double and string?
 
-## Inleiding
+## Introduction
 
-We gaan een werkende calculator maken. Het is een minimalistische calculator, maar hij kan zaken voor je uitrekenen die je zelf niet kunt. Hoeveel is 655 maal 23623? De meeste mensen gebruiken daar liever een programma voor. Jij kunt dat programma maken.
+We are going to make a working calculator. It's a minimalist calculator, but it can calculate things for you that you can't do yourself. How much is 655 times 23623? Most people prefer to use a program for that. You can make that program.
 
-## Opdracht
+## Assignment
 
-We vragen de gebruiker om een getal in te typen (en op enter te drukken), nog een getal (weer enter), dan vertellen we de gebruiker hoeveel je krijgt als je de getallen optelt, maar ook hoeveel je krijgt als je de getallen vermenigvuldigt. 
+We ask the user to type in a number (and press enter), another number (enter again), then we tell the user how much you get when you add the numbers, as well as how much you get when you multiply the numbers.
 
 
-### Enkele stappen uitgelegd...
+### Some steps explained...
 
-- Maak een Console app aan en geef die voor de onderhoudbaarheid een duidelijke naam, zoals bijvoorbeeld 'Calculator'.
-- Met het commando `Console.WriteLine("bloemkool")` kun je de letterlijke tekst
-  tussen de dubbele quotes (`"`) aan gebruiker laten zien. Vraag de gebruiker om een getal in te typen. 
-- Na ieder commando (ook wel `statement` genaamd) wil C# graag een punt-komma
-  `;` zien. 
-- Een `Console.ReadLine()` wacht totdat de gebruiker iets intypt en daarna op
-  `enter` drukt. Door een variabele van type `String` aan te maken met
-  bijvoorbeeld de naam `textTypedByUser` en dan een toekenning (`assignment`) te
-  gebruiken (in C# te herkennen aan het `=`-teken) wordt de tekst die door de
-  user werd ingetypt in die variabele opgeslagen. 
-- De eerste keer dat je een nieuwe variabele gebruikt noemen we de
-  `declaratie`: je moet dan het `type' er voor zetten. Daarna moet dat juist
-  niet meer: zo weet C# wanneer je een nieuwe variabele aan maakt en wanneer
-  niet. 
-- Let op: als je een tekst op het scherm zet gebruik je de taal (NL?) waarmee
-  het programma met de gebruiker interacteert, maar voor variabelennamen wordt
-  bijna altijd Engels gebruikt. 
-- Een `String` is een keten van karakters. Om ermee te gaan rekenen moeten we C#
-  vertellen dat we de waarde willen omzetten (converteren) naar een `int` (voor
-  een geheel getal, ook wel `integer` genoemd). Dat doen we door de `methode`
-  `Convert.ToInt32()` aan te roepen en tussen de haakjes de waarde mee te geven
-  die we willen converteren. Het resultaat (dat we aan een variabele van type
-  `int` kunnen assignen) is een integer getal: `int numberTypedByUser =
+- Create a Console app and for maintainability, give it a clear name, such as `Calculator'.
+- With the command `Console.WriteLine("cauliflower")` you can show the literal text
+  between the double quotes (`"`) to user. Ask the user to type in a number.
+- After each command (also called `statement`), C# would like to see a semicolon
+  `;`.
+- A `Console.ReadLine()` waits for the user to type something and then press
+  `enter`. By creating a variable of type `String` with
+  for example, the name `textTypedByUser` and then using an assignment (`assignment`)
+  (identified in C# by the `=` character), the text typed by the
+  user typed is stored in that variable.
+- The first time you use a new variable is called the
+  `declaration`: you must then put the `type` in front of it. After that
+  This way C# knows when you create a new variable and when you do not.
+  not.
+- Note: when you put a text on the screen you use the language (NL?) with which
+  the program interacts with the user, but for variable names, English is
+  almost always English is used.
+- A `String` is a chain of characters. To start computing with it, we have to C#
+  tell it that we want to convert the value to an `int` (for
+  an integer, also called `integer`). We do that by using the `method`
+  `Convert.ToInt32()` and passing in the parentheses the value
+  that we want to convert. The result (which we can assign to a variable of type
+  `int`) is an integer: `int numberTypedByUser =
   Convert.ToInt32(textTypedByUser);`.  
-- Om de waarden van twee bestaande integer variabelen `a` en `b` op te tellen kunnen we een
-  nieuwe integer `int c;` maken en daar de waarde van `a + b` aan assignen. 
-- Tot slot moeten we de `integer` waarde weer terug converteren naar een String
-  om het op het scherm te zetten. 
+- To sum the values of two existing integer variables `a` and `b` we can create a
+  new integer `int c;` and assign the value of `a + b` to it.
+- Finally, we need to convert the `integer` value back to a String
+  to put it on the screen.
 
-Hier C#-code die de boven besproken concepten laat zien: 
+Here C# code showing the concepts discussed above:
   
 
 ```cs
-Console.WriteLine("Beste gebruiker,");
-Console.WriteLine("Typ een getal svp (en druk op enter)");
+Console.WriteLine("Dear user,");
+Console.WriteLine("Please type a number (and press enter)");
 
 String textTypedByUser = Console.ReadLine();
-Console.WriteLine("U hebt ingetypt: "+ textTypedByUser);
+Console.WriteLine("You have typed: "+ textTypedByUser);
 
 int numberTypedByUser = Convert.ToInt32(textTypedByUser);
 
@@ -62,36 +62,35 @@ int a = 42;
 int b = 365;
 int c = a + b;
 
-String antwoord = Convert.ToString(c);
-Console.WriteLine(antwoord);
+String answer = Convert.ToString(c);
+Console.WriteLine(answer);
 ```
 
-Het is mogelijk dit korter op te schrijven, maar hou dan in de gaten of het
-leesbaar blijft! 
+It is possible to write this shorter, but keep an eye on whether it
+remain readable!
 
-Met deze kennis is het mogelijk de eerdergenoemde calculator te maken: 
-De gebruiker kan integers intypen. Je kunt er bijvoorbeeld voor kiezen de
-gebruiker te vertellen zowel wat de som als het product van de getallen is. 
+With this knowledge, it is possible to create the aforementioned calculator:
+The user can type in integers. For example, you can choose to tell the
+tell the user both what the sum and the product of the numbers are.
 
+Did you succeed? Then you have now written yourself a program that can do more than yourself (multiply the numbers 7225 and 5588 within a millisecond, for example) and have taken the first step toward becoming an experienced software engineer.
 
-Is het gelukt? Dan heb je nu zelf een programma geschreven dat meer kan dan jijzelf (binnen een milliseconde de getallen 7225 en 5588 met elkaar vermenigvuldigen bijvoorbeeld) en heb je de eerste stap gezet om een ervaren software engineer te worden.
+Stuck? Ask a question of your neighbor! If you can't figure it out together ask your teacher. In the beginning, this programming can be quite difficult.
 
-Zit je vast? Stel een vraag aan je buurman of -vrouw! Als jullie er samen niet uitkomen vraag je het aan je docent. In het begin kan dit programmeren best moeilijk zijn.
+If the calculator works then you can program the last 2 requirements. These are:
++ The result is shown as "Result: 123", so with the text "Result: " before the actual result.
++ The calculator must work with broken numbers. So 3.14 times 2.0 should yield 6.28. You must then use `double` instead of `int`.
 
-Als de calculator werkt dan kun je nog de laatste 2 requirements programmeren. Dat zijn deze:
-+ De uitkomst wordt getoond als “Uitkomst: 123”, dus met de tekst "Uitkomst: " voor de daadwerkelijke uitkomst.
-+ De calculator moet werken met gebroken getallen. Dus 3.14 maal 2.0 moet 6.28 opleveren. Je moet dan in plaats van `int` `double` gebruiken. 
+Maybe you already had it, then you are not only good at programming, but you also passed the analysis phase honorably.
 
-Misschien had je die al, dan ben je niet alleen goed in programmeren, maar heb je de analyse-fase ook eervol doorlopen.
+Discuss assignments regularly with your teacher and then enter feedback into Feedpulse.
 
-Bespreek opdrachten regelmatig met je docent en voer dan feedback in in Feedpulse.
+## Extras
 
-## Extra’s
+To learn it really well, it is good to make extensions to the assignments, and ask for feedback on these as well. This can lead to a higher grade (note: you have to be able to program it yourself, code-copy from the Internet is not enough). Some possible extensions:
 
-Om het echt goed te leren is het goed om uitbreidingen op de opdrachten te maken, en hier ook feedback op te vragen. Dat kan leiden tot een hogere beoordeling (let op: je moet het wel zelf kunnen programmeren, code-kopie van internet is niet voldoende). Enkele mogelijke uitbreidingen:
-
-+ Breid de calculator uit met een functie voor worteltrekken (hint: square root
-  in het Engels, dat helpt bij het gebruik van een zoekkmachine).
-+ Als de uitkomst onder de nul is laat je dit duidelijk zien, bijvoorbeeld door
-  er achter de tekst 'LET OP: is negatief' te zetten.
-+ Breidt de calculator uit met een functie voor delen. Zorg ervoor dat delen door 0 netjes wordt afgevangen en laat een nette foutmelding zien.
++ Extend the calculator with a function for root subtraction (hint: square root
+  in English, which helps when using a search engine).
++ If the result is below zero, show it clearly, for example by adding
+  putting "CAUTION: is negative" after it.
++ Expand the calculator to include a function for division. Make sure that dividing by 0 is neatly caught and show a neat error message.

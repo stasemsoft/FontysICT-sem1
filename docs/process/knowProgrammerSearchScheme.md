@@ -3,56 +3,56 @@
 
 ![fig:UPEAVL](figures/UPEAVL.png "Programmer Search Scheme")
 
-# Een bespreking *per stap*:
+# A discussion *by step*:
 
 ## Understand
 To solve a problem you must first Understand what the problem is!
 - What is my starting point? An error? An exception? A bug? A feature on a wishlist?
-- Snap ik het probleem waarvoor ik een oplossing zoek?
-- Ken ik alle relevante begrippen?
+- Do I understand the problem for which I am seeking a solution?
+- Do I know all the relevant terms?
 
 
 ## (Create) Plan
-Maak een plannetje:
-- Waar ga ik naar zoeken?
-- Hoe?
-- Welke zoektermen?
-- Welke zoekmachine?
+Create a plan:
+- What am I going to look for?
+- How?
+- What search terms?
+- Which search engine?
 
 
 ## Execute Plan
-Voer plan uit:
-- Gebruik de zoekmachine volgens plan.
-- Selecteer en lees.
+Execute plan:
+- Use search engine according to plan.
+- Select and read.
 
 
 ## Adjust
-- Vernoem je bronnen.
-- Pas aan zodat je het resultaat snapt.
+- Name your sources.
+- Adjust so you understand the result.
 
 
 ## Validate Result
-Controleer het resultaat:
-- Heb ik gevonden wat ik zocht?
-- Is het probleem hiermee opgelost?
-- Is de oplossing (altijd) correct of zijn er gevallen waar het niet voor werkt?
+Check the result:
+- Did I find what I was looking for?
+- Does this solve the problem?
+- Is the solution (always) correct or are there cases where it doesn't work for?
 
 
 
 ## Learn/Look back
-Leer:
-- Wat heb ik geleerd?
-- Nu je een antwoord kent: had je dit sneller, makkelijker, eleganter kunnen vinden? Heb je op het goeie gezocht?
-- Stel ik kom nog een keer een vergelijkbaar probleem tegen, kan ik dan sneller tot een oplossing komen?
-- Moet ik iets ervan vastleggen? Zoja, waar?
+Learn:
+- What did I learn?
+- Now that you know an answer: could you have found this faster, easier, more elegant? Did you look for the right thing?
+- Suppose I come across a similar problem again, can I reach a solution faster?
+- Should I record any of it? If so, where?
 
 
-Het idee komt in essentie van *How to solve it?* van de didacticus *Polya*.
-Het is begonnen als zogenaamd 100-uren-onderzoek van Coen bij FHICT.
-Veel collega's hebben feedback gegeven om te ontwikkelen en beter te maken.
-Hierbij werden ook een aantal alternatieven genoemd, zoals
+The idea essentially comes from *How to solve it?* by didactician *Polya*.
+It started as a so-called 100-hour survey by Coen at FHICT.
+Many colleagues gave feedback to develop and make better.
+This included some alternatives, such as
 
-#### bronnen
+#### sources
 
 + [http://www.rba.co.uk/wordpress/2016/09/19/essential-non-google-search-tools-for-researchers-top-tips/](http://www.rba.co.uk/wordpress/2016/09/19/essential-non-google-search-tools-for-researchers-top-tips/)
 

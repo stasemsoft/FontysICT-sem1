@@ -1,21 +1,24 @@
-| Leerdoelen | Class. |
-| --- | --- |
-| Vereiste voorkennis | Basiskennis over objecten. |
-| Challenge Type | Technisch ontwerp. |
-| Extra | Realiseren van het ontwerp. |
+
+# Challenge Record Company
+
+| Learning Objectives      | Class                          |
+| ------------------------ | ------------------------------ |
+| Required prior knowledge | Basic knowledge about objects. |
+| Challenge Type           | Technical Design.              |
+| Additional               | Realization of the design.     |
+
+Record company D'n Gulden Schijf wants to develop an application to keep track of their contacts in a database.
+
+The company's contacts consist of artists, bands, managers and also suppliers who supply office supplies and raw materials for the company, for example. Of each artist or band, in addition to the usual name-and-address information, it should also keep track of what records (songs) they have released.
+
+Each song consists of a title, the year of release and a duration (in minutes + seconds). As you browse through songs in the system you can click on each song to play. It then plays a high quality MP3 of that song.
+Search function: it should be possible to search within the system by band name, manager, vendor or artist name.
+
+The managers' data should include what their hourly rate (in euros) is. If a contact person is a supplier then besides the name + address data also the average delivery time (time in days) of the products of that supplier should be recorded.
+
+In the case of a band, it should also be stored whether a special instrument is included (yes/no field). Special instruments are any instruments other than drums, keyboard, bass guitar and guitar. Examples of special instruments include a flute, harp, etc.
+
+The system must be secured by a user+password system. Users (users) can log in with a username and password after which they have access to all data in the system.
 
 
-
-Platenmaatschappij D'n Gulden Schijf wil een applicatie ontwikkelen om hun contactpersonen in een database bij te houden. 
-
-De contactpersonen van de maatschappij bestaan uit artiesten, bands, managers en ook uit leveranciers die bijvoorbeeld kantoorartikelen en grondstoffen voor het bedrijf leveren. Van elke artiest of band moet naast de gebruikelijke naam-en-adres-gegevens ook worden bijgehouden welke platen (songs) ze hebben uitgebracht. 
-
-Elke song bestaat uit een titel, het jaar van uitgave en een tijdsduur (in minuten + seconden). Als je in het systeem door songs bladert dan kun je elke song aanklikken om af te spelen. Hij speelt dan een hoge kwaliteit-MP3 af van die song.
-Zoekfunctie: binnen het systeem moet kunnen worden gezocht op naam van band, manager, leverancier of naam van artiest.
-
-Bij de gegevens van de managers moet worden bijgehouden wat hun uurtarief (in euro) is. Als een contactpersoon een leverancier is dan staat er naast de naam+adresgegevens ook bij wat de gemiddelde levertijd (tijd in dagen) is van de producten van die leverancier. 
-
-Bij een band moet ook nog worden opgeslagen of er een speciaal instrument bij zit (ja/nee-veld). Speciale instrumenten zijn alle instrumenten die niet gelijk zijn aan drums, keyboard, basgitaar en gitaar. Voorbeelden van speciale instrumenten zijn bijvoorbeeld een dwarsfluit, harp, enz.
-
-Het systeem moet worden beveiligd middels een user+wachtwoord-systeem. Users (gebruikers) kunnen zich aanmelden met een gebruikersnaam en wachtwoord waarna ze toegang hebben tot alle gegevens in het systeem.
 ![](figures/platenmaatschappij.png "platenmaatschappij")

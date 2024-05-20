@@ -1,52 +1,52 @@
-# Scheiding tussen GUI en Domain
+# Separation between GUI and Domain
 
-In dit hoofdstuk bespreken we een aantal principes bij de scheiding
-tussen GUI-klassen en domeinklassen (domain classes).
-Alvorens deze principes te presenteren leggen we eerst uit wat een domeinklasse is.
-We eindigen dit hoofdstuk met illustraties waar de beoogde scheiding
-goed of slecht (lees: minder goed) is uitgevoerd.
+In this chapter, we will discuss some of the principles involved in separating
+between GUI classes and domain classes (domain classes).
+Before presenting these principles, we first explain what a domain class is.
+We end this chapter with illustrations where the intended separation is
+has been implemented well or poorly (read: less well).
 
-## Domein
-Elke applicatie (of app) is een hulpmiddel om zekere processen sneller,
-prettiger of anderszins beter te laten verlopen.
-Deze processen hebben betrekking op het creëren, inspecteren,
-wijzigen of verwijderen van informatie.
-Bijvoorbeeld het aanvragen van een nieuwe bankrekening, het opvragen van het saldo van een bankrekening, het overmaken van geld van de ene naar de andere bankrekening, of het afscheid nemen als klant van een bank. In deze gevallen gaat het steeds om informatie uit het applicatiedomein van financieel verkeer. De Informatie is gerelateerd aan objecten uit dit applicatiedomein: zoals Bankaccount, Bank, Client en Transaction. We noemen dit objecten van domeinklassen. Daar tegenover staan objecten die een middel vormen
-+ om domeinobjecten te kunnen visualiseren in een GUI, of
-+ om informatie in objecten te kunnen bewaren in een database of bestand, of
-+ om informatie in objecten over een netwerk te kunnen versturen of …
+## Domain
+Every application (or app) is a tool to make certain processes faster,
+more pleasant or otherwise better.
+These processes involve creating, inspecting,
+modifying or deleting information.
+For example, applying for a new bank account, requesting a bank account balance, transferring money from one bank account to another, or saying goodbye as a customer of a bank. These cases always involve Information from the application domain of financial traffic. The Information is related to objects from this application domain: such as Bank Account, Bank, Client and Transaction. We call these objects of domain classes. Opposed to these are objects that provide a means
++ to be able to visualize domain objects in a GUI, or
++ to be able to store information in objects in a database or file, or
++ to be able to send information in objects over a network or ...
 
-Deze drie laatstgenoemde objecten behoren niet tot het domein.
-We hebben voor het domein van financieel verkeer de domeinklassen
-Bankaccount, Bank, Client, Transaction geintroduceerd.
-Voor een spel met helden en monsters zouden de
-domeinklassen Hero, Monster, Player en Game een zelfde centrale rol kunnen vervullen.
-Deze klassen herbergen de belangrijke informatie om zo’n spel in een GUI
-zichtbaar te kunnen maken.
-Samenvattend: Domeinklassen herbergen de relevantie informatie uit het beoogde applicatiedomein.
+The latter three objects do not belong to the domain.
+We have for the domain of financial traffic the domain classes.
+Bank Account, Bank, Client, Transaction introduced.
+For a game with heroes and monsters, the
+domain classes Hero, Monster, Player and Game could play a similar central role.
+These classes house the important information to make such a game in a GUI
+be able to make it visible.
+In summary, Domain classes house the relevant information from the intended application domain.
 
 ### Challenge1
-Welke domeinklassen zou jij willen introduceren binnen de context van het spel galgje?
+Which domain classes would you like to introduce within the context of the game gallows?
 
-### Challenge2
-Welke domeinklassen zou jij willen introduceren binnen de context van het verzenden, inzien en verwijderen van e-mails?
+##### Challenge2
+What domain classes would you like to introduce within the context of sending, viewing and deleting emails?
 
-## Principes
-Wij adviseren om je te houden aan onderstaande vier principes, ter wille van een goede scheiding tussen de programmacode in een GUI en de programmacode in de domeinklassen. Deze lijst met principes is niet compleet, maar wordt in de loop van je studie uitgebreid en verder genuanceerd.
-1. Gebruik geen GUI-objecten in domeinklassen. Want dan kun je zo niet gemakkelijk overstappen naar een andere GUI (bijv. WindowsForm, Web GUI, smart phone, andere vormgeving van de GUI, verschillen in GUI per soort gebruiker). Neem binnen een domein-object ook geen plaatjes op (later wil jewel eens een ander plaatje gebruiken).  Je software wordt daarmee flexibeler en beter onderhoudbaar.
-2. Wees voorzichtig met het opnemen van zelf gedefinieerde reken- of validatiemethoden binnen een GUI-klasse (zie 3.)
-3. Beperkingsregels (zoals het saldo van een bankrekening mag niet lager worden dan de kredietlimiet) en berekeningen (zoals hoeveel rente krijg je per maand bijgeschreven) moet je voor 100% borgen binnen de betreffende domeinklasse die over alle vereiste informatie beschikt.
-4. Als je van domeinobjecten een tekstrepresentatie in de GUI wilt kunnen opnemen, dan is het handig om de ToString-methode van de betreffende domeinklasse te 'overriden'.
+## Principles
+We recommend adhering to the four principles below, for the sake of proper separation between the program code in a GUI and the program code in the domain classes. This list of principles is not complete, but will be expanded and further refined as you study.
+1. Do not use GUI objects in domain classes. Because then you cannot easily switch to another GUI (e.g. WindowsForm, Web GUI, smart phone, different design of GUI, differences in GUI by type of user) that way. Also, within a domain object, don't include images (later jewel will want to use a different image).  This will make your software more flexible and maintainable.
+2. Be careful about including self-defined calculation or validation methods within a GUI class (see 3.)
+3. Restriction rules (such as the balance of a bank account may not fall below the credit limit) and calculations (such as how much interest you get credited per month) should be 100% secured within the appropriate domain class that has all the required information.
+4. If you want to be able to include a text representation of domain objects in the GUI, it is convenient to 'override' the ToString method of the respective domain class.
 
-## Illustraties
-Deze vier principes illustreren we aan de hand van de bankrekening-casus.
+## Illustrations
+We illustrate these four principles using the bank account case study.
 
 ### ad 1.
-**Fout**: Binnen een ChangeBalance-methode van de Bankaccount-klasse een messagebox (MessageBox.Show)
-activeren zodra er wordt geprobeerd om teveel geld van het BankAccount-object af te schrijven.
+**Error**: Within a ChangeBalance method of the BankAccount class, a messagebox (MessageBox.Show)
+activate as soon as an attempt is made to debit too much money from the BankAccount object.
 
 ```cs
-public class Bankaccount {
+public class BankAccount {
   private decimal balance;
   private decimal threshold; // not negative
   ...
@@ -61,7 +61,7 @@ public class Bankaccount {
 ```
 
 
-**Goed**: De ChangeBalance-methode van de Bankaccount class retourneert  bijvoorbeeld een string. De betreffende string representeert of het opnemen van het geldbedrag al dan niet is geaccepteerd. Vervolgens kan deze returnwaarde naderhand in de GUI binnen een MessageBox als een message worden getoond.
+**Good**: For example, the ChangeBalance method of the Bankaccount class returns a string. The corresponding string represents whether the withdrawal of the money amount has been accepted or not. Then, this return value can be displayed afterwards in the GUI within a MessageBox as a message.
 
 ```cs
 public class Bankaccount {
@@ -79,8 +79,7 @@ public class Bankaccount {
 }
 ```
 
-Merk op, in plaats van de string als returnwaarde kan er ook met een simpele bool worden gewerkt.
-
+Note, instead of the string as return value, a simple bool can be used.
 ### ad 2.
 **Fout**: Binnen de GUI-klasse wordt een hulpmethode CheckValidTransaction gedefinieerd waarbinnen alvast wordt gecontroleerd of het overmaken van geld, van de ene bankrekening naar een andere bankrekening uitvoerbaar is.
 
@@ -94,8 +93,7 @@ bool CheckValidTransaction(Bankaccount ba, decimal amount) {
   }
 }
 ```
-
-**Goed**: Stuur het verzoek tot overmaken door naar het betreffende Bank-object van de bankrekening waar het geld van wordt afgeschreven. Later rapporteert het Bank-object of het overmaken is geslaagd, bijvoorbeeld door middel van een string (zie ook ad 1.)
+**Good**: Forward the transfer request to the appropriate Bank object of the bank account from which the money is to be debited. Later, the Bank object reports whether the transfer was successful, for example by means of a string (see also ad 1.)
 
 ```cs
 public class Bank {
@@ -111,7 +109,7 @@ public class Bank {
       if (baTo==null) {
         return "Bankaccount " + to + " does not exist.";
       } else {
-        string result =  baFrom.ChangeBalance(-amount);
+        string result = baFrom.ChangeBalance(-amount);
         if (result == "withdrawal is succeeded") {
           baTo.ChangeBalance(amount)
         }
@@ -123,15 +121,15 @@ public class Bank {
 
 
 ### ad 3.
-Neem even aan dat er bij een bank geen twee klanten mogen voorkomen met dezelfde combinatie van naam/adres/geboortedatum.
+Assume for a moment that a bank should not have two customers with the same combination of name/address/date of birth.
 
-**Fout**: Binnen de Bank-klasse wordt er, zodra er een nieuwe klant wordt toegevoegd, niet gecontroleerd of er al een klant bestaat met dezelfde naam, adres en geboortdedatum.
+**Error**: Within the Bank class, once a new customer is added, there is no check if a customer already exists with the same name, address and birth date.
 
 ```cs
 public class Bank {
   private List<Client> clients;
   ...
-  // andere gegevens van de klant zijn nu even genegeerd:
+  // other client data is ignored for now:
   public void AddClient(string name, string place, DateTime birthdate) {
     Client client = new Client(name, place, birthdate);
     clients.Add(client);
@@ -140,13 +138,13 @@ public class Bank {
 ```
 
 
-**Goed**: Binnen een AddClient-methode van de Bank-klasse wordt eerst gecontroleerd of er al een klant bestaat met dezelfde naam, adres en geboortdedatum. Zo ja, dan wordt het nieuwe Client-object niet gecreëerd en geregistreerd; anders wel. De AddClient-methode heeft als returnwaarde het nieuwe Client-object. Als de returnwaarde null is, is er geen Client-object gecreëerd.
+**Good**: Within an AddClient method of the Bank class, it first checks whether a Client already exists with the same name, address and birth date. If so, the new Client object is not created and registered; otherwise, it is. The AddClient method has as its return value the new Client object. If the return value is null, no Client object has been created.
 
 ```cs
 public class Bank {
   private List<Client> clients;
   ...
-  // andere gegevens van de klant zijn nu even genegeerd:
+  // other client data is ignored for now:
   public Client AddClient(string name, string place, DateTime birthdate) {
     Client client = GetClient(name, place, birthdate);
     if (client != null) return null;
@@ -158,13 +156,13 @@ public class Bank {
 ```
 
 
-### ad 4. 
+### ad 4.
 
-Binnen de GUI wordt een lijst met gegevens van alle bankrekeningen van een specifieke klant getoond. Dan is het handig als de  ToString-methode van de Bankaccount-klasse wordt geherdefinieerd; bijvoorbeeld door te volstaan met het rekeningnummer en de naam van de eigenaar van de bankrekening:
+Within the GUI, a list of data of all bank accounts of a specific customer is displayed. Then it is convenient if the ToString method of the Bank Account class is redefined; for example, by sufficing with the account number and the name of the owner of the bank account:
 
 ```cs
 public class Bankaccount {
-  private string nr;
+  private string no;
   private Client owner;
   ...
   public override string ToString() {
@@ -173,5 +171,4 @@ public class Bankaccount {
 }
 ```
 
-Deze ToString-methode kan vervolgens binnen de GUI worden aangeroepen.
-
+This ToString method can then be called within the GUI.

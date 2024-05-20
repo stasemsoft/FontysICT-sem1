@@ -1,20 +1,20 @@
-## Brief UIOntwerp
+## Letter UIOntwerp
 
 
 ![](figures/logo_hotel.png "hotel logo")
  
-Aan: Software ontwikkelgroep &quot;De Goeroes&quot;
-Betreft: specificatie hotelreserveringssysteem, bijlage UI-ontwerp
-Bijlage hotelssyteembrief
-Mijne heren,
-Ter aanvulling op onze brief over de specificatie van ons hotelsysteem sturen wij u vandaag het UI-ontwerp toe zoals dat door ons user interface-ontwerpbureau is gemaakt. Het is slechts een ruwe schets, aanvullingen uwerzijds zijn welkom. U mag er gerust van afwijken, dat is ook geen probleem. We laten het helemaal aan u over.
-Wel hebben wij afgesproken dat i.v.m. de onderhoudbaarheid van de code we nog vier extra technische eisen hebben aan het door u te ontwikkelen programma:
-1.	Het klassendiagram moet eerst gemaakt worden en ter goedkeuring aan de projectleider worden gestuurd.
-2.	Ons nieuwe logo (groene cirkel met dikke rode lijn erdoorheen) moet met GDI Graphics worden getekend 
-3.	De gegevens mogen NIET in een database worden opgeslagen.
-4.	Er moet een export komen naar een bestand van alle namen van alle hotelgasten.
+To: Software development group &quot;The Gurus&quot;
+Subject: hotel reservation system specification, attachment UI design
+Annex hotel system letter
+Gentlemen,
+To supplement our letter about our hotel system specification, today we are sending you the UI design as created by our user interface design firm. It is only a rough sketch, additions on your part are welcome. Feel free to deviate from it, that's no problem either. We leave it entirely up to you.
+However, we have agreed that in order to ensure the maintainability of the code, we have four additional technical requirements for the program you will develop:
+1. The class diagram must first be created and sent to the project leader for approval.
+Our new logo (green circle with thick red line through it) must be drawn with GDI Graphics 2.
+3. The data must NOT be stored in a database.
+4. There must be an export to a file of all names of all hotel guests 4.
  
-Hoogachtend verblijven wij,
+Sincerely we stay,
 
-Dhr. Ing. Q. van Trommelen
-Projectleider Grand Hotel D'n Gaarkeuken
+Mr. Ing. Q. van Trommelen
+Project manager Grand Hotel D'n Gaarkeuken

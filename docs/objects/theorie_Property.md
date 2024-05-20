@@ -1,9 +1,8 @@
-<!-- TRANSLATED by md-translate -->
 # Theory Property
 
 A "property" gives you access to a "property" of a "property." You probably used properties before, now you learn how to make them yourself.
 
-## Gebruik van bestaande property
+## Use of existing property
 
 You've probably already seen the "property editor" in Visual Studio, especially if you've created a WinForm app. Here you can view and customize all kinds of _properties_ of a _Form_, _Button_, _TextBox_ and many other .
 

@@ -1,13 +1,12 @@
-# Training De Drie Vierkanten
+#Training The Three Squares
 
-Schrijf een programma dat voldoet aan de volgende requirements. Het mag een Console app zijn, of een WinForm app, of misschien nog wel iets anders?
+Write a program that meets the following requirements. It may be a Console app, or a WinForm app, or maybe something else?
 
 ![3 vierkanten](figures/drievierkanten.png)
++ The user enters the length of a side of three different squares. These three values are stored in three variables of type int.
++ The area of all three squares is calculated.
++ The total area of all three squares together (i.e. area1 + area2 + area3) is displayed to the user.
 
-+ De gebruiker voert de lengte van een zijde van drie verschillende vierkanten in. Deze drie waarden worden in drie variabelen van het type int opgeslagen.
-+ Van alle drie de vierkanten wordt de oppervlakte uitgerekend.
-+ De totale oppervlakte van alle drie de vierkanten samen (dus oppervlakte1 + oppervlakte2 + oppervlakte3) wordt aan de gebruiker getoond.
 
-
-+ Schrijf een `method` die de oppervlakte van een vierkant kan uitrekenen. De method heeft een parameter (die de lengte van een zijde van het vierkant voorstelt) en retourneert (`return`) de oppervlakte van het vierkant.
-+ Gebruik je methode om de hierboven gemaakte code te verbeteren (methode aanroepen).
++ Write a `method` that can calculate the area of a square. The method has a parameter (representing the length of a side of the square) and returns (`return`) the area of the square.
++ Use your method to enhance the code created above (call method).

@@ -1,16 +1,17 @@
-| Niveau | 3 of 5 |
-| --- | --- |
-| Leerdoelen | Paint event, graphics. |
-| Vereiste voorkennis | Basiskennis over objecten. |
-| Challenge Type | Realiseren. |
+| Level | 3 of 5
+| ------------------- | -------------------------- |
+| Learning Objectives | Paint event, graphics. |
+| Required prior knowledge | Basic knowledge about objects. |
+| Challenge Type | Realize.                |
 
 
 ### The Cube
 
-Teken een kubus als wireframe in een panel.
-Let op: Het is belangrijk dat de kubus zichtbaar blijft
-wanneer de gebruiker het form vergroot, verkleint
-of minimaliseert en weer maximaliseert.
+Draw a cube as a wireframe in a panel.
+Note: It is important that the cube remains visible
+when the user enlarges, reduces
+or minimizes and maximizes again.
+
 ![fig:cube](figures/cube.png "cube")
-Geef de voorste zijde van de kubus een kleur naar keuze
-(dus vul de voorkant op met deze kleur). 
+Give the front side of the cube a color of your choice
+(so fill the front side with this color).

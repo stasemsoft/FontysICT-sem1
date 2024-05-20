@@ -1,20 +1,20 @@
-# Training - Galgje
+#Training - Gallows
 
-Programmeer het spel Galgje waarbij de gebruiker een vooraf ingesteld woord moet raden. 
+Program the game Galgje where the user has to guess a preset word.
 
-De gebruiker mag 10 keer een letter raden. Heeft hij daarna het woord goed dan heeft hij gewonnen, anders wint de computer. 
+The user gets to guess a letter 10 times. If he then gets the word right then he has won, otherwise the computer wins.
 
-Ontwerpideeën: houdt in een (string-) variabele het te raden woord bij en houdt in een andere variabele bij wat de gebruiker allemaal heeft geraden.
+Design ideas: keeps track of the word to guess in one (string) variable and keeps track of all the things the user has guessed in another variable.
 
 <img src="figures/galgje-ui.png" alt="ui" width="300" />
 
 
-## Uitbreidingen
-1. Maak een PictureBox waarin je middels een aantal plaatjes van een galgje en poppetje het aantal fouten laat zien. Laad dynamisch elke keer het volgende plaatje in als er een fout wordt gemaakt. Kijk eens naar de methode PictureBox.Load().
-2. Laat zien welke letters geweest zijn. Je kunt bijv. alle letters laten zien in een zwarte kleur. Letters die goed geraadde zijn maak je groen, letters die fout geraadde zijn maak je rood.
-3. Uitbreiding op feature 2: maak de (zwarte dus niet gekozen) letters clickable. Als je er op clickt wordt dezelfde event handler als onder de knop Indienen aangeroepen.
-4. Zorg dat als je een letter intypt deze automatisch wordt “ingediend”, dus dat je niet ook nog eens op de knop moet clicken. Maak tevens na het indienen van een letter de TextBox leeg en zorg dat deze altijd de focus meteen weer heeft zodat je meteen een nieuwe letter kan intypen.
-5. Zorg ervoor dat je alleen letters kan intypen in de TextBox. Accepteer tevens hoofdletters. Er zijn meerdere manieren om dit op te lossen. Kijk bijv. eens naar deze StackOverflow bron waar een vergelijkbaar probleem wordt besproken of gebruik een variant op de TextBox nl. MaskedTextBox. Type je geen letter in, bijv. een cijfer, dan speelt er een errorgeluidje af.
-6. Onthoud de score(s) van een bepaalde speler en schrijf deze weg naar een highscore bestand. Laat hiervoor de speler zich eerst identificeren. Maak een highscore overzicht scherm waarin alle namen met de gemiddelde aantal benodigde pogingen worden getoond.
-7.  Uitbreiding op 6: Maak een login mogelijkheid waar je middels een wachtwoord jezelf moet identificeren zodat niet andere spelers met jouw highscore aan de haal gaan. Sla dit wachtwoord gehashed op in hetzelfde bestand waar ook de namen en highscores staan. Gebruik bijv. MD5 hiervoor. Elke regel in het bestand bestaat uit "<username> <md5 wachtwoord> <highscore>". 
-	Omdat MD5 niet veilig is, probeer een ander hashing algoritme te vinden.
+## Extensions
+1. Create a PictureBox in which you show the number of errors through a number of images of a gallows game and puppet. Dynamically load the next picture each time an error is made. Take a look at the method PictureBox.Load().
+2. Show which letters have been. For example, you can show all letters in a black color. Letters that were consulted correctly make them green, letters that were consulted incorrectly make them red.
+3. Extension to feature 2: make the (black not chosen) letters clickable. If you click on them, the same event handler is called as under the Submit button.
+4. Make sure that when you type a letter it is automatically "submitted", so you don't have to click the button as well. Also, after submitting a letter, empty the TextBox and make sure it always has the focus back immediately so you can type a new letter right away.
+5. Make sure you can only type letters in the TextBox. Also accept uppercase letters. There are several ways to solve this. Take a look at this StackOverflow resource where a similar problem is discussed or use a variant of the TextBox called MaskedTextBox. If you do not type a letter, e.g. a number, an error sound will play.
+6. Remember the score(s) of a particular player and write them to a highscore file. To do this, have the player identify himself first. Create a highscore summary screen showing all names with the average number of tries required.
+7.  Extension to 6: Create a login option where you have to identify yourself with a password to prevent other players from using your highscore. Store this password hashed in the same file where the names and high scores are. Use e.g. MD5 for this. Each line in the file consists of "<username> <md5 password> <highscore>".
+	Since MD5 is not secure, try to find another hashing algorithm.

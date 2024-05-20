@@ -1,9 +1,8 @@
 # Intro personas
 
-In den beginne... had nog niemand programmeerervaring... Op het moment dat je aan dit semester begint heb je misschien al ergens ervaring opgedaan, of wellicht niet. Kortom: we zijn allen gelijk in dat we allemaal uniek zijn! 
+In the beginning... no one had programming experience yet... By the time you start this semester, you may or may not have had experience somewhere. In short: we are all alike in that we are all unique!
 
-Als je al ervaring hebt is het jammer helemaal aan het begin te beginnen. Vandaar dat we verschillende persona's beschreven hebben. Bepaal welke het best bij je past en kijk eens wat er over jouw persona gezegd wordt. 
-
+If you already have experience, it's a shame to start at the very beginning. Hence, we have described different personas. Decide which one suits you best and see what is being said about your persona.
 
 | [Bas (of Barbara)<br /> the Absolute Beginner](Bas)  | [Intermediate Inge (of Ivo)](Inge) | [OOP-experienced<br /> Olaf (of Olivia)](Olaf) |
 | ------------- | ------------- | ------------- |

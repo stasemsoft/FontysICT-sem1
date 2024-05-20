@@ -1,12 +1,12 @@
-# Training - Listige listboxen
+# Training - List Boxes
 
-Maak een scherm met daarop **2 listboxen**, **1 knop** en **een textbox**. Het scherm ziet er dan bijvoorbeeld als volgt uit.
+Create a screen containing **2 listboxes**, **1 button** and **a textbox**. The screen would then look like this, for example.
 
-<img src="figures/Listige-listboxen-ui.png" alt="ui" width="300" />
+<img src="figures/Listy-listboxes-ui.png" alt="onion" width="300" />
 
-Vul de listboxen met 10 willekeurige getallen. Gebruik hierbij de **random generator** en de methode **listbox.items.add**
+Fill the listboxes with 10 random numbers. To do this, use the **random generator** and the **listbox.items.add** method.
 
-Zorg er voor dat er na het klikken op de button een event wordt gestart die onderstaande handelingen uitvoert:
-1. Ga in een **methode** met een **FOR**\-loop door de 1e listbox en tel de getallen op in een variabele. Je moet dus deze methode programmeren en die vanuit het button-click-event aanroepen. Geef de waarde van de variabele terug (return-statement in de methode). 
-2. Programmeer een 2e methode (ook aanroepen vanuit de button-click) als volgt: ga in die 2e **methode** met een **WHILE**\-loop door de 2e listbox en tel de getallen op in een 2e variabele. De methode geeft de som van alle getallen van listbox2 terug. 
-3. Afhankelijk van welke variabele het hoogste resultaat heeft toon je in de resultaat-textbox een tekst (‘Listbox ?? heeft de hoogste waarde namelijk: ????’). Indien listbox 1 de hoogste waarde heeft maak je die listbox **groen** en de andere **rood** en andersom. 
+After clicking the button, make sure an event is started that performs the actions below:
+1. Go through the 1st listbox in a **method** with a **FOR** run and add the numbers into a variable. So you need to program this method and call it from the button-click event. Return the value of the variable (return statement in the method).
+2. Program a 2nd method (also called from the button-click) as follows: in that 2nd **method**, go through the 2nd listbox with a **WHILE** loop and sum the numbers into a 2nd variable. The method returns the sum of all the numbers of listbox2.
+3. Depending on which variable has the highest result show a text in the result textbox ('Listbox ?? has the highest value namely: ????'). If listbox1 has the highest value you make that listbox **green** and the other **red** and vice versa.

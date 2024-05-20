@@ -1,64 +1,64 @@
 # Enum
 
-## Definitie van Enum
-- Enumeraties of kortweg enum’s stellen je in staat items op een gestructureerde, geordende manier voor te stellen.
-- Een enumeratie zorgt ervoor dat de elementen aan te spreken zijn met een naam. (op machinecodeniveau worden de enums opgeslagen als integers, standaard beginnend vanaf 0).
-- Visual Studio behoedt je voor tikfouten en logische fouten.
+## Definition of Enum
+- Enumerations or enums for short allow you to represent items in a structured, ordered way.
+- An enumeration allows elements to be addressed by a name. (At the machine code level, enums are stored as integers, starting from 0 by default.)
+- Visual Studio saves you from typos and logical errors.
 
-## Voorbeeld
+## Example
 
 ```cs
-enum Dag
+enum Day
 {
-   Zondag,
-   Maandag,
-   Dinsdag,
-   Woensdag,
-   Donderdag,
-   Vrijdag,
-   Zaterdag
+   Sunday,
+   Monday,
+   Tuesday,
+   Wednesday,
+   Thursday,
+   Friday,
+   Saturday
 }
 ```
 
 
-De volgende code is dan mogelijk:
+The following code is then possible:
 
 ```cs
-Dag d;
-d = Dag.Woensdag;
+Day d;
+d = Day.Wednesday;
 ```
 
-Een ander voorbeeld is de maanden van het jaar: Januari tot en met...
+Another example is the months of the year: January through....
 
-## Waarom zou ik enums gebruiken?
+## Why should I use enums?
 
-Dat wordt duidelijk aan de hand van het volgende voorbeeld:
-Een kalender applicatie waarbij je een item aan een weekdag kunt aanroepen.
-Initieel:
+This becomes clear from the following example:
+A calendar application where you can call an item to a weekday.
+Initial:
 
 ```cs
-void VoegToeAanKalender(int dag, string item)
+void AddToCalendar(int day, string item)
 ```
 
-De dagen in de week zijn als constanten aangemaakt. Zondag is 0, Maandag is 1, etc.
-Hetzelfde voor de maanden in het jaar: Januari is 0, Februari is 1, etc.
+The days in the week are created as constants. Sunday is 0, Monday is 1, etc.
+The same for the months in the year: January is 0, February is 1, etc.
 
-Als je nu een programmeerfout maak:
+Now if you make a programming error:
 
 ```cs
-VoegToeAanKalender(Februari, “hele maand spectaculaire aanbiedingen”);
+AddToCalendar(February, "whole month of spectacular offers");
 ```
 
-Dan wordt hier braaf het item toegevoegd op maandag… Oops.
+Then here bravely adds the item on Monday... Oops.
 
-Met enums houdt de compiler je tegen, dan wordt het immers:
+With enums, the compiler stops you, then it becomes after all:
 
-```cs
-void VoegToeAanKalender(Dag dag, string item)
+````cs
+void AddToCalendar(Day day, string item)
 ```
 
-aangezien Maand geen Dag is. 
+since Month is not a Day.
 
-# extra 
+# additional
 
 + [pptx](knowEnum.pptx)

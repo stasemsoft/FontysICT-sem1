@@ -1,25 +1,26 @@
-In deze opdracht ga je aan de slag met Unity.
-Onder anderen komen er Arrays, lists en classes aan bod.
-Unity werkt iets anders dan je misschien gewent bent.
-Het startmateriaal kun je vinden achter de url:
-[startmateriaal](https://github.com/coentjo/softwarelessons/raw/master/Challenge_Starting_Material/Challenge_start_AdvancedMemory_in_Unity3D.zip)
-Kijk eens naar:
+
+In this assignment you will work with Unity.
+Arrays, lists and classes will be discussed.
+Unity works a little different than you might be used to.
+The starting material can be found behind the url:
+[starting material](https://github.com/coentjo/softwarelessons/raw/master/Challenge_Starting_Material/Challenge_start_AdvancedMemory_in_Unity3D.zip)
+Take a look at:
 [Instantiate](http://docs.unity3d.com/ScriptReference/Object.Instantiate.html)
 [Coroutines](http://docs.unity3d.com/Manual/Coroutines.html)
-Unity heeft ook de volledige scripting reference ingebouwd.
-Als je in de editor op F1 druk open je deze.
-Op internet kun je ook heel er veel vinden, mede door Unity answers,
-waar gebruikers vragen kunnen stellen die dan door de community worden beantwoord.
-Op youtube staan veel verschillende tutorials gemaakt door gebruikers.
-Ook Unity zelf heeft veel gratis training materiaal,
-ook doen zij live trainingen die daarna terug te kijken zijn:
+Unity also has the full scripting reference built in.
+Pressing F1 in the editor will open it.
+On the internet you can also find a lot of stuff, also thanks to Unity answers,
+where users can ask questions that are then answered by the community.
+On youtube there are many different tutorials made by users.
+Also Unity itself has a lot of free training material,
+they also do live training that can be watched back afterwards:
 http://unity3d.com/learn
 
-##### Het Unity project
-Het project is gemaakt in Unity versie 5.1.3f1. Als je de nieuwste versie hebt gedownload zit je altijd goed.
-In het project vind je een volledig werkend voorbeeld.
-Verder vind je een map met zelf doen.
-Daarin zijn al een aantal dingen opgezet voor je.
-In de code vind je comments met alle stappen die je moet nemen.
-In het voorbeeld kun je zien hoe je dit zou kunnen aanpakken.
-**Veel succes!**
+##### The Unity project
+The project was created in Unity version 5.1.3f1. If you have downloaded the latest version you are always in the right place.
+In the project you will find a fully working example.
+Furthermore you will find a folder with DIY.
+In there some things are already set up for you.
+In the code you will find comments with all the steps you need to take.
+In the example you can see how you could do this.
+**Good luck!

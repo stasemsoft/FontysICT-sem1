@@ -1,9 +1,9 @@
-# Challenge Winstpercentage
+# Challenge Profit Percentage
 
-Nog een opgave geïnspireerd door www.beterrekenen.nl: 
+Another challenge inspired by www.beterrekenen.nl:
 
-Karel van de Kaart is verslaafd aan een kaartspelletje op de computer. Hij heeft 679 spelletjes gespeeld en daarvan 555 gewonnen. Een winstpercentage dus van 555 : 679 x 100% = 81,74%. 
+Karel van de Kaart is addicted to a card game on the computer. He has played 679 games and won 555 of them. So a winning percentage of 555 : 679 x 100% = 81.74%.
 
-Deze score wordt steeds afgerond op 2 cijfers achter de komma. Als Karel vanaf nu ... spelletjes achter elkaar wint en niets meer verliest, is het winstpercentage (voor het eerst) 82% of hoger. (Vul een geheel getal in). 
+This score is always rounded to 2 decimal places. If from now on Karel wins ... wins games in a row and loses nothing more, the winning percentage is (for the first time) 82% or higher. (Enter a whole number).
 
-Schrijf een programma dat het antwoord berekent en maak het programma zo dat de gebruiker de getallen kan veranderen. 
+Write a program that calculates the answer and make the program so that the user can change the numbers.

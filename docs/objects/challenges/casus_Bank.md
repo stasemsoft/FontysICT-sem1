@@ -1,180 +1,175 @@
 # Casus: Bank
 
-| | |
-|---|---|
-| Leerdoelen | constructor, this, static | 
-| Vereiste voorkennis | Basisbegrip class, object | 
-| Challenge Type | Workshop, Realiseren, Samenwerken | 
+|                    |                                     |     |
+| ------------------ | ----------------------------------- | --- |
+| Learning Outcomes  | constructor, this, static           |     |
+| Required Knowledge | Basisbegrip class, object           |     |
+| Challenge Type     | Workshop, Realise, Working together |     |
 
 
 
-In deze opdracht maak je een toepassing voor een bank. Voor de duidelijk: een financiële, met bankrekeningen, waar klanten hun geld veilig weten. 
+In this assignment, you will create an application for a bank. For clarity: a financial, with bank accounts, where customers know their money is safe.
 
-Met deze toepassing kan men:
-- **Geld storten** op een bankrekening. De gebruiker kan alleen een positief bedrag storten. Bij een poging iets anders te storten dan positieve getallen wordt de transactie niet uitgevoerd en wordt een foutmelding gegeven. 
-- **Geld opnemen** van een rekening. De gebruiker wil geld opnemen. Let op: er mogen alleen positieve bedragen overgemaakt worden! Indien er een negatief saldo zou ontstaan, of als er iets anders ingevuld is dan positieve getallen wordt de transactie niet uitgevoerd en wordt een foutmelding gegeven door middel van een MessageBox.
-- **Geld overboeken** van links naar rechts (of van rechts naar links). In de TextBoxes links (rechts) vul je het over te maken bedrag in daarna klik je op de Button &gt;&gt;  (&lt;&lt;).  Indien er een negatief saldo zou ontstaan bij de betalende partij, of als er iets anders ingevuld is dan positieve getallen wordt de transactie niet uitgevoerd en wordt een foutmelding gegeven door middel van een MessageBox.
-Het weergegeven saldo wordt na iedere transactie natuurlijk netjes aangepast.
+This application allows you to:
+- **Deposit money** into a bank account. The user can only deposit a positive amount. When attempting to deposit anything other than positive numbers, the transaction is not performed and an error message is given.
+- **Withdraw money** from an account. The user wants to withdraw money. Note that only positive amounts may be transferred! If a negative balance would occur, or if something other than positive numbers is entered, the transaction will not be executed and an error message will be issued through a MessageBox.
+- **Money Transfer** from left to right (or right to left). In the TextBoxes on the left (right), enter the amount to be transferred then click the Button &gt;&gt; (&lt;&lt;).  If there would be a negative balance at the paying party, or if something other than positive numbers is entered, the transaction will not be executed and an error message will be given through a MessageBox.
+The displayed balance is of course neatly adjusted after each transaction.
 
-## Opdracht
+## Command
 
-Let op: om aan te tonen dat je met Objecten kunt programmeren is het belangrijk dat je niet alleen een opdracht als deze 'braaf uitvoert', maar dat je ook zelf verzint hoe je uitbreidingen op je programma kunt maken. Aan het einde van dit document begint de challenge dus pas echt!  
+Note: To demonstrate that you can program with Objects, it is important that you not only "obediently execute" an assignment like this one, but that you also figure out how to create extensions to your program on your own. So at the end of this document, the challenge really begins!  
 
-Stel je voert deze opdracht uit in C#. Het kan dan als Console, als WinForms, als WPF, als UWP doen, of helemaal zonder UI (user interface) en dan unit tests gebruiken om aan te tonen dat ie werkt. 
+Suppose you execute this command in C#. You can do it as Console, as WinForms, as WPF, as UWP, or completely without UI (user interface) and then use unit tests to prove that it works.
 
-### Stap 1: Bezint eer ge begint! 
+### Step 1: Think before you start!
 
-Wat komt er eerst? Je kunt een ontwikkeling als deze van tenminste twee kanten aanpakken: je kunt `Top Down` werken of `Bottom Up`, hieronder korte beschrijvingen van beide. Lees ze en kies wat je het liefst bij dit project zou willen doen. 
-
+What comes first? You can approach a development like this from at least two sides: you can work `Top Down` or `Bottom Up`, below are brief descriptions of both. Read them and choose what you would prefer to do with this project.
 #### Top Down 
 
-Bij `Top Down` begin je dan wellicht met een schets van hoe een scherm er uit zou kunnen zien. Daar praat je dan over met je klant en met potentiële gebruikers. Maak een schets op een whiteboard en praat hierover met je medestudenten: is dit duidelijk voor een gebruiker? 
+At `Top Down` you might then start with a sketch of what a screen might look like. You then talk about that with your client and with potential users. Make a sketch on a whiteboard and talk about this with your peers: is this clear to a user?
 
 
-Als daar consensus over is wordt die GUI in een ontwikkelomgeving (IDE: Integrated Development Environment) gebouwd. Van daaruit wordt gekeken welke `classes` er nodig zijn en bijvoorbeeld welke `methodes` en `properties` er zijn. 
+If there is consensus on that, that GUI is built in a development environment (IDE: Integrated Development Environment). From there, it is examined what `classes` are needed and, for example, what `methods` and `properties` there are.
 
-Om te kunnen zien wat onze 
-Maak een nieuw Windows Forms project aan dat je bijvoorbeeld Bankzaken noemt. Geef het automatisch aangemaakte formulier Form1 een meer betekenisvolle naam, bijvoorbeeld BankrekeningForm. Pas ook de Property Text van het formulier aan zodat er een betere naam in de titelbalk van de applicatie komt te staan.
+To see what our
+Create a new Windows Forms project that you call Banking, for example. Give the automatically created Form1 form a more meaningful name, for example, Bank AccountForm. Also modify the Property Text of the form so that a better name appears in the application title bar.
 
-#### Bottom Up 
-
-
-### STAP 2: De (Grafische) User Interface
-
-Sleep de benodigde componenten op het formulier. Het hoeft niet precies zoals in het voorbeeld staat, maar bedenk wel vooraf hoe je de vereiste functionaliteit koppelt aan de componenten. Geef de componenten een betekenisvolle naam bijvoorbeeld btnStortenLinks en txtEuroRechts.
+#### Bottom Up
 
 
-### STAP 3: DE KLASSE BANKREKENING
-Voeg een nieuwe klasse toe en noem deze Bankrekening. Elke bankrekening heeft een rekeningnummer, staat op naam van een persoon en heeft een saldo. Zorg er voor dat de klasse Bankrekening-Fields heeft om de benodigde gegevens op te slaan en verder de volgende velden heeft:
+### STEP 2: The (Graphical) User Interface
+
+Drag and drop the required components onto the form. It does not have to be exactly as shown in the example, but think about how you will link the required functionality to the components beforehand. Give the components a meaningful name, for example, btnDepositLeft and txtEuroRight.
+
+
+### STEP 3: THE CLASS BANK ACCOUNT
+Add a new class and name it Bank Account. Each bank account has an account number, is in a person's name and has a balance. Make sure the class has Bank Account Fields to store the required data and further has the following fields:
 
 ```cs
 // Fields
-private int rekeningnummer;
-private string naam;
-private int saldo; // het saldo in hele centen
-private static int volgendeVrijeRekeningnummer = 2001;
+private int account number;
+private string name;
+private int balance; // the balance in whole cents
+private static int nextFreeAccountNumber = 2001;
 ```
 
 ### Properties
-Programmeer de volgende attributen als properties:
-- Rekeningnummer (type int)
-- Naam (type string)
-- Saldo (type int)
+Program the following attributes as properties:
+- Account number (type int)
+- Name (type string)
+- Balance (type int)
 
 ```cs
 // Methods
-public void NeemOp(int bedrag)
+public void TakeOp(int amount)
 {
-    // bedrag in hele centen, negatieve bedragen worden genegeerd.
-    // vul zelf in
+    // amount in whole cents, negative amounts are ignored.
+    // fill in your own
 }
 
-public void Stort(int bedrag)
+public void Deposit(int amount)
 {
-    // bedrag in hele centen, negatieve bedragen worden genegeerd.
-    // vul zelf in
+    // amount in whole cents, negative amounts are ignored.
+    // enter your own
 }
 
-public void MaakOver(Bankrekening andereRekening, int bedrag)
+public void CreateOver(Bank account otherAccount, int amount)
 {
-    // bedrag in hele centen, negatieve bedragen worden genegeerd.
-    // vul zelf in
+    // amount in whole cents, negative amounts are ignored.
+    // enter your own
 }
 ```
 
-Maak de implementatie van de methodes waarbij “vul zelf in” staat, zelf af.
+Complete the implementation of the methods that say "fill in yourself" by yourself.
 
-### Static variabele
+### Static variable
 
-Merk op dat er `static` staat voor de variabele volgendeVrijeRekeningNummer en dat deze variabele op 2001 wordt geïnitialiseerd. Dat er static staat betekent dat dit een zogenaamde klassenvariabele is. Een klassenvariabele bestaat al voordat er een instantie gemaakt is van de klasse en wordt bij het opstarten van de applicatie geïnitialiseerd en dus niet pas bij het instantiëren (aanmaken) van het object van die klasse, zoals normale variabelen. Het voordeel van een klassevariabele is dat deze voor alle instanties van deze klasse dezelfde waarde heeft. Dezelfde klassevariabele wordt dus door alle instanties van deze klasse gebruikt.
-Elke nieuwe bankrekening moet natuurlijk een uniek rekeningnummer hebben. Bij deze bank zijn dat de nummers vanaf 2001. De eerste bankrekening, die gecreëerd wordt, krijgt rekeningnummer 2001, de volgende rekeningnummer 2002, etc. Het bepalen van het volgende vrije rekeningnummer gebeurt in de Constructor.
-
+Notice that it says `static` for the variable nextFreeAccountNumber and that this variable is initialized at 2001. That it says static means that this is a so-called class variable. A class variable exists even before an instance of the class is created and is initialized when the application is started, rather than when the object of that class is instantiated (created), as normal variables are. The advantage of a class variable is that it has the same value for all instances of that class. Thus, the same class variable is used by all instances of this class.
+Each new bank account must, of course, have a unique account number. For this bank, these are the numbers starting in 2001. The first bank account, which is created, will have account number 2001, the next account number 2002, etc. Determining the next free account number is done in the Constructor.
 ### Constructors
 
-Een Constructor is een speciale methode met dezelfde naam als de klasse die wordt uitgevoerd als een object van die aangemaakt wordt en dient om de Fields of Properties van de klasse te initialiseren. We hebben twee Constructors nodig. Een om een Bankrekening aan te maken als de naam van de rekeninghouder bekend is en het beginsaldo 0 en een voor het geval dat er wel sprake is van een beginsaldo, bijvoorbeeld als onderdeel van een wervingsactie van de bank.
+A Constructor is a special method with the same name as the class that is executed when an object of that is created and serves to initialize the Fields or Properties of the class. We need two Constructors. One to create a Bank account when the account holder's name is known and the initial balance is 0 and one for the case when there is an initial balance, for example, as part of a bank recruitment campaign.
 
 ```cs
 // Constructors
-public Bankrekening(string naam)
+public Bank account(string name)
 {
-    this.naam = naam;
-    saldo = 0;
-    rekeningnummer = volgendeVrijeRekeningnummer;
+    this.name = name;
+    balance = 0;
+    account number = nextFreeAccount;
 
-    // we hogen het volgende vrije rekeningnummer met 1 op zodat de
-    // volgende bankrekening een nummer krijgt dat 1 hoger is dan
-    // deze bankrekening.
-    ++volgendeVrijeRekeningnummer;
+    // we raise the next free account number by 1 so that the
+    // next bank account gets a number 1 higher than
+    // this bank account.
+    ++nextFreeAccountNumber;
 }
 
-public Bankrekening(string naam, int saldo)
+public Bank account(string name, int balance)
 {
-    // vul zelf in
+    // fill in yourself
 }
 ```
 
 
-Het is in veel C# teams gebruikelijk om de Contructors na de Properties en voor de Methoden te zetten.
+It is common in many C# teams to put the Contructors after the Properties and before the Methods.
 
-### STAP 4: DE KLASSE BANKREKENINGFORM
-Declareer binnen de BankrekeningForm twee Fields, voor de 2 bankrekeningen. Initialiseer deze twee Fields vervolgens in de Constructor van het formulier.
+### STEP 4: THE CLASS BANK ACCOUNTFORM
+Within the Bank AccountForm, declare two Fields, for the 2 bank accounts. Then initialize these two Fields in the Constructor of the form.
 
 ```cs
-public partial class BankrekeningForm : Form
+public partial class BankaccountForm : Form
 {
     // Fields
-    private Bankrekening bankrekeningLinks;
-    private Bankrekening bankrekeningRechts;
+    private Bank account bank accountLeft;
+    private Bank account bank accountRight;
 
     // Constructor
-    public BankrekeningForm()
+    public Bank accountForm()
     {
         InitializeComponent();
-        bankrekeningLinks = new Bankrekening("Duck, Dagobert");
-        bankrekeningRechts = new Bankrekening("Gans, Gijs");
+        bank accountLeft = new Bank account("Duck, Dagobert");
+        bank accountRight = new Bank account("Goose, Gus");
     }
 ```
 
-Maak nu de EventHandlers voor de knoppen aan. Weet je het nog? Door dubbel te klikken op de Button in het ontwerpscherm, wordt de standaard EventHandler (Click) automatisch aangemaakt. Vul de EventHandlers voor alle Buttons nu in om de gevraagde functionaliteit en de foutafhandeling te realiseren. Gebruik daarbij de methoden van de klasse Bankrekening die je al gemaakt hebt. Controleer op geldige invoer en vergeet ook niet de Labels met saldoinformatie bij te werken. Je kunt hiervoor de methode ToString gebruiken, waarbij je opgeeft dat je het saldo als valuta wilt.
-<p class="note">Als je wilt dat een numerieke waarde als valuta weergeven wordt dan kun je daarvoor de methode `ToString()` gebruiken. Je geeft dan als parameter een hoofdletter C mee om aan te duiden dat het currency (valuta) is:</p>
+Now create the EventHandlers for the buttons. Remember? Double-clicking on the Button in the design screen automatically creates the default EventHandler (Click). Now populate the EventHandlers for all Buttons to achieve the requested functionality and error handling. In doing so, use the methods of the Bank Account class you have already created. Check for valid entries and also don't forget to update the Labels with balance information. You can use the method ToString for this, specifying that you want the balance as currency.
+<p class="note">If you want a numeric value to be displayed as currency you can use the method `ToString()`. You then pass a capital C as a parameter to indicate that it is currency:</p>
 
 ```cs
-double saldo = 120.55;
-lblSaldo.Text = saldo.ToString(“C”);
+double balance = 120.55;
+lblSaldo.Text = balance.ToString("C");
 ```
 
 
- 
-Test als je klaar bent of alle functies en de foutafhandeling goed werken. Gebruik hiervoor ook de lijst van gewenste functionaliteit op de eerste pagina’s van deze opdracht.
+
+When you are done, test that all functions and error handling are working properly. Also use the list of desired functionality on the first pages of this assignment for this purpose.
 
 #### TryParse
-Als je wilt controleren of een ingetypte tekst een geheel getal is, kun je gebruik maken van onderstaande methode.
+If you want to check whether a typed text is an integer, you can use the method below.
 
 ```cs
 bool int.TryParse(string text, out int result);
 ```
 
-Zoals je ziet is bij de declaratie van de tweede parameter out vermeld. Dit betekent dat deze methode de waarde van result mag aanpassen. Bij het aanroepen van de methode moet ook out vermeld worden. De waarde van de parameter result kan na het aanroepen van TryParse veranderd zijn. Als true wordt teruggegeven, bevat tekst een heel getal en heeft result de waarde. Zo niet, dan is er iets anders ingegeven dan een geheel getal en bevat result geen geldige waarde. Let op: een negatief geheel getal is ook een geheel getal.
+As you can see, the declaration of the second parameter specifies out. This means that this method may modify the value of result. When calling the method, out must also be mentioned. The value of the result parameter may have changed after calling TryParse. If true is returned, text contains a whole number and result has the value. If not, something other than an integer was entered and result does not contain a valid value. Note that a negative integer is also an integer.
 
 ```cs
-if (int.TryParse(txtEuroLinks.Text, out getal))
+if (int.TryParse(txtEuroLinks.Text, out number))
 {
-    // de invoer in txtEuroLinks is een geheel getal en
-    // de waarde zit nu in de variabele ‘getal’.
+    // the entry in txtEuroLinks is an integer and
+    // the value is now in the variable 'number'.
 }
 ```
 
-Zie MSDN voor meer informatie.
+See MSDN for more information.
 
-## Und jetzt gehts los! 
+## Und jetzt gehts los!
 
-Vrij vertaald: Vanaf mag jij helemaal los gaan! Tot zover was het een trainingsopdracht, waarmee je de basiskennis en -vaardigheden op kon doen. Vanaf hier komt de mogelijkheid om te laten zien dat je OOP beheerst. 
+Freely translated: From now on you may go all the way! Up to this point it was a training assignment, which allowed you to gain basic knowledge and skills. From here comes the opportunity to show that you have mastered OOP.
 
-Hier volgen een aantal voorbeelden van extra fuctionaliteiten waarmee je je bank kunt uitbreiden. 
+Here are some examples of additional fuctionalities with which you can extend your bank.
 
-### 
+###
 
-Toon een lijst van `transacties` op het scherm waarin de transacties worden weergegeven onder vermelding van datum, tijd, betrokken rekeningnummer(s) en bedrag. Naar keuze geef je alleen geslaagde of zowel geslaagde als niet geslaagde transacties weer. In het laatste geval wordt er tevens vermeld of de transactie geslaagd is of niet.
-
-
-
+Show a list of `transactions` on the screen in which the transactions are displayed indicating date, time, account number(s) involved and amount. Optionally, you can display only successful or both successful and unsuccessful transactions. In the latter case, it is also indicated whether the transaction was successful or not.

@@ -1,20 +1,21 @@
 # Class Diagram
 
-Al eerder heb je `class diagrams` gezien:
-*plaatjes waarin classes als rechthoeken worden getoond*:
+Already you have seen `class diagrams`:
+*plots showing classes as rectangles*:
+
 
 ![fig:ClassAenB](figures/ClassDiagram_multiplicity.png "Relation in class diagram")
-In figuur
-[](#fig:ClassAenB)
+In figure
+[](#fig:ClassAandB)
 
-zie je steeds twee `classes`, *A* en *B*.
-De relatie tussen *A* en *B* is steeds anders:
-De pijl geeft een relatie aan tussen de `classes`,
-inclusief richting (`class` *A* kent `class` *B*).
-We gaan nu kijken hoe die relaties naar C#-code vertaald kunnen worden:
+you always see two `classes`, *A* and *B*.
+The relationship between *A* and *B* is always different:
+The arrow indicates a relationship between the `classes`,
+including direction (`class` *A* knows `class` *B*).
+We will now see how these relationships can be translated to C# code:
 
 
-Mogelijk bij (a) behorende C#-code
+Possible C# code associated with (a).
 
 ```cs
 public class A {
@@ -25,13 +26,13 @@ public class A {
 }
 ```
 
-Hierbij *kent* `class` *A* `class` *B*.
-Het `Field` krijgt vaak de naam van de `class` maar dan beginnend met kleine letter.
-De waarde van *b* kan
-`null` zijn of een object van type *B*.
+In this, `class` *A* `class` *B* *knows.
+The `Field` is often given the name of the `class` but starting with lowercase.
+The value of *b* can be
+`null` or be an object of type *B*.
 
 
-In situatie (b)
+In situation (b)
 
 ```cs
 public class A {
@@ -42,11 +43,11 @@ public class A {
 }
 ```
 
-Hierbij *kent* `class` *A* `class` *B*.
-De waarde van *b* wordt direct ingevuld, deze zal dus niet `null` zijn.
+Here, `class` *A* `class` *B* *know.
+The value of *b* is filled in directly, so it will not be `null`.
 
 
-Bij (c) behorende C#-code:
+C# code associated with (c):
 
 ```cs
 public class A {
@@ -57,11 +58,11 @@ public class A {
 }
 ```
 
-Een `object` van `type` A kent 0 of meer (vanwege de `0..*`)
-objecten van `type` B.
-Voor de naam van het `Field` (hier *bs*)
-wordt doorgaans het meervoud gekozen van *b*. Stel dus bijvoorbeeld dat `class` *B*
-niet *B* zou heten maar *BattleRager*, dan zou het Field *b* in plaats daarvan
-*battleRager* heten en het Field *bs* zou *battleRagers* worden.
+An `object` of `type` A knows 0 or more (because of the `0..*`)
+objects of `type` B.
+For the name of the `Field` (here *bs*)
+the plural of *b* is usually chosen. So suppose, for example, that `class` *B*
+would not be called *B* but *BattleRager*, then the Field *b* would instead be
+*battleRager* and the Field *bs* would become *battleRagers*.
 
-Merk op dat in plaats van een `List` ook een `Array` gebruikt kan worden.
+Note that instead of a `List`, an `Array` can also be used.

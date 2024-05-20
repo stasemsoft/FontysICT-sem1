@@ -1,42 +1,43 @@
-# Training Goeroe-calc: variabelen, bewerkingen en conversies
+# Training Guru-calc: variables, operations and conversions
 
-(Concepten: int, double, bewerkingen en conversies)
+(Concepts: int, double, operations and conversions)
 
-## Voorbereiding
+## Preparation
 
-Ken je het verschil tussen een int, double en string?
+Do you know the difference between an int, double and string?
 
-## Inleiding
+## Introduction
 
-We gaan een werkende calculator maken. Het is een minimalistische calculator, maar hij kan zaken voor je uitrekenen die je zelf niet kunt. Hoeveel is 655 maal 23623? De mens gebruikt daar liever een programma voor. Jij kunt dat programma maken.
+We are going to make a working calculator. It's a minimalist calculator, but it can calculate things for you that you can't do yourself. How much is 655 times 23623? Humans prefer to use a program for that. You can make that program.
 
-## Opdracht
+## Assignment
 
-Maak de user interface van de calculator waarbij je minimaal twee Textboxen, een Label en twee Buttons (een voor optellen en een voor vermenigvuldigen) hebt.
+Create the user interface of the calculator where you have at least two Textboxes, a Label and two Buttons (one for addition and one for multiplication).
 
 ![](figures/goeroecalc.png "goeroe-calc")
 
-De gebruiker kan gehele getallen (integers) invullen in de tekstboxen. Programmeer nu de functionaliteit van de calculator conform de volgende specificatie:
 
-+ Als de gebruiker op de knop Plus klikt dan worden de twee ingevoerde getallen bij elkaar opgeteld en in een label getoond als uitkomst.
-+ Als de gebruiker op de knop Vermenigvuldig klikt dan worden de twee ingevoerde getallen met elkaar vermenigvuldigd en in een label getoond als uitkomst.
+The user can enter integers in the text boxes. Now program the functionality of the calculator according to the following specification:
 
-Is het gelukt? Dan heb je nu zelf een programma geschreven dat meer kan dan jijzelf (binnen een milliseconde de getallen 7225 en 5588 met elkaar vermenigvuldigen bijvoorbeeld) en heb je de eerste stap gezet om een ervaren software engineer te worden.
++ If the user clicks the Plus button then the two numbers entered are added together and displayed in a label as the result.
++ If the user clicks the Multiply button then the two numbers entered are multiplied together and displayed in a label as the result.
 
-Zit je vast? Stel een vraag aan je buurman of -vrouw! Als jullie er samen niet uitkomen vraag je het aan je docent. In het begin kan dit programmeren best moeilijk zijn.
+Did you succeed? Then you have now written yourself a program that can do more than yourself (multiply the numbers 7225 and 5588 within a millisecond, for example) and have taken the first step toward becoming an experienced software engineer.
 
-Als de calculator werkt dan kun je nog de laatste 2 requirements programmeren. Dat zijn deze:
-+ De uitkomst wordt getoond als “Uitkomst: 123” in een label dus met de tekst “Uitkomst: “: voor de daadwerkelijke uitkomst.
-+ De calculator moet werken met gebroken getallen. Dus 3.14 maal 2.0 moet 6.28 opleveren.
+Stuck? Ask a question of your neighbor! If you can't figure it out together ask your teacher. In the beginning, this programming can be quite difficult.
 
-Misschien had je die al, dan ben je niet alleen goed in programmeren, maar heb je de analyse-fase ook eervol doorlopen.
+If the calculator works then you can program the last 2 requirements. These are:
++ The outcome is shown as "Outcome: 123" in a label so with the text "Outcome: ": in front of the actual outcome.
++ The calculator must work with broken numbers. So 3.14 times 2.0 should yield 6.28.
 
-Bespreek deze opdracht met je docent en voer feedback van je docent in in Feedpulse.
+Maybe you already had it, then you are not only good at programming, but you also passed the analysis phase honorably.
 
-## Extra’s
+Discuss this assignment with your teacher and enter feedback from your teacher in Feedpulse.
 
-Wil je graag lachende smiley’s in Feedpulse? Verzin dan uitbreidingen op de opdrachten of eigen opdrachten en vraag feedback (let op: je moet deze extra’s zelf kunnen programmeren voor een hogere beoordeling, code-kopie van internet is niet voldoende). Enkele mogelijke uitbreidingen:
+## Extras
 
-+ Breid de calculator uit met een functie voor worteltrekken.
-+ Maak de tekst van het label rood (rode letters) als de uitkomst onder de nul is.
-+ Breidt de calculator uit met een functie voor delen. Zorg ervoor dat delen door 0 netjes wordt afgevangen en laat een nette foutmelding zien.
+Would you like smiley faces in Feedpulse? Then make up extensions to the assignments or assignments of your own and request feedback (note: you must be able to program these extras yourself for a higher grade, code copy from the Internet is not sufficient). Some possible extensions:
+
++ Extend the calculator with a function for root subtraction.
++ Make the label text red (red letters) if the result is below zero.
++ Extend the calculator with a function for division. Ensure that dividing by 0 is neatly captured and shows a neat error message.

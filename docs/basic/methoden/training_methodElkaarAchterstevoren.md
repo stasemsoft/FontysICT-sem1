@@ -1,5 +1,5 @@
-# Training met methode ElkaarAchterstevoren
+# Training with Method Each Other Backwards
 
-Maak een methode `ElkaarAchterstevoren` die als returnwaarde een `bool` heeft en 2 parameters van het type `String`. De methode geeft `true` terug precies dan als de ene string gelijk is aan de andere achterstevoren.
+Create a method `EachBackwards` that has as return value a `bool` and 2 parameters of type `String`. The method returns `true` exactly then if one string is equal to the other backwards.
 
-Hint: Gebruik de String-methode `SubString` om losse letters van woorden te isoleren.
+Hint: Use the String method `SubString` to isolate single letters from words.

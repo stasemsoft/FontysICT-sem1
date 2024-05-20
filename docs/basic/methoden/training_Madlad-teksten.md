@@ -1,5 +1,5 @@
-# Training - Mad lad teksten
+# Training - Mad lad lyrics
 
-Een Mad lad tekst is een tekst waarbij het aantal karakters even is en waarbij de tweede helft van de string het spiegelbeeld is van de eerste helft. Bijvoorbeeld de strings **koffieeiffok**, **waterretaw** en **brillirb** zijn allemaal Mad lad teksten.
+A Mad lad text is a text where the number of characters is even and where the second half of the string is the mirror image of the first half. For example, the strings **coffeeeiffok**, **waterretaw** and **brillirb** are all Mad lad texts.
 
-Schrijf een programma waar de user een tekst in kan voeren en het programma als output "You are a mad lad!" of "You are sooo basic!" indien het geen Mad lad tekst is.
+Write a program where the user can enter a text and the program will output "You are a mad lad!" or "You are sooo basic!" if it is not a Mad lad text.

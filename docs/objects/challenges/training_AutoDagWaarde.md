@@ -1,40 +1,39 @@
-# Training Auto Dagwaarde
+# Training Car Day Value
 
-| Niveau | 2 of 5 |
-| --- | --- |
-| Leerdoelen | Class, property. |
-| Vereiste voorkennis | Basiskennis over objecten. |
-| Challenge Type | Realiseren. |
+| Level | 2 of 5 |
+| ------------------- | -------------------------- |
+| Learning Objectives | Class, property.           |
+| Prior knowledge required | Basic knowledge about objects. |
+| Challenge Type | Realize.                |
 
 ---
-
-Je bent als software engineer ingehuurd om een tool te programmeren waarmee de dagwaarde van auto’s kan worden bepaald. Deze dagwaarde mag in deze Challenge berekend met de formule
+You have been hired as a software engineer to program a tool to determine the daily value of cars. This daily value may be calculated in this Challenge using the formula
 
 ```cs
-(500000/kilometerstand) * factor
+(500000/mileage) * factor
 ```
 
-maar kijk vooral ook op internet naar de echte berekening: misschien kom je op iets meer realistisch uit.
-De factor is een waarde die afhankelijk is van het brandstoftype:
-- 100 voor een benzine-auto is
-- 150 voor een dieselauto is.
-- 90 voor een LPG-auto is.
-- 130 voor een elektrische auto.
+but especially look on the Internet for the real calculation: maybe you'll come up with something more realistic.
+The factor is a value that depends on the fuel type:
+- 100 for a gasoline car is
+- 150 for a diesel car is.
+- 90 for an LPG car is.
+- 130 for an electric car.
 
-Technisch Ontwerp
-- Definieer een enum BrandstofSoort met bovenstaande waarden.
-- Een class Auto.
-- Deze class krijgt een constructor. 
-- Auto heeft een public property Kilometerstand (private setter). 
-- Auto heeft een property Kenteken (een String) die als parameter aan de constructor meegegeven wordt.
-- Auto heeft een method RijdKilometers met als parameter een geheel getal.
-- RijdKilometers controleert of de parameter een positief getal is. Zoja, dan wordt de KmStand met dat bedrag verhoogd.
-- In de constructor krijgt de Kilometerstand de waarde 1. 
-- Auto heeft een property Brandstof van type BrandstofSoort. 
-- De constructor krijgt als parameter de Brandstofsoort.
-- Class Auto heeft verder een property Dagwaarde. Deze voert de berekening uit en geeft het goede antwoord terug.
-- override de ToString() method van Auto zodat er iets komt te staan als AB-12-CD elektrische auto 12345 km op de teller heeft een dagwaarde van 12345 euro.
+Technical Design
+- Define an enum FuelType with the above values.
+- A class Car.
+- This class gets a constructor.
+- Car has a public property Mileage (private setter).
+- Car has a property Registration number (a String) that is passed to the constructor as a parameter.
+- Car has a method DriveKilometers with an integer as parameter.
+- DriveKilometers checks if the parameter is a positive number. If so, the KmStand is incremented by that amount.
+- In the constructor, KmStand is given the value 1.
+- Car has a property Fuel of type FuelType.
+- The constructor gets the fuel type as parameter.
+- Class Auto also has a property Day value. It performs the calculation and returns the correct answer.
+- Override the ToString() method of Auto so something like AB-12-CD electric car 12345 km on the odometer has a daily value of 12345 euros.
 
-Maak een Console app of een GUI app (eigen keuze). Maak een List<Auto> aan met minstens 4 auto’s. Bij opstarten laat de app van elke auto de informatie zien (gebruik ToString()).
+Create a Console app or a GUI app (your own choice). Create a List<Auto> with at least 4 cars. At startup, the app shows the information of each car (use ToString()).
 
-Laat daarna elke auto een willekeurige aantal kilometers tussen 1000 en 20000 rijden. Toon voor elke auto opnieuw de informatie. Herhaal dit een aantal keren totdat elke auto minstens 100000 kilometer gereden heeft.
+Then let each car drive a random number of miles between 1000 and 20000. For each car, show the information again. Repeat several times until each car has driven at least 100000 kilometers.

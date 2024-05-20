@@ -1,8 +1,8 @@
-# Training De Marimba en de Bas
+# Training The Marimba and the Bass
 
-Introductieopdracht werken met classes en objecten.
+Introductory assignment working with classes and objects.
 
-Maak een Console app aan. Creëer hierin een class Marimba met een method `void PlayNote(string note){}`. Om het principe te begrijpen is het goed genoeg (en het snelste) het ’spelen’ van noten te realiseren door `Console.WriteLine("marimba plays note:"+note);` Je kunt nu in je programma een marimba aanmaken en noten laten spelen.
+Create a Console app. In it, create a class Marimba with a method `void PlayNote(string note){}`. To understand the principle, it is good enough (and fastest) to realize the `playing' of notes by `Console.WriteLine("marimba plays note: "+note);` You can now create a marimba in your program and have it play notes.
 
 ```cs
 Marimba marimba = new Marimba();
@@ -14,7 +14,7 @@ marimba.PlayNote("e");
 ```
 
 
-Als je nu ook nog een class BassGuitar aanmaakt kun je meerdere instrumenten aanmaken en om de beurt noten laten spelen:
+Now if you also create a class BassGuitar you can create multiple instruments and have them play notes in turn:
 
 ```cs
 Marimba marimba = new Marimba();
@@ -30,4 +30,4 @@ bassGuitar.PlayNote("e");
 marimba.PlayNote("e");
 ```
 
-Verzin zelf hoe je dit programma verder kunt uitbreiden en leef je uit.
+Make up your own ideas on how to extend this program further and have fun.

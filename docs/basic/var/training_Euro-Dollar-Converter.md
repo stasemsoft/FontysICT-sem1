@@ -1,50 +1,50 @@
 # Euro-Dollar Converter
 
-## Doelen
- + Omgaan met verschillende typen (int, double, string).
- + Gebruik van variabelen. 
- + Converteren van typen.
+## Objectives.
+ + Dealing with different types (int, double, string).
+ + Using variables.
+ + Converting types.
   
-## Inleiding 
-Reisbureau “FLUX vakanties” organiseert rondreizen in landen van alle continenten. Veel van de geboekte reizen gaan naar landen waar niet met euro’s maar met dollars betaald moet worden. Om de reisvoorbereidingen voor klanten wat te vergemakkelijken wil FLUX vakanties daarom een applicatie laten ontwikkelen om euro’s gemakkelijk naar dollars om te kunnen rekenen en andersom. 
+## Introduction
+Travel agency "FLUX vacations" organizes tours in countries of all continents. Many of the trips booked go to countries where payment is not with euros but with dollars. To make travel preparations a little easier for customers, FLUX vacations therefore wants to have an application developed to easily convert euros to dollars and vice versa.
  
-## Bronnen
-Voorbeelden over het werken met variabelen in C#: zie 'Reference: variable'. 
+## Resources
+Examples about working with variables in C#: see 'Reference: variable'.
 
-## Opdracht 
-De user interface is al ontworpen: 
+## Assignment
+You could use a user interface like this (but feel free to improve!):
+
 
 ![Aangeleverd ontwerp user interface](figures/euro-dollar-conv.png)
 
-+ Bouw deze user interface. 
-+ Zorg ervoor dat de koers per cent wordt opgehoogd/verlaagd als op de pijltjes omhoog/omlaag wordt geklikt (dit is een Property van de NumericUpDown), en stel de standaardwaarde in op 2,00 (of 2.00?). Controleer of het werkt door het project uit te voeren. 
-+ Programmeer de functionaliteit achter de Button “<” en Button “>”: 
-	+ Als op “>” wordt geklikt worden de Euro’s in de linker TextBox omgerekend naar dollars, en worden deze dollars in de rechter TextBox getoond. 
-	+ Als op “<” wordt geklikt worden de dollars rechter TextBox omgerekend naar Euro’s, en worden deze Euro’s in de linker TextBox getoond. 
-	+ In beide gevallen wordt de ingestelde koers gebruikt. 
++ Build this user interface.
++ Make sure that the rate per cent increases/decreases when the up/down arrows are clicked (this is a Property of the NumericUpDown), and set the default value to 2.00 (or 2.00?). Check that it works by running the project.
++ Program the functionality behind the Button "<" and Button ">":
+	+ When ">" is clicked, the Euros in the left TextBox are converted to dollars, and these dollars are displayed in the right TextBox.
+	+ If "<" is clicked, the dollars in the right TextBox are converted to Euros, and these Euros are displayed in the left TextBox.
+	+ In both cases, the set rate is used.
 	
 	```
-	Het is niet mogelijk om met variabelen van een tekst type te rekenen. Met variabelen van een getal type kan dit wel. Zorg er daarom voor dat je eerst de tekst in de tekstvakken om zet naar getallen. Je kunt hierna gemakkelijk de berekening uitvoeren en tot slot de uitkomst van de berekening weer omzetten naar tekst. 
-	``` 
+	It is not possible to calculate with variables of a text type. It is possible with variables of a number type. Therefore, make sure you first convert the text in the text boxes to numbers. You can then easily perform the calculation and finally convert the result of the calculation back to text.
+	```
 	
-## Uitbreiding (niveau 3  van 5) 
+## Extension (level 3 of 5)
 
-Voeg een controle toe op de invoer van bedragen: als de invoer geldig is, moet de berekening worden uitgevoerd. Is de invoer niet geldig, dan wordt een duidelijke foutmelding getoond en wordt er niets berekend.
+Add a check on the input of amounts: if the input is valid, the calculation should be performed. If the input is not valid, a clear error message is displayed and nothing is calculated.
 
-## Uitbreiding (niveau 4 van 5) 
+## Extension (level 4 of 5)
 
-Voeg de mogelijkheid toe om op een gebruikersvriendelijke manier te kunnen kiezen tussen twee vreemde valuta’s: Dollar of Yen. Er wordt wel altijd omgerekend van of naar Euro’s. De user interface moet hier uiteraard op aangepast worden. 
+Add the ability to choose between two foreign currencies in a user-friendly way: Dollar or Yen. However, there will always be conversion from or to Euros. The user interface obviously needs to be adapted to this.
 
-## Checklist 
-Als je de opdracht op de juiste manier hebt uitgevoerd heb je voldaan aan onderstaande punten:
-+ Vul bij koers 1,50 in, vul bij euro’s 3 in en druk op de “>” knop. Het aantal dollars zou nu 4,5 moeten worden.
-+ Vul bij koers 1,50 in, vul bij dollars 2 in en druk op de “<” knop. Het aantal euros zou nu 1,333… moeten worden.
-+ Controleer of de koers met centen kan worden verhoogd en verlaagd. 
+## Checklist
+If you have done the job correctly you have fulfilled the following points:
++ Enter 1.50 at rate, enter 3 at Euros and press the ">" button. The number of dollars should now become 4.5.
++ Enter at rate 1.50, enter at dollars 2 and press the "<" button. The number of euros should now become 1.333....
++ Check whether the rate can be increased and decreased by cents.
 
-Is alles in orde? Feedback vragen maar... 
+Is everything in order? Ask for feedback but...
 
-
-## Versies 
+## Versions 
 + Mei 2015 Marcel Veldhuijzen (KAL, standaard uitwerking verwijderd) 
 + 2014-01-10 Bas Michielsen (Template) 
 + 2014-01-09 Lindy Hutz (VS 2013) 

@@ -1,27 +1,28 @@
 # Challenge ExceptionHandling
 
-| Niveau | 2 of 5 |
-| --- | --- |
-| Leerdoelen | Exception handling. |
-| Vereiste voorkennis | Basiskennis over objecten. |
-| Challenge Type | Realiseren. |
+| Niveau             | 2 of 5                      |
+| ------------------ | --------------------------- |
+| Learning Goals     | Exception handling.         |
+| Required Knowledge | Basic knowledge of objects. |
+| Challenge Type     | Realise                     |
 
 ---
 
-Als startmateriaal is het programma Naamgenerator beschikbaar. Open deze solution en bekijk de code eens.
-Het programma genereert een willekeurige naam uit een lijst van beschikbare namen en laat die naam op het scherm zien. De lijst van beschikbare namen staat in het bestand Namen.txt. Het programma leest dit bestand uit.
+As a starting material, the program Name Generator is available. Open this solution and take a look at the code.
+The program generates a random name from a list of available names and displays that name on the screen. The list of available names is contained in the file Names.txt. The program reads this file.
+
 
 ![](figures/naamgenerator.png "naamgenerator")
 
-### Opdracht 1
+### Assignment 1
 
-Voeg C#-code toe die alle excepties van het programma
-zoals bijvoorbeeld de IndexOutOfRangeException
-en excepties die te maken hebben met bestanden/netwerk opvangen
-en een duidelijke foutmelding aan de gebruiker laten zien
-of (nog beter) de fout oplossen zonder dat de gebruiker het ziet.
-### Opdracht 2
+Add C# code that handles all the exceptions of the program
+such as the IndexOutOfRangeException
+and file/network related exceptions
+and show a clear error message to the user
+or (even better) resolve the error without the user seeing it.
+### Assignment 2
 
-Breidt het programma uit zodat er naar keuze 1 of 2 namen worden geselecteerd.
-De gebruiker moet van te voren kiezen of hij 2 namen of 1 naam wil zien.
-Voeg user interface controls toe, en vervang bestaande controls naar keuze.
+Extend the program so that either 1 or 2 names are selected as desired.
+The user must choose in advance whether to see 2 names or 1 name.
+Add user interface controls, and replace existing controls of your choice.

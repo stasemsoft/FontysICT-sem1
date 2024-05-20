@@ -1,20 +1,20 @@
-## Brief 1
+## Letter 1
 
 
 ![](figures/logo_hotel.png "logo hotel")
  
-Aan: Software ontwikkelgroep &quot;De Goeroes&quot;
-Betreft: specificatie hotelreserveringssysteem
-Mijne heren,
-Naar aanleiding van ons gesprek afgelopen woensdag sturen wij u hierbij de specificatie van ons hotelsysteem. Bij vragen kunt u ons altijd mailen of bellen. Maar we denken dat we in deze brief wel volledig zijn.
-Specificatie
-Het reserveren van kamers moet per kamer kunnen maar er mogen ook meerdere personen tegelijk op een kamer (vermits dit kan, elke kamer biedt ruimte aan 4 personen). De gebruikelijke NAW-gegevens van de bezoekers moeten wij in ons systeem kunnen terugvinden.
-Naast het reserveren van een kamer kunnen de mensen die al een kamer hebben gereserveerd ook (op de avonden dat ze aanwezig zijn) reserveren voor het diner. Dit dient dan wel minimaal 2 dagen voor aanvang van het diner te gebeuren. Ook voor het ontbijt kan gereserveerd worden.
-In de toekomst willen we ook 1- en 2-persoons kamers gaan verhuren, op dit moment werken we alleen nog met 4-persoons kamers.
-Wij als directie willen graag dagelijks een overzicht van alle gereserveerde kamers en een overzicht van alle kamers die op dat moment (die dag) bezet zijn, en ook willen we zien hoeveel personen er dan op die kamer zijn.
-Het reserveren gebeurt telefonisch, onze secretaresse voert dan de reserveringen in, in het systeem. Zowel voor het diner/ontbijt als voor de kamers. 
-Indien mogelijk willen we ook een handigheidje bij het invoeren van de reserveringen voor diner en ontbijt zodat we in één keer alle personen van een kamer kunnen koppelen aan een ontbijt of diner.
-Hoogachtend verblijven wij,
+To: Software development group &quot;The Gurus&quot;
+Subject: hotel reservation system specification
+Gentlemen,
+Following our conversation last Wednesday, we hereby send you the specification of our hotel system. If you have any questions, please feel free to email or call us. But we think we are complete in this letter.
+Specification
+Reservation of rooms must be possible per room but more than one person can stay in a room at the same time (as long as this is possible, each room can accommodate 4 persons). The usual name and address information of the visitors must be available in our system.
+Besides reserving a room, people who have already reserved a room can also reserve (on the nights they attend) for dinner. This must be done at least 2 days before dinner. Reservations can also be made for breakfast.
+In the future we also want to rent out single and double rooms, at the moment we only work with 4-person rooms.
+We as management would like to have a daily overview of all reserved rooms and an overview of all rooms that are occupied at that moment (that day), and also we would like to see how many people are in that room then.
+Reservations are made by phone, our secretary then enters the reservations, into the system. Both for dinner/breakfast and for the rooms.
+If possible, we would also like a hand-holding when entering the reservations for dinner and breakfast so that we can link all persons in a room to breakfast or dinner at once.
+Sincerely we stay,
 
-Dhr. Drs. P. van Trommelen
-Directeur Grand Hotel D'n Gaarkeuken
+Mr. Drs. P. van Trommelen
+Director Grand Hotel D'n Gaarkeuken

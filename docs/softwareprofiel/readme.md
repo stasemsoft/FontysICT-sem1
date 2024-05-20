@@ -1,18 +1,17 @@
-# Informatie over het softwareprofiel bij FHICT
+# Information about the software profile at FHICT
 
-Eenmaal per semester geven we voorlichting over hoe de rest van studie er uitziet als je voor software kiest.
+Once a semester we provide information about what the rest of study looks like if you choose software.
 
-Zie de info in deze
+See the info in this
 [powerpoint](Profielmarkt.Software.profiel.pptx).
 
-Als er vragen zijn kun je daarmee terecht bij je eigen softwaredocent, of natuurlijk bij degene die de Profielmarkt pesenteert. Als deze zelf niet bij het Software-profiel behoort zal hij/zij je wellicht doorsturen.
+If there are any questions, you can contact your own Software teacher with that, or of course the person who pesents the Profile Market. If they themselves do not belong to the Software Profile, they will probably refer you.
 
 ## Canvas course
 
-+ Openbaar toegankelijk id de canvas course van de proefstudeerdag, voor de liefhebber:
-[Canvas: proefstudeerdag](https://fhict.instructure.com/courses/7523)
++ Publicly accessible id the canvas course from the trial study day, for the enthusiast:[Canvas: proefstudeerdag](https://fhict.instructure.com/courses/7523)
 
-Voor latere semesters bestaan er speciale PCI-courses (zoek op 'PCI' in canvas), zodat je als Fontys-student alvast een kijkje kunt nemen in een volgend semester. Hieronder links naar semester S2:
+There are special PCI courses for later semesters (search for 'PCI' in canvas), so that you, as a Fontys student, can get a sneak peek into a subsequent semester. Below are links to semester S2:
 + [S-S2-Proftaak-PCI](https://fhict.instructure.com/courses/8652)
 + [S-S2-Individueel-PCI](https://fhict.instructure.com/courses/8649)
 + [achtergrondinformatie](http://i874317.hera.fhict.nl/doku.php)

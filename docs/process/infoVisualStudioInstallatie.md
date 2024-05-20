@@ -1,149 +1,158 @@
-# Visual Studio installatie
+# Visual Studio installation
 
-## Wat heb ik nodig?
+## What do I need?
 
-Een ontwikkelomgeving (kort: IDE). Als je nog geen ervaring hebt raden we de `default` aan:
+A development environment (IDE for short). If you have no experience yet, we recommend the `default`:
 
-### Default: `VS for MS-Windows`
+### Default: `VS for MS-Windows`.
 
-Visual Studio (afgekort: VS). De default is
-`VS for MS-Windows`. In sommige opdrachten zie je (nog) screenshots van WinForms-apps, die je alleen in deze versie kunt maken. In andere omgevingen moet je eerst bedenken hoe je hetzelfde effect kunt bereiken. Ook kan het zijn dat een docent of mede-student iets met WinForms voordoet: Het is dan het makkelijkste als jij dezelfde versie gebruikt.
+Visual Studio (abbreviated: VS). The default is
+`VS for MS-Windows`. In some commands, you see screenshots of WinForms apps (still), which you can create only in this version. In other environments, you must first figure out how to achieve the same effect. Also, a teacher or fellow student may be demonstrating something with WinForms: In that case, it's easiest if you use the same version.
 
-Je kunt hierbij de Community Edition (gratis license) gebruiken: alles wat we in het startsemester doen kan daarin.
-
-
-
-### Alternatief: `FHICT online werkplek`
-
-FHICT biedt ook een 'Online FHICT werkplek'. Zie `studentenplein` op `portal.fhict.nl`.
-
-+ Dit is `VS for windows` zonder dat je MS-Windows lokaal geïnstalleerd hoeft te hebben.
-+ Je moet dan wel continu ingelogd blijven.
-+ Je moet ook gemaakte spullen naar lokaal kopiëren, anders ben je ze kwijt!
+You can use the Community Edition (free license): everything we do in the starting semester can be done in it.
 
 
-### Alternatief: `Visual Studio Code`
 
-Als je nog geen programmeerervaring hebt raden we dit af, omdat sommige dingen net anders werken dan bij je mede-studenten en docenten: wellicht moet je zelf wat dingen uitzoeken.
+### Alternative: `FHICT online workplace`.
 
-+ Installatie is lastiger.
-+ WinForms wordt niet ondersteund in 'VS Code'.
-+ verder een prima programmeeromgeving.
-+ wordt ook bij Technology Verdieping gebruikt.
+FHICT also offers an `Online FHICT workplace`. See `studentenplein` at `portal.fhict.nl`.
 
-### En op een Mac?
++ This is `VS for windows` without having to have MS-Windows installed locally.
++ You have to stay logged in continuously then, though.
++ You must also copy created stuff to local, otherwise you will lose it!
 
 
-+ Default: We raden aan Bootcamp of eventueel een Virtual Machine (bijvoorbeeld VMWare of Parallels) te draaien met MS-Windows en daarin `VS for Windows`. Dit vreet wel schijfruimte en kan zo nu en dan wat trager zijn, maar je hebt dezelfde IDE als medestudenten onder Windows.
+### Alternative: `Visual Studio Code`.
+
+If you do not have programming experience yet, we do not recommend this, because some things just work differently from your fellow students and teachers: you may have to figure some things out yourself.
+
++ Installation is more difficult.
++ WinForms is not supported in 'VS Code'.
++ Otherwise an excellent programming environment.
++ Also used at Technology Deepening.
+
+### And on a Mac?
+
+
++ Default: We recommend running Bootcamp or possibly a Virtual Machine (e.g. VMWare or Parallels) with MS-Windows and in it `VS for Windows`. This does eat up disk space and may be a bit slower from time to time, but you will have the same IDE as fellow students under Windows.
   + [https://support.apple.com/nl-nl/boot-camp](https://support.apple.com/nl-nl/boot-camp)
-+ `VS for Mac`: ondersteunt geen WinForms; short-cut-keys zijn anders; verder een prima programmeeromgeving.
-+   `Rider: Fast & powerful cross-platform .NET IDE`: ondersteunt WinForms. Het is een onderdeel van Jetbrains en via je studenten account kan je gratis deze software gebruiken. 
-+ `Visual Studio Code`: zie boven.
-+ De 'Online FHICT werkplek': zie boven.
++ `VS for Mac`: does not support WinForms; short-cut keys are different; otherwise a fine programming environment.
++ `Rider: Fast & powerful cross-platform .NET IDE`: supports WinForms. It is part of Jetbrains and through your student account you can use this software for free.
++ `Visual Studio Code`: see above.
++ The `Online FHICT workspace`: see above.
 
-Voor zowel bootcamp alsmede VM oplossing heb je extra software nodig. Deze kun je gratis vinden in de webshop die hierboven gelinkt is.
-
-
-## Installatie
-
-### Een Manier
-Je zoekt op internet naar &quot;Visual Studio 2017 community&quot;.
-[Bijvoorbeeld hier](https://visualstudio.microsoft.com/vs/)
-
-De gratis versie van VS noemen ze de Community Edition.
-Kies bij het installeren voor &quot;.NET desktop development&quot;.
-Deze versie is voor het startsemester voldoende. Maar....
-
-#### Een andere manier: Via Studentenplein
-Het kan ook via [studentplein](https://portal.fhict.nl/Studentenplein/SitePages/Home.aspx)
-op de
-[FHICT-portal](https://portal.fhict.nl),
-onder het kopje 'Software'.
+For both bootcamp and VM solution you need additional software. This can be found for free in the webshop linked above.
 
 
-## Je eerste programma (WinForm, werkt alleen in VS for MS-Windows)
+## Installation
 
-Wil je weten of je VS werkt? Start Visual Studio op. We maken eerst een nieuw project aan en gaan daarna C# sourcecode intikken. Vervolgens starten we de C# sourcecode op. Je eerste programma!
+### One Way
+You search the Internet for &quot;Visual Studio 2017 community&quot;.
+[For example, here](https://visualstudio.microsoft.com/vs/)
+
+They call the free version of VS the Community Edition.
+When installing, choose &quot;.NET desktop development&quot;.
+This version is sufficient for the starting semester. But....
+
+#### Another way: Through Student Square
+It can also be done through [student square](https://portal.fhict.nl/Studentenplein/SitePages/Home.aspx)
+on the
+[FHICT portal](https://portal.fhict.nl),
+under the heading 'Software'.
+
+
+## Your first program (WinForm, works only in VS for MS-Windows)
+
+Want to know if your VS works? Start up Visual Studio. We will first create a new project and then start typing C# source code. Next, we'll launch the C# source code. Your first program!
+
 
 ![fig:visualstudio](figures/VS080-done.png "Dit is Visual Studio")
-Als je
-[dit]()
-ziet na de installatie, dan ben je startklaar voor de volgende stap.
+
+If you
+[this]()
+you see after installation, then you are ready to start the next step.
 
 ### Windows Forms App C#
 
-Kies in het menu 'File' voor 'New' en dan 'Project'.
-Zie
+From the File menu, choose New and then Project.
+See
+
 [New Project]().
 ![fig:vsprojectnew](figures/VS090-newproject.png "Dit is Visual Studio")
 
 
-Zorg ervoor dat je het blauwe deel exact hetzelfde laat zien als bij jou op het scherm.
-Sleutelwoorden: &quot;Visual C#&quot; staat links geselecteerd en er staat
+Make sure you show the blue part exactly the same as yours on the screen.
+Keywords: &quot;Visual C#&quot; is selected on the left and it says
 &quot;Windows Forms App (.NET Framework) Visual C#&quot;.
-Geef het project een zelfgekozen naam bij &quot;Name&quot; en klik vervolgens op &quot;OK&quot;.
+Give the project a self-selected name at &quot;Name&quot; and then click &quot;OK&quot;.
 
-### Tikken C# Sourcecode
-Om bij de source code van je eerste (lege) programma te komen
-moeten we die zichtbaar maken. Klik rechts op 'Form1' en kies 'View Code F7'.
+### Tapping C# Sourcecode
+To get to the source code of your first (empty) program
+we need to make it visible. Right click on 'Form1' and choose 'View Code F7'.
+
+
 ![](figures/viewcode.png "View Code")
 
-Je ziet nu in het midden C# source code.
-Kopieer de regel hieronder en plak die onder de regel die er al staat.
-Maak het zo dat je scherm er hetzelfde uitziet als hieronder.
-Het gaat om het toevoegen van alleen deze regel.
-Sommige namen in de regels erboven en eronder heten wat anders.
-Dat komt omdat in het voorbeeldprogramma de namen
-misschien net wat anders gekozen zijn. Dat is niet erg.
+You now see C# source code in the middle.
+Copy the line below and paste it under the line already there.
+Make it so that your screen looks the same as below.
+The point is to add just this line.
+Some of the names in the lines above and below are named a little differently.
+This is because in the example program the names
+may have been chosen slightly differently. That's not a big deal.
 
 ```cs
 MessageBox.Show(System.Text.Encoding.UTF8.GetString(System.Convert.FromBase64String("SGVsbG8gV29ybGQh")));
 ```
 
+
 ![](figures/vspasswordcodehello.png "password code")
 
-Wezenlijk voeg je dus alleen maar &quot;MessageBox...&quot;-regel toe onder de &quot;InitializeComponent()&quot;-regel.
-Deze regel bevat een geheime code die een boodschap aan je laat zien bij het opstarten.
+Essentially, then, you just add &quot;MessageBox...&quot;line under the &quot;InitializeComponent()&quot;line.
+This line contains a secret code that displays a message to you at startup.
 
-### Opstarten eerste programma
+### Start up first program
 
-Nadat je C# sourcecode hebt getikt moet je Visual Studio de opdracht geven
-om het programma te maken (compileren) en uit te voeren (runnen).
-Dat doe je met de knop &quot;Start&quot;. Je krijgt na het uitvoeren een boodschap te zien.
-
+After you have typed C# source code, you must instruct Visual Studio
+to create (compile) and execute (run) the program.
+You do that with the &quot;Start&quot; button. You will see a message after execution.
 
 
 ![](figures/runstop_run.png "run")
 ![](figures/runstop_stop.png "stop")
 
-Het valt je op dat Visual Studio twee &quot;gezichten&quot; heeft.
-Een bewerkingsmodus en een uitvoeringsmodus.
+You notice that Visual Studio has two &quot;faces&quot;.
+An editing mode and an execution mode.
 
-- De `bewerkingsmodus` gebruiken we het meest. Daar kun je knoppen programmeren en C# sourcecode tikken. Visual Studio start op in deze modus en in deze modus hebben we net die regel C# sourcecode toegevoegd. In deze modus kunnen we ons nieuwe programma opstarten met &quot;Start&quot;.
-- Nadat je op &quot;Start&quot; klikt verspringen alle icoontjes. Soms blijft je C# sourcecode nog staan, soms niet. Je ziet Visual Studio je programma opstarten en grafieken tekenen van je CPU/Memory. Visual Studio is in deze modus bezig met het uitvoeren van je programma. Klik op het stop-blokje (zie afbeelding hierboven) om te stoppen met het uitvoeren en terug te gaan naar de bewerkingsmodus.
+- We use the `editing mode` the most. There you can program buttons and type C# source code. Visual Studio starts up in this mode and in this mode we just added that line of C# source code. In this mode we can start our new program with &quot;Start&quot;.
+- After you click &quot;Start&quot; all icons will jump. Sometimes your C# source code remains, sometimes not. You see Visual Studio start up your program and draw graphs of your CPU/Memory. Visual Studio is running your program in this mode. Click the stop block (see image above) to stop executing and return to edit mode.
 
-### Het werkt niet?
+### It's not working?
 
-Nu kan het gebeuren dat je een tikfout hebt gemaakt in je C# sourcecode. Dat laat Visual Studio zien met dit scherm:
+Now you may have made a typo in your C# source code. Visual Studio shows that with this screen:
+
 ![](figures/vsbuilderror.png "build error")  
-Kies altijd voor &quot;No&quot;! Dan kun je terug naar je Visual Studio om te kijken waar je tikfout zit.
+
+Always choose &quot;No&quot;! Then you can go back to your Visual Studio to see where your typo is.
+
 ![](figures/vstikfout.png "tikfout")
-Tikfouten geeft Visual Studio aan met rode kringeltjes onder de woorden.
-Net zoals bij Word. Deze zijn soms moeilijk te begrijpen.
-Haal dan de regel weg en tik hem opnieuw.
-Je kunt ook het programma afsluiten en terug gaan
-naar een laatst werkende versie. (Niet opslaan.)
 
-### Hoe verder?
+Typographical errors are indicated by Visual Studio with red circles under the words.
+Just like in Word. These are sometimes difficult to understand.
+If so, remove the line and type it again.
+You can also close the program and revert
+to a last working version. (Do not save.)
 
-Probeer de designer te openen van Form1 (rechtsklik weer op Form1,
-net als bij het openen van de code).
-Sleep wat knoppen (buttons), tekst (labels), en dergelijke op je Form1.
-Pas de kleur en tekst aan. Maak er iets moois van!
-Als je een knop dubbelklikt kun je deze code gebruiken om neer te zetten
-dat dan zichtbaar wordt als je op de knop drukt.
-(Plak deze code op de lege regel tussen de { en }.)
+### How to proceed?
+
+Try opening the designer from Form1 (right-click on Form1 again,
+just like opening the code).
+Drag some buttons (buttons), text (labels), and so on onto your Form1.
+Adjust the color and text. Make it something pretty!
+If you double-click a button you can use this code to put down
+that then becomes visible when you press the button.
+(Paste this code on the empty line between the { and }.
 
 ```cs
-MessageBox.Show("Dank je wel voor het klikken!");
+MessageBox.Show("Thank you for clicking!");
 ```

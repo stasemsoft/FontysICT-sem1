@@ -1,17 +1,17 @@
 # Git
 
-## Waarom? 
-Serieuze software engineering is niet mogelijk zonder versiebeheer. Sinds enkele jaren is ***git*** het meest gebruikte versiebeheer-tool. 
+## Why.
+Serious software engineering is not possible without version control. For several years, ***git*** has been the most widely used version control tool.
 
-## Mogelijk verwarrende begrippen 
+## Possible confusing terms
 
-+ ***gitlab***: het **tool** *vs* de **site**. Gitlab is een open **tool**, te downloaden van [gitlab.com](https://gitlab.com). Installeer dit op een server en gebruikers kunnen repositories aanmaken op die server. Een voorbeeld is onze eigen [FHICT-gitlab](https://git.fhict.nl), waar studenten van FHICT repositories aan kunnen maken. Daarnaast kunnen op de ***site*** [gitlab.com](https://gitlab.com/explore) ook repositories aangemaakt worden. 
-+ ***github***: de **site** *vs* het **tool**: Op de site *github.com* kun je repositories aanmaken.  Het **tool** github, officieel [GitHub Desktop](https://desktop.github.com/) is te downloaden: het kan gebruikt worden om met repositories op de github-site te interacteren, maar kan ook voor interactiue met andere git-sites!
++ ***gitlab***: the **tool** *vs* the **site**. Gitlab is an open **tool**, downloadable from [gitlab.com](https://gitlab.com). Install this on a server and users can create repositories on that server. An example is our own [FHICT-gitlab](https://git.fhict.nl), where students at FHICT can create repositories. Additionally, repositories can also be created on the ***site*** [gitlab.com](https://gitlab.com/explore).
++ ***github***: the **site** *vs* the **tool**: The *github.com* site allows you to create repositories.  The **tool** github, officially [GitHub Desktop](https://desktop.github.com/) is available for download: it can be used to interact with repositories on the github site, but can also be used for interactiue with other git sites!
 
 
-## Aan de slag
+## Getting Started
 
-Enkele geschikte bronnen om met git aan de slag te gaan. 
+Some suitable resources for getting started with git.
 + [FHICT-workshop git](git-ws-fhict)
 + [githowto.com](https://githowto.com/)
 + [gitlab university user_training](https://docs.gitlab.com/ee/university/training/user_training.html)

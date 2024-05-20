@@ -7,68 +7,63 @@
 | Challenge Type | Programming. |
 
 
+#### Assignment
+Study the C# classes of the .NET framework that allow you to work with files, folders, directories, etc. C# has a variety of methods for reading and writing text files, moving files, creating folders, etc.
+Then work on some of the cases below to practice file handling and get feedback from your instructor:
 
-#### Opdracht
-Bestudeer de C#-klassen van het .NET-framework waar mee je kunt werken met bestanden, folders, mappen enz. C# kent allerlei methoden om tekstbestanden te lezen en te schrijven, bestanden te verplaatsen, folders aan te maken, enz.
-Werk vervolgens een aantal van onderstaande casussen uit om te oefenen met file handling en vraag feedback aan je docent:
-
-#### De Opdracht
-Kies in overleg met je docent alle of enkele van de onderstaande casussen uit om te oefenen met file handling.
-##### Casus 0 - Analyse
-Een klasse is te zien als een structuur in C# die een aantal methoden heeft die bij elkaar horen. Schrijf een kort document waar je in beschrijft welke functionaliteiten de volgende klassen in het .NET-framework hebben. Beschrijf wat je als C#-programmeur met deze klassen kunt doen, geef een paar korte codevoorbeelden.
+#### The Assignment
+In consultation with your teacher, choose all or some of the cases below to practice file handling.
+##### Case 0 - Analysis
+A class can be thought of as a structure in C# that has a number of methods that belong together. Write a short document in which you describe the functionalities of the following classes in the .NET framework. Describe what you as a C# programmer can do with these classes, give some short code examples.
 - File
 - Directory
 - DirectoryInfo
 - Path
 
-##### Casus 1 - Tekstbestandzoeker
-Schrijf een Windows Forms C#-programma dat voldoet aan de volgende requirements:
-1. Een user interface met minimaal 2 listboxen.
-2. Na het opstarten van de app wordt in listbox1 een lijst van alle folders op de root (C:) van je harde schijf getoond.
-3. Als ik op een folder (item in de listbox) klik dan verschijnt er in de andere listbox een lijst van alle bestanden met extensie .TXT.
+##### Case Study 1 - Text File Finder
+Write a Windows Forms C# program that meets the following requirements:
+1. A user interface with at least 2 list boxes.
+2. After starting the app, listbox1 displays a list of all folders on the root (C:) of your hard drive.
+3. If I click on a folder (item in the listbox) then a list of all files with extension .TXT appears in the other listbox.
 
 
-##### Casus 1a - For-lus
-Breid de applicatie van casus 1 uit met een for-lus die alle bestanden die met de letter a beginnen NIET laat zien (skipt) in de tweede listbox.
+##### Case 1a - For loop
+Extend the application of case 1 with a for loop that does NOT show (skips) all files starting with the letter a in the second listbox.
 
-##### Casus 2 - Tekstverwerker
-Maak een applicatie waarmee tekstbestanden kunnen worden bewerkt. De minimale user interface is een tekstveld, een Opslaan-knop en een Openen-knop.
-1. De gebruiker kan vanuit een Windows Forms user interface op een nette manier een tekstbestand selecteren vanuit zijn computer.
-2. Na een druk op de Openen-knop wordt de volledige inhoud van het bestand dat de gebruiker heeft geselecteerd getoond in een multiline tekstveld. De gebruiker kan desgewenst de tekst in het veld wijzigen.
-3. Na een druk op de Opslaan-knop wordt de tekst die op dat moment in het tekstveld staat opgeslagen in het eerder geselecteerde bestand.
-
-
-##### Casus 3 - Word light
-1. Maak casus 1 en casus 2.
-2. Maak een derde applicatie die de functionaliteit van zowel casus 1 als casus 2 bevat. Maak hierbij gebruik van een tab-control waarbij de gebruiker op de eerste tab een bestand kan uitkiezen en op de tweede tab het bestand kan bewerken.
+##### Case Study 2 - Text Processor
+Create an application that allows text files to be edited. The minimum user interface is a text field, a Save button and an Open button.
+1. From a Windows Forms user interface, the user can neatly select a text file from their computer.
+2. After pressing the Open button, the full contents of the file selected by the user are displayed in a multiline text field. The user can change the text in the field if desired.
+3. After pressing the Save button, the text currently in the text field is saved to the previously selected file.
 
 
-##### Casus 4 - Fruit-generator
-1. Laat de applicatie een bestand met de naam &quot;fruit.txt&quot; aanmaken.
-2. Laat de applicatie op 5 regels de teksten &quot;banaan&quot;, &quot;sinaasappel&quot;, &quot;kiwi&quot;, &quot;mandarijn&quot; en &quot;aardbei&quot; wegschrijven. Open het bestand in Windows Kladblok om te kijken of je applicatie goed werkt.
-3. Breidt de applicatie uit zodanig dat ze een melding geeft als het bestand &quot;fruit.txt&quot; al bestaat.
+##### Case Study 3 - Word light
+1. Create case 1 and case 2.
+2. Create a third application that contains the functionality of both case 1 and case 2. Use a tab control where the user can select a file on the first tab and edit the file on the second tab.
 
 
-##### Casus 5 - Mijn computer
-Maak een applicatie die alle schijven van je computer laat zien (zoals Windows Verkenner dat kan) in een eenvoudige listbox. Zie
+##### Case Study 4 - Fruit Generator
+1. Have the application create a file named &quot;fruit.txt&quot;.
+2. Have the application write out on 5 lines the texts &quot;banana&quot;, &quot;orange&quot;, &quot;kiwi&quot;, &quot;tangerine&quot; and &quot;strawberry&quot;. Open the file in Windows Notepad to see if your application works properly.
+3. Expand the application such that it displays a message if the file &quot;fruit.txt&quot; already exists.
+
+
+##### Case Study 5 - My Computer
+Create an application that shows all the disks on your computer (like Windows Explorer can) in a simple listbox. See
 
 ![fig:mijnComputer](figures/mijnComputer.png "Mijn Computer.")
 
-##### Casus 5a
-Voeg aan de Mijn Computer-applicatie de volgende functionaliteiten toe:
-- Mogelijkheid om een bestand te kopiëren naar een andere locatie
-- Mogelijkheid om een bestand te hernoemen
+##### Case Study 5a
+Add the following features to the My Computer application:
+- Ability to copy a file to another location
+- Ability to rename a file
 
 
-##### Casus 5b (verdieping)
-Toon tijdens het kopiëren van een bestand (zie Casus 5a) een progress bar die aangeeft hoe lang de kopieeractie nog duurt.
+##### Case Study 5b (in-depth)
+While copying a file (see Case Study 5a), display a progress bar indicating how long the copying action will take.
 
-##### Casus 6 - Zoek in bestand
-Maak een applicatie die een willekeurig door de gebruiker ingevuld woord kan opzoeken in een bestand. Toon het regelnummer in het bestand waar het woord voorkomt op het scherm.
-
-
-
-
+##### Case study 6 - Search in file
+Create an application that can look up any user-entered word in a file. Display the line number in the file where the word appears on the screen.
 
 
 

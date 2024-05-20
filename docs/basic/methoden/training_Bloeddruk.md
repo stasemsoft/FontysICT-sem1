@@ -1,24 +1,24 @@
-# Bloeddruk meten
+# Measuring blood pressure
 
 ## Context
 
-Je bent als software engineer ingehuurd om voor een ziekenhuis een app te programmeren die gebruikt wordt om de bloeddruk van mensen te checken.
+You have been hired as a software engineer to program an app for a hospital that is used to check people's blood pressure.
 
-Analyse/vooronderzoek heeft deze informatie opgeleverd: [https://nl.wikipedia.org/wiki/Bloeddruk](https://nl.wikipedia.org/wiki/Bloeddruk)
+Analysis/pre-research revealed this information: [https://nl.wikipedia.org/wiki/Bloeddruk](https://nl.wikipedia.org/wiki/Bloeddruk)
 
 ## Start
 
-## Opdracht 0: Must haves
+## Assignment 0: Must haves
 
-1.  Gebruiker moet de leeftijd van de patiënt kunnen invullen.
-2.  Gebruiker moet met een radiobutton aan kunnen geven of het een man of vrouw is. Dit moet met radio buttons worden geprogrammeerd.
-3.  Gebruiker moet de bloeddruk in kunnen vullen. Deze bestaat uit twee verschillende invulvelden: bovendruk en onderdruk.
-4.  Gebruiker moet naam van de patiënt in kunnen vullen.
-5.  Het systeem moet de volgende informatie op een overzichtelijke wijze aan de gebruiker laten zien:
+1.  User must be able to enter patient's age.
+2.  User must be able to indicate with a radio button whether the patient is male or female. This should be programmed with radio buttons.
+3.  User must be able to enter blood pressure. This consists of two different entry fields: upper and lower pressure.
+4.  User must be able to enter name of patient.
+5.  The system must show the following information to the user in an easy-to-read manner:
 
--   Of de patiënt een Hoge, Lage, Optimale of Normale bloeddruk heeft. Tip: hierbij heb je de formule nodig die de gemiddelde bloeddruk Pgemiddeld uitrekent (zie Wikipediapagina).
--   Indien de patiënt een man is moet het scherm (achtergrondkleur, form) blauw worden en anders roze.
+- Whether the patient has High, Low, Optimal or Normal blood pressure. Tip: here you need the formula that calculates the average blood pressure P mean (see Wikipedia page).
+- If the patient is a man, the screen (background color, form) should be blue and pink otherwise.
 
-7.  Er moet op een logische wijze van methoden gebruikt gemaakt worden, minimaal 1 functionele methode.
-8.  Als de patiënt een man is van boven de 65 of een vrouw van boven de 67 dan moet de melding "Patiënt heeft extra aandacht nodig" verschijnen indien de bloeddruk Hoog is.
-9.  Er staat geen code in de eventhandlers van buttons en dergelijk behalve aanroepen naar methoden.
+7.  Methods should be used in a logical way, at least 1 functional method.
+8.  If the patient is a man over 65 or a woman over 67 the message "Patient needs extra attention" should appear if the blood pressure is High.
+9.  There is no code in the eventhandlers of buttons and such except calls to methods.

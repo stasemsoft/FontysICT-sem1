@@ -1,39 +1,39 @@
-| Leerdoelen | Class, Instance, Method, Operation, Object, Attribute, Field. |
-| --- | --- |
-| Vereiste voorkennis | Basiskennis over objecten. |
-| Challenge Type | Invuloefening, kennis |
+| Learning Objects | Class, Instance, Method, Operation, Object, Attribute, Field |
+| ------------------- | ------------------------------------------------------------- |
+| Required prior knowledge | Basic knowledge about objects.                                    |
+| challenge type | knowledge.
 
 
 
-Vul de volgende woorden op de juiste plaats in: `Class`, `Instance`,
+Fill in the following words in the correct place: `Class`, `Instance`,
 `Method`, `Operation`, `Object`, `Attribute`.
 
-Let op: een woord kan meerdere malen in de tekst voorkomen,
-en soms vul je de meervoudsvorm van deze woorden in.
+Note that a word can appear multiple times in the text,
+and sometimes you enter the plural form of these words.
 
-Een programmeur moet van zijn baas binnen een game de .......... "Karakter"
-gaan programmeren. "Karakter" is reeds `gespecificeerd` door middel
-van een kaartje waar alle verantwoordelijkheden op staan.
-Ook krijgt hij een `class diagram` met een duidelijk overzicht
-van de .........., waaronder MoveForward en ValDoodNeer)
-en de .......... (zoals bijvoorbeeld AantalLevens, HaarKleur en AantalWapens).
+A programmer is required by his boss within a game to program the .......... "Character"
+start programming. "Character" is already `specified` through
+of a card on which all responsibilities are listed.
+He is also given a `class diagram` with a clear overview
+of the .........., including MoveForward and ValDoodNeer)
+and the .......... (such as, for example, Number ofLives, HairColor and Number ofWeapons).
 
-De programmeur neemt het kaartje en opent het bestaande `project`
-in *Visual Studio*. Daar gaat hij dan de nieuwe .......... in programmeren.
-Als eerste programmeert hij `Fields` voor AantalLevens en HaarKleur en
-vervolgens mapt hij de .......... MoveForward en ValDoorNeer naar C#-...........
+The programmer takes the chart and opens the existing `project`
+in *Visual Studio*. There he will then program the new .......... into it.
+First, he programs `Fields` for NumberLives and HairColor and
+then he mapped the .......... MoveForward and ValDoorNeer to C#-...........
 
-Als hij de .......... helemaal heeft geprogrammeerd gaat hij deze `testen`
-door er met de `new-operator` een .......... van aan te maken.
-Hij roept de .......... MoveForward aan om te testen of het karakter
-de goede kant op beweegt.
-Ja, het werkt! 
+Once he has completely programmed the .......... he is going to `test` it
+by creating a .......... of it with the `new-operator`.
+He calls the .......... MoveForward to test if the character moves
+is moving in the right direction.
+Yes, it works!
 
-Hij maakt nog een .......... van &quot;Karakter&quot; aan om te `testen`
-of het `programma` dan nog steeds werkt. Ja!
+He creates another .......... of &quot;Character&quot; to `test`
+whether the `program` then still works. Yes!
 
-Met een voldaan gevoel gaat de programmeur aan het eind van de dag naar huis.
+Feeling satisfied, the programmer goes home at the end of the day.
 
-Probeer het zélf in te vullen. Controleer daarná je antwoorden in de 
-(of als je er écht niet zelf uit komt,
-maar dan kun je beter met studenten/docenten gaan praten).
+Try filling it in yourself. Afterwards, check your answers in the
+(or if you really can't figure it out yourself,
+but then you better talk to students/teachers).

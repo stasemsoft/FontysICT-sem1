@@ -1,6 +1,6 @@
-## Hotelsysteem universal
+## Hotel system universal
 
-Als het goed is heb je de code van je Hotelsysteem goed gescheiden van de user interface (Forms). Om te bewijzen dat je dat echt goed hebt gedaan ga je nu een nieuw project maken waarbij je alleen de user interface van je systeem gaat wijzigen.
-Maak een Windows Universal app aan met Visual Studio en maak opnieuw een User Interface (schermen) van je Hotelsysteem. Je bestaande klassen met code ga je herbgebruiken.
-Leerdoel
-Je kunt user interfaces voor applicaties maken met zowel de Windows Forms designer als met de XAML designer.
+If all goes well, you have properly separated the code of your Hotel system from the user interface (Forms). Now, to prove that you really did that well, you are going to create a new project where you are only going to change the User Interface of your system.
+Create a Windows Universal app with Visual Studio and recreate a User Interface (screens) of your Hotel system. You are going to reuse your existing classes of code.
+Learning Objective
+You will be able to create user interfaces for applications using both the Windows Forms designer and the XAML designer.

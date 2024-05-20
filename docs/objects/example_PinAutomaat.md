@@ -1,56 +1,56 @@
-# Voorbeeld OOP: pinautomaat
+# Example OOP: ATM
 
-Als voorbeeld van Object Oriented Programming wordt hier het automatiseren van een PIN-automaat besproken.
+As an example of Object Oriented Programming, the automation of an ATM is discussed here.
 
 ## Object
 
-Bij de pinautomaat heb je te maken met een aantal `objecten`, dat zijn de zaken die bepaalde handelingen verrichten.
-Je hebt bijvoorbeeld de *PinKlant*. Die zal een *Rekening* hebben bij een bepaalde *Bank*, en een *PinPas*, anders kan hij of zij niet *Pinnen*. Daarom noemen we de *PinKlant* vanaf nu een *RekeningHouder*. Dat is het eerste `object`.
+With the ATM, you have to deal with a number of `objects`, which are the things that perform certain actions.
+For example, you have the *PinCustomer*. He or she will have an *Account* at a certain *Bank*, and a *PinPas*, otherwise he or she cannot *PinPin*. Therefore, from now on, we will call the *PinCustomer* an *AccountHolder*. That is the first `object`.
 
-Dan hebben we de *PinAutomaat* zelf, dat is ook een `object`. Verder is er een `object`, waarin het geld zit dat gepind kan worden. Dat noemen we de *PinGeldkluis*. Dat object zal vast heel dicht in de buurt van de pinautomaat zitten, maar we nemen toch maar aan dat het een apart object is.
-En natuurlijk zal bij het pinnen de `database` van de *Bank* geraadpleegd moeten worden, dat kun je ook een object noemen.
+Then we have the *PinAutomate* itself, which is also an `object`. Then there is an `object`, which contains the money that can be PINed. We call that the *PinMoney Safe*. That object will probably be very close to the ATM, but we will assume it is a separate object anyway.
+And of course, when withdrawing money, the *Bank's database* will have to be consulted, which can also be called an object.
 
-## Class en instance
+## Class and instance
 
-Er zijn natuurlijk een heleboel rekeninghouders. De verzamelnaam voor al die rekeninghouders is een `Class`.
-Als je een bepaalde rekeninghouder hebt, bijvoorbeeld de heer R.J. van der Beek, dan is dat een `object` of ook wel `instance van een class`.
+There are, of course, a lot of account holders. The collective name for all those account holders is a `Class`.
+If you have a particular account holder, for example Mr. R.J. van der Beek, that is an `object` or also called `instance of a class`.
 
-De `verzamelnaam` voor alle *pin-geldkluisen* is de class *PinGeldKluis*: in `class` *PinGeldKluis* staan de eigenschappen en het gedrag  van alle `objecten` van het `type` *PinGeldKluis* geprogrammeerd.
+The `compound name` for all *pin money vaults* is the class *Pin Money Vault*: in `class` *Pin Money Vault* are programmed the properties and behavior of all `objects` of the `type` *Pin Money Vault*.
 
-Als je de pin-geldkluis van de pinautomaat van de *Frieslandbank* in *Buitenpost* als voorbeeld neemt, dan is dat een `object`. Het wordt ook wel een `instance` (`instantie`) van de class pin-geldkluis genoemd. De termen `instance` en `object` worden door elkaar gebruikt.
+If you take the pin money safe of the ATM of the *Frieslandbank* in *Buitenpost* as an example, it is an `object`. It is also called an `instance` (`instance`) of the class pin money vault. The terms `instance` and `object` are used interchangeably.
 
 ## Attribute
 
-In die pin-geldkluis van de pinautomaat van de Frieslandbank in Buitenpost zit een bepaalde hoeveelheid bankbiljetten. Er zitten misschien wel 200 *biljetten* van 100 euro in, en misschien ook wel 200 *biljetten* van 50 euro, en een aantal *biljetten* van 20 euro en een aantal *biljetten* van 10 euro.
+In that pin money safe of the ATM of the Frieslandbank in Buitenpost there is a certain amount of banknotes. There are perhaps 200 *notes* of 100 euros in it, and perhaps also 200 *notes* of 50 euros, and some *notes* of 20 euros and some *notes* of 10 euros.
 
-Die aantallen noem je de `attributes` (~`attributen`) van de class PinGeldkluis. En de pin-geldkluis bevat vast ook wel een *chip* met *geheugenplaatsen*, waarin die aantallen worden vastgelegd.
+Those numbers are called the `attributes` (~`attributes`) of the class Pin Money Safe. And the pin money safe probably also contains a *chip* with *memory locations*, in which those numbers are recorded.
+## Operation
 
-## Operatie
+Of course, those numbers change all the time, and in the memory locations, those changes must also be tracked.
+If 200 euros has been PINed (4 times 50 euros) then the number of 50s must be reduced by 4. The *program part* that takes care of that is called an `operation` (~operation) or `method`. So a `class` also contains a number of `methods`.
 
-Die aantallen veranderen natuurlijk voortdurend, en in de geheugenplaatsen moeten die veranderingen ook worden bijgehouden.
-Als er 200 euro is gepind (4 keer 50 euro) dan moet het aantal 50jes met 4 worden verminderd. Het *programma-onderdeel* dat daarvoor zorgt noem je een `operation` (~operatie) of `method`. Dus een `class` bevat ook een aantal `methods`.
+There is a `method` that we call here "*WorkAt*". And that 200 euros must then be put in the drawer of the ATM, the method that takes care of that we call "*GiveMoney*".
 
-Er is een `method` die we hier  "*WerkHoeveelheidBij*" noemen. En die 200 euro moet dan in de la van de pinautomaat worden gelegd, de method die daarvoor zorgt noemen we "*GeefGeld*".
+You often see that the names of methods are verbs and those of attributes are often nouns (names of classes are also nouns).
 
-Je ziet vaak dat de namen van methods werkwoorden zijn en die van attributes vaak zelfstandige naamwoorden (namen van classes zijn ook zelfstandige naamwoorden).
+In whatever language you program, often the (technical) design is modeled according to unified modeling conventions: in *UML*, or *Unified Modeling Language*.
+In an `UML class diagram, classes are represented by rectangles, with a box at the top containing the name of the class.
+The attributes and operations of the class are represented in two other boxes within the rectangle, the attributes in the middle box and the operations in the bottom box.
 
-In welke taal je ook programmeert, vaak wordt het (technisch) ontwerp gemodelleerd volgens ge-unificeerde modelleerafspraken: in *UML*, ofwel *Unified Modeling Language*.
-In een `UML class diagram` worden classes door rechthoeken voorgesteld, met bovenin een vak waarin de naam van de class.
-De attributes en operations van de class worden weergegeven in twee andere vakken binnen de rechthoek, de attributes in het middelste vak en de operations in het onderste vak.
 
 ![fig:Class](figures/pinautomaat01.png "Class")
 
-Van het pinproject zie je een mogelijk `class diagram` hieronder. Daarin zie je dat er ook classes bestaan zonder attributen .
+From the pin project you can see a possible `class diagram` below. There you see that classes also exist without attributes .
 
 ![fig:Class](figures/pinautomaat02.png "Classes")
 
 ## Object Oriented
 
-In UML worden de dingen, die er gebeuren, meestal omschreven als het `versturen van boodschappen door objecten`, en het uitvoeren van operaties (of methods) door de objecten.
-Als de rekeninghouder R.J. vd Beek zijn pinpas in het pinapparaat plaatst, dan wordt die gebeurtenis in UML omschreven als: *het object R.J. vd Beek stuurt de volgende boodschap naar het pinapparaat: controleer mijn pinpas.*
+In UML, things, which happen, are usually described as `sending messages by objects`, and performing operations (or methods) by the objects.
+When the account holder R.J. vd Beek inserts his debit card into the ATM, that event is described in UML as: *the object R.J. vd Beek sends the following message to the ATM: check my debit card.*
 
-Het pinapparaat voert vervolgens de operation (method) "*LeesPasnummer*" uit.
-Daarna stuurt het pinapparaat een seintje naar de erop aangesloten computer om in de database het pasnummer te controleren.
-Die gebeurtenis wordt in UML omschreven als: *het object pinapparaat stuurt de volgende boodschap naar het object computer: controleer het pasnummer.*
+The ATM then executes the operation (method) "*ReadPassNumber*".
+It then sends a signal to the computer connected to it to check the card number in the database.
+That event is described in UML as: *the object pin device sends the following message to the object computer: check the pass number*.
 
-Het basisidee van `OOP` is dat de wereld bestaat uit `objecten` die met elkaar communiceren door elkaar `boodschappen` (`messages`) te sturen. In talen als C# wordt dat geïmplementeerd door objecten die methoden van elkaar aanroepen.
+The basic idea of `OOP` is that the world consists of `objects` that communicate with each other by sending each other `messages`. In languages such as C#, this is implemented by objects calling methods of each other.

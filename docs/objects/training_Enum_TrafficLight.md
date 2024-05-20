@@ -1,15 +1,15 @@
-# Training Traffic Light (met een enum)
+# Training Traffic Light (with an enum)
 
-We gaan (wederom) verkeerslichten programmeren.
-Als je de TrafficLight Challenge uit een vorig hoofdstuk al hebt gedaan,
-zeker als je de voorbeeldcode had overgenomen (met de fouten er in) zul je gemerkt hebben dat
-het gebruik van een *String* voor de toestand (kleur) van een TrafficLight
-snel leidt tot fouten! Zo zijn *Orange*, *Oranje* en *orange*
-allemaal door de compiler geaccepteerd worden maar de waarden zijn verschillend:
-hierdoor kunnen allerlei bugs ontstaan:
-Neem bijvoorbeeld 2 TrafficLights, zeg *trafficLight1* en *trafficLight2*.
-Als de *color* van *trafficLight1* waarde *Oranje* heeft en
-de *color* van *trafficLight2* waarde *Orange* dan zal een vergelijking als
+We are going to program traffic lights (again).
+If you have already done the TrafficLight Challenge from a previous chapter,
+especially if you copied the example code (with the errors in it) you will have noticed that
+using a *String* for the state (color) of a TrafficLight
+quickly leads to errors! For example, *Orange*, *Orange* and *orange*
+all accepted by the compiler but the values are different:
+this can cause all kinds of bugs:
+For example, take 2 TrafficLights, say *trafficLight1* and *trafficLight2*.
+If the *color* of *trafficLight1* has value *Orange* and
+the *color* of *trafficLight2* has value *Orange* then an equation like
 
 ```cs
 if (trafficLight1.color == trafficLight2.color) {
@@ -17,12 +17,12 @@ if (trafficLight1.color == trafficLight2.color) {
 }
 ```
 
-*false* opleveren terwijl de programmeur *true* verwacht:
-een tikfout die grote gevolgen kan hebben voor het gedrag van de software.
-Om die bugs te voorkomen gaan we er ditmaal een Enum bij gebruiken:
-Door het gebruik van een *Enum* kan de compiler helpen fouten te
-ontdekken en voorkomen!
-Voor de *color* (toestand) van het TrafficLight maken we een `Enum` aan:
+return *false* while the programmer expects *true*:
+A typo that can have major consequences for the behavior of the software.
+To avoid these bugs, we are going to use an Enum with them this time:
+By using an *Enum*, the compiler can help detect and
+detect and prevent them!
+For the *color* (state) of the TrafficLight, we will create an `Enum`:
 
 ```cs
 public enum TrafficlightColors {
@@ -32,27 +32,27 @@ public enum TrafficlightColors {
 }
 ```
 
-#### Analyse
-- De code is in het Engels.
-- Ik wil de mogelijkheid hebben meerdere `objecten` van type *TrafficLight* te maken, maar ik wil het maar 1 keer programmeren.
-- Een *TrafficLight* kan de kleuren (*toestanden*) 'Green', 'Orange', 'Red' hebben: gebruik voor deze toestanden Engelse benamingen.
-- Voor de veiligheid wordt de toestand bij het maken van een TrafficLight altijd op *rood* gezet.
-- Vanuit *Red* kan de toestand alleen *Green* worden, dan *Orange*, dan weer *Red*.
+#### Analysis
+- The code is in English.
+- I want to have the ability to create multiple `objects` of type *TrafficLight*, but I want to program it only once.
+- A *TrafficLight* can have the colors (*states*) `Green`, `Orange`, `Red`: use English names for these states.
+- For safety, when creating a TrafficLight, the state is always set to *Red*.
+- From *Red*, the state can only become *Green*, then *Orange*, then *Red* again.
 
 
-#### Ontwerp
-- Een `class` *TrafficLight*.
-- Deze class heeft een `private Field` *color* van type *TrafficlightColors*.
-- Initiële waarde van *color*: *TrafficlightColors.Red*.
-- De class krijgt een `method` *NextState()* die het TrafficLight de volgende waarde van *color* geeft.
-- We willen aan een TrafficLight ook kunnen opvragen wat de huidige kleur is: `public TrafficlightColors GetCurrentColor()`
+#### Design
+- A `class` *TrafficLight*.
+- This class has a `private Field` *color* of type *TrafficlightColors*.
+- Initial value of *color*: *TrafficlightColors.Red*.
+- The class gets a `method` *NextState()* that gives the TrafficLight the next value of *color*.
+- We also want to be able to ask a TrafficLight what the current color is: `public TrafficlightColors GetCurrentColor()`
 
-#### Realisatie
-- Maak de in het het ontwerp genoemde zaken aan.
-- De `method` *NextState* geeft de kleur **na** het veranderen van de kleur terug: `public TrafficlightColors NextState() {...}`
+#### Realization
+- Create the items listed in the design.
+- The `method` *NextState* returns the color **after** changing the color: `public TrafficlightColors NextState() {...}`
 
-Een Console app heeft een *main*-method (`public static void Main(string [] args)`)
-waarin je code kunt zetten als:
+A Console app has a *main*-method (`public static void Main(string [] args)`)
+in which you can put code like:
 
 ```cs
 TrafficLight trafficLight = new TrafficLight();
@@ -69,6 +69,6 @@ trafficLight.NextState();
 Console.WriteLine(trafficLight.GetCurentColor());
 ```
 
-Is deze code slordig in elkaar gezet? Kijk goed of er geen fouten in staan!
-Verbeter ze zonodig en test het programma uit.
-Kun je verbeteringen op het programma bedenken?
+Is this code sloppily put together? Look carefully for errors!
+Correct them if necessary and test the program.
+Can you think of any improvements to the program?

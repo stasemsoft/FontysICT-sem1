@@ -1,22 +1,22 @@
-# Creëer je eigen challenge
+# Create your own challenge
 
-Een hele goeie manier om te leren en te kijken of je een onderwerp helemaal
-snapt is het zelf bedenken van een opdracht.
+A very good way to learn and see if you completely
+understand a subject is to create your own challenge.
 
-## Puzzel of Spel
-Neem een spel of puzzel in gedachten en bedenk hoe je dit kunt implementeren.
-Enkele voorbeelden:
+## Puzzle or Game
+Take a game or puzzle in mind and think about how you can implement it.
+Some examples:
 
-+ *boter, kaas en eieren*
++ *tic-tac-toe*
 + *tetris*
 + *sudoku*
 + *mastermind*
-+ *snake* of *tron*
++ *snake* or *tron*
 + *2048*
 
-## Maak lesmateriaal
-Je helpt ook je medestudenten als je zelf lesmateriaal
-ontwikkelt voor een nieuwe programmeer-opdracht.
-Schrijf zelf je eigen opdracht en lever deze in bij de docent.
-Dan adopteren we jouw idee en leeft jouw eigen opdracht-idee misschien wel
-verder als officieel lesmateriaal.
+## Create teaching materials
+You also help your fellow students when you develop your own teaching materials
+develop teaching materials for a new programming assignment.
+Write your own assignment and submit it to the instructor.
+Then we will adopt your idea and your own assignment idea might live
+live on as official teaching material.

@@ -1,61 +1,69 @@
-# Challenges met Objects en Classes
+# Challenges with Objects and Classes
 
-Verzameling Challenges, niet direct gekoppeld aan 1 onderwerp/concept.
-Niet bedoeld om per se letterlijk uit te voeren maar vooral als inspiratie!:
-varieer er dus gerust op!
+Collection of Challenges, not directly linked to 1 topic/concept.
+Not meant to be executed literally per se but mainly as inspiration!
+So feel free to vary it!
 
-+ [Challenge: Bankrekening](challenges/training_Bankrekening.md)
+
++ [Challenge: Bank account](challenges/training_Bankrekening.md)
 + [Challenge: DinoGame](challenges/challengeDinoGame)
 + [Challenge: BattleSim](challenges/training_BattleSim.md)
-+ [Challenge: Galgje](challenges/challenge_Galgje)
-+ [Challenge: Eendenvijver](challenges/challenge_Eendenvijver)
++ [Challenge: Hangman](challenges/challenge_Galgje)
++ [Challenge: Duck pond](challenges/challenge_Eendenvijver)
 + [challenge Trajectorinator](../objects/challenges/challengeTrajectorinator)
 + [challenge WebshopSpierballetje](challenges/challengeWebshopSpierballetje)
 + [challenge Winstpercentage](challenges/training_Winstpercentage)
-+ [challenge WoordenZoeker](challenges/challengeWoordenZoeker)
-+ [challenge Vier op een rij](challenges/challenge_VierOpEenRij)
-+ [challenge Damspel](challenges/challenge_Damspel)
++ [challenge Word Finder](challenges/challengeWoordenZoeker)
++ [challenge Four in a row](challenges/challenge_VierOpEenRij)
++ [challenge Draughts](challenges/challenge_Damspel)
 + [challenge Exception Handling](challenges/challengeExceptionHandling)
 + [challenge FileHandling](challenges/challengeFileHandling)
-+ [challenge Schaakspel](challenges/challenge_Schaakspel)
-+ [challenge Lesrooster](challenges/challenge_Lesrooster)
++ [challenge Chess](challenges/challenge_Schaakspel)
++ [challenge Class schedule](challenges/challenge_Lesrooster)
 + [challenge Create Your Own challenge](challenges/challenge_CreateYourOwn)
 
 
 ## Under construction
 
-Nog meer challenges die wellicht nog niet helemaal perfect uitgewerkt zijn,
-maar je kunt ze natuurlijk gerust gebruiken als inspiratie voor eigen werk!
+Even more challenges that may not be perfectly worked out yet,
+but feel free to use them as inspiration for your own work!
+
 
 + [challenge PatientDossier](challenges/challenge_PatientDossier)
-+ [challenge Galgje](challenges/challenge_Galgje)
++ [challenge Hangman](challenges/challenge_Galgje)  
 + [challenge Memory](challenges/challengeMemory)
 + [challenge SnailRace](challenges/challengeSnailRace)
-+ [challenge SuperGalgje](challenges/challengeSuperGalgje)
++ [challenge Super Hangman](challenges/challengeSuperGalgje)
 + [challenge WindowsPhone](challenges/challengeWindowsPhone)
 
 
-### Inspiratie
+### Inspiration
 
-Op internet zijn veel sites te vinden met uitdagend oefenmateriaal op programmeergebied:
+There are many sites on the Internet with challenging programming practice materials:
 
 #### Codingame
 
-Kijk bijvoorbeeld naar
+For example, look at
+
 [codingame.com](https://www.codingame.com/home):
-Een platform waarbij je allerlei opdrachten in C# kunt maken gesorteerd op moeilijkheidsgraad en onderwerp!
+
+A platform where you can create all kinds of assignments in C# sorted by difficulty and topic!
 
 #### Code Golf:
 
-Een ander voorbeeld:
+Another example:
+
 [codegolf.stackexchange.com](http://codegolf.stackexchange.com/)
 
 #### ProjectEuler:
-Een site waar allerlei (vaak wiskundige) programmeeruitdagingen op staan is
+
+One site that has all kinds of (often mathematical) programming challenges on it is
+
 [projecteuler.net](https://projecteuler.net/)
-Door softwaredocenten is Euler-project 54 (genaamd *poker hands*) al genoemd
-als een voorbeeld van een leuke uitdaging.
-Andere relevante Eulers: [[OIS11 en OIS12 - Project Euler challenges.pdf]]
+
+Euler project 54 (called *poker hands*) has already been mentioned by software teachers
+as an example of a fun challenge.
+Other relevant Eulers: [[OIS11 en OIS12 - Project Euler challenges.pdf]]
 
 #### Dwitter.com
 

@@ -1,9 +1,18 @@
 # Training Rock Paper Scissors
 
-Maak het spel "paper rock scissors" (Steen Papier Schaar).
+  
 
-Dat kan in een WinForm-app (zoals in de omschrijving hieronder) maar mag ook op de Console of nog anders.
+Make the game “paper rock scissors”.
 
-Doormiddel van radiobuttons kan je kiezen of je kiest voor paper, rock of scissors. Wanneer je erna op de "Play" button klikt wordt er automatisch voor de tegenstander een paper, rock of scissor gekozen. Daarna wordt er gekeken wie de winnaar is. De uitslagen (draw, win of lose) worden in een listbox gezet en wordt bijgehouden hoe vaak je draw, win of lose hebt. Dit zet je in textboxen.
+  
 
-![](figures/rockpaperscissors.png "rock paper scissors")
+This can be done in a WinForm app (as in the description below) but can also be done on the Console or elsewhere.
+
+  
+
+Through radio buttons you can choose whether you want paper, rock or scissors. When you click the “Play” button afterwards, a paper, rock or scissor is automatically chosen for the opponent. Then the winner is determined. The results (draw, win or lose) are put in a listbox and a record is kept of how often you draw, win or lose.This is put in textboxes.
+
+  
+
+![](figures/rockpaperscissors.png “rock paper scissors”)
+

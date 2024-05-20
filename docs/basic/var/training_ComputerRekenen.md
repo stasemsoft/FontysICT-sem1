@@ -1,143 +1,141 @@
-# Training Computer-rekenen
+# Training Computer Math
 
-Als de computer dan toch zo'n krachtige calculator is, laten we hem dan ook als zodanig gebruiken...
+If the computer is such a powerful calculator, let's use it as such...
 
 
-## Recht-toe-recht-aan
+## Straightforward
 
-+ 100 x 0,7 - 25 x 0,6 = ...
++ 100 x 0.7 - 25 x 0.6 = ...
 + 18.0 / 5.0 = ...
 + 100 / 30 = ...
 
-Schrijf een programma dat deze antwoorden berekent.
+Write a program that calculates these answers.
 
-Als je het op een rekenmachine (bijvoorbeeld de calculator-app op je laptop) berekent: komt er dan dezelfde uitkomst uit?
-Zo nee, probeer erachter te komen waarom dat zo is.
+If you calculate it on a calculator (for example, the calculator app on your laptop): does it come up with the same result?
+If not, try to figure out why that is.
 
-## Al wandelend...
+## While walking...
 
-Patrick maakt een wandeling van A naar B. De afstand is 20 km.
+Patrick takes a walk from A to B. The distance is 20 km.
 
-Hij begint in A en als hij 1/4 deel van de afstand heeft afgelegd, rust hij een poosje (rustpunt 1).
-Na korte tijd hervat hij de wandeling en loopt 1/4 deel van het resterende gedeelte, Daar rust hij weer even uit (rustpunt 2).
-Op dezelfde manier wandelt hij verder. Elke keer rust hij een poosje als hij weer 1/4 deel van het resterende gedeelte heeft gelopen.
+He starts in A and when he has covered 1/4 part of the distance, he rests for a while (rest point 1).
+After a short time he resumes the walk and walks 1/4 part of the remaining part, There he rests again for a while (rest point 2).
+In the same way he continues walking. Each time he rests for a while when he has again walked 1/4 of the remaining portion.
 
-De afstand van rustpunt 5 tot het eindpunt B is meter.
-(Vul een geheel getal in, indien nodig afronden.)
+The distance from rest point 5 to end point B is meters.
+(Enter a whole number, rounding if necessary.)
 
-Na rustpunt 5 maakt hij geen stops meer, omdat hij anders nooit het eindpunt zal halen."
+After rest point 5, he makes no more stops, otherwise he will never reach the end point."
 
 
-(bron: vraag 28aug2020, beterrekenen)
+(source: question 28aug2020, better math)
 
 Hint:
-Teken allereerst een plaatje. 
-Pauzepunt 1 ligt op 3/4 van 20km van punt B.
-Pauzepunt 2 ligt op 3/4 van het getal op de vorige regel...
-En zo voort...
+First, draw a picture.
+Pause point 1 is 3/4 of 20km from point B.
+Pause point 2 is at 3/4 of the number on the previous line....
+And so on...
 
 
 
-## Ik een beetje meer dan jij...
+## I a little more than you....
 
-Je verdeelt een geldbedrag over vier personen (A, B, C en D). Elke persoon krijgt een ander bedrag: A krijgt 20% meer dan het gemiddelde van de vier personen. Voor de duidelijkheid: uiteindelijk krijgen de vier personen samen het hele bedrag. A krijgt daarvan een kwart + 20% van zo'n kwart. Daarna verlaat persoon A de kamer.
+You divide an amount of money among four people (A, B, C and D). Each person gets a different amount: A gets 20% more than the average of the four people. For clarity: in the end, the four people together get the whole amount. A gets a quarter of that + 20% of such a quarter. Then person A leaves the room.
 
-Er blijven drie personen over, met wie een soortgelijke verdeling plaatsvindt:
-B krijgt 20% meer dan het gemiddelde van de 3 overgebleven personen en verlaat de kamer. C krijgt 20% meer dan het gemiddelde van de 2 overgebleven personen. D ontvangt de overgebleven 168 euro.
+Three people remain, with whom a similar distribution takes place:
+B gets 20% more than the average of the 3 remaining persons and leaves the room. C receives 20% more than the average of the 2 remaining persons. D receives the remaining 168 euros.
 
-Het oorspronkelijke, te verdelen bedrag is ... euro.
+The original, distributable amount is ... euro.
 
-Schrijf een computerprogramma dat dit getal berekent.
+Write a computer program that calculates this number.
 
-Hieronder een deel van de oplossing, maar probeer het eerst zelf!
-(Afkomstig van beterreken.nl, 12aug2020; een som van Henk van Huffelen)
+Below is part of the solution, but first try it yourself!
+(Retrieved from beterreken.nl, 12aug2020; a sum by Henk van Huffelen)
 
-## Ik een beetje meer dan jij... aanzet tot een oplossing
+## I a little more than you.... impetus to a solution
 
-Als je het in C# doet:
-Maak een Console app aan en vul de Main-methode alsvolgt in:
+If you do it in C#:
+Create a Console app and populate the Main method as follows:
 
 ```cs
 static void Main(string[] args)
 {
-    // Ik een beetje meer dan jij...
-    // ----------- een oplossing ---------------
+    // I a little more than you....
+    // ----------- a solution ---------------
 
-    // Je verdeelt een geldbedrag over vier personen(A, B, C en D). Elke persoon krijgt een ander bedrag:
-    // A krijgt 20 % meer dan het gemiddelde van de vier personen.
-    // Voor de duidelijkheid: uiteindelijk krijgen de vier personen samen het hele bedrag.
-    // A krijgt daarvan een kwart + 20 % van zo'n kwart. Daarna verlaat persoon A de kamer.
+    // You divide an amount of money among four people(A, B, C and D). Each person gets a different amount:
+    // A gets 20% more than the average of the four people.
+    // For clarity, in the end, the four people together get the whole amount.
+    // A gets a quarter of that + 20 % of such a quarter. Then person A leaves the room.
 
-    // Er blijven drie personen over, met wie een soortgelijke verdeling plaatsvindt:
-    // B krijgt 20 % meer dan het gemiddelde van de 3 overgebleven personen en verlaat de kamer. C krijgt 20 % meer dan het gemiddelde van de 2 overgebleven personen. D ontvangt de overgebleven 168 euro.
+    // Three people remain, with whom a similar distribution takes place:
+    // B gets 20 % more than the average of the 3 remaining people and leaves the room. C receives 20 % more than the average of the 2 remaining persons. D receives the remaining 168 euros.
 
-    //  Het oorspronkelijke, te verdelen bedrag is ... euro.
+    // The original, distributable amount is ... euro.
 
-    // Schrijf een computerprogramma dat dit getal berekent.
+    // Write a computer program that calculates this number.
 
-    // ----------- een oplossing ---------------
-    // "Achteruit terugredeneren: "
-    // Het bedrag dat persoon D krijgt noemen we 'd', c is het bedrag dat persoon C, krijgt enzovoort...
-    // Voor bedragen raden we het type 'decimal' aan:
+    // ----------- a solution ---------------
+    // "Reverse reasoning:"
+    // The amount that person D gets we call 'd', c is the amount that person C, gets and so on....
+    // For amounts, we recommend the 'decimal' type:
     decimal d = 168;
             Console.WriteLine("d: {0}",d);
 
-    // c kreeg 20% meer dan het gemiddelde van de laatste 2 personen: c en d.
-    // Het gemiddelde van c en d is (c + d) / 2
-    // c is 20% meer ofwel 1.2 * dat gemiddelde:
-    // Er geldt:  c == 1.2 * ((c + d) / 2)
-    // ofwel: c == 0.6 * c + 0.6 * d
-    // ofwel: 0.4 * c == 0.6 * d
-    // dus c = 0,6 / 0,4 * d
+    // c got 20% more than the average of the last 2 people: c and d.
+    // The average of c and d is (c + d) / 2
+    // c is 20% more or 1.2 * that average:
+    // There is: c == 1.2 * ((c + d) / 2)
+    // or: c == 0.6 * c + 0.6 * d
+    // or: 0.4 * c == 0.6 * d
+    // so c = 0.6 / 0.4 * d
     decimal c = 3 / 2 * 168;
             Console.WriteLine("c: {0}", c);
 
-    // b is 20% meer dan (b + c + d) / 3,
-    // ofwel: b == 1.2 * ((b + c + d) / 3),
-    // ofwel:
+    // b is 20% more than (b + c + d) / 3,
+    // either: b == 1.2 * ((b + c + d) / 3),
+    // either:
 
-    maak dit programma zelf verder af!
+    finish this program yourself!
 
 
-    decimal b = 0;  // pas dit aan...
+    decimal b = 0; // modify this....
     Console.WriteLine("b: {0}", b);
 
-    decimal a = 0;  // pas dit aan...
+    decimal a = 0; // modify this...
     Console.WriteLine("a: {0}", a);
     Console.WriteLine("Hello World!");
 }
 ```
 
-Maak het programma hierna af.
+Complete the program after this.
+## A 1-2-3
 
-## Een 1-2-3-tje
+In the store there are 3 items next to each other, each with a different price in whole euros. The prices are listed without a comma, so for example, "32 euros".
 
-In de winkel liggen 3 artikelen naast elkaar met elk een verschillende prijs in hele euro's. De prijzen zijn genoteerd zonder komma, dus bijvoorbeeld: "32 euro".
+The price of the most expensive item is a 3-digit amount. If you omit the first digit of that amount, you have the price of the second item. If you omit the first digit of that again, you have the price of the third item.
 
-De prijs van het duurste artikel is een bedrag van 3 cijfers. Als je het eerste cijfer van dat bedrag weglaat, heb je de prijs van het tweede artikel. Laat je daarvan weer het eerste cijfer weg, dan heb je de prijs van het derde artikel.
+The articles together cost 589 euros. The middle article is less than 30 times more expensive than the cheapest article. The difference in price between the most expensive and cheapest item is ... euro.
 
-De artikelen kosten samen 589 euro. Het middelste artikel is minder dan 30 keer zo duur als het goedkoopste artikel. Het verschil in prijs tussen het duurste en goedkoopste artikel is ... euro.
+Write a computer program that calculates this number. (Or can you do it even without a computer program?)
 
-Schrijf een computerprogramma dat dit getal berekent. (of kun je het zelfs zonder computerprogramma?)
-
-## Hoeveel palindromen kan ik maken met ...?
-
+## How many palindromes can I make with ...?
 ![](figures/trainingHoeveelPalindromen.png "hoeveel palindromen")
 
-Een `palindroom` is een woord of getal dat achterstevoren geschreven hetzelfde is. Bijvoorbeeld het woord `LEPEL` of het getal `121`.
+A `palindrome` is a word or number written backwards that is the same. For example, the word `LEPEL` or the number `121`.
 
-Je hebt de beschikking over een maal de cijfers 3, 5 en 7 en tweemaal over de cijfers 2, 6 en 8 (zie plaatje).
+You have at your disposal once the digits 3, 5 and 7 and twice the digits 2, 6 and 8 (see picture).
 
-Hiermee kun je ... verschillende palindromen van 7 cijfers samenstellen.
+With these you can ... different palindromes of 7 digits.
 
-(afkomstig van beterrekenen.nl, 10aug2020, een som van Henk van Huffelen).
+(taken from beterrekenen.nl, 10aug2020, a sum by Henk van Huffelen).
 
-### Bronnen
+### Sources
 
-Een aantal van deze opgaven komen van
-[www.beterrekenen.nl](www.beterrekenen.nl) (ook als mobile app): Elke dag een paar minuten aan uitdagingen, soms makkelijk, soms moeilijker, some recht-toe-recht-aan, soms echt nodig om een plaatje te tekenen of een laptop te hulp te roepen... hersengym dus... een aanrader!
+Some of these tasks come from
+[www.beterrekenen.nl](www.beterrekenen.nl) (also as a mobile app): A few minutes of challenges every day, sometimes easy, sometimes harder, some straightforward, sometimes really needing to draw a picture or call a laptop to the rescue.... brain gym in other words.... highly recommended!
 
 ## Spoilers...
 
-Enkele antwoorden:
-+ `Al wandelend...`: 4746 meter
+Some answers:
++ `Walking...`: 4746 meters

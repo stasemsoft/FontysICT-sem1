@@ -1,58 +1,58 @@
-# String-methoden 
-## Inleiding 
-In deze opdracht werk je met string-methoden. Je gebruikt die methoden om informatie uit een stuk tekst te filteren, een stuk tekst te bewerken en te bepalen waar een bepaald woord zich in de tekst bevindt. 
+# String methods
+## Introduction
+In this assignment, you will work with string methods. You use those methods to filter information from a piece of text, edit a piece of text, and determine where a particular word is in the text.
 
-+ Leerdoel 1: Je kunt vanuit een gegeven specificatie een klein C#-programma schrijven met de stringmethoden IndexOf, Replace en Substring. Je kent alle varianten van deze string-functies. 
-+ Leerdoel 2: je kunt werken met meerdere projecten in een solution. 
-+ Leerdoel 3: je kunt zelfstandig property’s van user interface componenten een waarde geven in C#. 
++ Learning Objective 1: You can write a small C# program from a given specification using the string methods IndexOf, Replace, and Substring. You know all the variants of these string functions.
++ Learning objective 2: You can work with multiple projects in a solution.
++ Learning objective 3: you can independently give property's of user interface components a value in C#.
 
-## Voorbereiding 
-Maak een Windows Forms-applicatie in Visual Studio met een form met daarop een Textbox, een Button en een Label. Lees het OIS-dictaat door en bestuur de theorie van de string-methoden (ook wel string-functies genoemd) IndexOf, Replace en Substring. 
+## Preparation
+Create a Windows Forms application in Visual Studio with a form containing a Textbox, a Button and a Label. Read through the OIS dictum and master the theory of string methods (also called string functions) IndexOf, Replace and Substring.
 
-## Opdrachten 
-### Opdracht 1 - Index van 'e' 
-
-```
-User requirement: 
-De gebruiker typt (in de Textbox) een willekeurige tekst in. Hierna klikt de gebruiker op de knop. Het programma toont vervolgens in het label de (eerste) index van de letter “e”. Het programma laat in het label -1 zien indien de letter e niet voorkomt in de ingevoerde tekst. 
-```
-
-Programmeer de bovenstaande user requirement. 
-
-### Opdracht 2 - Haxor 
-Maak een tweede project aan binnen je solution en zet op het form weer een Textbox, een Label en een Button. 
+## Assignments
+### Assignment 1 - Index of 'e'
 
 ```
-User requirement: de gebruiker typt een willekeurige tekst in en drukt op de knop. Het programma toont vervolgens de ingevoerde tekst in het label in de zogenaamde haxor-notatie. 
+User requirement:
+The user types (in the Textbox) any text. After this, the user clicks on the button. The program then displays in the label the (first) index of the letter "e". The program shows in the label -1 if the letter e does not occur in the entered text.
 ```
 
-Programmeer deze user requirement. 
+Program the above user requirement.
 
-**Haxor-notatie**: 
-+ Elke letter a wordt vervangen door een 4. 
-+ Elke letter s wordt vervangen door een 5. 
-+ Elke letter e wordt vervangen door een 3. 
-+ De letters v en V wordt vervangen door \\/ . 
-+ De letters m en M worden vervangen door \|V\|. 
-
-
-### Opdracht 3 – Hallo jij! 
-Maak een derde project aan binnen je solution en zet op het form een Textbox, twee Radiobuttons en een Button. Een Radiobutton krijgt de tekst “Man” en de andere Radiobutton krijgt als tekst “Vrouw”. 
+### Task 2 - Haxor
+Create a second project within your solution and on the form again put a Textbox, a Label and a Button.
 
 ```
-User requirement: de gebruiker typt zijn voor- en achternaam in. Bijvoorbeeld “Marietje Jansen”. En vinkt een radiobutton aan met zijn geslacht (bijvoorbeeld “Vrouw”). Het programma toont vervolgens een MessageBox met de tekst “Hallo mejuffrouw Jansen” of “Hallo mijnheer Jansen”, afhankelijk van de ingevoerde tekst en geselecteerde radiobutton. 
+User requirement: the user types any text and presses the button. The program then displays the entered text in the label in the so-called haxor notation.
 ```
 
-Let op de requirements: 
-1. De gebruiker voert Voornaam + Achternaam in, maar de MessageBox toont de tekst zonder de voornaam. 
-2. Invoer als “Jan de Graaf” en radiobutton geslacht “Man“ levert het bericht “Hallo mijnheer de Graaf” op. 
+Program this user requirement.
+
+**Haxor notation**:
++ Each letter a is replaced by a 4.
++ Each letter s is replaced by a 5.
++ Each letter e is replaced by a 3.
++ The letters v and V shall be replaced by ____ .
++ The letters m and M shall be replaced by ________.
 
 
-### Extra opdrachten 
-Te makkelijk of heb je nog meer oefening nodig? Maak dan deze extra’s. 
+### Assignment 3 - Hello you!
+Create a third project within your solution and put a Textbox, two Radiobuttons and a Button on the form. One Radiobutton will be labeled "Male" and the other Radiobutton will be labeled "Female".
 
-1. Breidt opdracht 1 uit zodat het geheel “case insensitive” wordt. Dus een e of een E in de ingevoerde tekst zal hetzelfde resultaat opleveren. 
-2. Breidt opdracht 2 uit zodat een Haxor tekst omgezet kan worden naar een leesbare tekst. Hiervoor voeg je een Checkbox toe waarmee de gebruiker kan aangeven of hij van tekst- >Haxor of van Haxor->tekst wil converteren. 
-3. Breid opdracht 3 uit zodat hij bij invoer als “Jan de Graaf” de tekst “Hallo mijnheer Graaf, de” laat zien door gebruik te maken van de string-methode LastIndexOf. Breidt opdracht 3 uit zodat invoer als “ jan janssen “ (met veel spaties aan het begin, aan het eind en er tussen) nog steeds werkt. Dus uitvoer is “Hallo mijnheer Janssen” (zonder extra spaties). 
+```
+User requirement: the user types his first and last name. For example, "Marietje Jansen." And ticks a radio button with his gender (for example, "Female"). The program then displays a MessageBox with the text "Hello Miss Jansen" or "Hello Mr. Jansen," depending on the text entered and radio button selected.
+```
 
-(19 mei 2015 bedacht door Marcel Veldhuijzen)
+Note the requirements:
+1. The user enters First Name + Last Name, but the MessageBox displays the text without the first name.
+2. Input as "Jan de Graaf" and radio button gender "Man" produces the message "Hello Mr. de Graaf".
+
+
+### Additional commands
+Too easy or need more practice? Then make these extras.
+
+1. Expand assignment 1 so that the whole thing becomes "case insensitive." So an e or an E in the input text will produce the same result.
+2. Extend command 2 so that a Haxor text can be converted to readable text. To do this, add a Checkbox that allows the user to specify whether he wants to convert from text->Haxor or from Haxor->text.
+3. Extend command 3 so that when input as "Jan de Graaf" it shows the text "Hello Mr. Graaf, the" by using the string method LastIndexOf. Extend command 3 so that input like " jan janssen " (with lots of spaces at the beginning, at the end and in between) still works. So output is "Hello Mr. Janssen" (without extra spaces).
+
+(May 19, 2015 coined by Marcel Veldhuijzen)

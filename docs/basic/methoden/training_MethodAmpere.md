@@ -1,22 +1,22 @@
 # Training method Ampere
 
-Voer een analyse uit en onderzoek hoe je het volgende kunt uitrekenen:
+Perform an analysis and investigate how to calculate the following:
 
-Gegeven een stroom in Ampère en een spanning in Volt, wat is de waarde van de weerstand (in Ohm) waar die spanning over valt (en die stroom door loopt)?
-(wet van Ohm)
+Given a current in Amps and a voltage in Volts, what is the value of the resistance (in Ohms) over which that voltage falls (and that current flows through)?
+(Ohm's law)
 
-Schrijf een programma dat voldoet aan de volgende eisen:
+Write a program that satisfies the following requirements:
 
-+ De gebruiker kan de spanning in V en de stroom in A invullen en jouw programma slaat die twee waarden op in twee variabelen. De gebruiker kan 5.5 invullen voor een spanning van vijfeneenhalf volt (gebruik type decimal voor de waarden van spanning en stroom).
-+ Schrijf code die de waarde van de weerstand uitrekent en die waarde opslaat in een derde variabele.
-+ Schrijf code die de waarde van de derde variabele laat zien als "De weerstand is 1234.65 ohm".
-+ Als je programma nu werkt dan moet je de code die je hebt geschreven overzetten naar een nieuwe methode. De methode ziet er zo uit:
++ The user can enter the voltage in V and the current in A, and your program stores those two values in two variables. The user can enter 5.5 for a voltage of five and a half volts (use type decimal for the values of voltage and current).
++ Write code that calculates the value of resistance and stores that value in a third variable.
++ Write code that shows the value of the third variable as "The resistance is 1234.65 ohms."
++ If your program now works then you need to transfer the code you wrote to a new method. The method looks like this:
 
 ```cs
-decimal Weerstand(decimal volt, decimal ampere)
+decimal Resistance(decimal volts, decimal amps)
 {
-  // zet in plaats van deze regel je eigen code!
+  // put your own code in place of this line!
 }
 ```
-De in-te-vullen code heb je al geschreven, verplaats die bestaande code. Verander hierbij desgewenst de namen van de variabelen.
-+ Roep de methode Weerstand aan en test je programma.
+You've already written the fill-in code, move that existing code. In doing so, change the names of the variables if you wish.
++ Call the Resistance method and test your program.

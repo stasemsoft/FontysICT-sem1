@@ -1,8 +1,9 @@
-## Je object als string: override ToString()
+## Your object as a string: override ToString()
+
 
 ![](figures/FUN12_boot.png "Boot")
 
-Soms wil je de *instantie* (dus het *object*) dat je hebt gemaakt van je eigen class afbeelden als string. Bijvoorbeeld om in een ListBox te zetten. Gelukkig heeft C# daar de 'ToString' methode voor bedacht. Elke class heeft deze methode. Probeer maar uit.
+Sometimes you want to represent the *instance* (that is, the *object*) you created from your own class as a string. For example, to put in a ListBox. Fortunately, C# has come up with the 'ToString' method for that. Every class has this method. Try it out.
 
 ```cs
 Boot b = new Boot();
@@ -10,37 +11,39 @@ string bootString = b.ToString();
 MessageBox.Show(bootString);
 ```
 
-Zoals je in de screenshot aan de rechterkant van de pagina al kunt zien is dit nog niet erg nuttig te noemen. Dit is wat de standaard ToString methode met je klasse doet. Gelukkig kunnen we daar zelf een meer bruikbare definitie aan geven. Bekijk het onderstaande stukje code.
+As you can already see in the screenshot on the right side of the page, this is not very useful yet. This is what the default ToString method does to your class. Fortunately, we can give it a more useful definition ourselves. Take a look at the piece of code below.
 
 ```cs
 public override string ToString()
 {
    StringBuilder sb = new StringBuilder();
-   sb.AppendFormat("{0}: {1} knopen, {2} ton, max. {3} man.",
-   Naam, Snelheid, Gewicht, AantalBemanningsleden);
+   sb.AppendFormat("{0}: {1} knots, {2} tons, max {3} man.",
+   Name, Speed, Weight, NumberScrew);
    return sb.ToString();
 }
 ```
 
-Hier zie je een 'ToString method' die wat meer gegevens over de boot zal weergeven. Dit is ook te zien in onderstaande screenshot. Deze ToString methode kun je gewoon copy-pasten in je Boot klasse. Nadat je dat gedaan hebt kun je de nieuwe ToString methode gebruiken en uitproberen.
+Here you can see a 'ToString method' that will display some more data about the boat. This can also be seen in the screenshot below. You can just copy-paste this ToString method into your Boot class. After you have done that you can use the new ToString method and try it out.
+
 
 ![](figures/titanic.png "Titanic")
 
 
-Let op dat je het `override` keyword ook meeneemt in de methode definitie. Daarmee weet C# dat je de standaard ToString methode wilt herschrijven. Die was toch al niet zo nuttig. Dus je eigen invulling is vast beter.
+Note that you also include the `override` keyword in the method definition. With that, C# knows you want to rewrite the standard ToString method. That one wasn't very useful anyway. So your own interpretation is probably better.
 
-De ToString methode is ook handig om een andere reden. C# gebruikt die namelijk in de weergave van je objecten. Bekijk wat er is gebeurd in het volgende voorbeeld.
+The ToString method is also useful for another reason. Namely, C# uses it in the representation of your objects. See what happened in the following example.
 
 
 ```cs
 Boot b = new Boot();
 ...
-lbBoten.Items.Add(b);
+lbBoats.Items.Add(b);
 ```
 
-Op het moment dat je een boot toevoegd aan de ListBox zal C# voor jou de ToString methode aanroepen en deze gebruiken in de weergave. De ListBox zelf bevat de gehele instantie, niet alleen maar de string. Best handig dus!
+The moment you add a boat to the ListBox, C# will call the ToString method for you and use it in the representation. The ListBox itself contains the entire instance, not just the string. Pretty handy, in other words!
 
-Ga zelf aan de slag met de ToString methode en probeer deze uit in verschillende klassen die je zelf hebt gemaakt. Kun je deze dan ook in een ListBox zetten?
+Start working with the ToString method yourself and try it out in different classes you have created. Can you then put it in a ListBox as well?
+
 
 ![](figures/boot_toevoegen.png "Boot toevoegen")
 

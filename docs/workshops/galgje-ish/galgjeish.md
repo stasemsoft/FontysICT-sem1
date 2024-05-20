@@ -1,27 +1,26 @@
-# Challenges met Objects en Classes
+# Challenges with Objects and Classes
 
 [Een heuse powerpoint](Console_galgje_ish.pptx)
 
+## Possible format for this demo:
 
-## Mogelijke indeling voor deze demo:
++ Purpose: dealing with console, variables, arrays/collections, loops, Random
++ Purpose: learn from each other's code
 
-+ Doel: omgaan met console, variables, arrays/collections, loops, Random
-+ Doel: leren van elkaars code
+## Create Gallows as a console app.
 
-## Maak Galgje als een console app.
++ Step 1: random words
 
-+ Stap 1: willekeurige woorden
++ Step 2: word length visible
 
-+ Stap 2: lengte woord zichtbaar
++ Step 3: location of guessed letters visible
 
-+ Stap 3: locatie geraden letters zichtbaar
++ Step 4: x errors until game over
 
-+ Stap 4: x fouten tot game over
++ Step 5: visualization
 
-+ Stap 5: visualisatie
-
-+ Stap 6: verder uitbreiden
++ Step 6: expand further
 
 
-Wie het eerste klaar is met stap 3 : prijs --> laten zien.
-Wie na 60 min de mooiste uitvoering heeft: prijs --> laten zien.
+Whoever finishes Step 3 first : prize --> show.
+Whoever has the best execution after 60 min : prize --> show.

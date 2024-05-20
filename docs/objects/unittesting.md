@@ -1,8 +1,8 @@
 # Unit Testing
 
-Bouw je eigen 'vangnet' aan geprogrammeerde tests op die je programma keer op keer testen. Een van de pijlers van Agile ontwikkelen.
+Build your own "safety net" of programmed tests that test your program over and over again. One of the pillars of Agile development.
 
-## Mogelijke bronnen
+## Possible Resources
 
 [Microsoft: Starting with unit tests](https://docs.microsoft.com/en-us/visualstudio/test/getting-started-with-unit-testing?view=vs-2019)
 
@@ -10,4 +10,5 @@ Bouw je eigen 'vangnet' aan geprogrammeerde tests op die je programma keer op ke
 
 [Martin Fowler on unit tests](https://www.martinfowler.com/bliki/UnitTest.html)
 
-[Collega Wilrik hands on in VS2019](https://www.youtube.com/watch?v=t0tPy4EzLzw&feature=youtu.be)
+[Colleague Wilrik hands on in VS2019](https://www.youtube.com/watch?v=t0tPy4EzLzw&feature=youtu.be)
+

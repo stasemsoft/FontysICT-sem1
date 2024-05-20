@@ -1,5 +1,5 @@
-# Training- While - Het goede getal
+# Training- While - The right number
 
-Laat de gebruiker een getal invoeren. Controleer dat het een getal tussen de 0 en 10 is. Na een druk op de knop ga je willekeurige getallen genereren totdat je het getal van de gebruiker hebt. Dus stel dat het getal 6 is ingevoerd. Dan ga je een willekeurig getal genereren tussen de 0 en 10. Stel je trekt 3, dan moet je dus nogmaals gaan genereren. Dit blijf je net zolang herhalen tot je een 6 hebt getrokken. Je toont een melding aan de gebruiker: “Het goede getal is na 3 keer gevonden!”.
+Have the user enter a number. Verify that it is a number between 0 and 10. After a press, start generating random numbers until you get the user's number. So suppose the number 6 is entered. Then you start generating a random number between 0 and 10. Suppose you draw 3, so you have to start generating again. You keep repeating this until you draw a 6. You show a message to the user: “The correct number has been found after 3 times!”.
 
 ![Userinterface](figures/Goede-getal-ui.png)

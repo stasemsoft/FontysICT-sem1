@@ -1,11 +1,11 @@
-# Training van getal naar woord
+# Training from number to word
 
-Maak een applicatie die gehele getallen in woorden af kan drukken.  
+Create an application that can print integers into words.  
 
-## Uitbreidingsmogelijkheden
-1. geef gebruiker optie om "een" aan of uit te zetten (b.v. eenduizend/duizend) 
-2. geef gebruiker een optie om te wisselen tussen "duizendtweehonderd" en "twaalfhonderd"
-3. maak het mogelijk voor meerdere talen: NL, EN, FR, etc.
+## Extension options.
+1. give user option to turn “one” on or off (e.g., one thousand/one thousand) 
+2. give user option to toggle between “one thousand two hundred” and “twelve hundred”
+3. make it possible for multiple languages: NL, EN, FR, etc.
 
-Natuurlijk maak je nette en onderhoudbare code. Om dit te bereiken breid je je programma in kleine stappen (cijfers, tientallen, honderdtallen, etc.) uit. Vraag feedback voor iedere uitbreiding die je maakt.
+Of course you create neat and maintainable code. To achieve this, expand your program in small steps (numbers, tens, hundreds, etc.). Ask for feedback for each extension you make.
 

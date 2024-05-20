@@ -1,37 +1,37 @@
 # Compiler Error Quiz (C#)
 
 
-Opties:
-+ Gegeven een project/solution met errors erin: los deze op.
-+ Gegeven een paar errormeldingen: zorg ervoor dat deze optreden in een eigen project.
+Options:
++ Given a project/solution with errors in it: resolve it.
++ Given a pair of errormessages: make sure they occur in their own project.
 
 
 
 
 
-## Algemene quizvragen
+## General quiz questions
 
-+ Wat is het verschil tussen een compiler warning en een compiler error?
-+ Wat is het verschil tussen een compiler error en een exception?
-
-
-## Veroorzaak de volgende error
-
-+ Veroorzaak een bepaalde error.
-+ Kan 'zo snel mogelijk', of 'in een zo klein mogelijk programma'.
-+ Dit kan in duo's.
-+ Spreek af of de teams op internet mogen zoeken.
-+ Je mag geen programmavoorbeelden letterlijk van internet af halen!
-+ extra: maak een randomizer (virtuele danwel echte Hoge Hoed met papiertjes waarop de errors staan).
-+ De teams kunnen elkaar ook errors voor elkaar verzinnen!
-+ Kan ook met exceptions of warnings.
++ What is the difference between a compiler warning and a compiler error?
++ What is the difference between a compiler error and an exception?
 
 
-Hier een mogelijke lijst met errors:
+## Cause the following error
+
++ Cause a particular error.
++ Can be 'as fast as possible', or 'in as small a program as possible'.
++ This can be done in pairs.
++ Agree if the teams are allowed to search the Internet.
++ You may not take program examples literally from the Internet!
++ Extra: make a randomizer (virtual or real top hat with papers with the errors on it).
++ Teams can also make up errors for each other!
++ You can also use exceptions or warnings.
+
+
+Here is a possible list of errors:
 + `;` expected
 + Only assignment, call, increment, decrement, and new object expressions can be used as a statement.
 + Operator '\*' cannot be applied to operands of type 'int' and 'string'.
-+ Inconsistent accessibility: parameter type 'Hoed' is less accessible than method 'ZetOpJeHoofd'.
-+ 'Hoed' does not contain a constructor that takes '2' arguments.
-+ The name of type 'TYPE' is too long. (op de plek van TYPE moet je dus zelf een andere naam invullen).
-+ 'Groentetuin.LengteInMeter(Gereedschap) : not all code paths return a value. '
++ Inconsistent accessibility: parameter type 'Hat' is less accessible than method 'PutOnHead'.
++ 'Hat' does not contain a constructor that takes '2' arguments.
++ The name of type 'TYPE' is too long. (so in the place of TYPE you have to fill in another name yourself).
++ 'Vegetable Garden.LengthInMeter(Tools) : not all code paths return a value. '

@@ -1,51 +1,51 @@
 # Explanation: Methods in C#
 
-### Algemene structuur methoden
+### General structure methods
 
-Een methode is een stukje code dat vanuit een ander stukje code
-is aan te roepen. Als een methode een waarde terug geeft
-welke gebruikt gaat worden in het stukje code waar vanuit
-deze is aangeroepen spreek je over een methode welke &quot;een waarde teruggeeft&quot;.
-Ook kunnen aan een methode één of meer waarden worden meegegeven.
-Dit worden argumenten genoemd.
+A method is a piece of code that can be called from another piece of code.
+that can be called from another piece of code. If a method returns a value
+which is going to be used in the piece of code from which
+It is called a method that returns a value.
+A method can also be given one or more values.
+These are called arguments.
 
-### Belangrijkste voordelen van het gebruik van methoden:
+### Main advantages of using methods:
 
-1. Overzichtelijkheid: Als alle code in één enkele event handler (bijv. *ButtonX_Click*) wordt geplaatst wordt je code al snel erg overzichtelijk.
-2. Werk verdelen: Als je voordat je gaat programmeren het programmeerwerk wilt verdelen kun je de te maken code opdelen in methoden en deze met verschillende programmeurs tegelijkertijd programmeren.
-3. Onderhoudbaarheid &amp; herbruikbaarheid: Als je op verschillende plaatsen in je programma hetzelfde stuk code vaker uit wilt voeren kun je vanaf de verschillende plaatsen een methode aanroepen die je maar één keer hoeft te programmeren.  Dat scheelt code en is gemakkelijker te onderhouden dan dat je code verschillende keren in je programma kopiert en plakt.
+1. Clarity: If all code is placed in a single event handler (e.g. *ButtonX_Click*) your code quickly becomes very clear.
+2. Distributing work: If you want to divide the programming work before programming, you can divide the code to be created into methods and program them with several programmers at the same time.
+3. Maintainability &amp; reusability: If you want to execute the same piece of code more than once at different places in your program, you can call a method from the different places and program it only once.  This saves code and is easier to maintain than copying and pasting code several times in your program.
 
-Een methode heeft de volgende structuur:
+A method has the following structure:
 ```cs
-private [returnType] [methodeNaam]([parameters])
+private [returnType] [methodName]([parameters])
 {
-  …
-  [return returnWaarde]
+  ...
+  [returnValue]
 }
 ```
 
 <dl><dt>`private`</dt>
-<dd>geeft aan dat de `methode` alleen binnen het huidige bestand (lees: `Form1`) kan worden aangeroepen. Wat dit precies inhoudt is voor dit vak niet interessant, hier wordt later op teruggekomen.</dd>
+<dd>indicates that the `method` can only be called within the current file (read: `Form1`). Exactly what this means is of no interest to this course, this will be discussed later.</dd>
 <dt>[returnType]</dt>
-<dd>Het type van de waarde die de methode terug geeft. Als de methode geen waarde terug geeft, is dit `void` (*niets*). Voorbeelden: `int`, `double`, `bool`, `string`, `void`.</dd>
-<dt>[methodeNaam]</dt>
-<dd>Zelf gekozen naam voor de methode, te vergelijken met een zelf gekozen naam voor een variabele.	Voorbeelden: *TelOp*, *ToonMelding*, *Methode1*, *Abc*.</dd>
+<dd>The type of the value returned by the method. If the method returns no value, this is `void` (*nothing*). Examples: `int`, `double`, `bool`, `string`, `void`.</dd>
+<dt>[methodName]</dt>
+<dd>Self-chosen name for the method, similar to a self-chosen name for a variable.Examples: *Count*, *Demonstration*, *Method1*, *Abc*.</dd>
 <dt>[parameters]</dt>
-<dd>Optioneel onderdeel. Hiermee wordt opgegeven welk(e) type(n) waarde(n) moet worden meegegeven aan de methode en onder welke naam deze waarde binnen de method kunnen worden gebruikt. Meerdere parameters worden gescheiden met een &quot;,&quot;-teken.	Voorbeelden: `int deler`, `int getalA`, `int getalB`, `bool isIngelogd`, `double eenKommaGetal`.</dd>
-<dt>[return returnWaarde]</dt>
-<dd>Met `return`&quot; gevolgd door een waarde die aan het *[returnType]* voldoet wordt een waarde teruggegeven vanuit de methode aan het stukje code dat de methode heeft aangeroepen. Als *[returnType]* `void` is hoeft er geen return worden gebruikt. Voorbeelden: `return uitkomst;`, `return 10;`, `return mijnTekst;`, `return "Hallo"+" daar!";`, `return getal > 10;`</dd>
+<dd>Optional Component. Specifies the type(s) of value(s) to be passed to the method and the name under which this value can be used within the method. Multiple parameters are separated with an &quot;,&quot;-sign. Examples: `int divisor`, `int numberA`, `int numberB`, `bool isLogged`, `double aCommaGetal`.</dd>
+<dt>[returnValue]</dt>
+<dd>With `return`&quot; followed by a value that satisfies the *[returnType]*, a value is returned from the method to the piece of code that called the method. If *[returnType]* is `void` no return needs to be used. Examples: `return outcome;`, `return 10;`, `return myText;`, `return "Hello "+" there!";`, `return number > 10;`</dd>
 </dl>
 
 
-### Voorbeelden Methoden
+### Examples Methods
 
-Een aantal voorbeeldmethoden:
+Some example methods:
 ```cs
     private int AddTwoNumbers(int number1, int number2)
     {
-        int som;
-        som = number1 + number2;
-        return som;
+        int sum;
+        sum = number1 + number2;
+        return sum;
     }
 
     private int SquareANumber(int number)
@@ -54,21 +54,21 @@ Een aantal voorbeeldmethoden:
     }
 ```
 
-Bovenstaande methoden zijn als volgt aan te roepen:
+The above methods can be called as follows:
 ```cs
 int sum = AddTwoNumbers(8765, 287);
 ```
-of:
+or:
 ```cs
-int kwadraat = SquareANumber(63);
+int squared = SquareANumber(63);
 ```
-of, beiden:
+or, both:
 ```cs
 int total = SquareANumber(AddTwoNumbers(1, 2));
 ```
 
-#### Tekst en uitleg (engelstalig) over methoden en parameters
+#### Text and explanation (in English) about methods and parameters
 
-Zie bijvoorbeeld
-[C-sharpcorner over methods](http://www.c-sharpcorner.com/UploadFile/myoussef/CSharpMethodsP_111152005003025AM/CSharpMethodsP_1.aspx)
-voor meer uitleg.
+See for example
+[C-sharpcorner about methods](http://www.c-sharpcorner.com/UploadFile/myoussef/CSharpMethodsP_111152005003025AM/CSharpMethodsP_1.aspx)
+for more explanation.

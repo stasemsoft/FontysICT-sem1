@@ -1,5 +1,5 @@
-# Training met method, List en Array
+# Training with method, List and Array
 
-Maak een methode `ListEqualsArray` die als returnwaarde een `bool` heeft en 2 parameters: 1 List<int> en 1 Array<int>. De methode geeft `true` terug precies dan als de inhoud van de List en het Array precies aan elkaar gelijk zijn.
+Create a method `ListEqualsArray` that has as return value a `bool` and 2 parameters: 1 List<int> and 1 Array<int>. The method returns `true` exactly then if the contents of the List and the Array are exactly equal to each other.
 
-Let op dat de elementen best in een andere volgorde kunnen staan!
+Note that the elements may well be in a different order!

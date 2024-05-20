@@ -1,12 +1,12 @@
-# Challenge (Classes voor een) Schaakspel
+# Challenge (Classes for a) Chess game
 
-Ideaal als je dit op een whiteboard kunt doen waar je met een groepje mensen bij gaat staan. Praat er over welke classes je nodig denkt te hebben als je een Schaakspel gaat programmeren. Probeer samen tot een goed eindresultaat te komen.
+Ideal if you can do this on a whiteboard where you will stand with a group of people. Talk about what classes you think you will need when programming a Chess game. Try to come up with a good end result together.
 
-Als je alle classes hebt bedacht, bedenk dán hoe je die classes precies zou noemen. schrijf die namen op. Denk er aan dat ook de huidige toestand van het spel in objecten opgeslagen moet zijn. 
+When you have thought of all the classes, then think about what exactly you would call those classes. write those names down. Remember that also the current state of the game must be stored in objects.
 
-Let bij deze challenge op het volgende:
-+ Een class name begint met een hoofdletter!
-+ Als een object van deze class 1 voorwerp voorstelt, gebruik dan een enkelvoud als naam (dus Student, Monster, of Pion).
-+ In een samengestelde naam begint elk nieuw woord met een hoofdletter (dus KameelBult, StudentResultaat, SchaakBord).
+Note the following in this challenge:
++ A class name starts with a capital letter!
++ If an object of this class represents 1 object, use a singular name (i.e. Student, Monster, or Pawn).
++ In a compound name, each new word begins with a capital letter (i.e. CamelBump, StudentResult, ChessBoard).
 
 ![](figures/chess.png)

@@ -1,24 +1,24 @@
-| Leerdoelen | Ontwerp classes. |
-| --- | --- |
-| Vereiste voorkennis | Class, object. |
-| Challenge Type | Technisch ontwerp, discussion. |
+| Learning objectives | Design classes.               |
+| ------------------- | ------------------------------ |
+| Required prior knowledge | Class, object.                 |
+| Challenge Type | Technical design, discussion. |
 
 
-### De opdracht
+### The assignment
 
-Webshop spierballetje.com verkoopt spullen voor krachttrainers en bodybuilders. Ze verkopen ondermeer halters (gewichten), kettlebells, sportkleding, schoenen en boeken over voeding en bodybuilding.
+Webshop spierballetje.com sells gear for strength trainers and bodybuilders. Among other things, they sell dumbbells (weights), kettlebells, sportswear, shoes and books on nutrition and bodybuilding.
 
-Artikelen die ze verkopen zijn onder te verdelen in categorieën kleding, gewichten, boeken en diversen. Elk artikel heeft een inkoopprijs, verkoopprijs en een titel en omschrijving.
+Items they sell can be divided into categories of clothing, weights, books and miscellaneous. Each item has a purchase price, selling price and a title and description.
 
-Functionaliteiten zijn dat klanten kunnen bestellen (artikelen in winkelwagen kunnen plaatsen), betalen, account aan kunnen maken.
-Klanten krijgen automatisch mails over de status van de bestellingen. Ze krijgen een factuur via de mail.
+Functionalities are that customers can order (place items in shopping cart), pay, create account.
+Customers automatically get emails about the status of orders. They get an invoice through the mail.
 
-Medewerkers van de webshop kunnen met de software (een backend-applicatie) inkopen administreren, btw-aangiften afhandelen en lijsten van leveranciers bijhouden. Ook kunnen ze artikelen op de site updaten.
+Employees of the shop can use the software (a backend application) to administer purchases, handle VAT returns and maintain lists of suppliers. They can also update articles on the site.
 
-Bezoekers van de site kunnen reviews plaatsen voor artikelen. Klanten kunnen vragen stellen via de online chatbox in de webshop.
-Bezoekers van de webshop kunnen artikelen zoeken op naam, prijs, titel enz. Ze kunnen artikelen sorteren op prijs of op meestverkocht.
+Visitors to the site can post reviews for items. Customers can ask questions via the online chat box in the Web shop.
+Visitors to the Web shop can search items by name, price, title, etc. They can sort items by price or most sold.
 
-Klanten kunnen zich inschrijven voor een nieuwsbrief.
+Customers can subscribe to a newsletter.
 
-Aan jouw de taak om als software engineer vanuit bovenstaande specificatie de te programmeren klassen te ontwerpen.
-Hint: minimaal zijn er al gauw minimaal 5 tot 20 a 25 klassen te bedenken.
+Your job as a software engineer is to design the classes to be programmed from the above specification.
+Hint: at least 5 to 20 to 25 classes can easily be designed.

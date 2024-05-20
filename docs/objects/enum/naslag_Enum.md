@@ -1,13 +1,13 @@
-# Naslag basiskennis: Enum
+# Baseline knowledge: Enum
 
 ## Enum
 
-Een enum is een datatype dat een aantal vooraf gedefinieerde waarden kan bevatten, bijvoorbeeld de dagen van de week, de maanden van het jaar, de kleuren van de regenboog, etc.
+An enum is a data type that can contain a number of predefined values, for example, the days of the week, the months of the year, the colors of the rainbow, etc.
 
-Een enum wordt gedefinieerd met het keyword `enum` en de naam van de enum. De waarden worden tussen accolades `{}` geplaatst.
+An enum is defined with the keyword `enum` and the name of the enum. The values are placed between curly braces `{}`.
 
 ```C#
-enum Colour
+enum Color
 {
     Red,
     Green,
@@ -15,33 +15,33 @@ enum Colour
 }
 ```
 
-De waarden van een enum kunnen worden opgevraagd met de naam van de enum gevolgd door een punt en de naam van de waarde.
+The values of an enum can be retrieved with the name of the enum followed by a period and the name of the value.
 
 ```C#
-Colour colour = Colour.Red;
+Color color = Colour.Red;
 ```
 
-Een enum kan maar een beperkte hoeveelheid data vasthouden, namelijk
-`int`, `uint`, `long`, `ulong`, `short`, `ushort`, `byte` of `sbyte`.
+An enum can only hold a limited amount of data, viz.
+`int`, `uint`, `long`, `ulong`, `short`, `ushort`, `byte` or `sbyte`.
 
-(Ook `char` is een mogelijkheid, maar waarom dit is is leuk om zelf uit te zoeken!)
+(Also `char` is a possibility, but why this is is fun to figure out for yourself!)
 
-Om aan te geven welk type gebruikt moet worden, kan dit achter de naam van de enum worden geplaatst.
+To indicate which type to use, this can be placed after the enum name.
 
-Je kan ook zelf waardes aan een enum toekennen, bijvoorbeeld:
+You can also assign your own values to an enum, for example:
 
 ```C#
-enum Colour
+enum Color
 {
     Red = 1,
     Green = 2,
     Blue = 3
 }
 /*
-    Dit hieronder is ook geldig, maar minder net. Voor betere code, gebruik de bovenstaande manier, dan is ook meteen duidelijk welke waarde bij welke kleur hoort.
+    This below is also valid, but less neat. For better code, use the above way, then it is also immediately clear which value belongs to which color.
 */
 
-enum Colour
+enum color
 {
     Red = 1,
     Green,
@@ -49,7 +49,7 @@ enum Colour
 }
 ```
 
-Logische condities (en zelfs rekenkundige bewerkingen) kunnen worden uitgevoerd op enums.
+Logical conditions (and even arithmetic operations) can be performed on enums.
 
 ```C#
 
@@ -63,7 +63,7 @@ enum Colour
 public void Test()
 {
     Colour colour = Colour.Red;
-    if(colour == Colour.Red)
+    if(color == Colour.Red)
     {
         Console.WriteLine("Colour is red");
     }
@@ -71,7 +71,7 @@ public void Test()
     {
         // Do something else
     }
-    if(colour == Colour.Blue)
+    if(color == Colour.Blue)
     {
         // Do something else
     }
@@ -81,16 +81,16 @@ public void Test()
 }
 ```
 
-Uitkomst:
+Outcome:
 
 ```md
-Colour is red
+Color is red
 Green
 ```
 
-Enums worden vooral gebruikt om makkelijk te wisselen tussen types, of data op een eenvoudige manier door te sturen.
+Enums are mainly used to easily switch between types, or pass data in a simple way.
 
-### Voorbeeld
+### Example
 
 ```C#
 

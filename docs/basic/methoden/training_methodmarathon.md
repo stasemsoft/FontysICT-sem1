@@ -1,74 +1,74 @@
 # Training method marathon
 
-Maak een console-app aan en programmeer hierin de hieronder genoemde methods. Roep ze allemaal aan. Controleer of je overtuigd bent dat het antwoord klopt!
-Wellicht is het hier en daar handig een flowchart of ander hulpmiddel te gebruiken. Maak daar dan een foto van en voeg die aan je Trainingsopdrachten toe.
+Create a console app and program into it the methods listed below. Call them all. Check if you are convinced that the answer is correct!
+You might want to use a flow chart or other tool. Then take a picture of that and add it to your Training Assignments.
 
-Tussendoor vind je hier en daar quotes van beroemde informatici.
+In between you will find quotes from famous computer scientists here and there.
 
 `Quote: Understand well as I may, my comprehension can only be an infinitesimal fraction of all I want to understand. (Ada Lovelace)`
 
-(i) Maak een method *FullName* met de parameters *forename* en *surname* (voor- en achternaam, als je het liever in het NL doet).
-Aanroep *FullName("Ada", "Lovelace")* geeft terug: "Ada Lovelace", Zij was de eerste programmeur ooit! De aanroep *FullName("Alan", "Kay")* geeft terug: "Alan Kay". Denk er ook aan dat er een spatie tussen voor- en achternaam moet staan!  
+(i) Create a method *FullName* with the parameters *forename* and *surname* (first and last name, if you prefer to do it in NL).
+Call *FullName("Ada", "Lovelace")* returns "Ada Lovelace", She was the first programmer ever! Call *FullName("Alan", "Kay")* returns: "Alan Kay". Also remember that there must be a space between first and last name!  
 
-(ii) Maak een method genaamd *Times* met dezelfde parameters als de vorige. De returnwaarde is een *int* die het aantal letters in voornaam maal het aantal letters van de achternaam bevat.
+(ii) Create a method called *Times* with the same parameters as the previous one. The return value is an *int* containing the number of letters in first name times the number of letters in last name.
 
-(iiia) Maak een method genaamd *IsIn* met een string-parameter `character` en een string-parameter 'word'. De method geeft een boolean terug: true als het 'character' in 'word' voorkomt, anders false. Als je hier niet zelf uit komt kijk dan eens beneden aan deze pagina naar 'Eerste Hulp Bij Vasthangen'.
+(iiia) Create a method called *IsIn* with a string parameter `character` and a string parameter `word`. The method returns a boolean: true if the `character` occurs in `word`, false otherwise. If you can't figure this out on your own look at the bottom of this page for 'First Aid for Hanging'.
 
-(iiib) Maak weer een method genaamd *InCommon* met de string-parameters forename en surname, die precies de letters teruggeeft die in voor- én achternaam voorkomen (als String of als List).
+(iiib) Again, create a method called *InCommon* with the string parameters forename and surname, which returns exactly the characters that appear in both forename and surname (as a String or as a List).
 
-`Quote: Always remember, however, that there’s usually a simpler and better way to do something than the first way that pops into your head."  (Donald Knuth)`
+`Quote: Always remember, however, that there's usually a simpler and better way to do something than the first way that pops into your head."  (Donald Knuth)`
 
-(iv) Method *HowMuchLonger*, zelfde parameters, die een getal teruggeeft: het aantal letters dat de achternaam langer is dan de voornaam, óf 0 als de achternaam niet langer is dan de voornaam.
+(iv) Method *HowMuchLonger*, same parameters, which returns a number: the number of letters the last name is longer than the first name, or 0 if the last name is not longer than the first name.
 
-(v) Method *VoornaamVan* met 1 parameter: de fullName
-(bv. "Donald Knuth", een bekende informaticus).
-De method returnt de voornaam.
+(v) Method *FirstNameOf* with 1 parameter: the fullName
+(e.g. "Donald Knuth", a well-known computer scientist).
+The method returns the first name.
 
-(vi) Idem *AchternaamVan*.
+(vi) Idem *SurnameOf*.
 
 `Quote: Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves. (Alan Kay)`
 
-(vii) Maak een method *VoornaamAchterstevoren* die van de parameter fullName de voornaam pakt en de letters achterstevoren achter elkaar plakt in een String: dit is de returnwaarde van deze methode.
+(vii) Create a method *FirstName Backwards* that takes the first name from the fullName parameter and pastes the letters backwards into a String: this is the return value of this method.
 
-(viii) Maak een method *AchternaamAchterstevoren* die van de parameter fullName de achternaam pakt en de letters achterstevoren achter elkaar plakt in een String: dit is de returnwaarde van deze methode.
+(viii) Create a method *SurnameBackward* that takes from the fullName parameter the last name and pastes the letters backward in a String: this is the return value of this method.
 
-`Quote: If debugging is the process of removing software bugs, then programming must be the process of putting them in. (Edsger W. Dijkstra)`
+`Quote: If debugging is the process of removing software bugs, then programming must be the process of putting them in (Edsger W. Dijkstra)`.
 
-(ix) Maak een method *UmEnUmVoorAchter*, die van parameter fullName eerste de 1e letter van de voornaam pakt, dan de 1e van de achternaam, dan de 2e letter van de voornaam, 2e van de achternaam, 3e vd voornaam, 3e vd achternaam, 4e ... nou, je snapt het denk ik wel. Als de ene naam 'op' is en de andere nog niet, plak dan de overgebleven letters er nog achter en geef de opgebouwde string terug. Roep deze methode een paar keer aan en controleer het resultaat!
-Voorbeeld: UmEnUmVoorAchter("Edsger Dijkstra") geeft: "EDdisjgkesrtra"
+(ix) Create a method *UmEnUmForeSight*, which from parameter fullName first grabs 1st letter of first name, then 1st of last name, then 2nd letter of first name, 2nd of last name, 3rd of first name, 3rd of last name, 4th ... well, I think you get the idea. If one name is "up" and the other is not yet, paste the remaining letters after it and return the built-up string. Call this method a few times and check the result!
+Example: UmEnUmVoorAchter("Edsger Dijkstra") returns: "EDdisjgkesrtra"
 
 `Quote:
 The art of programming is the art of organizing complexity. (Edsger W. Dijkstra)`
 
-(x) Je raadt het al: we willen ook een *UmEnUmAchterVoor*, die hetzelfde doet als de *UmEnUmVoorAchter*, maar de 1e letter komt van de achternaam in plaats van de voornaam.
-Voorbeeld: UmEnUmVoorAchter("Edsger Dijkstra") geeft: "DEidjskgsetrra"
+(x) You guessed it: we also want an *UmEnUmAchterVoor*, which does the same thing as the *UmEnUmVoorVoor*, but the 1st letter comes from the last name instead of the first name.
+Example: UmEnUmUmForBefore("Edsger Dijkstra") returns: "DEidjskgsetrra"
 
-`Quote: The best programs are written so that computing machines can perform them quickly and so that human beings can understand them clearly. A programmer is ideally an essayist who works with traditional aesthetic and literary forms as well as mathematical concepts, to communicate the way that an algorithm works and to convince a reader that the results will be correct. (Donald Knuth)`
+`Quote: The best programs are written so that computing machines can perform them quickly and so that human beings can understand them clearly. A programmer is ideally an essayist who works with traditional aesthetic and literary forms as well as mathematical concepts, to communicate the way that an algorithm works and to convince a reader that the results will be correct.(Donald Knuth)`
 
-(xi) Maak een method *WordCount* die een string binnenkrijgt met een tekst (bijvoorbeeld een van de quotes op deze pagina). De method returnt een geheel getal: het aantal woorden in de string.
+(xi) Create a method *WordCount* that receives a string containing a text (for example, one of the quotes on this page). The method returns an integer: the number of words in the string.
 
-(xii) Maak een method *MeanLength* die een string binnenkrijgt met een tekst (bijvoorbeeld een van de quotes op deze pagina). De method returnt een double: het gemiddelde aantal letters per woord.  
+(xii) Create a method *MeanLength* that receives a string containing text (for example, one of the quotes on this page). The method returns a double: the average number of letters per word.  
 
-(xiii) Maak een method *IsSchrikkel* die gegeven een int parameter `jaartal` een bool teruggeeft: `true` als het een schrikkeljaar is, `false` anders. Programmeer de berekening zelf.
-Wanneer is een jaar een schrikkeljaar? Als het deelbaar is door 4 (2020 is een schrikkeljaar), maar niet wanneer het deelbaar is door 100 (2100 is geen schrikkeljaar), behalve een keer in de 400 jaar (2000 was wél een schrikkeljaar).
-Voor de liefhebber: er is al heel wat geschreven over kalenderberekeningen, zie bijvoorbeeld
+(xiii) Create a method *IsLeap* that returns a bool given an int parameter `year`: `true` if it is a leap year, `false` otherwise. Program the calculation yourself.
+When is a year a leap year? When it is divisible by 4 (2020 is a leap year), but not when it is divisible by 100 (2100 is not a leap year), except once every 400 years (2000 was a leap year).
+For enthusiasts: a lot has been written about calendar calculations, see for example
 [The Calender FAQ](https://www.tondering.dk/claus/calendar.html)
 
-(xiv) Maak een method *aantalDagenInFebruari* die gegeven een jaartal (int) het aantal dagen in februari in dat jaar.
+(xiv) Create a method *numberDaysInFebruary* that calculates given a year (int) the number of days in February in that year.
 
-(xv) Maak een method *aantalDagenInJaar* die gegeven een jaartal (int) het aantal dagen in dat jaar teruggeeft.
+(xv) Create a method *numberDaysInYear* that given a year number (int) returns the number of days in that year.
 
-# Heb ik het allemaal goed gedaan?
+# Have I done it all right?
 
-Het is goed om zelf de volgende zaken te bekijken en/of testen:
+It is a good idea to review and/or test the following yourself:
 
-- Er zijn géén variabelen buiten een method gedefinieerd: er zijn alleen maar lokale variabelen (en namen van lokale variabelen beginnen met een `kleine` letter).
-- De `Main`-method is de enige plek waar `Console.ReadLine()` en `Console.WriteLine()` voorkomt!
-- Roep elke methode meerdere keren aan! Bijvoorbeeld een methode die 2 strings als parameter heeft roep je minstens 1 keer aan met 2 strings van verschillende lengte, maar ook met 2 strings van gelijke lengte. Controleer het antwoord!
-- De `happy flow` testen we tijdens het programmeren meestal wel. Probeer ook uitzonderingssituaties te testen! Geef eens een lege string mee aan een methode die een string-parameter heeft, en een methode die een List of een array verwacht wordt aangeroepen met een lege List of array.
+- There are no variables defined outside a method: there are only local variables (and names of local variables start with a `small` letter).
+- The `Main` method is the only place where `Console.ReadLine()` and `Console.WriteLine()` appear!
+- Call each method multiple times! For example, a method that has 2 strings as parameters you call at least once with 2 strings of different length, but also with 2 strings of equal length. Check the answer!
+- We usually test the `happy flow` during programming. Try to test exceptional situations too! Pass an empty string to a method that has a string parameter, and a method expecting a List or an array is called with an empty List or array.
 
 
-# Eerste Hulp Bij Vasthangen
+# First Aid For Hanging
 
-Hoe pulk je letters uit een string? Hoe tel je het aantal letters in een string? Hoe kijk je of een string als deel van  een andere string voorkomt?
-+ [string manipulatie (in Toolbox basis)](https://stasemsoft.github.io/softwarematerial/docs/basic/#string-manipulatie-in-c)
+How do you pull letters out of a string? How do you count the number of letters in a string? How do you check if a string appears as part of another string?
++ [string manipulation (in Toolbox basic)](https://stasemsoft.github.io/softwarematerial/docs/basic/#string-manipulatie-in-c)

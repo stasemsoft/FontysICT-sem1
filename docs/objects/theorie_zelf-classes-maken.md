@@ -1,118 +1,117 @@
 
 
-# Dictaat C# classes
+# Dictation C# classes
 
 # 1. Classes
 
-Een `Class` is een soort *blauwdruk*. Zie het als een tekening van hoe iets er uit moet gaan zien en wat dat “ding” kan gaan doen zodra je het daadwerkelijk gaat maken. Van een boot maak je eerst een `design`, een `ontwerp`: Wat voor soort hout heb je nodig? Waar liggen de verbindingen? Wat voor een motor komt er in te liggen? Et cetera. Deze tekening, de blauwdruk, kan niet varen. Je kunt er niet op dobberen. Pas wanneer de boot wordt gemaakt kun je er iets mee gaan doen. Je kunt er zelfs meerdere boten van maken! Zo is het met classes ook. Een class is de blauwdruk voor “iets”. Je kunt er pas mee aan de slag op het moment dat je de blauwdruk ***instantieert***: een **object** van dat ***type*** maakt.
+A `Class` is a kind of *blueprint*. Think of it as a drawing of what something should look like and what that "thing" can do once you actually start making it. Of a boat you first make a `design`, a `design`: What kind of wood do you need? Where are the connections? What kind of engine will be in it? Et cetera. This design, the blueprint, cannot sail. You cannot float on it. Only when the boat is made can you do anything with it. You can even make several boats out of it! It's the same way with classes. A class is the blueprint for "something." You can't start working with it until you ***instance*** the blueprint: create an **object** of that ***type***.
 
-Een andere vergelijking is dat van een ***lopende band***: Van een lopende band kunnen meerdere dingen (objecten) van een bepaald type afrollen: Elke keer dat ik `new` roep tegen de class komt er een object van dat type van de lopende band afrollen. Hoe de lopende band is 'geprogrammeerd' bepaalt wat een object van dat type uiteindelijk kan.
+Another comparison is that of a ***running belt***: Several things (objects) of a certain type can roll off a conveyor belt: Every time I call `new` to the class, an object of that type comes rolling off the conveyor belt. How the conveyor belt is 'programmed' determines what an object of that type can eventually do.
 
-We gaan eerst naar wat voorbeelden kijken die je al kent. Daarna gaan we zelf een **class** maken.
+First we're going to look at some examples you already know. Then we are going to create our own **class**.
 
-## 2.1. Classes gebruiken
+## 2.1. Using classes
 
-Je hebt al eerder de `class Random` gezien, waarschijnlijk zonder te weten dat het een class was. Een voorbeeld:
+You've seen the `class Random` before, probably without knowing it was a class. An example:
 
 ```cs
-Random dobbelsteen = new Random();
-int getal = dobbelsteen.Next();
+Random die = new Random();
+int number = die.Next();
 ```
 
-Eerst wordt een variabele aangemaakt van het type Random met de naam 'dobbelsteen'. (ja, een `class` is een `type`, hoewel in C# niet alle types ook een class zijn). De `Random` is hier de class, de lopende band: door er `new` tegen te roepen (volgende regel) wordt een nieuw object van dit type aangemaakt en de variabele 'dobbelsteen' verwijst naar dit object.  
+First, a variable of type Random named `dice` is created. (Yes, a `class` is a `type`, although in C# not all types are also a class). The `Random` here is the class, the assembly line: calling `new` against it (next line) creates a new object of this type and the variable `dice` refers to this object.  
 
-We zeggen dat dobbelsteen een `instance` (instantie) of `object` is van de Random class. Vandaar de term object-georiënteerd: `Object Oriented Programming`, kortweg O.O.P.).
+We say that die is an `instance` (instance) or `object` of the Random class. Hence the term object-oriented: `Object Oriented Programming`, O.O.P. for short).
 
-In de derde regel zie je dat de dobbelsteen gebruikt wordt om een willekeurig getal op te vragen. Daar gebruik je dus functionaliteit die beschreven staat in de Random class. We zeggen dan dat je de `method` 'Next' aanroept (`call`t) op het object 'dobbelsteen'.
+In the third line, you see that the die is used to retrieve a random number. So there you are using functionality described in the Random class. We then say that you call the `method` `Next` (`call`t) on the object `dice`.
 
-Tip: Je krijgt een `NullPointerException` wanneer je een instantie van een `class` gebruikt zonder dat deze is aangemaakt met new.
+Tip: You get a `NullPointerException` when you use an instance of a `class` without being created with new.
 
-Je **form** is ook een class. In elke class kun je `fields` (variabelen, maar dan buiten een method) en `methods` programmeren. Bekijk het volgende voorbeeldje (laat `partial` en de toevoeging `: Form` even voor wat het is).
+Your **form** is also a class. In each class you can program `fields` (variables, but outside a method) and `methods`. Look at the following little example (leave out `partial` and the addition `: Form`).
 
 ```cs
 public partial class FormDemo : Form
 {
-   private Random dobbelsteen = new Random();
+   private Random die = new Random();
 
-   public int GooiDobbelsteen();
+   public int ThrowDice();
    {
-      return dobbelsteen.Next(1, 7);
+      return die.Next(1, 7);
    }
 
-   private void knopDoeIets_Click(object ...)
+   private void buttonDoSomething_Click(object ...)
    {
-      int getal = GooiDobbelsteen();
+      int number = ThrowDice();
    }
 
 }
 ```
 
-In het voorbeeld is een `field` aan form toegevoegd van het type Random en als naam dobbelsteen. Deze wordt direct, op dezelfde regel nog, geïnitialiseerd. In de rest van het programma kun je de dobbelsteen veilig gebruiken.
+In the example, a `field` is added to form of type Random and named die. This is initialized immediately, on the same line still. In the rest of the program you can safely use the die.
 
-Er is ook een `method` aan het form toegevoegd. Deze kan, net als de variabele, overal in deze FormDemo class gebruikt worden. Dit wordt ook gedaan bij de click-`event handler` van de knop. Wanneer de gebruiker op de knop drukt zal er een *next* worp met de dobbelsteen worden gegooid. Het willekeurige getal wordt door de GooiDobbelsteen methode teruggegeven (`return value`). De output van deze methode wordt opgevangen in een integer met de naam 'getal'.
+A `method` has also been added to the form. This, like the variable, can be used anywhere in this FormDemo class. This is also done in the click `event handler` of the button. When the user presses the button, a *next* roll of the die will be thrown. The random number is returned by the Throw Dice method (`return value`). The output of this method is captured in an integer named `number`.
 
 
-### Voorbeeld bestaande class:  StringBuilder
-Hieronder zie je een ander voorbeeld van het gebruik van een class.
+### Example existing class: StringBuilder
+Below is another example of using a class.
 
 ```cs
-StringBuilder welkom = new StringBuilder();
-welkom.Append("Welkom ");
-welkom.Append("bij programmeren");
-MessageBox.Show(welkom.ToString());
+StringBuilder welcome = new StringBuilder();
+welcome.Append("Welcome ");
+welcome.Append("at programming");
+MessageBox.Show(welcome.ToString());
 ```
 
-Hier wordt gebruik gemaakt van de StringBuilder class. Probeer het bovenstaande stukje code ook even zelf uit. Op de eerste regel code wordt een variabele van het type StringBuilder aangemaakt. De variabele heet welkom en wordt meteen geïnitialiseerd. Via de 'Append' method kunnen er stukken tekst aan worden toegevoegd. Deze wordt in zijn geheel, door de 'ToString()'' methode aan te roepen, aan de gebruiker laten zien.
+The StringBuilder class is used here. Also, try out the above piece of code for yourself. On the first line of code, a variable of type StringBuilder is created. The variable is called welcome and is initialized immediately. Via the 'Append' method, pieces of text can be added to it. This is displayed in its entirety, by calling the 'ToString()' method, to the user.
 
-Probeer zelf ook wat `fields` en `methodes` toe te voegen aan je form. Kijk eens wat je er allemaal mee kunt doen.
+Try adding some `fields` and `methods` to your form yourself. See what you can do with them.
 
-## 2.2. Zelf classes maken
+## 2.2. Creating your own classes
 
-Stel je een boot voor met een snelheid, een naam, een gewicht en een aantal bemanningsleden. De boot kan varen en kan het anker uitgooien. Hoe zou je dit maken in de software? Allerlei variabelen maken en losse methoden? Wat nou als er meerdere boten nodig zijn? Voor dit soort *complexe types* kunnen we gelukkig ook onze eigen classes maken. Bekijk het volgende voorbeeld.
+Imagine a boat with a speed, a name, a weight and a number of crew members. The boat can sail and can drop anchor. How would you create this in the software? Create all kinds of variables and separate methods? What if multiple boats are needed? Fortunately, for this kind of *complex type* we can create our own classes. Consider the following example.
 
 ```cs
-class Boot
+class Boat
 {
-   private int Snelheid;
-   private string Naam;
-   private int Gewicht;
-   private int AantalBemanningsleden;
+   private int Speed;
+   private string Name;
+   private int Weight;
+   private int Number of Crew;
 
-   // Hieronder staan de methodes.
-   public int GetSnelheid() {
-      return Snelheid;
+   // Below are the methods.
+   public int GetSpeed() {
+      return Speed;
    }
 
-   public void SetSnelheid(int snelheid)
+   public void SetSpeed(int speed)
    {
-      Snelheid = snelheid;
+      Speed = velocity;
    }
 
-   public void Varen(int snelheid) { ... }
+   public void Varen(int speed) { ... }
 
-   public bool AnkerUitgooien() { ... }
+   public bool AnchorEject() { ... }
 
 }
 ```
 
-In dit voorbeeld zie je als het goed is alle aspecten terug die beschreven stonden in het stukje tekst hierboven. Zo maak je een class! Dit kan heel gemakkelijk in Visual Studio door met je rechter-muis-knop te klikken op je C# project in de Solution Explorer en vervolgens 'Add' > 'Class' te kiezen. Nu kun je een naam voor je class ingeven en klaar ben je. Nu kun je fields en methodes toe gaan voegen. Net zoals bij je form.
+In this example you should see all the aspects that were described in the piece of text above. This is how to create a class! This can be done very easily in Visual Studio by right-clicking on your C# project in the Solution Explorer and choosing 'Add' > 'Class'. Now you can enter a name for your class and you're done. Now you can add fields and methods. Just like with your form.
 
 ```cs
 Boot boot = new Boot();
-boot.Varen(100);
-MessageBox.Show("De snelheid is " \+ boot.GetSnelheid());
+boat.Sailing(100);
+MessageBox.Show("The speed is " ``+ boot.GetSpeed());
 ```
 
-In bovenstaand voorbeeld zie je hoe je een eigen gemaakte class kunt gebruiken. Eigen net zoals een variable van het type Random. Je maakt een variabele aan van het juiste type (in dit geval Boot) en initialiseert deze met de `constructor` (dat is een soort van methode met dezelfde naam als de class). Dit gebeurt allemaal op de eerste regel van bovenstaand stukje code. Nu kun je de variabele gebruiken! Je kunt er methodes van aanroepen, zoals 'Varen' en 'GetSnelheid'.
+In the above example, you can see how to use a class of your own creation. Proprietary just like a variable of type Random. You create a variable of the appropriate type (in this case Boot) and initialize it with the `constructor` (which is a kind of method with the same name as the class). This all happens on the first line of the above piece of code. Now you can use the variable! You can call methods from it, such as `Boat` and `GetSpeed`.
 
 ```cs
 Boot flDutch = new Boot();
-Boot titanic = new Boot();
-flDutch.GetSnelheid();
-titanic.GetSnelheid();
+Boat titanic = new Boat();
+flDutch.GetSpeed();
+titanic.GetSpeed();
 ```
 
-Tot slot kun je hierboven een van de meest krachtige aspecten van OOP zien. Elke klasse kun je gebruiken om meerdere instanties van te maken. Nu heb ik twee boten in mijn code! Elke boot met zijn eigen invulling. Zo kan ik heel gemakkelijk boten toevoegen in de code.
+Finally, above you can see one of the most powerful aspects of OOP. You can use any class to create multiple instances of it. Now I have two boats in my code! Each boat with its own interpretation. This way I can very easily add boats in the code.
 
-Probeer eens je eigen klasse te maken en te gebruiken! Wat kun je verzinnen en wat ga je er mee doen?
-
+Try creating and using your own class! What can you come up with and what will you do with it?

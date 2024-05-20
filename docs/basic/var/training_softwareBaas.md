@@ -1,5 +1,5 @@
-# Software baas
+# Software boss
 
-Maak deze applicatie.
+Create this application.
 
 ![Aangeleverd ontwerp user interface](figures/softwarebaas-ui.jpg)

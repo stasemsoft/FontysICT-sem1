@@ -1,137 +1,137 @@
 # Computational thinking
 
 
-## Wat is Computational Thinking?
-We bekijken enkele voorbeelden:
+## What is Computational Thinking?
+We look at some examples:
 
-Als je een trap wil stofzuigen kun je het beste van boven naar beneden werken. Als je een vloer schildert (zie Donald Duck), zorg dan dat je bij een deur eindigt. Denk voor je iets doet na over de volgorde en gevolgen van acties.
+If you want to vacuum a staircase, it is best to work from top to bottom. If you are painting a floor (see Donald Duck), make sure you end at a door. Before you do anything, think about the order and consequences of actions.
 
-Stel ik plan een trip met vrienden met het OV naar een event in een andere stad.
-Ik kan dat opsplitsen in:
-- Waar zien we elkaar?
-- Hoe kom ik bij het station?  
-- Hoe laat vertrekt de trein, hoe lang duurt het, hoe betaal ik?
-- Hoe kom ik vanuit het station bij het event?
-- en je kunt vast nog wel een aantal onderdelen verzinnen...
+Suppose I plan a trip with friends by public transport to an event in another city.
+I can break that down into:
+- Where do we meet?
+- How do I get to the station?  
+- What time does the train leave, how long does it take, how do I pay?
+- How do I get to the event from the station?
+- and I'm sure you can think of a few more parts....
 
-Om een groot 'probleem' op te lossen is het handig het probleem in kleinere problemen op te lossen.
+To solve a big "problem," it is helpful to solve the problem in smaller problems.
 
-Je ziet dat computational thinking ook 'buiten de computer' speelt.
+You can see that computational thinking also plays 'outside the computer'.
 
 ## Training
 
-Hieronder een aantal opdrachten waarmee je zogenaamde 'computational thinking' wordt uitgedaagd.
+Below are some assignments that challenge your so-called computational thinking.
 
-### Binair 1
+### Binary 1
 
-De digitale wereld is opgebouwd uit nullen en enen, '0' en '1' is alles wat een computer kent. Oh ja? Ja.  
-Deze opdracht introduceert het binaire tellen:
+The digital world is made up of zeros and ones, '0' and '1' is all a computer knows. Oh yes, yes.
+This assignment introduces binary counting:
 
 + [Binary01](binary01.pdf)
 
-### Binair 2
+### Binary 2
 
-Kun je tot 31 tellen op 1 hand? Typ **'count to 31 on one hand'** in je favoriete zoekmachine. Tot hoever zou je dan kunnen tellen als je twéé gebruikt?
+Can you count to 31 on one hand? Type **'count to 31 on one hand'** into your favorite search engine. Then how far could you count to 31 if you use two?
 
-### Getal raden: hoger lager
+### Guess number: higher lower
 
-[Hoger lager](hogerlager).
+[Higher lower](higher lower).
 
-### Project Euler Challenge 79
-De uitdagingen van Project Euler zijn vaak problemen die het best met een computer op te lossen zijn. Euler79 is echter ook zonder hulp van een laptop op te lossen: op whiteboard bijvoorbeeld!
+##### Project Euler Challenge 79
+Project Euler challenges are often problems that are best solved with a computer. However, Euler79 can also be solved without the help of a laptop: on whiteboard, for example!
 
 + [ProjectEuler 79](https://projecteuler.net/problem=79)
 
-Misschien vind je nog wel andere Euler-challenges waar je bijvoorbeeld een flow chart voor een mogelijke oplossing voor kunt verzinnen.
+You might find other Euler-challenges for which you can come up with a flow chart for a possible solution, for example.
 
-### Maken van een Algoritme / Flow Chart
-
+### Creating an Algorithm / Flow Chart
 ![fig:flowchart](figures/flowchart.engineering.jpg "flowchart")
 
-Als je software bouwt ontwerp je vaak een algoritme dat een probleem oplost.  
-Dit algoritme kun je op verschillende manieren beschrijven. Wij willen voor de oriëntatie dat je flow charts maakt. Schrijf deze op white board (eventueel op papier) en lever een foto daarvan in.
+When you build software, you often design an algorithm that solves a problem.  
+You can describe this algorithm in different ways. For orientation, we want you to make flow charts. Write these on white board (possibly on paper) and submit a picture of them.
 
-Een goede oefening in het maken van een algoritme is de opdracht 'algo01'. In het document wordt eerst iets uitgelegd over 'flow charts', daarna maak je een algoritme voor Kruisje-Rondje:
+A good exercise in creating an algorithm is the assignment 'algo01'. The document first explains something about 'flow charts', then you will create an algorithm for Cross-Round:
 
 + [Algo01](https://stasemsoft.github.io/softwarematerial/docs/computational/algo01.pdf)
 
-Voor mensen die nooit hebben geprogrammeerd is Kruisje Rondje een prima keuze, maar als je al ervaring hebt, of heel goed bent: 4 op een rij, dammen, schaken, rubik's cube zijn mogelijke alternatieven! (als je 1 van deze kiest zul je die misschien niet helemaal af krijgen)
-Misschien kun je zelf nog iets anders verzinnen wat jou meer uitdaging geeft: Overleg dan met je docent.
+For people who have never programmed, Cross Round is a great choice, but if you already have experience, or are very good: 4 in a row, checkers, chess, rubik's cube are possible alternatives! (If you choose 1 of these you might not get it completely finished)
+Maybe you can come up with something else yourself that gives you more of a challenge: Please consult with your teacher.
 
-### Renteberekening
-Gegeven een startsaldo (bijvoorbeeld 234 euro), een rentepercentage en een aantal (zeg n) jaren. Maak een flow chart voor een programma dat berekent hoeveel het saldo na 'n' jaar is.
+### Interest calculation
+Given a starting balance (say 234 euros), an interest rate and a number (say n) of years. Create a flow chart for a program that calculates how much the balance will be after 'n' years.
 
-### Deelbaarheid
-Maak een algoritme dat het kleinste getal bepaalt dat groter is dan 1000 en dat deelbaar is door 37.
+### Divisibility
+Create an algorithm that determines the smallest number greater than 1000 that is divisible by 37.
 
-Algemener:
-Maak een algoritme dat het kleinste getal bepaalt dat groter is dan een gegeven waarde (de 'threshhold') en dat deelbaar is door een te geven 'deler'.
+More generally:
+Create an algorithm that determines the smallest number greater than a given value (the 'threshhold') and that is divisible by a divisor to be given.
 
-### Priem 1
-Maak een flow chart voor een algoritme dat van een getal bepaalt of het een priemgetal is.
+### Arbor 1
+Create a flow chart for an algorithm that determines whether a number is prime.
 
-### Priem 2
-Maak een flow chart voor een programma dat alle priemgetallen tussen 1000 en 2000 opsomt. 
+### Arbor 2
+Create a flow chart for a program that lists all prime numbers between 1000 and 2000.
 
 ### Flash card
-Een flash card programma is een programma dat jou helpt bij
-het leren van (bijvoorbeeld) Franse woordjes.
+A flash card program is a program that helps you
+learning (for example) French words.
 
-Flash Cards waren van oudsher op papier of karton gemaakt. Op de voorkant kan dan bijvoorbeeld het Nederlandse woord staan en op de achterkant het Franse woord.
+Flash Cards were traditionally made on paper or cardboard. The front might then have the Dutch word on it, for example, and the back might have the French word on it.
 
-Simpele vorm: neem een willekeurig kaartje, laat dit zien, laat gebruiker een woord invoeren,
-antwoord of dat de goede vertaling is, en dat een aantal malen herhalen!
+Simple form: take any card, show it, have user enter a word,
+answer whether that is the correct translation, and repeat that a number of times!
 
-Het wordt wat uitdagender als jouw algoritme bijhoudt hoeveel vragen er al zijn gesteld,
-hoeveel daarvan er goed beantwoord waren en hoeveel procent dat is.
+It gets a little more challenging if your algorithm keeps track of how many questions have already been asked,
+how many of them were answered correctly, and what percentage that is.
 
-Als je hiermee bezig bent kom je vragen tegen. beantwoord deze zoals je zelf denkt dat goed is.
-Praat erover met anderen om je heen waar dat nodig is om tot goede beslissingen te komen.
+As you work on this you will come across questions. answer them as you think is right.
+Talk about them with others around you where necessary to arrive at good decisions.
 
-### Stamboom
-Gegeven een stukje stamboom. Van de personen in de stamboom is gegeven of ze mannelijk danwel vrouwelijk zijn en verder wie hun (biologische) vader en moeder zijn.
+### Pedigree
+Given a piece of the family tree. Of the persons in the family tree is given whether they are male or female and who their (biological) father and mother are.
 
-- Verzin een manier om dit in een schema op te schrijven. Laat dit zien door op papier een schema te maken voor een familie van tenminste 15 personen (neem bijvoorbeeld een stuk van je eigen familie).
-- Hoe kun je in het schema zien van een persoon wat het geslacht is en wie de vader/moeder is.
-- Van een persoon wil ik op kunnen vragen wie de (directe) kinderen zijn.
-- Hetzelfde voor alle nazaten, daarmee bedoelen we de directe en indirecte kinderen (kleinkinderen, kleinkleinkinderen,...).
+- Invent a way to write this down in a diagram. Demonstrate this by making a chart on paper for a family of at least 15 people (take a piece of your own family, for example).
+- How can you see in the diagram of a person what the gender is and who the father/mother is.
+- Of a person I want to be able to look up who the (direct) children are.
+- The same for all descendants, by this we mean the direct and indirect children (grandchildren, great-grandchildren,...).
 
-### Tafeltjes
-Een standaardoefening voor programmeurs is het tonen van de tafeltjes, dus iets als:
+### Tables
+A standard exercise for programmers is to show the tables, so something like:
 
 ```
 1 x 7 = 7
 2 x 7 = 14
 3 x 7 = 21
-en zo voort.
+and so on.
 ```
 
-Maak hier een flow chart voor.
+Make a flow chart for this.
 
-### Rekenspelletje
-Programma verzint 2 willekeurige getallen, gebruiker moet het product bereken en invoeren. Programma geeft aan of dit goed is of fout.
-Maak hier een flow chart voor.
+### Calculation game.
+Program makes up 2 random numbers, user must calculate and enter the product. Program indicates whether this is right or wrong.
+Create a flow chart for this.
 
 ### Anagram 1
-Bepaal of 2 strings anagrammen van elkaar zijn.
-Maak hier een flow chart voor.
+Determine if 2 strings are anagrams of each other.
+Create a flow chart for this.
 
 ### Anagram 2
-Genereer alle anagrammen van een gegeven string.
-Maak hier een flow chart voor.
-Als je niet weet wat een anagram is: je weet vast wel een manier om dat uit te vinden?
+Generate all anagrams of a given string.
+Create a flow chart for this.
+If you don't know what an anagram is: surely you know a way to find out?
 
-### Koffieautomaat
-Denk eens na over wat een koffieautomaat doet. Hij wacht op muntjes, registreert je keuze, maakt dan wat jij gekozen hebt. Maak hier een flow chart voor.
+### Coffee machine
+Think about what a coffee machine does. It waits for coins, registers your choice, then makes what you chose. Make a flow chart for this.
 
-### De niet-koffieautomaat
-In het dagelijks leven heb je nog met meer apparaten te maken. Kun je er een verzinnen met een interessant 'gedrag'? Maak er een flow chart voor. Bijvoorbeeld: printer, scanner, copier.
+### The non-coffee machine
+In everyday life, you deal with more devices. Can you think of one with an interesting "behavior"? Make a flow chart for it. For example: printer, scanner, copier.
 
-### Eigen opdracht verzinnen
-Misschien kun je zelf iets verzinnen met **and / or**
+### Make up your own assignment
+Maybe you can make up your own with **and/or**
 
-## Bronnen
-+ [binair rekenen](https://csunplugged.org/en/topics/binary-numbers/unit-plan/how-binary-digits-work-junior/)
+## Resources
+
++ [binary calc](https://csunplugged.org/en/topics/binary-numbers/unit-plan/how-binary-digits-work-junior/)
 
 + [Computational Thinking](https://csunplugged.org/en/computational-thinking/)
 

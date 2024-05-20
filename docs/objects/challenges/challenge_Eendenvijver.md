@@ -1,46 +1,46 @@
-# Challenge Eendenvijver
+# Challenge Duck Pond
 
-Als je al weet hoe je met objecten moet programmeren kun je dit
-aantonen door bijgaande `challenge` te maken en met je docent
-te bespreken.
+If you already know how to program with objects you can demonstrate this
+demonstrate this by creating the attached `challenge` and discussing it with your teacher
+discuss.
 
 ## Hint
-Het gaat om de concepten! Of het er mooi uitziet is NIET BELANGRIJK om te laten zien of je kunt programmeren! Wel of je classes gebruikt, encapsulation, ...
+It is all about the concepts! Whether it looks pretty is NOT IMPORTANT to show whether you can program! What is important is whether you use classes, encapsulation, ...
 
-## Challenge Eendenvijver
+## Challenge Duck Pond
 
-Maak een project aan genaamd `EendenVijverVan` met je eigen naam er achter.
-In die vijver zitten 26 eenden. Een eend kan een vrouwtje of mannetje zijn:
-Dit wordt bepaald bij het aanmaken van het ''object'' voor die eend,
-dus je maakt een constructor aan met als parameter of het een
-vrouwtje of mannetje is. Verder kan ik aan een eend vragen
-(kies zelf hoe) of het een mannetje is of een vrouwtje.
+Create a project called `DucksPondVan` with your own name behind it.
+In that pond there are 26 ducks. A duck can be a female or male:
+This is determined when you create the ''object'' for that duck,
+so you create a constructor with the parameter of whether it's a
+female or male. Furthermore, I can ask a duck
+(choose how) whether it is male or female.
 
-In de vijver zijn verder kikkers te vinden.
-Ook hiervoor worden objecten aangemaakt.
+The pond contains frogs.
+Objects are also created for these.
 
-Maak een class `Ooievaar` aan.
-De ooievaar krijgt een methode genaamd `EetKikker`,
-met als parameter tenminste de kikker die opgegeten wordt.
-Ergens in je programma moet je deze methode aanroepen.
+Create a class `Stork`.
+The stork gets a method called `EatFrog`,
+with at least the frog being eaten as a parameter.
+Somewhere in your program you have to call this method.
 
 
-## Waar moet de app aan voldoen?
+## What does the app need to satisfy?
 
-Verzin er nog zaken bij om er een *logisch* geheel van te maken. Wees niet te snel tevreden, als je hiermee wil aantonen dat je OOP beheerst mag dit best een uitgebreid programma worden!
+Add things to make it *logical*. Don't be satisfied too quickly, if you want to show that you are a master of OOP, you can make this an elaborate program!
 
-Bespreek je oplossing met je docent: noteer de feedback! Bespreek met de docent waar je het best op kunt concentreren.
+Discuss your solution with your teacher: write down the feedback! Discuss with the teacher what you can best concentrate on.
 
-Enkele ideeën:
+Some ideas:
 
-+ Maak een *Class-library* (kies als project type bij aanmaken project) die de classes Kikker, Ooievaar ... en de logica bevat. Vervolgens 2 User Interfaces (bijvoorbeeld een Console app én een WinForms-app) die de classes uit de class library gebruiken.
++ Create a *Class-library* (choose as project type when creating project) that contains the classes Frog, Stork ... and the logic. Then 2 User Interfaces (e.g. a Console app and a WinForms app) using the classes from the class library.
 
-+ Aan een ooievaar moet ik kunnen vragen of ie een specifieke kikker heeft opgegeten.
++ I need to be able to ask a stork if it has eaten a specific frog.
 
-+ Een kikker kan 3 geslachten hebben: mannelijk, vrouwelijk of wil-ik-niet-zeggen.
++ A frog can have 3 genders: male, female or I-don't-want-to-say.
 
-+ Laat af en toe willekeurig een kikker van geslacht veranderen. De ooievaar lust dan alleen kikkers die hetzelfde geslacht hebben als de ooievaar.
++ Let a frog randomly change gender once in a while. The stork then only likes frogs that have the same gender as the stork.
 
-+ Als geslacht gebruik je géén *string* of *int* maar een daarvoor geschikt *type*!
++ Do not use *string* or *int* as gender, but a suitable *type*!
 
-Verzin zelf nog meer features.
+Make up your own features.

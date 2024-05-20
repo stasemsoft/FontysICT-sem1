@@ -3,48 +3,48 @@
 
 ## General info
 
-* [Wat kan ik als ik de module 'basis' voldoende doorlopen heb?](resultaatformulier) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
-* [Wat doen al die icoontjes hier?](../personas/intro) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
+* [What did I learn after module 'basis'?](resultaatformulier) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
+* [What are all these icons doing here?](../personas/intro) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
 
 General info Visual Studio and C#
 
 Take a look at this category and remember that so you can look it back later!
 
-* [How-to: Visual Studio installatie](../process/infoVisualStudioInstallatie) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [How-to: Over het inleveren van programma's in Canvas](../process/infoInleverenProgrammas) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
-* [Reference: Handige sneltoetsen en opties in Visual Studio](../process/knowVisualStudioShortCutKeys) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [intro in command line interface (CLI), amongst others using git](https://stasemsoft.github.io/S1CB-Software/)
+* [How-to: Visual Studio installation](../process/infoVisualStudioInstallatie) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [How-to: About turning in of programma's in Canvas](../process/infoInleverenProgrammas) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
+* [Reference: Handy short-cut keys in Visual Studio](../process/knowVisualStudioShortCutKeys) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [intro into command line interface (CLI), amongst others using git](https://stasemsoft.github.io/S1CB-Software/)
 
 ## Variable, assignment, typing, debugger: first steps in C#
 
-* [Presentatie: Variabelen, bewerkingen en conversies](var/Variabelen-bewerkingen-conversies.pptx) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Tutorial: De Debugger](debugger/Debugger) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Presentation: Variabelen, bewerkingen en conversies](var/Variabelen-bewerkingen-conversies.pptx) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Tutorial: The Debugger](debugger/Debugger) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
 * [Reference: variable](var/naslag_Variable) ![Bas](../personas/figures/bas-xsmall.png)
-* [Reference: operatoren](var/naslag_Operatoren) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: Goeroe-calc: variabele, bewerkingen, conversies in Console](var/training_GoeroeCalc)
-of [in winforms](var/training_GoeroeCalc_winforms) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: Software baas](var/training_softwareBaas) ![Bas](../personas/figures/bas-xsmall.png)
+* [Reference: operators](var/naslag_Operatoren) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: Goeroe-calc: variables, operations, conversions in Console](var/training_GoeroeCalc)
+or [ in winforms](var/training_GoeroeCalc_winforms) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: Software boss](var/training_softwareBaas) ![Bas](../personas/figures/bas-xsmall.png)
 * [Training: Euro Dollar converter](var/training_Euro-Dollar-Converter)   ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: Computerrekenen](var/training_ComputerRekenen) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Training: Diversen](var/training_Extra-opgaven-variabelen) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
+* [Training: ComputerCalc](var/training_ComputerRekenen) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: Miscelleaneous](var/training_Extra-opgaven-variabelen) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
 
 # Conditionele Statement
 
-* [Reference: Keuzestructuren in C#](conditioneel/naslag_Keuzestructuren) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Training: BTW-berekenen](conditioneel/BTW-berekenen) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: Hoger lager](conditioneel/Hoger-lager) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: Calorieën tracker](conditioneel/Calorieen-tracker) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: Dobbelsteen](conditioneel/Dobbelsteen) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Training: Pincode-reminder](conditioneel/Pincode-reminder) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: Wachtwoord check](conditioneel/Wachtwoord-check) ![Inge](../personas/figures/inge-xsmall.png)
+* [Reference: Conditional structures in C#](conditioneel/naslag_Keuzestructuren) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: Taxes](conditioneel/BTW-berekenen) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: Higher lower](conditioneel/Hoger-lager) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: Calorie tracker](conditioneel/Calorieen-tracker) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: Dice](conditioneel/Dobbelsteen) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: Pincode reminder](conditioneel/Pincode-reminder) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: Password check](conditioneel/Wachtwoord-check) ![Inge](../personas/figures/inge-xsmall.png)
 * [Training: Dr Bobby](conditioneel/Dr-Bobby) ![Inge](../personas/figures/inge-xsmall.png)
 * [Training: Batman vs Superman](conditioneel/Batman-vs-Superman) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
 
-## String manbitulaie (in C#)
+## String manipulation (in C#)
 
 In every programming language you get to deal with this but everywhere it works something else: cutting/pasting with strings.
 
-* [Reference: string methoden in C#](string_methoden/naslag_StringMethods) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Reference: string methods in C#](string_methoden/naslag_StringMethods) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
 * [Training: String methods in C#](string_methoden/training_StringMethods) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
 
 ## DateTime (in C#)
@@ -57,63 +57,64 @@ In every programming language you get to deal with this but everywhere it works 
 
 * [Reference: while](lussen/naslag_While) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
 * [Reference: for](lussen/naslag_For) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Training: For - Drankjesschema](lussen/training_Drankjesschema) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: For - Wiskunde en zo](lussen/training_Wiskunde-en-zo) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: For - Worpengenerator](lussen/training_Worpengenerator) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Training: For - Muziekgenerator](lussen/training_Muziekgenerator) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Training: While - Het grote geheel](lussen/training_HetGroteGeheel) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: While - Het goede getal](lussen/training_Het-goede-getal) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: For - Beverage schedule](lussen/training_Drankjesschema) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: For - Math and so on](lussen/training_Wiskunde-en-zo) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: For - Dice generator](lussen/training_Worpengenerator) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: For - Music generator](lussen/training_Muziekgenerator) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: While - The big picture](lussen/training_HetGroteGeheel) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: While - The right number](lussen/training_Het-goede-getal) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
 
 If you want an extra challenge with loops:
 
 * [Training: Christmas Tree Generator](lussen/training_Christmas-tree-generator) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
-* [Training: Emmer vol laten lopen](lussen/training_Emmer-vol-laten-lopen) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
+* [Training: Drain bucket full](lussen/training_Emmer-vol-laten-lopen) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
 
 ## Method: Create and Call
 
-* [Reference: Methodes in C#](methoden/naslag_methods) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* Tutorial (alleen geschikt als je zelf ook in WinForms werkt):
-1. [Method in WinForms 1](https://youtu.be/SRwDqyyZFXY?list=PL0EE421AE8BCEBA4A)
-2. [Method in WinForms 2](https://youtu.be/ND8aXadDbyg?list=PL0EE421AE8BCEBA4A)
-* [Theorie op w3schools : methods](https://www.w3schools.com/cs/cs_methods.asp)
-- OPMERKING: hier worden `static` methods gebruikt: OK voor de oriëntatie maar zogauw je met objecten werkt doe je dit bijna niet meer.
-* [Theorie op w3schools : method parameters](https://www.w3schools.com/cs/cs_method_parameters.asp)
+* [Reference: Methods in C#](methoden/naslag_methods) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* Tutorial (only suitable if you also work in WinForms yourself):
+	1. [Method in WinForms 1](https://youtu.be/SRwDqyyZFXY?list=PL0EE421AE8BCEBA4A)
+	2. [Method in WinForms 2](https://youtu.be/ND8aXadDbyg?list=PL0EE421AE8BCEBA4A)
+* [Theory on w3schools : methods](https://www.w3schools.com/cs/cs_methods.asp)
+- NOTE: here `static` methods are used: OK for orientation but as soon as you work with objects you hardly do this anymore.
+* [Theory on w3schools : method parameters](https://www.w3schools.com/cs/cs_method_parameters.asp)
 * [Training: Ampère](methoden/training_MethodAmpere) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: MaalDrie](methoden/training_MethodMaaldrie) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: De Drie Vierkanten](methoden/training_MethodDrieVierkanten) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: Listige listboxen](methoden/training_Listige-listboxen) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: Mad Lad Teksten](methoden/training_Madlad-teksten) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: ElkaarAchterstevoren](methoden/training_methodElkaarAchterstevoren) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: Cijfers door woorden vervangen](methoden/Cijfers-door-woorden-vervangen) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: Times Three](methoden/training_MethodMaaldrie) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: The Three Squares](methoden/training_MethodDrieVierkanten) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: Clever list boxes](methoden/training_Listige-listboxen) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: Mad Lad Texts](methoden/training_Madlad-teksten) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: Each Other Backwards](methoden/training_methodElkaarAchterstevoren) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: Replacing numbers with words](methoden/Cijfers-door-woorden-vervangen) ![Bas](../personas/figures/bas-xsmall.png)
 * [Training: Method Marathon](methoden/training_methodmarathon) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Training: Galgje](methoden/galgje) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Training: Cijfers naar woorden](methoden/training_MethodCijfersNaarWoorden) ![Inge](../personas/figures/inge-xsmall.png)
-* [Training: Boter, kaas en eieren](methoden/training_BoterKaasEnEieren) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: Hangman](methoden/galgje) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: Numbers to words](methoden/training_MethodCijfersNaarWoorden) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: tic-tac-toe](methoden/training_BoterKaasEnEieren) ![Inge](../personas/figures/inge-xsmall.png)
 
-## Collectie (List, Array)
+## Collection (List, Array)
 
-* [Explanation: Collecties Array & Lists](../legacy/Explanation-Array-Lists) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Presentatie: Arrays](https://stasemsoft.github.io/softwarematerial/docs/basic/collecties/theorie_FUN12_Arrays.pptx) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Presentatie: List's](https://stasemsoft.github.io/softwarematerial/docs/basic/collecties/theorie_FUN12_Lists.pptx) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Presentatie: List methods](https://stasemsoft.github.io/softwarematerial/docs/basic/collecties/theorie_FUN12_ListMethodes.pptx) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Explanation: Collections Array & Lists](../legacy/Explanation-Array-Lists) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Presentation: Arrays](https://stasemsoft.github.io/softwarematerial/docs/basic/collecties/theorie_FUN12_Arrays.pptx) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Presentation: List's](https://stasemsoft.github.io/softwarematerial/docs/basic/collecties/theorie_FUN12_Lists.pptx) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Presentation: List methods](https://stasemsoft.github.io/softwarematerial/docs/basic/collecties/theorie_FUN12_ListMethodes.pptx) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
 * [Tutorialspoint: arrays](http://www.tutorialspoint.com/csharp/csharp_arrays.htm)
-* [Training: Array - Televisie](collecties/Televisie) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: Array - Television](collecties/Televisie) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
 * [Training: Array - Netflix and random](collecties/Netflix-and-random) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: Array - Fruitautomaat](collecties/Fruitautomaat) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: List - Prijzen toevoegen](collecties/Prijzen-toevoegen) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: List - Ticketmeester](collecties/Ticketmeester) ![Inge](../personas/figures/inge-xsmall.png)
-* [Training: Listmethodes - Muziekcollectie](collecties/Muziekcollectie) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Training: Listmethodes - Raad het getal](collecties/RaadHetGetal) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: Listmethodes - Vlaggen van de wereld](collecties/VlaggenVanDeWereld) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: Array - Fruit machines](collecties/Fruitautomaat) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: List - Add prices](collecties/Prijzen-toevoegen) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: List - Ticket master](collecties/Ticketmeester) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: List methods - Muziekcollectie](collecties/Muziekcollectie) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: List methods - Raad het getal](collecties/RaadHetGetal) ![Bas](../personas/figures/bas-xsmall.png)
+* [Training: List methods - Flags of the world](collecties/VlaggenVanDeWereld) ![Inge](../personas/figures/inge-xsmall.png)
 
 If you want an extra challenge with collections:
 
-* [Training: Array - Woordvervormer](collecties/Woordvervormer) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
+* [Training: Array - Word Distorter](collecties/Woordvervormer) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
 
 ## How To ... (common questions)
 
 How can I open from one Form in a WinForm app with multiple Forms?
 The answer to these and many more questions:
+
 [How to...](howto)
 
 ## Integral commands
@@ -121,13 +122,13 @@ The answer to these and many more questions:
 A number of training or perhaps competition assignments where several concepts come together.
 
 * [Training: Rock Paper Scissors](integraal/rockpaperscissors) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Training: Kaartspel](integraal/kaartspel) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
-* [Training: Van getal naar woord](integraal/getalwoord) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: Card Game](integraal/kaartspel) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Training: From number to word](integraal/getalwoord) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
 * [Training: Blackjack (Light)](integraal/blackjack) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png) ![Olaf](../personas/figures/olaf-xsmall.png)
 
 ## Various training options, inspiration, other resources
 
-### Tekst Tutorial
+### Text Tutorial
 
 * [w3schools - c#](https://www.w3schools.com/cs/default.asp)
 * [Text: nice and accessible (microsoft)](https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/?WT.mc_id=-blog-scottha)
@@ -159,18 +160,13 @@ A number of training or perhaps competition assignments where several concepts c
 
 * [Programming Challenges](https://git.fhict.nl/I872272/ProgrammingChallenges) 67+ Programming Challenges (zowel game als non-game)
 * [Halite: bot programming challenges](https://www.twosigma.com/articles/introducing-halite-our-limited-release-ai-challenge/)
-* [Code Wars](https://www.codewars.com/) - [Basis niveau](https://www.codewars.com/kata/search/csharp?q=&r%5B%5D=-8&tags=Fundamentals&beta=false)
+* [Code Wars](https://www.codewars.com/) - [Basic niveau](https://www.codewars.com/kata/search/csharp?q=&r%5B%5D=-8&tags=Fundamentals&beta=false)
 * [Project Euler](https://projecteuler.net/)
 * [Coding Game](https://www.codingame.com/)
 
-## Dictate, Book, Knowledge
+### Miscellaneous
 
-* [C# Begrippen 'flash cards'](https://quizlet.com/18210232/c-sharp-terminology-flash-cards/) bijv. Method, Property, Class, ...
-* [Reference: Head First C#](https://www.oreilly.com/library/view/head-first-c/9781449358846/) - Basis=Hoofdstuk 1 tm 4
-
-### W.V.T.T.K., various
-
-* [Class Recordings (videos) van SOFT1 collega Jan Oonk](https://i872272.luna.fhict.nl/S1-SOFT%20Recordings/index.html)
+* [Class Recordings (videos) of SOFT1 colleague Jan Oonk](https://i872272.luna.fhict.nl/S1-SOFT%20Recordings/index.html)
 * [Learning C#: Introduction to Computer Programming for Designers](https://youtube.com/playlist?list=PLx3k0RGeXZ_yfAFk4GT3gWdFhwCsODUNb) (Orientatie: tot les 9.1 (video 52). Verdieping: Vanaf les 9.1)
 * [Numberphile](https://www.youtube.com/channel/UCoxcjq-8xIDTYp3uz647V5A)
 * [Computerphile](https://www.youtube.com/user/Computerphile)

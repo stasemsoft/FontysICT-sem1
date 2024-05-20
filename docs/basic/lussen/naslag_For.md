@@ -1,170 +1,339 @@
-# Naslag basiskennis: For
+# Basic knowledge: For
 
+  
+
+  
 
 ### for statement
 
-Deze structuur wordt gebruikt om een stukje code een
-vooraf bekend aantal keer uit te laten voeren.
-Algemene vorm:
+  
 
-```cs
-for([teller variabele aanmaken]; [herhalingsconditie]; [teller variabele aanpassen])
-{
-  [herhaaldelijk uit te voeren code]
-}
-```
+This structure is used to have a piece of code execute a  
 
-waarbij *[teller variabele aanmaken]*	een `variabele` met
-zelf te kiezen variabelenaam wordt aangemaakt en van een waarde voorzien.
-Veel gebruikte variabele namen voor een for statement zijn &quot;i&quot;, &quot;j&quot;, &quot;k&quot;
-omdat deze een hele korte naam hebben, dat leest in veel gevallen prettig.
-Ook &quot;index&quot;, &quot;count&quot; of &quot;teller&quot; worden vaak gebruikt.
-Het type variabele is meestal int.
-De waarde waarmee de teller wordt gevuld is afhankelijk van wat je
-aan het programmeren bent. In veel gevallen heeft deze de waarde `0`.
-Voorbeelden:
-```cs
-int i = 0
+preknown number of times to be executed.  
+
+Common form:
+
+  
+
+```cs  
+
+for([create counter variable]; [repeat condition]; [modify counter variable])  
+
+{  
+
+[code to be executed repeatedly]]  
+
+}  
+
 ```
 
-```cs
-int j = 100
+  
+
+where *[create counter variable]* a `variable` with  
+
+variable name of your choice is created and given a value.  
+
+Commonly used variable names for a for statement are &quot;i&quot;, &quot;j&quot;, &quot;k&quot;  
+
+because these have very short names, which in many cases read comfortably.  
+
+Also &quot;index&quot;, &quot;count&quot; or &quot;counter&quot; are often used.  
+
+The variable type is usually int.  
+
+The value with which the counter is filled depends on what you  
+
+are programming. In many cases it has the value `0`.  
+
+Examples:  
+
+```cs  
+
+int i = 0  
+
 ```
 
-Dan *[herhalingsconditie]*: deze uit te voeren code wordt
-net zo lang herhaald als uit de voorwaarde de waarde `true` komt.
-Hierin verwijs je naar de *teller* variabele.
-Voorbeelden:
-```cs
-i < 10
-j > 0
+  
+
+```cs  
+
+int j = 100  
+
 ```
 
-[teller variabele aanpassen]
-	Het verhogen of verlagen van de teller. Vaak wordt deze met 1 verhoogd of verlaagd, soms in grotere stappen (bijv. `10`).
-Voorbeelden:
-```cs
-i = i + 1
-j = j – 10
+  
+
+Then *[repeat condition]*: this code to be executed is repeated  
+
+repeated for as long as the value `true` comes out of the condition.  
+
+In this, you refer to the *counter* variable.  
+
+Examples:  
+
+```cs  
+
+i < 10  
+
+j > 0  
+
 ```
 
-[herhaaldelijk uit te voeren code]
-	Het stukje code (dit kunnen meerdere regels code zijn) dat moeten worden uitgevoerd zolang de herhalingsconditie &quot;true&quot; (waar) is.
-Ieder `for`statement is om te zetten naar een `while` statement
-dat hetzelfde doet, en andersom.
+  
 
-### Voorbeelden for statement
+[adjust counter variable]  
 
-```cs
-for(int i =0 ; i < 10 ; i = i + 1)
-{
-	MessageBox.Show("Test");
-}
-```
+Increasing or decreasing the counter. It is often increased or decreased by 1, sometimes in larger increments (e.g., `10``).  
 
-Variabele `i` krijgt in het begin de waarde 0 en er wordt direct gestopt als i de waarde 10 krijgt toegekend. De code wordt dus doorlopen met de waarden 0,1,2,3,4,5,6,7,8 en 9. Er worden daarom 10 messagebox-en getoond met de tekst &quot;Test&quot;.
-```cs
-for(int i =5;i > 0; i = i - 1)
-{
-	MessageBox.Show("Test");
-}
+Examples:  
+
+```cs  
+
+i = i + 1  
+
+j = j - 10  
+
 ```
 
-Variabele `i` krijgt in het begin de waarde 5 en er wordt direct gestopt als i de waarde 0 krijgt toegekend. De code wordt dus doorlopen met de waarden 5,4,3,2,1. Er worden daarom 5 messagebox-en getoond met de tekst &quot;Test&quot;.
-```cs
-for(int i =0;i < 10;++i)
-{
-	MessageBox.Show("Test");
-}
+  
+
+[code to be executed repeatedly]  
+
+The piece of code (this can be several lines of code) to be executed as long as the repeat condition is &quot;true&quot; (true).  
+
+Every `for` statement can be converted to a `while` statement  
+
+that does the same thing, and vice versa.
+
+  
+
+### Examples for statement
+
+  
+
+```cs  
+
+for(int i =0 ; i < 10 ; i = i + 1)  
+
+{  
+
+MessageBox.Show(“Test”);  
+
+}  
+
 ```
 
-Hetzelfde resultaat als het eerste voorbeeld,
-maar dan in een verkorte schrijfwijze:
-```cs
-i = i + 1;
-```
-wordt van oudsher ook wel geschreven als
-```cs
-i++;
-```
-of
-```cs
-++i;
+  
+
+Variable `i` is initially assigned the value 0 and it is immediately stopped when i is assigned the value 10. The code is thus passed with the values 0,1,2,3,4,5,6,7,8 and 9. Therefore, 10 message boxes are displayed with the text &quot;Test&quot;.  
+
+```cs  
+
+for(int i =5;i > 0; i = i - 1)  
+
+{  
+
+MessageBox.Show(“Test”);  
+
+}  
+
 ```
 
-Hetzelfde resultaat als het tweede voorbeeld,
-maar dan in een verkorte schrijf-wijze:
-```cs
-for(int i =5;i > 0; --i)
-{
-	MessageBox.Show("Test");
-}
+  
+
+Variable `i` is initially assigned the value 5 and it is immediately stopped when i is assigned the value 0. The code is thus passed with the values 5,4,3,2,1. Therefore, 5 message boxes are displayed with the text &quot;Test&quot;.  
+
+```cs  
+
+for(int i =0;i < 10;++i)  
+
+{  
+
+MessageBox.Show(“Test”);  
+
+}  
+
 ```
 
-```cs
-i=i-1;
-```
-wordt van oudsher ook wel geschreven als
-```cs
-i--;
-```
-of
-```cs
---i;
+  
+
+The same result as the first example,  
+
+but in a shortened notation:  
+
+```cs  
+
+i = i + 1;  
+
+```  
+
+is traditionally also written as  
+
+```cs  
+
+i++;  
+
+```  
+
+or  
+
+```cs  
+
+++i;  
+
 ```
 
+  
 
-De code
-```cs
-for(int i =0;i < 10; ++i)
-{
-	MessageBox.Show("Test "+i);
-}
-```
-heeft als resultaat dat *MessageBoxes*
-verschijnen met achtereenvolgens:
-```cs
-"Test 0"
-"Test 1"
-"Test 2"
-"Test 3"
-"Test 4"
-"Test 5"
-"Test 6"
-"Test 7"
-"Test 8"
-"Test 9"
+The same result as the second example,  
+
+but in an abbreviated writing mode:  
+
+```cs  
+
+for(int i =5;i > 0; --i)  
+
+{  
+
+MessageBox.Show(“Test”);  
+
+}  
+
 ```
 
-De code
-```cs
-for(int i =5;i > 0; i = i - 2)
-{
-	MessageBox.Show("Test "+i);
-}
+  
+
+```cs  
+
+i=i-1;  
+
+```  
+
+is traditionally also written as  
+
+```cs  
+
+i--;  
+
+```  
+
+or  
+
+```cs  
+
+--i;  
+
 ```
-laat messagebox-en verschijnen met achtereenvolgens:
-```cs
-"Test 5"
-"Test 3"
-"Test 1"
+
+  
+
+  
+
+The code  
+
+```cs  
+
+for(int i =0;i < 10; ++i)  
+
+{  
+
+MessageBox.Show("Test ”+i);  
+
+}  
+
+```  
+
+results in *MessageBoxes*  
+
+appear with successively:  
+
+```cs  
+
+“Test 0”  
+
+“Test 1”  
+
+“Test 2”  
+
+“Test 3”  
+
+“Test 4”  
+
+“Test 5”  
+
+“Test 6”  
+
+“Test 7”  
+
+“Test 8”  
+
+“Test 9”  
+
 ```
-en tot slot geeft
-```cs
-for(int y =0;y < 2; ++y)
-{
-  for(int x =0;x < 3; ++x)
-  {
-    MessageBox.Show("("+x+","+y+")");
-  }
-}
-```
-als resultaat *MessageBoxes* verschijnen met:
-```cs
-"(0,0)"
-"(1,0)"
-"(2,0)"
-"(0,1)"
-"(1,1)"
-"(2,1)"
+
+  
+
+The code  
+
+```cs  
+
+for(int i =5;i > 0; i = i - 2)  
+
+{  
+
+MessageBox.Show("Test ”+i);  
+
+}  
+
+```  
+
+make messageboxes appear with sequentially:  
+
+```cs  
+
+“Test 5”  
+
+“Test 3”  
+
+“Test 1”  
+
+```  
+
+and finally gives  
+
+```cs  
+
+for(int y =0;y < 2; ++y)  
+
+{  
+
+for(int x =0;x < 3; ++x)  
+
+{  
+
+MessageBox.Show(“(”+x+“,”+y+“)”);  
+
+}  
+
+}  
+
+```  
+
+as a result *MessageBoxes* appear with:  
+
+```cs  
+
+“(0,0)”  
+
+“(1,0)”  
+
+“(2,0)”  
+
+“(0,1)”  
+
+“(1,1)”  
+
+“(2,1)”  
+
 ```

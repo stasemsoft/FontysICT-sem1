@@ -1,91 +1,91 @@
-# Voorbeeld class Dierenverzorger
+# Sample class Animal caretaker
 
-## Voorbeeld
+## Example
 ```cs
-class DierenVerzorger {
-   private string Naam;
+class Animal Attendant {
+   private string Name;
    private DateTime InDienstSinds;
 
-   public void SetNaam(string naam) {
-      Naam = naam;
+   public void SetName(string name) {
+      Name = name;
    }
 
-   public bool Verzorg(Aapje aap) {
-      // Verzorg aapje...
-      Console.Out.WriteLine( aap.MaakGeluid() );
+   public bool Take care(Monkey monkey) {
+      // Take care of monkey...
+      Console.Out.WriteLine( monkey.CreateSound() );
       return true;
    }
 
 }
 ```
 
-Hier zie je een nieuwe class, _DierenVerzorger_. Deze heeft een naam en een datum van indiensttreding. Elke verzorger kan ook een aapje verzorgen. Zo zie je dat je ook andere klassen die je maakt kunt gebruiken in zelfgemaakte klassen:
+Here you see a new class, _Animal Caretaker_. This one has a name and an entry date. Each caretaker can also take care of a monkey. So you can see that you can also use other classes you create in self-created classes:
 
 ```cs
-DierenVerzorger verzorger = new DierenVerzorger();
-verzorger.SetNaam("Henk");
-verzorger.Verzorg(kong);
+Animal Caregiver caregiver = new Animal Caregiver();
+caregiver.SetName("Henk");
+caregiver.Care(kong);
 ```
 
-Probeer zelf de verzorger eens een datum te geven voor zijn of haar indiensttreding. _DateTime_ is ook een klasse.
+Try giving the caregiver a date of hire yourself. _DateTime_ is also a class.
 
 
-### Voorbeeld
+### Example
 
 ```cs
-class Speler {
+class Player {
 
-   private string Naam;
-   private int AantalLevens;
+   private string Name;
+   private int Number ofLives;
    private int Score;
 
-   public void SetNaam(string naam) {
-      Naam = naam;
+   public void SetName(string name) {
+      Name = name;
    }
 
-   public void SetAantalLevens(int levens) {
-      AantalLevens = levens;
+   public void SetNumberLives(int lives) {
+      NumberLives = lives;
    }
 
-   public void VerdienPunten(int punten) {
+   public void EarnPoints(int points) {
       if (IsGameOver() == false) {
-         Score = Score + punten;
+         Score = Score + points;
       }
    }
 
-   public void VerliesLeven() {
+   public void LossLife() {
       if (IsGameOver() == false) {
-         AantalLevens = AantalLevens - 1;
+         NumberLives = NumberLives - 1;
       }
    }
 
-   // lees goed wat hier staat!:
+   // read carefully what is written here!
    public bool IsGameOver() {
-      return (AantalLevens <= 0);  
-	  // bedenk: (AantalLevens <= 0) is al een Boolean.
+      return (NumberLives <= 0);
+	  // remember: (NumberLives <= 0) is already a Boolean.
    }
 
    public override string ToString() {
-      return Naam + ": " + Score;
+      return Name + ": " + Score;
    }
 
 }
 ```
 
-Hier links zie je een class voor een speler in een game. Elke speler heeft een naam, een huidige score en een aantal levens. Er zijn drie methoden. Met de VerdienPunten methode kan een bepaald aantal punten worden toegevoegd aan de score van de speler. Dit kan echter alleen maar wanneer de speler nog niet game over is.
+Here on the left you see a class for a player in a game. Each player has a name, a current score and a number of lives. There are three methods. The Earn Points method allows a certain number of points to be added to the player's score. However, this can only be done when the player is not yet game over.
 
-Een speler is game over wanneer het aantal levens 0 of lager is. De speler verliest punten met de VerliesLeven methode. Deze zal het aantal levens met 1 verlagen wanneer de speler nog niet game over is.
+A player is game over when the number of lives is 0 or lower. The player loses points using the LoseLife method. This will decrease the number of lives by 1 when the player is not yet game over.
 
-Wat is de totaalscore van Scott in na het uitvoeren van het stukje code op de volgende pagina? Voer de code uit ter controle!
+What is Scott's total score in after executing the piece of code on the next page? Run the code for verification!
 
 ```cs
-Speler s = new Speler();
-s.SetNaam("Scott Pilgrim");
-s.SetAantalLevens(3);
+Player s = new Player();
+s.SetName("Scott Pilgrim");
+s.SetNumberofLives(3);
 while (s.IsGameOver() != false)
 {
-   s.VerdienPunten(100);
-   s.VerliesLeven();
+   s.EarnPoints(100);
+   s.LossLives();
 }
 Console.Out.WriteLine(s);
 ```

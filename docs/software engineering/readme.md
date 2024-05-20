@@ -1,15 +1,15 @@
 # Software Engineering
 
-Dit betreft niet-per-se-programmeer-aspecten die een beginnend software engineer moet kunnen en weten.
+This covers not-per-se programming aspects that a beginning software engineer should be able to do and know.
 
-## Professionaliteit
+## Professionalism
 
 + [Software Craftmanship Manifesto](http://manifesto.softwarecraftsmanship.org/)
 
-## Waterval methode
+## Waterfall
 
 + [Training Waterval methode](https://stasemsoft.github.io/softwarematerial/docs/software%20engineering/waterval%20methode/VanTekstNaarSchemaWaterval.pdf)
 
-## Analyse
+## Analysis
 
 + [Training Analyse](https://stasemsoft.github.io/softwarematerial/docs/software%20engineering/analyse/Analysedocument.pdf)

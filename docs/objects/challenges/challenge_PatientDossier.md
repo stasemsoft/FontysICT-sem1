@@ -1,90 +1,90 @@
-# Challenge Elektronisch Patientendossier
+# Challenge Electronic Patient Record
 
-Als je code overneemt van het internet vermeld je de bron (copy-paste de url in commentaar in je code) en zorg je dat je die code snapt.
+If you are copying code from the Internet, mention the source (copy-paste the url in comments in your code) and make sure you understand that code.
 
-Als je een class diagram maakt, doe dat dan bij voorkeur op whiteboard (of papier) en voeg hiervan een foto  bij.
+If you make a class diagram, preferably do it on whiteboard (or paper) and attach a picture of it.
 
-Je kunt ervoor kiezen dat dit programma niks op slaat in een File (maak wat objecten aan vanuit code, zodat je wel wat data hebt),
-gebruik casting en Exceptions alleen als dat relevant is. Overleg bij twijfel met je docent!
+You can choose that this program does not store anything in a File (create some objects from code, so you do have some data),
+use casting and Exceptions only when relevant. When in doubt, consult your teacher!
 
-## De opdracht: Elektronisch Patientendossier
-Je mag hierbij zelf kiezen of je een WinForm-applicatie maakt of een Console app.   
-Besteed echter niet onnodig veel tijd aan de GUI-kant.
+## Assignment: Electronic Patient Record
+Here you may choose whether to create a WinForm application or a Console app.   
+However, do not spend unnecessary time on the GUI side.
 
-In het voorbeeld hebben classes een Nederlandse naam, maar je mag de classes ook Engelse namen geven als je wilt. Puntjes op letters laten we weg: in deze omschrijving en ook in je programma!
+In the example, classes have Dutch names, but you may also give the classes English names if you like. Dots on letters are left out: in this description and also in your program!
 
-## Wat is het elektronisch patientendossier?
-Voor de naam van een persoon mag je 1 string gebruiken, dus je hoeft geen rekening te houden met voornaam, achternaam, tussenvoegsel.
+## What is the electronic patient record?
+For the name of a person you may use 1 string, so you don't have to take into account first name, last name, middle name.
 
-Een zorgverlener (denk bijvoorbeeld aan een huisarts, ziekenhuis, fysiotherapeut) slaat gegevens over patienten op. Dit gaat over zogenaamde NAW-gegevens (Naam, Adres, Woonplaats), geboortedatum, maar ook gegevens over de keren dat de patient langs is geweest, wanneer dat was, wat de klacht was, de diagnose en of er toen medicijnen voorgeschreven zijn.
+A healthcare provider (think of a general practitioner, hospital, physical therapist) stores data about patients. This includes so-called NAW data (Name, Address, Place of residence), date of birth, but also data about the times the patient has visited, when that was, what the complaint was, the diagnosis and whether medication was prescribed at that time.
 
-Een huisartsenpraktijk slaat dit soort gegevens allemaal digitaal op. In de praktijk worden ook vaak gegevens over patienten uitgewisseld tussen bijvoorbeeld huisart en apotheek. Hier kleven dan allerlei privacy-uitdagingen aan vast, maar daar gaan we het nu niet over hebben.
+A general practice stores all such data digitally. In practice, data on patients is often exchanged between, for example, GP and pharmacy. This raises all sorts of privacy challenges, but we won't go into that now.
 
-Wat we willen zien is dat je een aantal classes maakt met methods, constructors, fields, properties en wat er verder bij nodig is.
+What we want to see is that you create a number of classes with methods, constructors, fields, properties and whatever else is needed.
 
-Allereerst is er een hoofdstuk 'Opwarmer': je krijgt een class diagram aangeleverd, die classes willen we graag zien (als je zelf een slimmere structuur kunt verzinnen mag dat ook!). De tekst erbij vertelt iets over de verwachte functionaliteit.
+First there is a chapter 'Warm-up': you get a class diagram, we want to see those classes (if you can come up with a smarter structure yourself, that's allowed too!). The text next to it tells something about the expected functionality.
 
-Daarna (hoofdstuk 'En nu verder...') lees je wat er verder aan functionaliteit bijgebouwd zou kunnen worden. Je mag 1 of meerdere onderwerpen kiezen of verzint er zelf functionaliteit bij, maakt hiervoor een ontwerp (liefst op papier!). Bedenk dat je docent graag ziet dat je de leerdoelen uit de schillen in samenhang in een wat grotere applicatie
+After that (chapter 'And now what...') you will read what functionality could be added. You may choose one or more topics or invent your own functionality and make a design (preferably on paper!). Bear in mind that your teacher will want you to put the learning objectives from the different layers together in a somewhat larger application.
+## Warmer
+View the class diagram (paste the url into a browser of your choice). Attach the classes:
 
-## Opwarmer
-Bekijk het class diagram (plak de url in een browser naar keuze). Maak de classes vast aan:
 
-```cs
+```
 http://yuml.me/diagram/scruffy/class/edit/OIS12,[Patient|naam:string;geboortejaar:int|GetLeeftijd();]&lt;*-arts-[Afspraak],[Afspraak|dagEnTijd:DateTime],[Afspraak]patient-*&gt;[Huisarts|naam:string], [Patient]
 ```
 
 [class diagram](figures/patientdossier_cd)
 
-Er hoeft niks opgeslagen te worden, dus als het programma afgesloten wordt en opnieuw opgestart beginnen we weer met dezelfde beginsituatie als altijd!
+Nothing needs to be saved, so when the program is closed and restarted we start again with the same initial situation as always!
 
-Zorg dat er na opstarten van de applicatie minstens 2 Huisartsen en minstens 25 Patienten bestaan.
-Dat mag met code als:
-
-```cs
-Huisarts huisarts1 = new Huisarts("Anna");
-Huisarts huisarts2 = new Huisarts("Barend");
-```
-
-Maar misschien slimmer om een List van Huisartsen te maken?
-
-Een nieuwe Patient kan ik maken met behulp van:
+After starting the application, make sure that at least 2 GPs and at least 25 Patients exist.
+This can be done with code like:
 
 ```cs
-new Patient("Joris", 1999)  // naam en geboortejaar
+GP GP1 = new GP("Anna");
+GP GP2 = new GP("Barend");
 ```
 
-Maak een lijst van patienten aan: 
+But maybe smarter to create a List of GPs?
+
+I can create a new Patient using:
+
+```cs
+new Patient("Joris", 1999) // name and year of birth
+```
+
+Create a list of patients:
 
 ```cs
 List<Patient>
 ```
 
-en voeg daar minstens 25 patienten aan toe.
+and add at least 25 patients to it.
 
-Van zowel Huisarts als Patient kan de naam opgevraagd worden, maar niet veranderd (behalve bij het aanmaken van de Patient).
+The name of both GP and Patient can be retrieved but not changed (except when creating the Patient).
 
-Van een Patient wil ik de leeftijd op kunnen vragen. Je mag dit maken met behulp van een property of met een methode GetLeeftijd(). De berekening van de leeftijd houden we simpel: 2019 - geboortejaar.
+I want to be able to ask the age of a Patient. You can do this with a property or with a method GetLife(). We keep the calculation of the age simple: 2019 - year of birth.
 
-De constructor van de class Afspraak krijgt voor nu 3 parameters: een Huisarts, een Patient en een DateTime (wanneer de afspraak is). Als waarde voor DateTime mag je overal DateTime.Now() gebruiken.
-Tot slot worden er minstens 50 afspraken aangemaakt bij het opstarten van het programma.
+The constructor of the class Appointment gets 3 parameters for now: a GP, a Patient and a DateTime (when the appointment is). As a value for DateTime, you may use DateTime.Now() anywhere.
+Finally, at least 50 appointments are created at program startup.
 
-Bewaar deze in een lijst.
+Keep these in a list.
 
-En nu verder...
-Kies hieruit enkele items om nog bij te bouwen:
+And now on...
+From this, choose some items to add to:
 
-Een huisartsenpraktijk heeft doorgaans meerdere artsen in dienst. Maak een class Praktijk aan die een lijst van huisartsen heeft en ook een lijst van patienten.
+A general practice usually employs several doctors. Create a class Practice that has a list of GPs and also a list of patients.
 
-De HuisartsenPraktijk krijgt een eigen lijst van Afspraken. Een object van type Praktijk krijgt daarom een methode AddAfspraak(Huisarts huisarts, Patient patient, DateTime dateTime) die een nieuwe Afspraak aanmaakt en deze toevoegt aan die lijst.
+The GP Practice gets its own list of Appointments. Therefore, an object of type Practice gets a method AddApointment(GP GP, Patient patient, DateTime dateTime) that creates a new Appointment and adds it to that list.
 
-## Salarisberekening
-Ga er vanuit dat elke afspraak 63 euro kost. Maak een methode die voor elke Huisarts berekent hoeveel hij/zij verdient aan de Afspraken.
+## Salary Calculation
+Assume that each appointment costs $63. Create a method that calculates for each GP how much he/she earns from the Appointments.
 
-Nog mooier is het (programmeertechnisch tenminste) als elke arts zijn eigen tarief heeft: hiertoe zou je de constructor van Huisarts een extra parameter 'tarief' kunnen geven die dan natuurlijk ook ergens opgeslagen zou moeten worden.
+It would be even nicer (programmatically at least) if each doctor had his own rate: to this end you could give the constructor of GP an extra parameter 'rate' which would then of course also have to be stored somewhere.
 
-Als iemand niet naar de praktijk kan komen (praktijkbezoek) moet de dokter op huisbezoek.
-Voeg aan Afspraak een mogelijkheid toe om aan te geven dat het een huisbezoek is.
-(Misschien kun je voorstellen dat er nog meer soorten afspraken zijn).
+If someone cannot come to the practice (practice visit) the doctor should make a home visit.
+Add to Appointment an option to indicate that it is a home visit.
+(Perhaps you can suggest that there are other types of appointments).
 
-Maak een class Recept aan. Een recept heeft een omschrijving en een prijs. Er bestaan verschillende typen medicijnen, zoals: zalf, tablet, spray.
-Een dokter kan bij een bezoek een recept voorschrijven dat de patient mee kan nemen naar een Apotheek.
+Create a class Recipe. A prescription has a description and a price. There are different types of medications, such as: ointment, tablet, spray.
+A doctor may prescribe a prescription at a visit that the patient can take to a Pharmacy.

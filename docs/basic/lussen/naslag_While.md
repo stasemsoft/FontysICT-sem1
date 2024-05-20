@@ -1,84 +1,163 @@
-# Naslag basiskennis: While
+# Basic knowledge: while
+
+  
 
 #### while statement
 
-Deze structuur wordt gebruikt om een stukje code uit te voe-ren
-zolang aan bepaalde voorwaarden is voldaan.
-Dit varieert van `0` keer de code uitvoeren tot het
-in de oneindigheid aantal keer uitvoeren van de code).
-Algemene vorm:
+  
 
-```cs
-while ([conditie])
-{
-  [Uit te voeren code zolang de conditie waar is]
-}
+This structure is used to execute a piece of code  
+
+as long as certain conditions are met.  
+
+This ranges from executing the code `0` times to the  
+
+in infinity number of times executing the code).  
+
+General form:
+
+  
+
+```cs  
+
+while ([condition])  
+
+{  
+
+[Code to be executed as long as the condition is true]]  
+
+}  
+
 ```
 
-<p class="note">Na de eerste regel staat geen &quot;;&quot; teken.</p>
-<p class="note">Eerst wordt gecontroleerd of aan een voorwaarde is voldaan, dan pas wordt eventueel code uitgevoerd.</p>
+  
+
+<p class=“note”>After the first line there is no &quot;;&quot; character.</p>  
+
+<p class=“note”>First it checks if a condition is met, only then any code is executed.</p>
+
 #### do while statement
 
-Deze structuur wordt gebruikt om een stukje code uit te voeren. Elke keer nadat het stukje code is uitgevoerd wordt gecontroleerd of nog aan bepaalde voorwaarden is voldaan, zo ja, dan wordt de code opnieuw uitgevoerd. Het aantal keer uitvoeren van de code varieert van 1 keer de code uitvoeren tot het in de oneindigheid aantal keer uitvoeren van de code.
-Algemene vorm:
+  
+
+This structure is used to execute a piece of code. Each time after the piece of code is executed, it is checked whether certain conditions are still met, if so, the code is executed again. The number of times the code is executed varies from executing the code 1 time to executing the code in infinity number of times.  
+
+General form:
+
+  
 
 ```cs
+
 do
+
 {
-  [Uit te voeren code zolang de conditie waar is]
-} while ([conditie]);
+
+[Code to be executed as long as the condition is true]]  
+
+} while ([condition]);
+
 ```
 
-Na de laatste regel staat een &quot;;&quot; teken.
+  
 
-Eerst wordt de code één keer uitgevoerd, dan pas wordt gecontroleerd of de code eventueel vaker moet worden uitgevoerd.
+After the last line is an &quot;;&quot; character.
 
-### Voorbeelden while en do while statement
+First, the code is executed once, only then is it checked whether the code may need to be executed more often.
+
+  
+
+### Examples while and do while statements
+
+  
 
 ```cs
+
 int i = 0;
+
 while(i < 10)
+
 {
-	MessageBox.Show("Test");
-  i = i + 1;
+
+MessageBox.Show(“Test”);
+
+i = i + 1;  
+
 }
+
 ```
 
-Variabele *i* krijgt in het begin de waarde `0`
-en er wordt net zo lang doorgegaan met *MessageBoxes* weergeven
-totdat *i* kleiner dan `10` is.
-De code wordt dus doorlopen met achtereenvolgens
-de waarden `0` , `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8` en `9`.
-Er worden daarom `10` *Messageboxes* getoond met de tekst `"Test"`.
+  
+
+Variable *i* is initially given the value `0`
+
+and *MessageBoxes* are continued to be displayed
+
+until *i* is less than `10`.
+
+The code is thus passed through with successively
+
+the values `0` , `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8` and `9`.
+
+Therefore, `10` *Messageboxes* are displayed with the text `“Test”`.
 
 ```cs
+
 int i = 5;
+
 while(i > 0)
-{
-	MessageBox.Show("Test");
-  i = i – 1;
+
+{  
+
+MessageBox.Show(“Test”);  
+
+i = i - 1;
+
 }
+
 ```
 
-Variabele *i* krijgt in het begin de waarde `5` en er wordt
-direct gestopt als *i* de waarde `0` krijgt toegekend.
-De code wordt dus doorlopen met
-de waarden `5`, `4`, `3`, `2`, `1`.
-Er worden daarom `5` *Messageboxes* getoond met de tekst `"Test"`.
+  
+
+Variable *i* is initially assigned the value `5` and it is
+
+stopped immediately when *i* is assigned the value `0`.
+
+The code is thus passed through with  
+
+the values `5`, `4`, `3`, `2`, `1`.  
+
+Therefore, `5` *Messageboxes* are displayed with the text `“Test”`.
+
+  
 
 ```cs
+
 int i = 10;
+
 do
+
 {
-	MessageBox.Show("Test");
-  i = i + 1;
-}
-while (i < 5);
+
+MessageBox.Show(“Test”);
+
+i = i + 1;
+
+}  
+
+while (i < 5);  
+
 ```
 
-Variabele *i* krijgt in het begin de waarde `10`,
-de code wordt uitgevoerd, en vervolgens
-wordt net zo lang doorgegaan met *Messageboxes* weergeven
-totdat *i* kleiner dan `5` is.
-De code wordt dus doorlopen met de waarde `10`.
-Er wordt daarom `1` *Messagebox* getoond met de tekst `"Test"`.
+  
+
+Variable *i* is initially given the value `10`,
+
+the code is executed, and then  
+
+*Messageboxes* are displayed until  
+
+until *i* is less than `5`.  
+
+Thus, the code is continued with the value `10`.  
+
+Therefore, `1` *Messagebox* is displayed with the text `“Test”`.

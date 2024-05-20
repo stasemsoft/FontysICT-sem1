@@ -1,20 +1,20 @@
-## Brief3
+## Letter3
 
 
 ![](figures/logo_hotel.png "logo hotel")
  
-Aan: Software ontwikkelgroep &quot;De Goeroes&quot;
-Betreft: specificatie hotelreserveringssysteem
+To: Software development group &quot;The Gurus&quot;
+Subject: hotel reservation system specification
 
-Hoi, 
-Ik had jullie beloofd nog even de specs te sturen van ons hotelreserveringssysteem. Ik heb een lijstje gemaakt zodat jullie het snel voor ons kunnen gaan programmeren:
-1.	Bezoekers moeten kamers kunnen reserveren, max. 4 personen per kamer. Reserveren kan alleen voor datums in de toekomst. Je moet een reservering ook ongedaan kunnen maken.
-2.	Alle persoonsgegevens zoals naam, adres, geslacht, leeftijd netjes opslaan in een files.
-3.	Reserveren voor diner of ontbijt op een bepaalde datum moet mogelijk zijn. Indien mogelijk ook een hele kamer in één keer (alle 4 personen) op een ontbijt of diner kunnen zetten.
-4.	De directie en ik zelf willen een overzicht kunnen zien van alle bezette kamers en van alle reserveringen.
-5.	Het intypen van een reservering en de persoonsgegevens gebeurt door onze secretaresse. 
-En nog even de beloofde achtergrondinfo:
-We hebben 312 kamers, alleen kamer nummer 13 hebben we niet. Alle kamers zijn voor 4 personen op dit moment (in de toekomst zou dat kunnen veranderen). In de files kunt u als testgegevens een aantal (stuk of 4) kamers als test invullen, de rest doen wij zelf wel. Dit mag rechtstreeks in de database.
-Bedankt tot zo ver, met vriendelijke groet,
+Hi,
+I promised to send you some more specs of our hotel reservation system. I made a list so you can start programming it for us soon:
+1. Visitors must be able to reserve rooms, max 4 people per room. Reservations can only be made for dates in the future. You must also be able to undo a reservation.
+2. All personal data such as name, address, sex, age should be neatly stored in a file.
+3. Reservations for dinner or breakfast on a certain date should be possible. If possible also be able to put a whole room at once (all 4 people) on breakfast or dinner.
+4. Management and I want to be able to see an overview of all occupied rooms and all reservations.
+5. The typing of a reservation and the personal data is done by our secretary.
+And just the promised background info:
+We have 312 rooms, only room number 13 we don't have. All rooms are for 4 people at the moment (this might change in the future). In the files you can enter some (4 or so) rooms as test data, the rest we will do ourselves. This may be done directly in the database.
+Thanks so far, with kind regards,
 Dennis van Trommelen
-Systeembeheerder Grand Hotel D'n Gaarkeuken
+System administrator Grand Hotel D'n Gaarkeuken

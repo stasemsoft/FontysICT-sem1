@@ -5,12 +5,10 @@ comprehensive resource for learning these skills, covering everything from the
 basics to more advanced topics.
 
 ### HTML/CSS Basics
-- [MDN Web Docs (HTML &
-CSS)](https://developer.mozilla.org/en-US/docs/Web/HTML) provides detailed
-documentation on modern web standards and best practices for creating stylish
-webpages using both HTML and CSS.
+- [MDN Web Docs (HTML and CSS)](https://developer.mozilla.org/en-US/docs/Web/HTML) provides detailed documentation on modern web standards and best practices for creating stylish webpages using both HTML and CSS.
 
 ## Programming with C# and Razor Pages
+
 C# is a powerful programming language that's widely used in enterprise
 applications, particularly within the .NET framework. The [Microsoft
 Learn](https://learn.microsoft.com/) offers interactive tutorials for learning
@@ -18,10 +16,7 @@ C# and ASP.NET Core web development using Razor Pages.
 
 ## Embedded Systems Knowledge
 Understanding sensors and basic electronics is crucial in embedded systems
-design. The
-[Instructables](http://www.instructables.com/category/electronic-circuits/)
-community hosts a variety of tutorials for DIY electronic projects, which can
-enhance your understanding of these concepts.
+design. The [Instructables](http://www.instructables.com/category/electronic-circuits/) community hosts a variety of tutorials for DIY electronic projects, which can enhance your understanding of these concepts.
 
 ## Process Modeling and Low Code Development
 Learning process flows, power automation tools like Power Automate (now part of

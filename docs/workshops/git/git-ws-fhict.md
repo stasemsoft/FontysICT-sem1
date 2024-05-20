@@ -1,33 +1,32 @@
-# Git (versiebeheer)
+# Git (version control)
 
-(deels NL, deels EN)
 
 ![](figures/gitlogo.png "git")
 
-## git basis begrippen
+## git basic concepts
 
-+ clone:             maak lokale kopie vd repos
-+ checkout:          van je lokale repos, wijs 1 versie aan als work dir
-+ commit:            wijzingen in work dir gaan naar lokale repos
-+ push:              ALLE wijzigingen van de lokale repos gaan naar de server
-+ fetch:             haal alle wijzigingen op van de server naar lokale repos (verandert de work dir niet)
-+ pull:              fetch & checkout
++ Clone: make a local copy of the repos.
++ checkout: from your local repos, point to 1 version as work dir
++ commit: changes in work dir go to local repos.
++ push: ALL changes in local repos go to the server.
++ fetch: fetch all changes from server to local repos (does not change work dir)
++ pull: fetch & checkout
 + branch/merge
-+ .gitignore-file    
++ .gitignore file
 
 
 ## tools
 
 + command line
-+ github (het tool)
-+ git kraken
++ github (the tool)
++ git cracking
 + git desktop
 + git tortoise
-+ atom / visual studio / xcode / (eigenlijk elke IDE)
++ atom / visual studio / xcode / (basically any IDE)
 
-## sites met repositories
+## sites with repositories
 
-+ git.fhict.nl (gitlab)
++ git.fhict.com (gitlab)
 + github.com
 + gitlab.com
 
@@ -130,7 +129,7 @@ have built-in `git`-functionality.
 
 ![](figures/gitgud.png "git gud")
 
-## Bronnen
+## References
 
-+ [FHICT-git-server https://git.fhict.nl/](https://git.fhict.nl/)
++ [Fontys ICT-git-server https://git.fhict.nl/](https://git.fhict.nl/)
 + [ProGit](https://git-scm.com/book/en/v2)

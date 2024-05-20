@@ -1,10 +1,10 @@
-## Hotelsysteem - analyse- en ontwerpfase
+## Hotel system - analysis and design phase
 
-Je krijgt een casus te programmeren waar je de komende tijd aan kunt werken. Maak vandaag eerst een ontwerp (document) van alle klassen (met al zo vele mogelijk methoden en property's) die je wilt gaan programmeren, en lever dat in.
+You will be given a case to program that you can work on in the coming period. Today, first create a draft (document) of all the classes (with already as many methods and properties as possible) you want to program, and hand it in.
 Tips:
 
-- Maak eerst een geprioriteerde lijst van alle functionaliteiten die er in de applicatie moeten komen (=analyse).
-- Lever je klassenontwerp en analysedocument zo snel mogelijk in. Dat geeft aan dat je van te voren heb nagedacht over je applicatie (voordat je begonnen bent met programmeren).
+- First make a prioritized list of all the functionalities that need to be in the application (=analysis).
+- Deliver your class design and analysis document as soon as possible. This shows that you have thought about your application in advance (before you started programming).
 
-Technische eis
-In tegenstelling tot wat er in de brief staat heeft het hotelsysteem GEEN database. De gegevens dienen in een tekstbestand te worden opgeslagen. Je hoeft dus geen database te ontwerpen maar wel een net klassendiagram met navigatie-relaties en multipliciteiten.
+Technical requirement
+Contrary to what the letter says, the hotel system does NOT have a database. The data should be stored in a text file. So you don't need to design a database but you do need to design a neat class diagram with navigational relationships and multiplicities.

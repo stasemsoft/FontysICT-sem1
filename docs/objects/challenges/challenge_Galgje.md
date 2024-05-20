@@ -1,18 +1,17 @@
-# Challenge Galgje
+# Challenge Hangman
 
 
-| Leerdoelen | Constructor, read file, private, class diagram. |
-| --- | --- |
-| Extra | Algoritme, |
-| Vereiste voorkennis | Class, object. |
-| Challenge Type | Programming. |
+| Learning Outcome   | Constructor, read file, private, class diagram. |
+| ------------------ | ----------------------------------------------- |
+| Extra              | Algorithm                                       |
+| Required Knowledge | Class, object.                                  |
+| Challenge Type     | Programming.                                    |
 
+Create the game gallows where users must guess a word against the computer. Technical and functional requirements:
 
-Maak het spel galgje waarbij je als gebruiker tegen de computer een woord moet raden. Technische en functionele eisen:
-
-1. Programmeer de klasse Woord die het te raden woord bevat. Programmeer bijvoorbeeld een conctructor Woord(string w).
-2. Lees het te raden woord in uit een tekstbestand en maak vervolgens in C# een Woord-object aan.
-3. Programmeer de klasse Galgje die onder meer een veld van het type Woord heeft.
-4. Zorg ervoor dat het form alleen een dataveld van het type Galgje heeft, het form heeft GEEN dataveld van het type Woord.
+1. Program the class Word that contains the word to guess. For example, program a conctructor Word(string w).
+2. Read in the word to be guessed from a text file and then create a Word object in C#.
+3. Program the Galgje class that has, among other things, a field of type Word.
+4. Make sure that the form only has a data field of type Gallows, the form does NOT have a data field of type Word.
 
 ![](figures/Galgje.png "galgje")

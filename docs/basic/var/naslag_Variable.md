@@ -1,162 +1,162 @@
-# Naslag basiskennis: Variables
+# Basics afterthought: Variables
 
-Dit hoofdstuk is geschreven als een *naslagwerk*,
-het is niet specifiek geschreven om uit te leren hoe je met variabelen programmeert.
+This chapter is written as a *naslag work*,
+it is not specifically written to teach how to program with variables.
 
-### Typen variabelen
+### Types of variables
 
-Een variabele is een stukje geheugen waarin tijdelijk
-een waarde kan worden  opgeslagen. De veelgebruikte typen variabelen zijn:
+A variable is a piece of memory in which temporarily
+a value can be stored. The common types of variables are:
 
-| Inhoud | Naam | Voorbeelden |
-| --- | --- | --- |
-| Stukje tekst | String | "abcde" |
-|  |  | "dit is een tekst" |
-|  |  | "" |
-|  |  | etc. |
-| Geheel getal | Int | 12 |
-|  |  | -1337 |
-|  |  | 0 |
-|  |  | etc. |
-| Komma getal | Double | 10.2 |
-|  |  | -12.3 |
-|  |  | 5.0 |
-|  |  | etc. |
-| Waar of niet waar | Bool | true, false |
-
-
-
-### Variabele aanmaken (declareren)
-Variabelen kunnen op verschillende manieren worden aangemaakt,
-enkele voorbeelden staan hier-onder. Merk op dat:
-- Je de variabele naam zelf kunt kiezen
-- De regel moet worden beeindigd met een &quot;;&quot;-teken
-
-Op verschillende manieren kunnen variabelen worden aangemaakt. Programmeer op een lege regel het type van de variabele (zie hierboven), de naam die je de variabele wil geven (deze kies je zelf) en een &quot;;&quot; teken om het programmeercommando af te sluiten.
+| Content           | Name   | Examples           |
+| ----------------- | ------ | ------------------ |
+| Stukje tekst      | String | "abcde"            |
+|                   |        | "dit is een tekst" |
+|                   |        | ""                 |
+|                   |        | etc.               |
+| Geheel getal      | Int    | 12                 |
+|                   |        | -1337              |
+|                   |        | 0                  |
+|                   |        | etc.               |
+| Komma getal       | Double | 10.2               |
+|                   |        | -12.3              |
+|                   |        | 5.0                |
+|                   |        | etc.               |
+| Waar of niet waar | Bool   | true, false        |
 
 
-| Voorbeeld | Effect |
-| --- | --- |
-| String s; | Variabele met de naam s wordt aangemaakt. |
-|  | De default waarde is "". |
-| int i; | Variabele met de naam i wordt aangemaakt. |
-|  | De default waarde is 0. |
-| double d; | Variabele met de naam "d" wordt aangemaakt. |
-|  | De default waarde is 0.0 |
-| Bool b; | Variabele met de naam "b" wordt aangemaakt. |
-|  | De default waarde is false |
+### Create variable (declare)
+Variables can be created in different ways,
+some examples are listed below. Note that:
+- You can choose the variable name yourself
+- The line must be ended with a &quot;;&quot;-character
+
+There are several ways to create variables. Program on a blank line the type of the variable (see above), the name you want to give the variable (you choose it yourself) and an &quot;;&quot; character to end the programming command.
+
+| Example            | Effect                                               |
+| ------------------ | ---------------------------------------------------- |
+| String s;          | Variabele met de naam s wordt aangemaakt.            |
+|                    | De default waarde is "".                             |
+| int i;             | Variabele met de naam i wordt aangemaakt.            |
+|                    | De default waarde is 0.                              |
+| double d;          | Variabele met de naam "d" wordt aangemaakt.          |
+|                    | De default waarde is 0.0                             |
+| Bool b;            | Variabele met de naam "b" wordt aangemaakt.          |
+|                    | De default waarde is false                           |
 | String mijnString; | Variabele met de naam "mijnString" wordt aangemaakt. |
-|  | De default waarde is "" |
-| int getal; | Variabele met de naam "getal" wordt aangemaakt. |
-|  | De default waarde is 0 |
-| double straal; | Variabele met de naam "straal" wordt aangemaakt. |
-|  | De default waarde is 0.0 |
+|                    | De default waarde is ""                              |
+| int getal;         | Variabele met de naam "getal" wordt aangemaakt.      |
+|                    | De default waarde is 0                               |
+| double straal;     | Variabele met de naam "straal" wordt aangemaakt.     |
+|                    | De default waarde is 0.0                             |
 
 
-Direct na het aanmaken heeft een `variabele` een `waarde` die we
-de `default waarde` noemen. Dit kan per programmeertaal enigszins
-verschillen. Daarom is het een goede gewoonte variabelen waarvan je
-wil dat ze een specifieke waarde hebben deze waarde expliciet
-toe te kennen.
+Immediately after creation, a `variable` has a `value` that we
+call the `default value`. This may vary slightly from one programming language to another
+different. Therefore, it is good practice to make variables that you
+want to have a specific value explicitly assign this value.
+assign this value.
 
-### Waarde aan variabele geven (toekenning of assignment)
+### Give value to variable (assignment or assignment)
 
-Als een variabele eenmaal is aangemaakt kan hier een waarde aan worden toegekend.
-Merk op:
+Once a variable is created, a value can be assigned to it.
+Notice:
 
-- Alleen geldige waarden kunnen worden toegekend (string waarden aan strings, getallen aan int, etc.), het programmeren van een niet geldige toekenning levert een fout op waardoor het programma niet kan worden uitgevoerd.
-- De variabele waaraan een waarde moet worden toegekend staat aan de linkerkant van het &quot;=&quot; teken, en de waarde welke in de variabele moet worden gestopt staat rechts van het &quot;=&quot; teken.
-- De regel code wordt weer beeindigd met het &quot;;&quot;-teken.
+- Only valid values can be assigned (string values to strings, numbers to int, etc.), programming a non-valid assignment results in an error that prevents the program from executing.
+- The variable to which a value is to be assigned is on the left side of the &quot;=&quot; sign, and the value to be put into the variable is on the right side of the &quot;=&quot; sign.
+- The line of code is again terminated with the &quot;;&quot; sign.
 
-Hier volgen enkele voorbeelden. In commentaar staat erbij uitgelegd
-wat het betekent.
+Here are some examples. In comments it is explained
+what it means.
 
 ```cs
-String s;     // maak een variabele aan met naam "s".
-s = "test";	  // Variabele met de naam "s" krijgt de waarde "test".
+String s; // create a variable named "s".
+s = "test"; // Variable named "s" gets the value "test".
 ```
 
 ```cs
 int i;
-i = 10;	// maak variabele met naam "i" aan en geef die waarde 10
+i = 10; // create variable named "i" and give it value 10
 ```
 
 ```cs
 double d;
-d = 1.52; //	Nieuwe variabele genaamd "d" krijgt de waarde 1,52
+d = 1.52; // New variable named "d" is given the value 1.52
 ```
 
 ```cs
 bool b;
-b = true;	// Nieuwe variabele "b" krijgt de waarde true
+b = true; // New variable "b" gets the value true
 ```
 
 ```cs
 String string1;
 string 1 = "abc";
 String string2;
-string2 = string1;	// Variabele met de naam "string2" krijgt
-                    // de waarde van "string1", namelijk "abc"
+string2 = string1; // Variable named "string2" gets
+                    // the value of "string1", namely "abc"
 ```
 
-```cs
-int getalA;
-getalA = 5;
-int getalB;
-getalB  = getalA;	// Variabele met de naam "getalB" krijgt
-                  // de waarde van "getalA", namelijk 5
+````cs
+int numberA;
+numberA = 5;
+int numberB;
+numberB = numberA; // Variable named "numberB" gets
+                  // the value of "numberA", namely 5
 ```
 
-```cs
-double kommaGetalA;
-kommaGetalA = 1.32;
-double kommaGetalB;
-kommaGetalB  = kommaGetalA;	// Variabele met de naam "kommaGetalB" krijgt
-                            // de waarde van "kommaGetalA",
-                            // namelijk 1.32
+````cs
+double commaGetalA;
+commaGetalA = 1.32;
+double commaGetalB;
+commaGetalB = commaGetalA; // Variable named "commaGetalB" gets
+                            // the value of "commaGetalA."
+                            // namely 1.32
 ```
 
-```cs
+````cs
 String s;
 s = textBox1.Text;
-    // Variabele met de naam "s" krijgt
-    // als waarde de tekst die in de
-    // TextBox genaamd "textBox1" staat.
+    // Variable named "s" gets
+    // as the value the text contained in the
+    // TextBox named "textBox1".
 ```
-Dit werkt omdat de `Text property` van de *TextBox* ook
-van het `type` `string` is.
 
-### Variabele aanmaken en direct een waarde geven (declare en initialize)
+This works because the `Text property` of the *TextBox* is also
+is of the `type` `string`.
 
-Variabele met de naam *s* aanmaken en waarde &quot;test&quot; toekennen:
+### Create variable and give it a value directly (declare and initialize)
+
+Create variable named *s* and assign value &quot;test&quot;:
+
 ```cs
 String s = "test";
 ```
 
-Variabele met de naam *i* aanmaken en waarde `10` toekennen:
+Create variable named *i* and assign value `10`:
 ```cs
 int i =10;
 ```
 
-Variabele met de naam *d*  aanmaken en waarde `1,52` toekennen:
+Create variable named *d* and assign value `1.52`:
 ```cs
 double d = 1.52;
 ```
 
-Variabele met de naam *b* aanmaken en waarde `true` toekennen:
+Create variable named *b* and assign value `true`:
 ```cs
 bool b = true;
 ```
 
-### Waarden omzetten naar andere typen (convert)
+### Convert values to other types (convert)
 
-Merk op: het omzetten van een `int` of `double` naar een `String` lukt altijd, andersom lukt niet altijd en kan een foutmelding opleveren tijdens het uitvoeren van het programma (`crash` of `Unhandled Exception`).
+Note: converting an `int` or `double` to a `String` always succeeds, the other way around does not always succeed and may produce an error message during program execution (`crash` or `Unhandled Exception`).
 
-Een `bool` variabele kan niet worden geconverteerd.
+A `bool` variable cannot be converted.
 
-Zet de waarde van *i* om
-naar een tekst met dezelfde waarde. Het
-resultaat van de laatste regel is dat variabele *s* de waarde `81` krijgt.
+Convert the value of *i*
+to a text with the same value. The
+result of the last line is that variable *s* is given the value `81`.
 
 ```cs
 int i = 81;
@@ -164,9 +164,9 @@ String s;
 s = Convert.ToString(i);
 ```
 
-Zet de waarde van *d* om naar een tekst met dezelfde waarde.
-Het resultaat van de laatste regel is dat variabele *s*
-de waarde `"12.33"` krijgt:
+Convert the value of *d* to text of the same value.
+The result of the last line is that variable *s*
+is given the value `"12.33"`:
 
 ```cs
 double d =12.33;
@@ -174,24 +174,24 @@ String s;
 s = Convert.ToString(d);
 ```
 
-Zet de waarde van *s* om naar een geheel getal (`integer`)
-met dezelfde waarde als dat lukt (anders krijg je een foutmelding).
-Het resultaat van de laatste regel is dat variabele *i* de
-waarde `7` krijgt:
+Convert the value of *s* to an integer (`integer`)
+with the same value if it succeeds (otherwise you get an error message).
+The result of the last line is that variable *i* gets the
+value `7`:
 
 ```cs
 int i;
 String s = "7";
-i  = Convert.ToInt32(s);
+i = Convert.ToInt32(s);
 ```
 
-Zet de waarde van *s* om naar een *kommagetal* met
-dezelfde waarde als dat lukt (anders krijg je een foutmelding).
-Het resultaat van de laatste regel is dat variabele *d* de
-waarde `12.129` krijgt:
+Convert the value of *s* to a *comma number* with
+the same value if you can (otherwise you will get an error message).
+The result of the last line is that variable *d* gets the
+value `12,129`:
 
 ```cs
 double d;
-String s = "12.129";
-d  = Convert.ToDouble(s);
+String s = "12.129."
+d = Convert.ToDouble(s);
 ```

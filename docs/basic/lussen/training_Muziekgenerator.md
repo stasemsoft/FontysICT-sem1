@@ -1,12 +1,16 @@
-# Training - For - Muziekgenerator
+# Training - For - Music generator.
 
-Maak een applicatie waarbij de gebruiker het aantal noten dat er achtereenvolgens gespeeld moeten worden kan aangeven. Vervolgens moet je willekeurig kiezen uit de noten C, D, E, F, G, A en B. Optioneel (50% kans) moet je bij de noten C, D, F, G en A een sharp noteren (#). Zet de uitkomst van het muziekstuk in een label, textbox, MessageBox of geef de output in de console.
+  
+
+Create an application where the user can specify the number of notes to be played consecutively. Then randomly choose from the notes C, D, E, F, G, A and B. Optionally (50% chance) you must note a sharp (#) with the notes C, D, F, G and A. Put the outcome of the piece of music in a label, textbox, MessageBox or give the output in the console.
 
 ![Noten op een piano](figures/Muziekgenerator-noten.png)
 
-De gebruiker zou bijvoorbeeld 10 noten willen spelen. De applicatie zou dan willekeurig met de volgende partij noten kunnen komen: 
 
-**D – E – F# – F# – C – B – G# – A# – A – A#**
+For example, the user might want to play 10 notes. The application might then randomly come up with the following batch of notes: 
+
+**D - E - F# - F# - C - B - G# - A# - A - A#**
+
 
 
 

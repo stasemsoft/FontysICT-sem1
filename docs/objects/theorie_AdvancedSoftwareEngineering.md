@@ -1,129 +1,134 @@
 # So you wanna be a Software Engineer?
 
-Stel je hebt de smaak
-van het *programmeren* te pakken hebt gekregen en
-wilt meer over *Software Engineering* te weten komen.
-In dit *part* enkele onderwerpen die
-eerder nog niet (uitgebreid) aan bod zijn gekomen
-maar ook belangrijk zijn. Dit stuk tekst komt voornamelijk af van docent Alexander.
+Suppose you have
+the taste of *programming* and
+want to learn more about *Software Engineering*.
+In this *part* some topics that
+not (extensively) discussed before
+but are also important. This piece of text mainly comes off from instructor Alexander.
 
 
-## Achtergronden bij  Software Engineering: Inleiding
-Enkele belangrijke concepten
-- Accessibility: internal en public voor classes, public, protected, private
-voor functies.
-- Inheritance, met daarbij abstracte classes abstracte en virtuele functies,
-override van functies, aanroepen van base constructor
-- Interfacing - waarom kennen we dat concept en waarom zou je het gebruiken
-- Exception handling - wanneer is iets een fout en wanneer acceptabel gedrag
-met een onverwacht resultaat.
+## Backgrounds to Software Engineering: Introduction
+Some important concepts
+- Accessibility: internal and public for classes, public, protected, private
+for functions.
+- Inheritance, including abstract classes abstract and virtual functions,
+override of functions, calling base constructor
+- Interfacing - why do we know that concept and why use it
+- Exception handling - when is something an error and when is acceptable behavior
+with an unexpected result.
 - Events
 
 
-## Basisconcepten van programmeren
+## Basic concepts of programming
 
-Programmeren in een (object oriented) taal gebruikt een aantal basisconcepten
-die voor elke taal hetzelfde zijn en slechts afwijken in de manier waarop
-je ze opschrijft. Deze basisconcepten zijn op te delen in grofweg drie categorien:
+Programming in an (object-oriented) language uses a number of basic concepts
+that are the same for every language and differ only in the way
+you write them down. These basic concepts can be divided into roughly three categories:
 
 ### 1. Statements
-Een commando wat onvoorwaardelijk wordt uitgevoerd. Denk hierbij bijvoorbeeld aan het toekennen van een variabele of het aanroepen van een functie.
+A command that is executed unconditionally. For example, assigning a variable or calling a function.
 
-### 2. Keuzestructuren
-Een (aantal) statement(s) wat alleen uitgevoerd wordt als er aan een bepaalde voorwaarde wordt voldaan.
+### 2. Choice structures
+A (number of) statement(s) which is executed only if a certain condition is met.
 
-### 3. Herhalingsstructuren
-Een (aantal) statement(s) wat meermaals uitgevoerd wordt, mogelijk ook onder bepaalde condities.
+### 3. Repeat structures
+A (number of) statement(s) which is executed multiple times, possibly also under certain conditions.
 
-Alledrie de categorieën gaan we nu meer in detail bekijken.
+We will now look at all three categories in more detail.
 
 ## 1. Statements
-Een statement is het meest basis concept bij het programmeren. Met een statement
-wordt een commando in het programma uitgevoerd. Hierbij kun je denken
-aan het declareren van een variabele, het toekennen van een waarde aan een variabele
-en het aanroepen van een methode. In code zien statements er als volgt
-uit:
+A statement is the most basic concept in programming. With a statement
+is used to execute a command in the program. You can think of
+of declaring a variable, assigning a value to a variable and
+and calling a method. In code, statements look like this
+look like:
 
 ```cs
 int i = 4;
 int j = 5;
-int uitkomst = BerekenProduct(i, j);
+int outcome = CalculateProduct(i, j);
 ```
 
-## 2. Keuzestructuren (if-statements)
+## 2. Choice structures (if-statements).
 
-Zoals de naam al aangeeft, gaat het bij keuzestructuren om het maken van een
-keuze of een bepaald stuk code wel of niet uitgevoerd wordt, afhankelijk van een
-bepaalde conditie. Meestal bestaat een keuzestructuur uit 2 delen: De code die
-uitgevoerd wordt als de conditie waar is en de code die uitgevoerd wordt als de
-conditie niet waar is. Dit wordt schematisch weergegeven in
+As the name implies, choice structures involve making a
+choice of whether or not to execute a particular piece of code, depending on a
+certain condition. Usually, a choice structure consists of 2 parts: The code that
+is executed if the condition is true and the code that is executed if the
+condition is not true. This is shown schematically in
+
 
 ![fig:keuzestructuur_01](figures/keuzestructuur_01.jpg "keuzestructuur")
 
-In code ziet dit er dan als volgt uit:
+In code, this then looks like this:
 
 ```cs
-if (leeftijd > 65)
+if (age > 65)
 {
-   prijs = 25;
+   price = 25;
 }
 else
 {
-   prijs = 35;
+   price = 35;
 }
 ```
 
-Als uitbreiding op keuzestructuren zijn er nog twee varianten.
-De eerste variant is de keuzestructuur, waarin er alleen code uitgevoerd wordt
-als de conditie waar is. Dit betekent dat als de conditie niet waar
-is, er geen actie meer uitgevoerd wordt en er dus meteen naar ’Einde’ gegaan
-wordt. In de code betekent dit dat de ’else’ constructie weggelaten kan worden.
-De tweede variant is wat complexer en bevat meerdere keuzes die uitgevoerd
-worden. Dit betekent dat er in figuur 2.1 een extra keuze bijkomt aan de kant van
-de ’nee’ en daarin wederom een keuze gemaakt wordt. Dit ziet er schematisch
-dan als volgt uit:
+As an extension to choice structures, there are two more variants.
+The first variant is the choice structure, in which code is executed only
+if the condition is true. This means that if the condition is not true
+is true, no more action is performed and thus immediately goes to 'End'.
+is executed. In code, this means that the 'else' construction can be omitted.
+The second variant is a bit more complex and contains multiple choices that are executed
+being executed. This means that in Figure 2.1 an additional choice is added on the side of
+the 'no' and a choice is made in it again. This looks schematically
+then as follows:
+
 
 ![fig:keuzestructuur_02](figures/keuzestructuur_02.jpg "keuzestructuur met extra condities")
 
-Zoals in het schema te zien is, kan elke aanpassing van de prijs in dit voorbeeld,
-maar onder 1 conditie uitgevoerd worden: De prijs wordt 25 als de leeftijd boven
-de 65 is, de prijs wordt 0 als de leeftijd NIET boven de 65 is, maar wel onder
-de 4 en in alle andere gevallen wordt de prijs 35.
-In de code komt er dan een ’else if’ bij:
+
+As can be seen in the diagram, any adjustment to the price in this example,
+can only be performed under one condition: The price becomes 25 if the age is above
+the 65, the price becomes 0 if the age is NOT above 65 but under
+4, and in all other cases the price becomes 35.
+An "else if" is then added in the code:
 
 ```cs
-if (leeftijd > 65)
+if (age > 65)
 {
-   prijs = 25;
+   price = 25;
 }
-else if (leeftijd < 4)
+else if (age < 4)
 {
-   prijs = 0;
+   price = 0;
 }
 else
 {
-   prijs = 35;
+   price = 35;
 }
 ```
 
-## 3. Herhalingsstructuren (loops)
+## 3. Repetition structures (loops).
 
-Als bepaalde statements meerdere keren achter elkaar uitgevoerd moeten worden,
-dan worden daar herhalingsstructuren (lussen of loops in het Engels)
-voor gebruikt. Conceptueel zijn er drie varianten van de herhalingsstructuur:
-conditie-gebaseerd, aantal-gebaseerd en lijst-gebaseerd.
-Afhankelijk van op welke manier de code meermalen uitgevoerd moet worden,
-kies je 1 van onderstaande methoden.
+If certain statements have to be executed several times in a row,
+repeating structures (loops) are used.
+are used. Conceptually, there are three variants of the repetition structure:
+condition-based, number-based and list-based.
+Depending on which way the code needs to be executed multiple times,
+choose one of the methods below.
 
-#### Conditie-gebaseerde structuur (while)
+#### Condition-based structure (while)
+
 
 ![fig:herhalingsstructuur](figures/herhalingsstructuur.jpg "herhalingsstructuur")
 
-Het komt vaak voor dat code uitgevoerd moet worden zolang er aan een bepaalde
-conditie voldaan is. Stel dat je bijvoorbeeld een getal moet ophogen met 5 tot
-dit getal boven de 100 komt, dan gebruik je hiervoor een conditie-gebaseerde
-structuur.
-In code ziet dit er als volgt uit:
+
+It is common for code to be executed as long as a certain
+condition is met. For example, suppose you need to increment a number by 5 until
+this number exceeds 100, you use a condition-based
+structure.
+In code, this looks like this:
 
 ```cs
 int i = 1;
@@ -132,11 +137,11 @@ while (i < 100)
    i = i + 5;
 }
 ```
-Als de conditie de eerste keer al niet waar is, dan wordt de code binnen de
-while niet uitgevoerd. Een alternatief van deze variant is de do-while constructie.
-Bij de do-while wordt de code uitgevoerd, totdat de conditie niet meer waar is
-en wordt de code dus altijd ten minste 1x uitgevoerd. De code hiervoor ziet er
-als volgt uit:
+If the condition is false the first time, then the code within the
+while is not executed. An alternative to this variant is the do-while construction.
+With the do-while, the code is executed until the condition is no longer true
+and thus the code is always executed at least once. The code for this looks
+as follows:
 
 ```cs
 int i = 1;
@@ -146,15 +151,15 @@ do
 } while (i < 100)
 ```
 
-#### Aantal-gebaseerde structuur (for)
+#### Number-based structure (for)
 
-Een andere structuur die vaak voorkomt is het voor een vast aantal keer uitvoeren
-van dezelfde code. Denk hierbij aan het op het scherm tonen van de tafel
-van 10. Vooraf is duidelijk dat het tonen van de waarde precies 10 maal plaats
-moet vinden en dit aantal zal niet veranderen. Dit kan opgelost worden met
-de conditie-gebaseerde structuur, maar in (bijna) alle programmeertalen is hier
-een speciale constructie voor: de for-herhalingsstructuur. In code ziet deze er
-als volgt uit:
+Another structure that is common is to execute for a fixed number of times
+of the same code. Consider the display of the table
+of 10. It is clear in advance that the display of the value must take place exactly 10 times
+must take place and this number will not change. This can be solved with
+the condition-based structure, but in (almost) all programming languages there is
+a special construction for this: the for-repetition structure. In code, this looks
+as follows:
 
 ```cs
 for (int i = 0; i < 10; i++)
@@ -163,41 +168,41 @@ for (int i = 0; i < 10; i++)
 }
 ```
 
-De eerste regel bestaat uit 3 delen:
-- int i = 0: De startwaarde van de teller
-- i &lt; 10: De conditie die vertelt wat de eindwaarde van de teller is, ofwel: zolang deze conditie niet waar is, wordt de code uitgevoerd.
-- i++: De verhoging van de teller.
+The first line consists of 3 parts:
+- int i = 0: The starting value of the counter
+- i &lt; 10: The condition that tells what the final value of the counter is, in other words: as long as this condition is not true, the code is executed.
+- i++: The increment of the counter.
 
-Bovenstaande code zou ook als een while-lus geschreven kunnen worden, door
-de startwaarde boven de while te zetten, en de verhoging als laatste statement
-binnen de lus op te nemen. Je krijgt dan qua structuur een zelfde schema als
-die in figuur 2.3.
+The above code could also be written as a while loop, by
+putting the start value above the while, and including the increment as the last statement
+within the loop. You then get a similar structure to the one
+that shown in Figure 2.3.
 
-#### Lijst-gebaseerde structuur (foreach)
+#### List-based structure (foreach)
 
-Als je op alle elementen van een lijst een actie wilt uitvoeren, dan kun je hiervoor
-een for-lus gebruiken waarbij de conditie voor de eindwaarde het aantal
-elementen uit de lijst bevat. De meeste talen bieden hier ook een specifieke
-structuur voor aan: de foreach-lus. In code ziet dit er als volgt uit:
+If you want to perform an action on all elements of a list, you can use
+use a for loop where the condition for the final value contains the number of
+elements in the list. Most languages also offer a specific
+structure for this: the foreach loop. In code, this looks like this:
 
 ```cs
-List<Persoon> personen = HaalAllePersonenOp();
-foreach (Persoon persoon in personen)
+List<Person> persons = GetAllPersonsOn();
+foreach(Person person in persons)
 {
-   Console.WriteLine(persoon.Naam);
+   Console.WriteLine(person.Name);
 }
 ```
 
-Je ziet dat je in deze structuur niet expliciet hoeft aan te geven hoeveel iteraties
-uitgevoerd gaan worden, en je hebt direct de instantie van de Persoon
-beschikbaar.
+You can see that in this structure you don't have to explicitly specify how many iterations
+are going to be executed, and you have the instance of the Person immediately
+available.
 
-## Variabelen
+## Variables
 
 ### Scope
 
-Elke variabele heeft een scope. De scope van een variabele geeft aan wanneer
-de variabele bestaat. Neem bijvoorbeeld de volgende code:
+Every variable has a scope. The scope of a variable indicates when
+the variable exists. For example, consider the following code:
 
 ```cs
 int i = 1;
@@ -209,202 +214,209 @@ if (i == 1)
 i = i + 1;
 ```
 
-Vanaf het moment dat de variabele i aangemaakt wordt, bestaat deze en
-blijft deze in dit hele stuk code bestaan en kan dus binnen en na de if-statement
-gebruikt worden. Voor de variabele j is dit anders. De variabele j wordt binnen
-de scope van het if-statement gedefinieerd, waardoor deze variabele dus alleen
-binnen het if-statement gebruikt kan worden. Na de afsluitende accolade van
-het if-statement kan de variabele j niet meer gebruikt worden. De compiler
-herkent dit en zal een foutmelding geven als je een variabele buiten zijn scope
-probeert te gebruiken.
-Scoping kennen we op een aantal niveau’s:
-- Een variabele die gedeclareerd wordt binnen een structuur (herhalings- of keuzestructuur) kan alleen binnen die structuur gebruikt worden.
-- Een variabele die gedeclareerd wordt binnen een methode kan alleen binnen die methode gebruikt worden.
-- Een variabele die gedeclareerd wordt in een klasse (bijvoorbeeld een property of private field) kan gebruikt worden zolang de instantie van een klasse bestaat.
-- Een variabele die static in een klasse gedeclareerd wordt kan altijd gebruikt worden.
+From the moment the variable i is created, it exists and
+continues to exist throughout this piece of code and thus can be used within and after the if statement
+used. For the variable j, this is different. The variable j is created within
+the scope of the if statement, so this variable can only be used
+within the if statement. After the closing brace of
+the if statement, the variable j can no longer be used. The compiler
+recognizes this and will give an error message if you try to use a variable outside its scope.
+scope.
+Scoping is known at a number of levels:
+- A variable declared within a structure (repeat or choice structure) can only be used within that structure.
+- A variable declared within a method can only be used within that method.
+- A variable declared within a class (for example, a property or private field) can be used as long as the instance of a class exists.
+- A variable declared static in a class can always be used.
 
-### Typen
+### Types
 
-In programmeren hebben we het over het type van een variabele als we bedoelen
-wat de variabele voor data en functionaliteit kan bevatten. Denk hierbij aan
-een `int` (integer) voor gehele getallen, string voor tekst en File voor een bestand.
-Ook kun je zelf nieuwe typen toevoegen door een ’class’ te definieren.
-Bij object-georienteerde talen onderscheiden we twee soorten typen:
-+ **Primitieve typen**: Zoals de naam al aangeeft, zijn primitieve typen de meest
-basis variant van variabelen. Hierbij kun je denken aan int en decimal om
-getallen op te slaan, bool om true of false op te slaan en char om een letter in
-op te slaan. Dit is dan ook het enige wat je met deze typen doet.
-+ **Object typen**: Object typen (of ook wel eens complexe typen genoemd) zijn
-typen die gebruikt worden om meer complex gedrag te modelleren. In deze
-typen kunnen naast waarden, ook gedrag gecodeerd worden. In OO-talen worden
-deze typen gemaakt door een nieuwe Class te definieren en deze van een
-implementatie te voorzien.
-+ **Uitzondering: String**: Strings zijn binnen OO-talen een vreemde eend in
-de bijt. Eigenlijk is een string een object (namelijk: een collectie letters van
-het type char in een specifieke volgorde). Echter: in de praktijk is dit meestal
-helemaal niet handig. Daarom is de string in een aantal OO-talen een hybride
-vorm. In C# bijvoorbeeld, wordt de string toegepast als primitief type als
-je strings opslaat, maar als object als je string-functionaliteiten gebruikt zoals
-Split, Replace en Substring.
+In programming, we talk about the type of a variable when we mean
+what data and functionality the variable can contain. For example
+an `int` (integer) for integers, string for text and File for a file.
+You can also add new types yourself by defining a `class'.
+In object-oriented languages, we distinguish two types:
++ **Primitive types**: As the name implies, primitive types are the most
+basic version of variables. Here you can think of int and decimal to store
+numbers, bool to store true or false, and char to store a letter in
+a letter. Therefore, this is all you do with these types.
++ **Object types**: Object types (or sometimes called complex types) are
+types that are used to model more complex behavior. In these
+types, in addition to values, behaviors can also be encoded. In OO languages
+these types are created by defining a new Class and providing it with an
+implementation.
++ **Exception: String**: Strings are an oddity within OO languages.
+the crop. Actually, a string is an object (namely: a collection of letters of
+type char in a specific order). However: in practice, this is usually
+not useful at all. Therefore, in a number of OO languages, the string is a hybrid
+form. In C#, for example, the string is applied as a primitive type when
+you store strings, but as an object when you use string functionalities such as
+Split, Replace and Substring.
 
-### Value typen versus Reference typen
+### Value types versus Reference types
 
-We hebben in de vorige sectie gekeken naar primitieve typen versus object typen.
-Het verschil tussen deze typen leidt tot een belangrijk verschil in OOprogrammeren
-tussen deze typen: Alle primitieve typen zijn value typen en alle
-object typen zijn reference typen. De String valt in dit geval onder de primitieve
-typen.
+We looked at primitive types versus object types in the previous section.
+The difference between these types leads to an important difference in OOprogramming
+between these types: All primitive types are value types and all
+object types are reference types. In this case, the String falls under the primitive
+types.
 
-#### Hoe werkt een value type?
+#### How does a value type work?
 
-Wanneer je in code een primitief type declareert (bijvoorbeeld: `int leeftijd =
-4` ), dan wordt er een stukje geheugen gereserveerd waarin deze waarde wordt
-opgeslagen. De variabele leeftijd verwijst dan naar dit stukje geheugen, waarin
-de integer waarde 4 is opgeslagen. Dit heeft een aantal gevolgen:
+When you declare a primitive type in code (for example, `int age =
+4` ), then a piece of memory is reserved in which this value is
+stored. The variable age then refers to this piece of memory, in which
+the integer value 4 is stored. This has several implications:
 
-- In dit stukje geheugen mag alleen maar een integer staan. Hier kun je dus geen string, komma-getallen of objecten aan toekennen.
-- Dit stukje geheugen is alleen beschikbaar voor de variabele leeftijd. Er is geen andere variabele die naar hetzelfde stuk geheugen verwijst en een aanpassing van de waarde kan dus alleen via een aanpassing van de variabele leeftijd.
-- Wanneer de variabele leeftijd niet meer bestaat, wordt het geheugen weer vrijgegeven.
+- Only an integer is allowed in this piece of memory. So you cannot assign strings, comma numbers or objects to it.
+- This piece of memory is available only for the variable age. There is no other variable that refers to the same piece of memory, so an adjustment of the value can only be done through an adjustment of the variable age.
+- When the variable age no longer exists, the memory is released again.
 
-Stel je hebt de volgende code:
+Suppose you have the following code:
 
 ```cs
-int leeftijd = 4;
-string naam = "Paul";
+int age = 4;
+string name = "Paul"
 ```
 
-Dan ziet het geheugen er op dat moment uit als:
+Then the memory at that point looks like:
+
 
 ![fig:geheugenLayout01](figures/geheugenLayout01.jpg "Geheugen layout bij uitvoeren code")
 
-Een ander aspect van value types is het toekennen van de ene variabele aan
-de andere (bijvoorbeeld int oudeLeeftijd = leeftijd). Als dit uitgevoerd wordt,
-dan wordt er in het geheugen een kopie gemaakt van de waarde in leeftijd en
-deze wordt toegekend aan oudeLeeftijd. Dit betekent dus, dat als je daarna de
-waarde van leeftijd aanpast, de waarde van oudeLeeftijd NIET mee verandert.
-Stel dus dat je de volgende code uitvoert:
+
+Another aspect of value types is assigning one variable to
+another (for example, int oldLife = age). When this is executed,
+a copy of the value in age is made in memory and
+this is assigned to oldAge. This means, then, that if you subsequently modify the
+value of age, the value of oldAge does NOT change with it.
+So suppose you run the following code:
 
 ```cs
-int leeftijd = 4;
-int oudeLeeftijd = leeftijd;
-leeftijd = 10;
+int age = 4;
+int oldAge = age;
+age = 10;
 ```
 
-Dan ziet het geheugen er na het uitvoeren van de code uit als in figuur
+Then, after executing the code, the memory looks like in figure
+
 
 ![fig:geheugenLayout02](figures/geheugenLayout02.jpg "Geheugen layout bij uitvoeren code")
 
-#### Hoe werkt een reference type?
+#### How does a reference type work?
 
-Als je een reference type declareert dan doe je dit met het keyword *new*. Op
-dat moment worden er niet één, maar twee stukjes geheugen gereserveerd:
-In één stuk geheugen wordt de inhoud van de variabele opgeslagen en in het andere
-stuk geheugen wordt een referentie naar deze inhoud opgeslagen. Stel dus dat
-je de volgende code uitvoert:
+When you declare a reference type you do so with the keyword *new*. At
+that moment, not one, but two pieces of memory are reserved:
+In one piece of memory the content of the variable is stored and in the other
+piece of memory a reference to this content is stored. So suppose that
+you execute the following code:
 
 ```cs
 Auto opel = new Auto("Opel Zafira");
 ```
 
-dan ziet het geheugen er uit als in
+then the memory looks like in
+
 
 ![fig:geheugenLayout03](figures/geheugenLayout03.jpg "Geheugen layout bij uitvoeren code")
 
-Zoals je ziet zijn er 2 stukjes geheugen gereserveerd, in verschillende delen
-van het geheugen.
-Ook het toekennen van de ene variabele aan de andere werkt bij reference
-typen anders. Wanneer je een variabele toekent aan een andere, wordt er één
-extra stukje geheugen gereserveerd, waarin een referentie naar de al bestaande
-inhoud van wordt opgeslagen. Stel dus dat je de volgende code hebt:
+
+As you can see, there are 2 pieces of memory reserved, in different parts
+of memory.
+Also, assigning one variable to another works differently with reference
+types works differently. When you assign one variable to another, one
+extra piece of memory is reserved, in which a reference to the already existing
+contents of is stored. So suppose you have the following code:
 
 ```cs
 Auto opel = new Auto("Opel Zafira");
-Auto nogEenOpel = opel;
+Car stillAnOpel = Opel;
 ```
 
-Dan ziet het geheugen er uit als in figuur
+Then the memory looks like in figure
+
 
 ![fig:geheugenLayout04](figures/geheugenLayout04.jpg "Geheugen layout bij uitvoeren code")
 
-Gevolg hiervan is dat als je de naam van de auto aanpast via de variabele
-*opel* ( `opel.Naam = ’Opel Corsa’` ), deze ook meteen aangepast is als je de naam
-ophaalt via *nogEenOpel*.
+As a result, if you change the name of the car via the variable
+*opel* ( `opel.Name = 'Opel Corsa'` ), it is also immediately updated when you retrieve the name
+retrieved via *AnyOpel*.
 
-Dit geldt ook bij parameters in functies.
+This also applies to parameters in functions.
 
-#### Tips bij typen variabelen
+#### Tips for typing variables
 
-Een vuistregel om te weten of iets een value of reference type is, is te
-kijken naar de declaratie van de variabele:
-–Wordt de variabele toegekend door er direct een waarde aan te koppelen
-( `int i = 4` ), dan is het een value type.
-–Wordt de variabele toegekend door het gebruik van new
-( `Auto auto = new Auto()` ), dan is het een reference type.
+A rule of thumb for knowing whether something is a value or reference type is to
+look at the declaration of the variable:
+-If the variable is assigned by directly attaching a value to it
+( `int i = 4` ), then it is a value type.
+-Whether the variable is assigned by using new
+( `Auto auto = new Auto()` ), then it is a reference type.
 
-## OO-technieken
+## OO techniques
 
-### Inheritance: Hoe werkt dit in het geheugen
+### Inheritance: How this works in memory
 
-De theorie van object georienteerd programmeren behandelt *inheritance* (afgeleide
-classes) en *interfacing*. In dit hoofdstuk komt aan bod hoe inheritance in het geheugen werkt en wordt daarmee een achtergrond gegeven over inheritance als concept.
+The theory of object-oriented programming deals with *inheritance* (derived
+classes) and *interfacing*. This chapter covers how inheritance works in memory and thus provides a background on inheritance as a concept.
+
 
 ![fig:class diagram](figures/classdiagram_01.jpg "Class diagram")
 
 
-Een voorbeeld van een *class diagram* dat gebruik maakt van *inheritance*. Als je dit class diagram geïmplementeerd hebt, dan kun je al deze classes gebruiken om objecten mee te maken. Stel dat je de volgende code schrijft:
+An example of a *class diagram* that uses *inheritance*. If you have implemented this class diagram, then you can use all these classes to create objects with. Suppose you write the following code:
 
 ```cs
-Motorboot yamaha = new Motorboot();
+Motorboat yamaha = new Motorboat();
 ```
 
-Er wordt dan een stuk geheugen gereserveerd waarin deze Motorboot wordt
-opgeslagen (op de manier zoals beschreven in hoofdstuk 3.3). In het stuk geheugen
-waar het object opgeslagen is, zitten alle gegevens van Motorboot (aantalPk),
-alle gegevens uit Boot (naam) en alles uit IVoertuig (Kenteken). Het
-type van de variabele geeft aan bij welke van deze gegevens je mag. In het geval
-van Motorboot betekent dit dat je bij alle gegevens mag.
-Stel dat je nu de volgende code hebt:
+A piece of memory is then reserved in which this Motorboat is
+stored (in the manner described in section 3.3). The piece of memory
+where the object is stored contains all the data from Motorboat (number of HP),
+all data from Boat (name) and everything from IV Vehicle (registration number). The
+type of the variable indicates which of these data you are allowed to access. In the case
+of Motorboat this means that you can access all data.
+Now suppose you have the following code:
 
 ```cs
-Motorboot yamaha = new Motorboot();
-Boot boot = yamaha;
-IVoertuig voertuig = yamaha;
+Motorboat yamaha = new Motorboat();
+Boat boat = yamaha;
+IVvehicle vehicle = yamaha;
 ```
 
-Er is nu een stuk geheugen gereserveerd waarin de Motorboot is opgeslagen.
-De variabele yamaha bevat een referentie naar dit stuk geheugen. De regel code
-waarin de boot variabele wordt aangemaakt, bevat een referentie naar hetzelfde
-stuk geheugen als de motorboot, maar als je de variabele boot gebruikt kun
-je niet meer bij het aantalPk. Hetzelfde geldt voor de variabele voertuig: je
-kunt nu alleen nog bij het Kenteken, ondanks dat de verwijzing naar het stuk
-geheugen is waar alle data staat.
+There is now a piece of memory reserved in which the Motorboat is stored.
+The variable yamaha contains a reference to this piece of memory. The line of code
+in which the boat variable is created contains a reference to the same
+piece of memory as the motorboat, but if you use the variable boat you cannot
+you can no longer access the number of HP. The same goes for the variable vehicle: you
+can now only access the Registration number, even though the reference is to the piece of
+memory is where all the data is.
 
-#### Beperkingen
+#### Restrictions
 
-In het voorbeeld van de Motorboot werd een motorboot aangemaakt, waarna deze als Boot en IVoertuig gebruikt werd. Andersom kan dit niet. De volgende code zal dus niet compilen:
+In the Motorboat example, a motorboat was created, then used as Boat and IV Vehicle. You cannot do this the other way around. Thus, the following code will not compile:
 
 ```cs
-Boot boot = new Boot();
-Motorboot yamaha = boot;
+Boat boat = new Boat();
+Engine boat yamaha = boat;
 ```
 
-De reden hiervan is dat het geheugen wat gereserveerd is wel de gegevens van
-Boot en IVoertuig bevat, maar niet van Motorboot. Als je dat geheugen dan
-wilt benaderen als Motorboot zou er een stukje geheugen moeten zijn waarin
-het aantalPk opgeslagen is, maar dit is er niet.
-Wat ook niet kan is het volgende:
+The reason is that the reserved memory contains the data of
+Boat and IV Vehicle, but not Motorboat. If you then
+access that memory as Motorboat there should be a piece of memory in which
+the number of HP is stored, but this is not there.
+What is also not possible is the following:
 
 ```cs
 Boot boot = new Boot();
 Auto auto = boot;
 ```
-Hier geldt ongeveer hetzelfde: In het geheugen is wel IVoertuig en Boot beschikbaar,
-maar niet Auto. Hierdoor is het niet mogelijk het geheugen te benaderen
-alsof het een auto is.
+Here is about the same: In memory, IV Vehicle and Boot are available,
+but not Auto. Because of this, it is not possible to access the memory
+as if it were a car.
 
 
 ### Software Architecture
 
-Zie de site:
+See site:
 
 [http://aosabook.org/en/index.html](http://aosabook.org/en/index.html)

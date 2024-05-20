@@ -1,9 +1,9 @@
-# Training - Listmethodes - Raad het getal
+Training - List methods - Guess the number
 
-We gaan een spel maken waar de speler moet gokken welke getallen er in willekeurig getrokken reeks voorkomen. Laat op voorhand de speler kiezen tussen welke grenzen de getallen mogen komen te liggen en geef hem of haar de mogelijkheid om het aantal getrokken getallen in te stellen. Het maximum minus het minimum moet twee maal zo groot zijn als het aantal getallen dat getrokken gaat worden. Anders is het spelletje te gemakkelijk.
+We are going to create a game where the player has to guess which numbers appear in a randomly drawn sequence. Let the player choose in advance between which boundaries the numbers can be and give him or her the possibility to set the number of drawn numbers. The maximum minus the minimum must be twice as large as the number of numbers to be drawn. Otherwise, the game is too easy.
 
-Wanneer het spelletje wordt gestart met de door de speler ingevoerde spelparameters kan er geraden worden. Er zal moeten worden gekeken of het getal dat de speler ingeeft in de lijst van willekeurige getallen voorkomt. Zo ja, dan moet deze uit de lijst worden verwijderd. Zo niet, dan moet de applicatie dit laten weten.
+When the game is started with the game parameters entered by the player, guessing can begin. It will have to be checked whether the number entered by the player appears in the list of random numbers. If so, it must be removed from the list. If not, the application must let the player know.
 
-Wanneer alle getallen uit de lijst zijn verwijderd moet er een melding door de applicatie worden gegeven dat de speler heeft gewonnen. Als je jezelf helemaal te buiten wilt gaan mag je de speler ook nog een aantal levens geven. Bij elke fout die de gebruiker maakt gaat er een leven van het totaal af. Wanneer het aantal levens op 0 staat heeft de speler verloren en wordt er Game Over weergegeven door het spel.
+When all numbers have been removed from the list, the application must notify the player that they have won. If you want to go all out, you can also give the player a number of lives. With each mistake the user makes, one life is deducted from the total. When the number of lives reaches 0, the player has lost and the game displays Game Over.
 
-Probeer het spel er grafisch leuk uit te laten zien.
+Try to make the game look visually appealing.

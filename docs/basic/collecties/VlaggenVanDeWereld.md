@@ -1,7 +1,7 @@
-# Training - Listmethodes - Vlaggen van de wereld
+# Training - List methods - Flags of the World
 
-Maak een applicatie waarmee een gebruiker vlaggen kan maken. Een vlag bestaat uit drie kleuren. Deze drie moeten in een array worden opgeslagen. Wanneer een gebruiker drie kleuren heeft gekozen (een voor de bovenste balk, een voor de middelste en een voor de onderste) kan hij de vlag vervolgens invoeren in het systeem. De vlaggen worden opgeslagen in een List. Geef elke vlag ook een naam (van een fictief land). Dubbele landen mogen niet voorkomen in de lijst van vlaggen. 
+Create an application that allows a user to create flags. A flag consists of three colors. These three colors must be stored in an array. Once a user has chosen three colors (one for the top bar, one for the middle, and one for the bottom), they can then enter the flag into the system. The flags are stored in a List. Also, give each flag a name (of a fictional country). Duplicate countries should not appear in the list of flags.
 
-De gebruiker moet ook een vlag kunnen selecteren en bekijken. Wanneer er een vlag is geselecteerd worden de kleuren van de vlag afgebeeld op het scherm. 
+The user should also be able to select and view a flag. When a flag is selected, the colors of the flag are displayed on the screen.
 
-Zorg er voor dat de gebruikers interface zo intuïtief mogelijk is opgezet. Het moet bijvoorbeeld ook op een mobile device te bedienen zijn.
+Ensure that the user interface is set up as intuitively as possible. It should also be operable on a mobile device, for example.

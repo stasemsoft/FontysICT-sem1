@@ -1,16 +1,16 @@
 # Training - List - Ticketmeester
 
-Je werkt als software developer bij het bekende bedrijf "Ticketmeester". Bij Ticketmeester worden online concerttickets verkocht voor uitlopende concerten. 
+You work as a software developer at the well-known company "Ticketmeester". At Ticketmeester, online concert tickets are sold for a variety of concerts.
 
-Maak een applicatie waar de koper tickets kan kopen voor een concert. 
-Laat in een overzicht zien welke tickets er zijn verkocht. Deze tickets moeten op alfabet gesorteerd zijn. Maak gebruik van een List waar strings inzitten. 
+Create an application where the buyer can purchase tickets for a concert.
+Show an overview of the tickets that have been sold. These tickets should be sorted alphabetically. Use a List containing strings.
 
 ![Ticketmeester](figures/Ticketmeester-ui.png)
 
-## Uitbreidingen
-- Voeg er een knop aan toe waar de gebruiker zijn tickets kan sorteren op alfabet ascending en descending.
-- Voeg een extra veld toe zodat de gebruiker kan kiezen voor een sta- of zitplaats.
-- Voor de diehards: maak van de strings een losse ticket object. Hierdoor kan je meer gegevens gebruiken.
+## Extensions
+- Add a button where the user can sort their tickets alphabetically in ascending and descending order.
+- Add an additional field so the user can choose between a standing or seated ticket.
+- For the diehards: create a separate ticket object from the strings. This way, you can use more data.
 
-## Bronnen
+## Resources
 - List Sort https://www.dotnetperls.com/sort

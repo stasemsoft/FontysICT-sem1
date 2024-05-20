@@ -1,168 +1,338 @@
-# Naslag basiskennis: Keuzestructuren in C#
+# Afterword basics: Choice structures in C#
 
-Als een stukje code soms wel en soms niet moet worden uitgevoerd,
-dan heb je een `if` of `if … else` `statement` nodig.
-Moet een stukje code soms één keer en soms vaker worden herhaald,
-dan heb je een `for` of `while` `statement` nodig.
+  
+
+If a piece of code should be executed sometimes and sometimes not,  
+
+then you need an `if` or `if ... else` `statement`.  
+
+If a piece of code should sometimes be repeated once and sometimes more often,  
+
+then you need a `for` or `while` `statement`.
+
+  
 
 ### if-statement
 
-Deze structuur wordt gebruikt om een stukje code uit te voeren
-afhankelijk van een bepaalde situatie (de `conditie` genoemd).
-Algemene vorm:
+  
 
-```cs
-if ([conditie])
-{
-  [Uit te voeren code als conditie waar is]
-}
+This structure is used to execute a piece of code  
+
+depending on a particular situation (called the `condition`).  
+
+Common form:
+
+  
+
+```cs  
+
+if ([condition])  
+
+{  
+
+[Code to be executed if condition is true]]  
+
+}  
+
 ```
 
-waarbij `conditie` is een stelling die de waarde
-`true` (*waar*) of `false` (*niet waar*) heeft.
+  
 
-Voorbeelden van condities:
+Where `condition` is a statement that has the value  
 
-| Conditie | Betekenis |
-| --- | --- |
-| true | Waar |
-| false | Niet waar |
-| i > 5 | Is i groter dan 5? |
-| i < 7 | Is i kleiner dan 7? |
-| i >= 1 | Is i groter of gelijk aan 1? |
-| i <= 2 | Is i kleiner of gelijk aan 2? |
-| i  == 3 | Is i precies gelijk aan 3? |
-| i  != 3 | Is i ongelijk aan 3? |
-| stukjeText == "abcde" | Is stukjeText precies gelijk aan "abcde"? |
-| stukjeText < "abcde" | Komt stukjeText eerder in het alphabet dan "abcde"? |
-| etc. |  |
+`true` (*true*) or `false` (*not true*).
+
+  
+
+Examples of conditions:
+
+  
 
 
-Verder staat *[Uit te voeren code als conditie waar is]* voor
-een stukje code (dit kunnen meerdere regels code zijn)
-dat moet worden uitgevoerd als de conditie `true` (*waar*) is.
-Als precies één regel code moet worden uitgevoerd zou je ervoor
-kunnen kiezen de accolades openen en sluiten weg te laten,
-maar dit maakt de kans op bugs een stuk groter,
-dus dat raden we af.
+| Condition | Meaning |  
 
-### if … else … statement
+| --- | --- |  
 
-Een if statement kan uitgebreid worden met een &quot;else&quot; blok. Als de conditie niet &quot;waar&quot; oplevert dan wordt de code in het else blok uitgevoerd.
-Algemene vorm:
-```cs
-if ([conditie])
-{
-[Uit te voeren code als conditie waar is]
-}
-else
-{
- [Uit te voeren code als conditie niet waar is]
-}
+| true | True |  
+
+| false | not true  
+
+| i > 5 | Is i greater than 5?  
+
+| i < 7 | Is i smaller than 7?  
+
+| i >= 1 | Is i greater than or equal to 1?  
+
+| i <= 2 | Is i less than or equal to 2?  
+
+| i == 3 | Is i exactly equal to 3?  
+
+| i != 3 | Is i unequal to 3?  
+
+| pieceText == “abcde” | Is pieceText exactly equal to “abcde”? |  
+
+| pieceText < “abcde” | Is pieceText earlier in the alphabet than “abcde”? |  
+
+| etc. |.
+
+
+
+  
+
+  
+
+Furthermore, *[Code to be output if condition is true]* represents  
+
+A piece of code (this can be several lines of code)  
+
+to be executed if the condition is `true` (*true*).  
+
+If exactly one line of code is to be executed, you could choose to  
+
+choose to omit the open and close curly braces,  
+
+but this increases the chance of bugs,  
+
+so we advise against it.
+
+  
+
+### if ... else ... statement
+
+  
+
+An if statement can be extended with an &quot;else&quot; block. If the condition does not return &quot;true&quot; then the code in the else block is executed.  
+
+Common form:  
+
+```cs  
+
+if ([condition])  
+
+{  
+
+[Code to be executed if condition is true]]  
+
+}  
+
+else  
+
+{  
+
+[Code to execute if condition is not true] }  
+
+}  
+
 ```
 
-Merk op: of de conditie nu wel of niet waar is, altijd wordt één van de twee stukjes code uit-ge-voerd.
+  
 
-### Voorbeelden "if …" statement en "if … else …" statement
+Note: whether the condition is true or false, one of the two pieces of code is always executed.
 
-```cs
-if (true)
-{
-	TextBox1.Text = "test";
-}
+  
+
+### Examples “if ...” statement and “if ... else ...” statement
+
+  
+
+```cs  
+
+if (true)  
+
+{  
+
+TextBox1.Text = “test”;  
+
+}  
+
 ```
 
-Het stukje code tussen { en } wordt altijd uitgevoerd,
-dus de `Text` van de *TextBox* wordt altijd &quot;test&quot; gemaakt.
-```cs
-if (false)
-{
-	TextBox1.Text = "test";
-}
+  
+
+The bit of code between { and } is always executed,  
+
+so the `Text` of the *TextBox* is always made &quot;test&quot;.  
+
+```cs  
+
+if (false)  
+
+{  
+
+TextBox1.Text = “test.”  
+
+}  
+
 ```
 
-Het stukje code tussen { en } wordt nooit uitgevoerd.
-```cs
-bool b = true;
-if (b)
-{
-	TextBox1.Text = "test";
-}
+  
+
+The bit of code between { and } is never executed.  
+
+```cs  
+
+bool b = true;  
+
+if (b)  
+
+{  
+
+TextBox1.Text = “test”;  
+
+}  
+
 ```
 
-Als `b` de waarde `true` (= *waar*)
-heeft wordt de `Text` in de *TextBox* &quot;test&quot;  gemaakt.
-Dit is hier nu altijd het geval omdat in dit stukje code
-aan variabele `b` alleen de waarde &quot;true&quot; wordt toegekend.
-```cs
-int i = 10;
-if (i < 5)
-{
-  i  = i + 1;
-}
+  
+
+If `b` has the value `true` (= *true*)  
+
+has, the `Text` in the *TextBox* is created &quot;test&quot;.  
+
+This is always the case here now because in this piece of code  
+
+variable `b` is only assigned the value &quot;true&quot;.  
+
+```cs  
+
+int i = 10;  
+
+if (i < 5)  
+
+{  
+
+i = i + 1;  
+
+}  
+
 ```
 
-Als getal `i` kleiner dan 5 is,
-dan wordt bij de waarde van `i` één opgeteld,
-anders gebeurt er niets.
-```cs
-TextBox1.Text = "test2";
-if (TextBox1.Text !=  "test")
-{
-  TextBox1.Text = "test3";
-}
+  
+
+If number `i` is less than 5,  
+
+then one is added to the value of `i`,  
+
+otherwise nothing happens.  
+
+```cs  
+
+TextBox1.Text = “test2”;  
+
+if (TextBox1.Text != “test”)  
+
+{  
+
+TextBox1.Text = “test3”;  
+
+}  
+
 ```
 
-Als de tekst in de textbox niet gelijk is aan &quot;test&quot; (dat is hier het geval) dan wordt de tekst van de textbox veranderd in &quot;test3&quot;.
-```cs
-if (true)
-{
-	TextBox1.Text = "test";
-}
-else
-{
-	TextBox1.Text = "test2";
-}
+  
+
+If the text in the textbox is not equal to &quot;test&quot; (which is the case here) then the text of the textbox is changed to &quot;test3&quot;.  
+
+```cs  
+
+if (true)  
+
+{  
+
+TextBox1.Text = “test”;  
+
+}  
+
+else  
+
+{  
+
+TextBox1.Text = “test2”;  
+
+}  
+
 ```
 
-Het stukje code tussen de eerste { en } wordt altijd uitgevoerd,
-dus de `Text` van de `TextBox` wordt altijd &quot;test&quot; gemaakt.
-Het stukje code tussen de tweede { en } wordt nooit uitgevoerd.
-```cs
-int i = 5;
-if (i >= 10)
-{
-  i  = i + 1;
-}
-else
-{
-  i = i + 5;
-}
+  
+
+The piece of code between the first { and } is always executed,  
+
+so the `Text` of the `TextBox` is always made &quot;test&quot;.  
+
+The piece of code between the second { and } is never executed.  
+
+```cs  
+
+int i = 5;  
+
+if (i >= 10)  
+
+{  
+
+i = i + 1;  
+
+}  
+
+else  
+
+{  
+
+i = i + 5;  
+
+}  
+
 ```
 
-Als getal *i* groter of gelijk aan `10` is
-dan wordt bij getal *i* `1` opgeteld.
-Dit is hier niet het geval, dus wordt bij *i* `5` opgeteld.
-Resultaat: *i* krijgt de waarde `10`.
-```cs
-int i = 5;
-if (i >= 10)
-{
-  i  = i + 1;
-}
-else
-{
-  i = i + 5;
-  if (i >= 10)
-  {
-    i = 20;
-  }
-}
+  
+
+If number *i* is greater than or equal to `10  
+
+then to number *i* `1` is added.  
+
+This is not the case here, so to *i* `5` is added.  
+
+Result: *i* is given the value `10`.  
+
+```cs  
+
+int i = 5;  
+
+if (i >= 10)  
+
+{  
+
+i = i + 1;  
+
+}  
+
+else  
+
+{  
+
+i = i + 5;  
+
+if (i >= 10)  
+
+{  
+
+i = 20;  
+
+}  
+
+}  
+
 ```
 
-Als getal *i* groter of gelijk aan `10` is
-dan wordt bij getal *i* `1` opgeteld.
-Dit is hier niet het geval, dus wordt bij *i* `5` opgeteld.
-Resultaat: *i* krijgt de waarde `10`,
-vervolgens wordt gecontroleerd of `i >= 10`,
-dat is nu het geval dus krijgt *i* uiteindelijk de waarde `20` toegekend.
+  
+
+If number *i* is greater than or equal to `10`  
+
+then to number *i* `1` is added.  
+
+This is not the case here, so to *i* `5` is added.  
+
+Result: *i* is given the value `10`,  
+
+then we check whether `i >= 10`,  
+
+which is now the case so *i* is finally assigned the value `20`.

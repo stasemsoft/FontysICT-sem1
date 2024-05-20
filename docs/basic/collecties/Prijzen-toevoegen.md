@@ -1,16 +1,16 @@
-# Training - List - Prijzen toevoegen
+# Training - List - Adding Prices
 
-Voeg een aantal prijzen toe in onderstaand stukje code, op de plek waar het commentaar staat. Herschrijf de for\-loop naar een foreach herhalingsstructuur. Controleer je nieuwe code in een C# project. 
+Add some prices in the piece of code below, where the comment is. Rewrite the for-loop to a foreach repetition structure. Check your new code in a C# project.
 
 ```csharp
-List<double> prijzen = new List<double>(); 
-double totaalPrijs = 0.0; 
-// Hier moet je nog een aantal prijzen (doubles) aan de List toevoegen. 
+List<double> prices = new List<double>(); 
+double totalPrice = 0.0; 
+// You still need to add some prices (doubles) to the List here. 
 
-for(int i = 0; i <= prijzen.Count; i++) 
+foreach(double price in prices) 
 { 
-	totaalPrijs = totaalPrijs + prijzen[i]; 
+	totalPrice += price; 
 } 
 
-Console.Out.WriteLine("De totaalprijs is " + totaalPrijs.ToString("C"));
+Console.Out.WriteLine("The total price is " + totalPrice.ToString("C"));
 ```

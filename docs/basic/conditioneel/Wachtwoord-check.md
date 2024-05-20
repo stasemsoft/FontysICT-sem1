@@ -1,10 +1,10 @@
 
-# Training - Wachtwoord check
+# Training - Password check
 
-Schrijf een programma dat voldoet aan de volgende requirements:
-1. Gebruiker kan een wachtwoord invullen (wachtwoord is niet zichtbaar, er staan bolletjes of sterretjes). Na het invullen van het wachtwoord klikt de gebruiker op een knop. 
-2. Een panel geeft met 4 kleuren aan hoe sterk het wachtwoord is. Indien het wachtwoord sterk is dan is het panel groen, middelmatig sterk dan is het geel, zwak dan is het panel rood en heel zwak dan is het panel zwart. a. Sterk (groen): er zit een cijfer 1, 2 of 3 in het wachtwoord EN het wachtwoord heeft een lengte groter dan 3. 
-	1. Sterk (groen): er zit een cijfer 1, 2 of 3 in het wachtwoord EN het wachtwoord heeft een lengte groter dan 3. 
-	2. Zwak (rood): er zit geen cijfer 1, 2 of 3 in het wachtwoord EN het wachtwoord heeft een lengte groter dan 3. 
-	3. Zeer zwak (zwart): de lengte van het wachtwoord is korter dan 3 karakters. 
-	4. Middelmatig (geel): alle overige gevallen. 
+Write a program that meets the following requirements:
+1. User can enter a password (password is not visible, there are bullets or asterisks). After entering the password, user clicks a button. 
+2. A panel indicates with 4 colors how strong the password is. If the password is strong then the panel is green, moderately strong then it is yellow, weak then the panel is red and very weak then the panel is black. a. Strong (green): there is a number 1, 2 or 3 in the password AND the password has a length greater than 3. 
+	1. Strong (green): there is a digit 1, 2 or 3 in the password AND the password has a length greater than 3. 
+	2. Weak (red): there is no digit 1, 2 or 3 in the password AND the password has a length greater than 3. 
+	3. Very weak (black): the length of the password is shorter than 3 characters. 
+	4. Medium (yellow): all other cases. 

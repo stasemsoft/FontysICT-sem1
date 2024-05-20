@@ -1,35 +1,34 @@
-# Training Calorieën-tracker
+# Training Calorie Tracker
 
-Voor je gezondheid is het belangrijk om in de gaten te houden hoeveel calorieën je dagelijks nodig hebt. Jouw taak is een applicatie te maken die uitrekent hoeveel calorieën de gebruiker dagelijks nodig heeft.
+For your health, it is important to keep track of how many calories you need daily. Your task is to create an application that calculates how many calories the user needs daily.
 
-## Analyse
-Je collega heeft een vooronderzoek uitgevoerd en de volgende informatie verzameld:
+## Analysis
+Your colleague has conducted a preliminary study and collected the following information:
 
-- Een vrouw heeft per dag gemiddeld 2.000 kilocalorieën (kcal) nodig. Voor de man is dat gemiddeld 2.500 kcal per dag (bron voedingscentrum).
-- Maar als je een niet-actieve levensstijl hebt (als je minder dan 30 minuten per dag beweegt) dan heb je 10% minder calorieën nodig.
-- En als je boven de 50 bent dan heb je 200 kilocalorieën minder nodig.
+- On average, a woman needs 2,000 kilocalories (kcal) per day. For a man, it is 2,500 kcal per day (source: Voedingscentrum).
+- But if you have a sedentary lifestyle (if you move less than 30 minutes a day), then you need 10% fewer calories.
+- And if you are over 50, you need 200 kilocalories less.
 
-*Tip: je ziet in deze analyse twee keer het woord ALS staan. Dat worden in C# vermoedelijk if statements*
+*Tip: you see the word IF twice in this analysis. These are likely if statements in C#.*
 
-## Ontwerp
-Het ontwerp voor de user interface is reeds gedaan. De gebruiker kan met een radiobutton zijn/haar geslacht en levensstijl aangeven, zijn/haar leeftijd invullen en op de knop
-**Bereken** klikken. Nadat er op die knop is geklikt verschijnt de caloriebehoefte in beeld (hoe dat mag jij weten: met een messagebox of je voegt een label toe op het form).
+## Design
+The design for the user interface has already been done. The user can indicate their gender and lifestyle with a radiobutton, enter their age, and click the **Calculate** button. After clicking that button, the calorie requirement will appear on the screen (how you do that is up to you: with a messagebox or by adding a label to the form).
 
-![Aangeleverd ontwerp user interface](figures/Calorieen-tracker-ui.png)
+![Supplied design of the user interface](figures/Calorieen-tracker-ui.png)
 
-## Realisatie
-Programmeer de applicatie. Probeer van te voren een stappenplan te maken hoe je dit gaat aanpakken. Bijvoorbeeld:
-1. Ik ga eerst het scherm (het form) maken met de groupboxen, radiobuttons, enz.
-2. Dan programmeer ik eerst een applicatie die kijkt of iemand een man of vrouw is en laat ik als antwoord 2000 of 2500 zien.
-3. Ik heb nu de uitkomst (2000 of 2500) in een variabele staan. Nu ga ik kijken naar de radiobuttons voor de levensstijl. Als (if-statement) hij **Niet Actief** kiest dan haal ik 10% van de uitkomst af. En ik laat dan die uitkomst zien.
-4. Nu ga ik kijken wat zijn leeftijd is. Ik haal de leeftijd op uit de textbox en zet die in een variable. Als dat hoger is dan 50 dan trek ik nog eens 200 af van de uitkomst.
+## Implementation
+Program the application. Try to make a plan beforehand on how you will approach this. For example:
+1. First, I will create the screen (the form) with the group boxes, radiobuttons, etc.
+2. Then I will program an application that checks if someone is a man or a woman and shows 2000 or 2500 as the answer.
+3. I now have the outcome (2000 or 2500) stored in a variable. Now I will look at the radiobuttons for the lifestyle. If (if statement) he chooses **Not Active**, I will subtract 10% from the outcome. And then I will show that outcome.
+4. Now I will check what his age is. I will get the age from the textbox and store it in a variable. If it is over 50, I will subtract another 200 from the outcome.
 
-*Tip: het voordeel van dit stappenplan is dat je vanaf stap 2 elke keer een werkende applicatie hebt.*
+*Tip: the advantage of this plan is that from step 2 onwards, you will have a working application each time.*
 
-Je hebt nu een werkende applicatie en kunt deze bij de klant opleveren.
+You now have a working application and can deliver it to the customer.
 
-## Onderhoud
-Na een half jaar komt de klant terug en wil hij een aantal nieuwe features aan je applicatie toegevoegd zien.
-- Als de leeftijd van de gebruiker kleiner is dan 12 dan moet het aantal calorieën nog eens met 180 vermindert worden.
-- Zwangere vrouwen in de leeftijd tot en met 30 jaar hebben 2600 calorieën nodig en zwangere vrouwen boven de 30 hebben 2500 calorieën nodig. Zorg ervoor dat de gebruiker kan invullen of ze zwanger is of niet en pas de berekening aan.
-- Testen: test of je met jouw applicatie ook een zwangere man kunt zijn. Zo niet, dan heb je dat goed geprogrammeerd.
+## Maintenance
+After six months, the customer comes back and wants to see a number of new features added to your application.
+- If the user's age is less than 12, the number of calories should be reduced by another 180.
+- Pregnant women aged up to 30 need 2600 calories and pregnant women over 30 need 2500 calories. Make sure the user can indicate if they are pregnant or not and adjust the calculation.
+- Testing: test if with your application you can also be a pregnant man. If not, then you have programmed it correctly.

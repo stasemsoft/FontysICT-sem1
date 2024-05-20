@@ -1,48 +1,47 @@
-# Training - Array - Televisie
+# Training - Array - Television
 
-We gaan een televisieapplicatie maken. In deze televisieapplicatie moet je kunnen zien of de TV aan of uit staat en zien welke zenders bekeken kunnen worden. 
+We are going to create a television application. In this television application, you should be able to see whether the TV is on or off and see which channels can be viewed.
 
 
-## Deel 1 - De televisie aan en uit
-De eerste stap is om een form met twee radiobuttons met de waarde "aan" en "uit" (rbAan en rbOff) te maken. Daarnaast een picturebox met een televisie en daarboven op een label (tbStatus). Wanneer de radiobutton "aan" staat moet de label naar "Aan" gaan en wanneer de radiobutton "uit" staat moet de label naar "Uit" gaan. Deze status onthoud je ergens met een boolean.
+## Part 1 - Turning the television on and off
+The first step is to create a form with two radio buttons with the values "on" and "off" (rbOn and rbOff). Additionally, add a picture box with a television image and a label above it (tbStatus). When the radio button "on" is selected, the label should display "On", and when the radio button "off" is selected, the label should display "Off". Remember this status somewhere using a boolean.
 
-![Deel 1](figures/Televisie-ui-deel-1.png)
+![Part 1](figures/Television-ui-part-1.png)
 
-## Deel 2 - Zenders toevoegen
-Als je televisie kijkt is het belangrijk om te weten welke zenders je kunt bekijken. De televisie kan maximaal 100 zenders hebben. Omdat het maximale zenders vaststaat ga je gebruik maken van een array van strings. Hiervoor ga je een lege array aanmaken met ruimte voor 100 items. Zodoende heb je genoeg plek voor extra zenders in de toekomst. Hoe doe je dit?
+## Part 2 - Adding channels
+When watching television, it is important to know which channels you can view. The television can have a maximum of 100 channels. Since the maximum number of channels is fixed, you will use an array of strings. To do this, create an empty array with space for 100 items. This way, you have enough room for additional channels in the future. How do you do this?
 
 ```csharp
-string[] zenders = new string[100];
+string[] channels = new string[100];
 ```
 
-Je kunt hier nu ook zenders aan toe voegen:
+You can now add channels to this array:
 ```csharp
-string[] zenders = new string[100];
-zenders[0] = "NPO1";
-zenders[1] = "NPO2";
-zenders[2] = "NPO3";
+string[] channels = new string[100];
+channels[0] = "NPO1";
+channels[1] = "NPO2";
+channels[2] = "NPO3";
 ```
-Je ziet dat er wordt begonnen op positie 0 (zenders[/0]). 
+You can see that it starts at position 0 (channels[0]).
 
-## Deel 3 - Zenders laten zien in een listbox
-De volgende stap is om dit  te laten zien met een listbox in je applicatie. Gebruik het voorbeeld hieronder en voeg een listbox lbZenders toe en laat de zenders uit de array zien.
+## Part 3 - Displaying channels in a listbox
+The next step is to display this in your application using a listbox. Use the example below and add a listbox lbChannels to display the channels from the array.
 
-![Deel 2](figures/Televisie-ui-deel-2.png)
+![[Televisie-ui-deel-2.png]]
+## Part 4 - Adding channels via a textbox
+Once you have done this, it is time to add some functionality. The user of the application should be able to add channels. First, create a textbox (tbChannel) and a button (btnAdd).
 
-## Deel 4 - Zenders toevoegen via een textbox
-Als je dit hebt gedaan is het nu tijd om er nog wat functionaliteit aan toe te voegen. De gebruiker van de applicatie moet zenders kunnen toevoegen. Hiervoor maak je eerst een  textbox (tbZender) en button (btToevoegen) aan. 
+![[Televisie-ui-deel-3.png]]
 
-![Deel 3](figures/Televisie-ui-deel-3.png)
+Then, create the method **public void AddChannel(string channel)**. This method allows you to add a channel to your array where all channels will be stored. Think about how to ensure that the channel can be stored at the correct position in the array.
 
-Daarna maak je de methode  **public void VoegZenderToe(string zender)** aan. Hiermee kun je een zender kunt toevoegen aan je array waar alle zenders in opgeslagen gaan worden. Denk na over hoe je ervoor zorgt dat de zender op de juiste positie in de array opgeslagen kan worden.
+## Part 5 - Channel surfing and displaying current channel
+If you have succeeded, create two additional buttons that allow you to surf to the next channel (btnNext) and the previous channel (btnPrevious), and a label (lblChannel) that shows which channel the television is currently on.
 
-## Deel 5 - Zappen en huidige zender laten zien
-Als dit is gelukt maak je nog twee extra buttons aan waarmee je een zender verder (btVerder) en terug (btTerug) kan "zappen" en een label (lbZender) waarin je laat zien op welke zender de televisie staat.
+![[Televisie-ui-deel-4.png]]
 
-![Deel 4](figures/Televisie-ui-deel-4.png)
-
-Maak **twee methodes** waarmee je een zender verder en terug kunt zappen. Het is handig om hiervoor een variabele int aan te maken die huidigeZender heet. Hier houd je bij welke zender er nu op staat. Maak ook een methode die **public string HaalHuidigeZenderOp()** heet. Deze laat de naam van de huidige zender zien.
+Create **two methods** to navigate to the next and previous channel. It is useful to create an integer variable called currentChannel to keep track of the current channel. Also, create a method called **public string GetCurrentChannel()**. This method displays the name of the current channel.
 
 
-### Uitbreiding
-Maak nu de grafische kant van de applicatie waarin je bovenstaande functionaliteit aan de GUI gaat koppelen. Pak als televisieprogramma bijvoorbeeld een plaatje of zo. Elke zender laat een ander plaatje zien.
+### Extension
+Now create the graphical part of the application where you will link the above functionality to the GUI. For example, use an image as a television program. Each channel displays a different image.

@@ -1,35 +1,34 @@
-# Training - Dobbelsteen
+# Training - Dices and Randomness
 
-Als je een game wilt programmeren dan stuit je zelfs bij de meest eenvoudige games (boter-kaas-en-eieren) op het probleem: hoe programmeer ik willekeur? Doe een willekeurige zet? Hoe programmeer je dat?
+If you want to program a game, even the simplest games (tic-tac-toe) encounter the problem: how do I program randomness? How do I make a random move? How do you program that?
 
-Om dit te ervaren ga je een klein programma schrijven waarmee je het willekeurige gedrag van een dobbelsteen simuleert. Als dit zogenaamde “proof-of-concept”-programma werkt weet je beter hoe je tijdens het ontwerpen rekening met de benodigde willekeur kunt houden en heb je meer zekerheid over de kans van slagen van de game.
+To experience this, you will write a small program that simulates the random behavior of a dice. If this so-called "proof-of-concept" program works, you will have a better understanding of how to consider the necessary randomness during design and have more certainty about the game's chances of success.
 
-## Opdracht
-Maak een user interface met 6 picturebox-en en een button die er zo uit ziet:
+## Assignment
+Create a user interface with 6 picture boxes and a button that looks like this:
+![[Dobbelsteen-ui.png]]
 
-![Aangeleverd ontwerp user interface](figures/Dobbelsteen-ui.png)
+There are six objects of type **PictureBox** and a "Roll dice!" button on the form. The **PictureBox** objects are all invisible when the program is running (the **Visible Property** is set to **false**).
 
-Er staan zes objecten van het type **PictureBox** een “Werp dobbelsteen!”-Button op het formulier. De **PictureBox**-objecten zijn allemaal onzichtbaar als het programma wordt uitgevoerd (de **Visible Property** staat op **false**).
+The goal is that every time the "Roll dice!" button is clicked, exactly one random PictureBox becomes visible. The other picture boxes become invisible. Program this functionality.
 
-Het is de bedoeling dat telkens als op de “Werp dobbelsteen!”-**Button** geklikt wordt, precies één willekeurige PictureBoxzichtbaar wordt. De andere pictureboxen worden dus onzichtbaar. Programmeer deze functionaliteit.
-
-## Uitbreidingen
-- Niveau * - Plaats alle **PictureBox**-objecten precies over elkaar heen (zo lijkt het alsof telkens dezelfde dobbelsteen opnieuw wordt gegooid).
-- Niveau ** - Maak gebruik van één switch statement (tip: Zoek op internet naar een bron) in plaats van verschillende “if … else … ” statements.
+## Extensions
+- Level * - Place all **PictureBox** objects exactly on top of each other (so it looks like the same dice is being rolled again each time).
+- Level ** - Use a single switch statement (tip: Search the internet for a source) instead of multiple "if ... else ..." statements.
 
 ## Checklist
-Als je de opdracht op de juiste manier hebt uitgevoerd heb je voldaan aan onderstaande punten:
-- Bij het starten van het programma zijn geen dobbelsteenafbeeldingen zichtbaar.
-- Bij een druk op de knop wordt precies één afbeelding van een dobbelsteen zichtbaar.
-- Bij de volgende druk op de knop wordt weer precies één afbeelding (dit kan toevallig dezelfde zijn) van een dobbelsteen zichtbaar.
-- Als je tientallen keren na elkaar op de knop klikt zie je de afbeeldingen voor dobbelsteen 1, 2, 3, 4, 5 en 6 in ieder geval één keer getoond worden.
-- Als je tientallen keren na elkaar op de knop klikt worden nooit twee afbeeldingen tegelijkertijd getoond.
-- Je hebt niet meer “if … else …” constructies gebruikt dan nodig.
-- Je hebt in iedere “if … else …” constructie in het “if” blok regels code staan.
-- Je hebt in iedere “if … else …” constructie in het “else” blok regels code staan of je hebt het “else” blok weggelaten.
-- Uitbreiding a: Ongeacht welke waarde wordt gegooid, de afbeelding met het aantal ogen wordt altijd op dezelfde plek getoond.
-- Uitbreiding b: Naast het “switch” statement heb je geen “if…else…” statements meer gebruikt en je hebt geen “default” case binnen het switch statement gebruikt.
+If you have completed the assignment correctly, you have met the following points:
+- When the program starts, no dice images are visible.
+- When the button is pressed, exactly one dice image becomes visible.
+- When the button is pressed again, exactly one image (this may happen to be the same one) of a dice becomes visible.
+- If you click the button dozens of times in a row, you will see the images for dice 1, 2, 3, 4, 5, and 6 shown at least once.
+- If you click the button dozens of times in a row, two images are never shown at the same time.
+- You have not used more "if ... else ..." constructs than necessary.
+- You have code lines in each "if ... else ..." construct in the "if" block.
+- You have code lines in each "if ... else ..." construct in the "else" block or you have omitted the "else" block.
+- Extension a: Regardless of the value rolled, the image with the number of eyes is always shown in the same place.
+- Extension b: Besides the "switch" statement, you have not used any more "if ... else ..." statements and you have not used a "default" case within the switch statement.
 
-## Bronnen
-- [Keuzestructuren](https://stasemsoft.github.io/softwarematerial/docs/basic/conditioneel/naslag_Keuzestructuren.html)
+## Resources
+- [Choice structures](https://stasemsoft.github.io/softwarematerial/docs/basic/conditioneel/naslag_Keuzestructuren.html)
 - [Random class Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/api/system.random?view=net-5.0)

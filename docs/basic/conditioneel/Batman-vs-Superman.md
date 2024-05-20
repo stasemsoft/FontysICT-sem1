@@ -1,13 +1,13 @@
 # Training - Batman vs Superman
 
-Batman en Superman hebben onenigheid gekregen. Ze beweren elk dat ze elkaar zouden kunnen verslaan in een gevecht. Jij moet ze helpen om te kijken wie er zou winnen. 
+Batman and Superman have had a disagreement. They each claim they could defeat the other in a fight. You must help them see who would win.
 
-Maak een applicatie en geef elk van de twee superhelden twee radio buttons. Batman heeft er twee die (1) Batarang en (2) Kung-fu heten. Superman heeft (1) Laser en (2) Superkracht. Elk van deze aanvallen delen schade uit aan de tegenstander. In onderstaande tabel zie je hoeveel schade. 
+Create an application and give each of the two superheroes two radio buttons. Batman has two named (1) Batarang and (2) Kung-fu. Superman has (1) Laser and (2) Superpower. Each of these attacks deals damage to the opponent. In the table below you can see how much damage.
 
-De batarang doet tussen de 1 en 8 schade. Kung-fu doet tussen de 5 en 7 schade. 
+The Batarang deals between 1 and 8 damage. Kung-fu deals between 5 and 7 damage.
 
-De laser doet tussen de 5 en 7 schade. Superkracht doet tussen de 6 en 9 schade. 
+The Laser deals between 5 and 7 damage. Superpower deals between 6 and 9 damage.
 
-Laat met een druk op de knop zien wie er heeft gewonnen bij het gebruik van bepaalde wapens.
+Press a button to show who has won when using certain weapons.
 
-![Aangeleverd ontwerp user interface](figures/Batman-vs-Superman-ui.png)
+![Provided user interface design](figures/Batman-vs-Superman-ui.png)

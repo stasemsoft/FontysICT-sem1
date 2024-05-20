@@ -1,14 +1,13 @@
-# Training - Array - Woordvervormer
+# Training - Array - Word distorter
 
-We gaan een woordvervormer maken. Maak een applicatie waar de gebruiker een woord kan invoeren. Tevens heeft de gebruiker de keus tussen de vervormopties “Spiegelen”, “Plussen” en “Onevenen”. Als de gebruiker op de knop met de tekst “Vervorm!” klikt moet zijn ingevoerde woord vervormd worden en moet hij het resultaat ervan zien. Hier volgt de uitleg van de verschillende opties in vervormen.
+We are going to create a word distorter. Create an application where the user can enter a word. The user also has the choice between the distortion options "Mirror", "Addition" and "Odd". When the user clicks on the button with the text "Distort!", their entered word should be distorted and they should see the result. Here is an explanation of the different distortion options.
 
-- Spiegelen: Het ingevoerde woord moet omgedraaid worden (“Hallo” wordt “ollaH”).
-- Plussen: Een a wordt een b, een b wordt een c, …, z wordt een a (“Hallo” wordt “Ibmmp”). 
-- Onevenen: Pak alleen de letters op oneven plekken in het woord (“Hallo” wordt “Hlo”).
+- Mirror: The entered word must be reversed ("Hello" becomes "olleH").
+- Addition: An a becomes a b, a b becomes a c, ..., z becomes an a ("Hello" becomes "Ifmmp").
+- Odd: Only take the letters at odd positions in the word ("Hello" becomes "Hlo").
 
-Er geldt nog een extra spelregel! Je mag bij Spiegelen geen gebruik maken van de _Reverse_ of andere string‐gerelateerde methodes. Anders is het geen uitdaging natuurlijk ;‐)
+There is an additional rule! You are not allowed to use the _Reverse_ or other string-related methods for the Mirror option. Otherwise, it wouldn't be a challenge, of course ;-)
 
-      
 ## Tips
-- Zie de strings als array’s en behandel ze als zodanig. Je kunt in C# van en naar char\[\] converteren. Vergeet de ASCII tabel niet voor het plussen.
-- Maak een class aan voor je vervormer. Wat voor eigenschappen en acties zouden daar handig voor zijn? Zie de Klassen module voor meer informatie over dit onderwerp. Als je daar nog niet aan toe bent kun je dit later altijd nog verbeteren.
+- See the strings as arrays and treat them as such. You can convert to and from char\[\] in C#. Don't forget the ASCII table for the addition.
+- Create a class for your distorter. What properties and actions would be useful there? See the Classes module for more information on this topic. If you're not ready for that yet, you can always improve it later.

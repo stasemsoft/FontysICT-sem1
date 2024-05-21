@@ -5,7 +5,7 @@
 
 You apply the following programming concepts and have examples showing that you control the following concepts:
 
-DIT IS GEEN AFVINK-LIJST!
+THIS IS NO CHECKLIST!
 
 * Variable
 * Conditional statement

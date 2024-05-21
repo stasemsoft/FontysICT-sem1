@@ -17,11 +17,11 @@ Take a look at this category and remember that so you can look it back later!
 
 ## Variable, assignment, typing, debugger: first steps in C#
 
-* [Presentation: Variabelen, bewerkingen en conversies](var/Variabelen-bewerkingen-conversies.pptx) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
+* [Presentation: Variables, operations and conversions](var/Variabelen-bewerkingen-conversies.pptx) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
 * [Tutorial: The Debugger](debugger/Debugger) ![Bas](../personas/figures/bas-xsmall.png) ![Inge](../personas/figures/inge-xsmall.png)
 * [Reference: variable](var/naslag_Variable) ![Bas](../personas/figures/bas-xsmall.png)
 * [Reference: operators](var/naslag_Operatoren) ![Bas](../personas/figures/bas-xsmall.png)
-* [Training: Goeroe-calc: variables, operations, conversions in Console](var/training_GoeroeCalc)
+* [Training: Guru-calc: variables, operations, conversions in Console](var/training_GoeroeCalc)
 or [ in winforms](var/training_GoeroeCalc_winforms) ![Bas](../personas/figures/bas-xsmall.png)
 * [Training: Software boss](var/training_softwareBaas) ![Bas](../personas/figures/bas-xsmall.png)
 * [Training: Euro Dollar converter](var/training_Euro-Dollar-Converter)   ![Bas](../personas/figures/bas-xsmall.png)

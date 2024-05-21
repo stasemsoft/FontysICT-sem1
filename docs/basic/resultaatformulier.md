@@ -1,7 +1,7 @@
 <!-- TRANSLATED by md-translate -->
-# Wat kan ik als ik de basis beheers?
+# Wat do I learn from these Basics?
 
-## Toelichting Oriënterend level
+## Info on the orienting level
 
 You apply the following programming concepts and have examples showing that you control the following concepts:
 

@@ -98,4 +98,9 @@ This covers some non-programming aspects that a beginning software engineer shou
 or in a
 + [Github-repository](https://github.com/stasemsoft/FontysICT-sem1) (pull requests with improvements welcome)
 
+### Origin
+
+These pages were originally in Dutch (which you could still see, mainly in pictures here and there...). 
+Cou can find the original pages at: 
+[https://stasemsoft.github.io/softwarematerial/](https://stasemsoft.github.io/softwarematerial/).
 

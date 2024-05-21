@@ -2,8 +2,8 @@
 # Starting points for this software material
 
 This is a collection (open) software material from FHICT (Fontys University of ICT). Find this material
-* [op Github pages](https://stasemsoft.github.io/softwarematerial/): leest prettiger.
-* [Github-repository](https://github.com/stasemsoft/softwarematerial).
+* [op Github pages](https://stasemsoft.github.io/FontysICT-sem1/): leest prettiger.
+* [Github-repository](https://github.com/stasemsoft/FontysICT-sem1).
 
 Types:
 The idea is that the material is increasingly structured on ideas by Daniele Procida:

@@ -101,6 +101,6 @@ or in a
 ### Origin
 
 These pages were originally in Dutch (which you could still see, mainly in pictures here and there...). 
-Cou can find the original pages at: 
-[https://stasemsoft.github.io/softwarematerial/](https://stasemsoft.github.io/softwarematerial/).
+You can find the original pages at: 
+[Originals in Dutch : https://stasemsoft.github.io/softwarematerial/](https://stasemsoft.github.io/softwarematerial/).
 

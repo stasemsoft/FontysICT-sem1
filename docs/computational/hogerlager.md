@@ -1,6 +1,6 @@
-# Getal raden / Hoger lager
+# Guess number / Higher lower
 
-Je kent dit spelletje voor 2 vast wel: de ander verzint een getal tussen 1 en 1000,
-jij mag een aantal maal raden, de ander vertelt steeds of het hoger of lager moet zijn.
+You probably know this game for 2: the other makes up a number between 1 and 1000,
+you can guess several times, the other tells whether it should be higher or lower.
 
-Maak een flow chart hoe jij dat slim aanpakt! 
+Make a flow chart of how you do it cleverly!

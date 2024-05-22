@@ -52,7 +52,8 @@ You can describe this algorithm in different ways. For orientation, we want you 
 
 A good exercise in creating an algorithm is the assignment 'algo01'. The document first explains something about 'flow charts', then you will create an algorithm for tic-tac-toe:
 
-+ [Algo01](https://stasemsoft.github.io/softwarematerial/docs/computational/algo01.pdf)
+[[algo01]]
+
 
 For people who have never programmed, tic-tac-toe is a great choice, but if you already have experience, or are very good: 4 in a row, checkers, chess, rubik's cube are possible alternatives! (If you choose 1 of these you might not get it completely finished)
 Maybe you can come up with something else yourself that gives you more of a challenge: Please consult with your teacher.

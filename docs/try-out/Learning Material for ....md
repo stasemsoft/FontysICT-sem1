@@ -33,11 +33,13 @@ studied in detail through various academic resources and online courses such as
 those provided by Coursera or edX.
 
 ## AI Applications - GPT, Models, and Techniques
-Staying updated on the latest advancements in artificial intelligence is
+
+- [AI miscellaneous](artificial-intelligence/ai)
+- Staying updated on the latest advancements in artificial intelligence is
 crucial for understanding its applications. The [Microsoft
 OpenAI](https://openai.com/) website offers insights into various AI
 technologies including Generative Pre-trained Transformer (GPT) models, and
-Tict Toole.
+Tict Tool.
 
 ## Security Standards: ISO 27001, GDPR, Intrusion Detection & Prevention
 Security best practices are fundamental in IT management. The

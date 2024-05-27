@@ -80,6 +80,11 @@ This covers some non-programming aspects that a beginning software engineer shou
 + [Software Engineering](https://stasemsoft.github.io/FontysICT-sem1/docs/software%20engineering/)
 
 
+### Learning material Artificial Intelligence
+
+- [AI - Artificial Intelligence](docs/artificial-intelligence/ai.md)
+
+
 ---
 
 ### The Profile 'ICT & Software Engineering' at Fontys ICT

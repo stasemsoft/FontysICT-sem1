@@ -5,7 +5,7 @@
 Who beats their opponents most effectively with their algorithm?
 
 
-![[Screenshot 2024-05-22 at 21.20.56.png]]
+![[figures/example.flow.chart.png]]
 
 
 # Software development
@@ -60,7 +60,7 @@ The final situation is: the player has placed his mark (cross or round) in an em
 Two different algorithms are (in Dutch): 
 See if you can understand what they mean: 
 
-![[Screenshot 2024-05-22 at 21.50.19.png]]
+![](figures/example.flows.tic.tac.toe.png)
 
 
 The first algorithm puts a cross in just any empty box. This one is not very clever, but the final situation is always correct: at least something is checked.

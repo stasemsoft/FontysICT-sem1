@@ -17,7 +17,8 @@
 
 - ## Prompt & co
 
-    - [https://www.deeplearning.ai/short-courses/ Great resource for courses!](https://www.deeplearning.ai/short-courses/)
+- [Prompting basics](https://www.promptingguide.ai/introduction/basics)
+- [https://www.deeplearning.ai/short-courses/ Great resource for courses!](https://www.deeplearning.ai/short-courses/)
 	
 - ## Hands-on: RAG - Retrieval Augmented Generation
 

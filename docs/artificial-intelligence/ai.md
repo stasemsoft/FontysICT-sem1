@@ -1,4 +1,4 @@
-# AI and GenAI learningmaterial, artificial intelligence
+# AI and GenAI, artificial intelligence
 
 - ## What is AI?
 
@@ -11,15 +11,18 @@
 	
 - ## Some background: LLM, GPT, Transformers
 
-    - A nice overview of how it evolved: [How AI learned to Talk (30 min)](https://www.youtube.com/watch?v=OFS90-FX6pg)
+    - Great interactive site: https://ig.ft.com/generative-ai/
+    - A nice overview of how it evolved: [How AI learned to Talk (30 min)](https://www.youtube.com/watch?v=OFS90-FX6pg)i
     - [But what is a GPT? (3Blue1Brown, youtube, 30 min)](https://www.youtube.com/watch?v=wjZofJX0v4M)
 
 - ## Prompt & co
 
+    - [https://www.deeplearning.ai/short-courses/ Great resource for courses!](https://www.deeplearning.ai/short-courses/)
+	
 - ## Hands-on: RAG - Retrieval Augmented Generation
 
     - [IBM, Marina Danilevsky (7 min)](https://www.youtube.com/watch?v=T-D1OfcDW1M)
-    - []()
+    - [https://www.deeplearning.ai/short-courses/ Great resource for courses!](https://www.deeplearning.ai/short-courses/)
 	
 - ## Adviced Resources to look at regularly
 	
@@ -30,10 +33,14 @@
     - [huggingface](https://huggingface.co/) Find (and try!) a lot of models here: Text-to-image, Image-to-text, Text-to-video, Visual questioning answering, Image classification, and lots and lots more!  Huggingface is a site to look at regularly: new models everyday!
         - Example:
 
-- ## Some more if you want a real dive
+- ## Some more, if you want 
 	
+	- https://github.com/aishwaryanr/awesome-generative-ai-guide
     - [Andy Clark about Active Interference: How the Brains shapes reality (60 min)](https://www.youtube.com/watch?v=A1Ghrd7NBtk)
-j
+	- https://www.youtube.com/watch?v=3-q5GzRNEe0
+	- How AI is changing education: https://www.youtube.com/watch?v=OaEk-ZYzh80
+	
+
 - ## Some sites, nice to play around with
 
     - https://skyreels.ai/

@@ -109,6 +109,7 @@ Someone draws a league on the board in which each team plays against every other
  If it says anywhere that a character is in a random spot, a random spot is actually chosen with a 9-sided die (e.g. http://dice.virtuworld.net/ ).
 
 
-![[Screenshot 2024-05-22 at 21.54.35.png]]
+
+![figures/team.schedule.png](figures/team.schedule.png)
 
 

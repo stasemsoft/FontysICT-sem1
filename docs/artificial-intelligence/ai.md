@@ -11,8 +11,8 @@
 	
 ## Some background: LLM, GPT, Transformers
 
-- Great interactive site (a workshop in itself!): https://ig.ft.com/generative-ai/
-- A nice overview of how it evolved: [How AI learned to Talk (30 min)](https://www.youtube.com/watch?v=OFS90-FX6pg)i
+- Great interactive site (a workshop in itself!): [https://ig.ft.com/generative-ai/](https://stasemsoft.github.io/FontysICT-sem1/docs/artificial-intelligence/ai.html)
+- A nice overview of how it evolved: [How AI learned to Talk (30 min)](https://www.youtube.com/watch?v=OFS90-FX6pg)
 - [But what is a GPT? (3Blue1Brown, youtube, 30 min)](https://www.youtube.com/watch?v=wjZofJX0v4M)
 
 ## Prompt & co

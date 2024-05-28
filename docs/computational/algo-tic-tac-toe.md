@@ -4,8 +4,8 @@
 
 Who beats their opponents most effectively with their algorithm?
 
+![](figures/example.flow.chart.png)
 
-![[figures/example.flow.chart.png]]
 
 
 # Software development

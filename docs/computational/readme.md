@@ -35,9 +35,9 @@ Can you count to 31 on one hand? Type **'count to 31 on one hand'** into your fa
 
 ### Guess number: higher lower
 
-[Higher lower](higher lower).
+- [higher/lower](hogerlager.md)
 
-##### Project Euler Challenge 79
+### Project Euler Challenge 79
 Project Euler challenges are often problems that are best solved with a computer. However, Euler79 can also be solved without the help of a laptop: on whiteboard, for example!
 
 + [ProjectEuler 79](https://projecteuler.net/problem=79)

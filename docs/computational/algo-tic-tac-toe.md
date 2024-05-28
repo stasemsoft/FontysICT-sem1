@@ -1,4 +1,3 @@
-# Algorithm for tic-tac-toe
 
 
 

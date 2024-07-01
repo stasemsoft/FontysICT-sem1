@@ -2,7 +2,7 @@
 # Starting points for this software material
 
 This is a collection (open) software material from FHICT (Fontys University of ICT). Find this material
-* [op Github pages](https://stasemsoft.github.io/FontysICT-sem1/): leest prettiger.
+* [op Github pages](https://stasemsoft.github.io/FontysICT-sem1/): for a nicer read experience.
 * [Github-repository](https://github.com/stasemsoft/FontysICT-sem1).
 
 Types:

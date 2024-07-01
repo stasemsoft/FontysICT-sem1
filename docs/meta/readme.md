@@ -16,12 +16,13 @@ Based on the youtube video [What nobody tells you about documentation (Daniele P
 
 At FHICT we distinguish further
 
-* "Training" (formerly _exercises_): 'finger exercises', are part of a piece of theory to practice, but are evidence to convince your teacher not to use.
-* "Fights": To convince your teacher that you don't only get it but also do it, you're going to come up with your own assignments, vary and expand on existing assignments!
+* "Training" (formerly _exercises_): 'finger exercises', these are meant to practice a piece of theory in practice, but not to use to convince your teacher.
+* "Challenges": To convince your teacher that you don't only get it but also do it, you're going to come up with your own assignments, vary and expand on existing assignments!
 
 Further principles:
 
-* The focus is on the concepts: We want to teach someone how and why to create a Class, not specifically in C# or Visual Studio!
-* Wherever possible we leave the programming language in the middle.
-* GUI (Graphical User Interface) is therefore less important, so no unnecessary time to spend.
+* The focus is on the concepts: We want to teach someone for example how and why to create a Class, not specifically in C# or Visual Studio! 
+* Wherever possible we keep it programming language agnostic.
+* For learning the OOP concepts the GUI (Graphical User Interface) is less important, so this material does not spend a lot of time on it. 
 * only copyright-free material in these repos!
+* Everyone is encouraged to give tips to improve! The pages all have an 'improve this page' link below! 

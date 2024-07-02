@@ -5,4 +5,4 @@ Some more possibilities for extension indicated in the recording.
 
 
 Sample code/possible elaboration:
-[het resultaat: Virusinator.zip](Virusinator.zip)
+[a possible result: Virusinator.zip](Virusinator.zip)

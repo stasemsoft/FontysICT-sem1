@@ -32,6 +32,7 @@ Rules:
 
 
 Starting with the string:
+
 '000000010111111000000', the next generations are: 
 
 '000000001001101100000', after that:
@@ -40,27 +41,20 @@ Starting with the string:
 
 '000000001011111100000' and so on. 
 
+
 It looks a little nicer if you work with space and "X," for example:
 
 "       X XXXXXX      "
-
 "        X  XX XX     "
-
 "         XX X X X    "
-
 "        X XXXXXX     "
-
 "         X  XX XX    "
-
 "          XX X X X   "
-
 "         X XXXXXX    "
-
 "          X  XX XX   "
-
 "           XX X X X  "
-
 "          X XXXXXX   "
+
 
 You can see that there is a shifting but repeating pattern in this.
 

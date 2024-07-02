@@ -5,49 +5,49 @@ Information for workshops and inspiration for more.
 
 ## Week schedule Workshops
 
-A possible weekly schedule for FHICT. During the Floor, software teachers are supposed to discuss within their cluster which workshops are done by whom (together?).
+A possible weekly schedule for FHICT. Teachers discuss within their cluster which workshops are done by whom (possibly together).
 
 ## Design Challenge (between orientation and floor)
 
-* git-workshop (versiebeheer)
+* git-workshop (version control)
 
-## Verdiepingsperiode
+## Deepening (or advanced) period
 
-### 1e week Verdieping
+### 1st week Deepening
 
 * [CRC workshop](../objects/crc/crc)
-* Overview inhoud van de verdieping
-* demo: introductie class / object / ctor
+* Overview deepening content. 
+* demo: introduction class / object / ctor
 
-### 2e week Verdieping
+### 2nd week deepening
 
 * demo: property & override ToString() (with repeat class / object / tor), for example [Crossing](Crossing)
 * Methods with (own) classes as parameter and return type.
 * from class diagram to code.
 
-### 3e week Verdieping
+### 3nd week deepening
 
 * 'as' / (Casting?) / ('is'?)
-* multipliciteit: class diagram vs code
+* multiplicity: class diagram vs code
 * [Compiler Error Quiz](errorquiz)
 * [Game of Life](conway)
-* demo: een wat groter voorbeeld met class/object/ctor/propg etc... bijvoorbeeld [Virusinator](Virusinator)
+* demo: a bigger example of class/object/ctor/propg etc... bijvoorbeeld [Virusinator](Virusinator)
 * [git-workshop](git)
 
-### 4e week Verdieping
+### 4e week deepening
 
 * unit test (game)
 * Read/write files
-* Database select/ insert/ update (Jeroen makes it)
+* Database select/ insert/ update
 * [Web Create API](webApi01_CS/MaakJeigenApi.pdf)
 * demo: preview S2: interfaces & inheritance
-(students may not be interested in this right before the deadline...)
+
 for the final profile selection
 * [GUI vs Domain](GuivsDomain)
 
-### Laatste weken Verdieping
+### Last weeks deepening
 
-Here we let the students work hard on the product because of the deadlines, possibly workshops on request or ad hoc.
+Students work hard on the product because of the deadlines, possibly workshops on request or ad hoc.
 
 * [99 bottles of beer on the wall](99 BottlesOfBeer)
 * [Compare OOP in other languages?](OOP_languages/)
@@ -56,9 +56,9 @@ Here we let the students work hard on the product because of the deadlines, poss
 3. PHP: Many students come into contact with PHP anyway.
 4... any other languages?
 
-## Sea inspiratie...
+## See inspiration...
 
-Loose ideas and unfinished workshops. Take advantage of it!
+Some ideas and unfinished workshops. Take advantage of it!
 
 * [Web Create API](webApi01_CS/MaakJeigenApi.pdf)
 * [Sinterklaas-demo-inspiration](inspi/SintEnPiet.zip)

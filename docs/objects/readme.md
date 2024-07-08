@@ -9,7 +9,7 @@
 ## Introduction to OOP
 
 + [Reference: How to program with objects? (hero vs monsters)](tutorial_Class)
-+ [Lijst C# terms](https://www.homeandlearn.co.uk/csharp/csharp.html)
++ [List C# terms](https://www.homeandlearn.co.uk/csharp/csharp.html)
 
 ## Classes, objecten en constructors
 

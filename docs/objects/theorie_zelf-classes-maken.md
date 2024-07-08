@@ -98,15 +98,15 @@ class Boat
 In this example you should see all the aspects that were described in the piece of text above. This is how to create a class! This can be done very easily in Visual Studio by right-clicking on your C# project in the Solution Explorer and choosing 'Add' > 'Class'. Now you can enter a name for your class and you're done. Now you can add fields and methods. Just like with your form.
 
 ```cs
-Boot boot = new Boot();
+Boat boat = new Boat();
 boat.Sailing(100);
-MessageBox.Show("The speed is " ``+ boot.GetSpeed());
+MessageBox.Show("The speed is " ``+ boat.GetSpeed());
 ```
 
-In the above example, you can see how to use a class of your own creation. Proprietary just like a variable of type Random. You create a variable of the appropriate type (in this case Boot) and initialize it with the `constructor` (which is a kind of method with the same name as the class). This all happens on the first line of the above piece of code. Now you can use the variable! You can call methods from it, such as `Boat` and `GetSpeed`.
+In the above example, you can see how to use a class of your own creation. Proprietary just like a variable of type Random. You create a variable of the appropriate type (in this case Boat) and initialize it with the `constructor` (which is a kind of method with the same name as the class). This all happens on the first line of the above piece of code. Now you can use the variable! You can call methods from it, such as `Boat` and `GetSpeed`.
 
 ```cs
-Boot flDutch = new Boot();
+Boat flDutch = new Boat();
 Boat titanic = new Boat();
 flDutch.GetSpeed();
 titanic.GetSpeed();

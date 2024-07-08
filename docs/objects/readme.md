@@ -110,10 +110,10 @@ If you had not yet watched the following video by Tim Corey, it is definitely re
 + [C# Basics ](https://www.youtube.com/playlist?list=PLYMOUCVo86jGzNXPgyKB-B1IvE1LoXKi6) - video 1 t/m 39  
 + [Chapter 2 Classes](https://git.fhict.nl/I872272/ProgrammingChallenges/blob/master/Documentation/OOP.pdf)  
 + [howto: If I get stuck? About problem solving](https://stasemsoft.github.io/softwarematerial/docs/process/knowProgrammerSearchScheme)
-+ [Lijst C# concepts](https://www.homeandlearn.co.uk/csharp/csharp.html)
++ [List C# concepts](https://www.homeandlearn.co.uk/csharp/csharp.html)
 
 
 
 ## Old material, no longer used at FHICT
 
-+ [link naar oud materiaal: WinForms-specifiek](winforms/winforms-specific)
++ [link to old material: WinForms-specific](winforms/winforms-specific)

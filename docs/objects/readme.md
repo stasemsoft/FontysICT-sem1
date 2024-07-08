@@ -108,7 +108,6 @@ If you had not yet watched the following video by Tim Corey, it is definitely re
 
 + [external resources](https://stasemsoft.github.io/softwarematerial/docs/process/infoExternalResources)
 + [C# Basics ](https://www.youtube.com/playlist?list=PLYMOUCVo86jGzNXPgyKB-B1IvE1LoXKi6) - video 1 t/m 39  
-+ [Chapter 2 Classes](https://git.fhict.nl/I872272/ProgrammingChallenges/blob/master/Documentation/OOP.pdf)  
 + [howto: If I get stuck? About problem solving](https://stasemsoft.github.io/softwarematerial/docs/process/knowProgrammerSearchScheme)
 + [List C# concepts](https://www.homeandlearn.co.uk/csharp/csharp.html)
 

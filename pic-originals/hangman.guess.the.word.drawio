@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2024-07-09T09:57:14.146Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0" etag="JMaKyesMEzMq5egPNtje" version="24.6.4" type="device">
+  <diagram name="Page-1" id="2hEkHE-VuO4xOfbR8HAh">
+    <mxGraphModel dx="1029" dy="1041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tnaV7_aDrY4n1deQOGUP-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="760" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="tnaV7_aDrY4n1deQOGUP-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tnaV7_aDrY4n1deQOGUP-3" value="Guess a character" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tnaV7_aDrY4n1deQOGUP-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tnaV7_aDrY4n1deQOGUP-5" value="Guess" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="270" y="125" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tnaV7_aDrY4n1deQOGUP-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="250" width="680" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tnaV7_aDrY4n1deQOGUP-7" value="Status: " style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tnaV7_aDrY4n1deQOGUP-8" value="--o--a--e-en" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="110" y="315" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tnaV7_aDrY4n1deQOGUP-9" value="5 wrong guesses" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tnaV7_aDrY4n1deQOGUP-10" value="4 good guesses" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="280" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

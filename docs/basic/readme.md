@@ -1,4 +1,3 @@
-<!-- TRANSLATED by md-translate -->
 # Toolbox Base: Basic concepts of programming (without objects)
 
 ## General info

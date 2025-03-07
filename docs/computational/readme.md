@@ -32,7 +32,7 @@ This assignment introduces binary counting:
 
 ### Binary 2
 
-Can you count to 31 on one hand? Type **'count to 31 on one hand'** into your favorite search engine. Then how far could you count to 31 if you use two?
+Can you count to 31 on one hand? Type **'count to 31 on one hand'** into your favorite search engine. Then how far could you count to 31 if you use two hands?
 
 ### Guess number: higher lower
 

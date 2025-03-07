@@ -26,7 +26,9 @@ How do you know? Take the number in the top-left corner of each selected card an
 ### Getting Started
 Let's begin with something simple. You'll need a set of 5 cards, as shown in the picture below:
 
-![](dots_vertical.png)
+
+
+![](figures/dots_vertical.png)
 
 (At the end of this file you can find a link to a printable version) 
 

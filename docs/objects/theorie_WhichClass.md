@@ -1,31 +1,29 @@
-# What classes shall I create?
+# What Classes Should I Create?
 
-Programming implies that you think about how to *model* the reality or
-*the world* your program is going to (partially) *model*.
+Programming involves thinking about how to *model* the reality or
+*the world* that your program will (partially) *model*.
 What concepts are needed within the program
-(often these are the `classes` to be created)
+(often these become the `classes` to be created)
 and what behavior is expected (typically the `methods` to be programmed)?
 
-In the previously described program about the hero going to fight monsters
-we created a `class` *Monster* in which the behavior of each monster was
-described, and a
-`class` *Hero* containing `methods` that described the
-behavior of the one hero (but it could have been more than one).
+In the previously described program about a hero fighting monsters,
+we created a `class` *Monster* that described the behavior of each monster,
+and a `class` *Hero* containing `methods` that described
+the behavior of the hero (though it could have been designed for multiple heroes).
 
-If you write a program for a *mortgage advisor* there will
-probably have `classes` like *Mortgage* and *LendingPart* with
-`fields` like *interest Rate*, *maturity* and *amount* and there will be
+If you write a program for a *mortgage advisor*, you would likely have
+`classes` like *Mortgage* and *LendingPart* with
+`fields` like *interestRate*, *maturity*, and *amount*, and there would be
 `methods` like
-*CalculateRenteOverXYear* (with the parameter of how many years are involved) and so on.
+*CalculateInterestOverXYears* (with a parameter for the number of years involved) and so on.
 
-The trick when starting a new piece of software is to get these kinds of concepts
-to the surface. The software developer must almost always
-Delve into the *matter* the program is about
-(a Game or a Mortgage or whatever). One possible step here is the use of `CRC cards`.
+The key when starting a new piece of software is to identify these concepts.
+The software developer must almost always
+understand the *domain* the program is about
+(a Game, a Mortgage system, or whatever). One possible step here is the use of `CRC cards`.
 
-When reading a description of what the program is supposed to do
-usually the `nouns` (mortgage, monster, hero) are used.
-which of these are going to be a `class` and the `verbs`
-(compute, attack) are potential methods. The programmer or
-software engineer will often create a diagram (often a `diagram` containing
-the `classes`) to determine what the program will look like.
+When reading a description of what the program is supposed to do,
+usually the `nouns` (mortgage, monster, hero) indicate potential classes,
+and the `verbs` (compute, attack) suggest potential methods. The programmer or
+software engineer will often create a diagram (often a `class diagram`) to determine
+the program's structure.

@@ -1,29 +1,29 @@
-# Theory Property
+# Theory: Properties
 
-A "property" gives you access to a "property" of a "property." You probably used properties before, now you learn how to make them yourself.
+A "property" gives you access to a "property" of an object. You've probably used properties before, now you'll learn how to create them yourself.
 
-## Use of existing property
+## Using Existing Properties
 
-You've probably already seen the "property editor" in Visual Studio, especially if you've created a WinForm app. Here you can view and customize all kinds of _properties_ of a _Form_, _Button_, _TextBox_ and many other .
+You've probably already seen the "property editor" in Visual Studio, especially if you've created a WinForm app. Here you can view and customize all kinds of _properties_ of a _Form_, _Button_, _TextBox_, and many other controls.
 
-If you request the _Text_ of a _TextBox_ from code, or you specify a value, use properties.
+When you retrieve the _Text_ of a _TextBox_ from code, or specify a value, you're using properties:
 
 ```cs
 string input = TextBoxInput.Text;
-// dan een aantal berekeningen (weggelaten)
+// then some calculations (omitted)
 result = ...
-// tot slot de uitkomst in een label terug:
+// finally, put the result in a label:
 LabelOutput.Text = result;
 ```
 
-## Own properties for own objects
+## Creating Properties for Your Own Objects
 
 Suppose you have a Stopwatch class,
-Then this one could have a private field seconds.
-Do you want this field to be read only by other code,
-you can create a property for this.
+which could have a private field for seconds.
+If you want this field to be read-only by other code,
+you can create a property for it.
 The convention is that fields are written with lowercase letters;
-Properties are started with a capital letter.
+Properties start with a capital letter.
 See the example below:
 
 ```cs
@@ -37,16 +37,16 @@ class Stopwatch
 }
 ```
 
-Below are a few ways in which this class may not be used.
+Below are examples of how this class can and cannot be used:
 
 ```cs
 Stopwatch sw = new Stopwatch();
-int tijd1 = sw.seconds;                  // Mag niet, omdat field seconds private is.
-int tijd2 = sw.Seconds;                  // Mag wel (hoofdletter) omdat de property public is.
-sw.Seconds = 10;                        // Mag niet (geen setter)
+int time1 = sw.seconds;                 // Not allowed, because field seconds is private
+int time2 = sw.Seconds;                 // Allowed (capital letter) because the property is public
+sw.Seconds = 10;                        // Not allowed (no setter)
 ```
 
-Another possibility is to set a field in a certain way. For example, we could make the stopwatch adjustable with minutes:
+Another possibility is to set a field in a specific way. For example, we could make the stopwatch adjustable with minutes:
 
 ```cs
 class Stopwatch
@@ -64,11 +64,11 @@ class Stopwatch
 }
 
 Stopwatch sw = new Stopwatch();
-sw.Minutes = 5;                         // Instellen in minuten
-int tijd = sw.Seconds;                  // Uitlezen in seconden (300)
+sw.Minutes = 5;                         // Set in minutes
+int time = sw.Seconds;                  // Read in seconds (300)
 ```
 
-## External bronnen
+## External Resources
 
 * [CSharp.Net tutorials](http://csharp.net-tutorials.com/classes/properties/)
 * [MS programming Guide](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties)

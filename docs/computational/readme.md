@@ -28,7 +28,7 @@ The digital world is made up of zeros and ones, '0' and '1' is all a computer kn
 This assignment introduces binary counting:
 
 + [Binary01 (old)](binary01.pdf)
-+ [Binary01](binary01)
++ [Binary01](binary.md)
 
 ### Binary 2
 

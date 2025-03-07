@@ -26,7 +26,7 @@ How do you know? Take the number in the top-left corner of each selected card an
 ### Getting Started
 Let's begin with something simple. You'll need a set of 5 cards, as shown in the picture below:
 
-![[dots_vertical.png]]
+![](dots_vertical.png)
 
 (At the end of this file you can find a link to a printable version) 
 
@@ -92,5 +92,6 @@ The connection between the magic trick and binary numbers will become clear as y
 > **Hint:** The magic trick works because each card's top-left number represents a power of 2, and any number can be uniquely represented as a sum of these powers!
 
 
+## Resources 
 
 [printable 'dot' cards](binary01.prn.pdf)

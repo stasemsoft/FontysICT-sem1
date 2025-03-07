@@ -3,26 +3,26 @@
 ## Example
 ```cs
 class Monkey {
-   private string Species;
-   private int Age;
+   private string species;
+   private int age;
 
    public void SetSpecies(string species) {
-      Species = species;
+      this.species = species;
    }
 
    public string CreateSound() {
-      return "Oek oek oek."
+      return "Oek oek oek.";
    }
 
    public override string ToString() {
-      return Kind + " says " +
-      CreateSound();
+      return species + " says " +
+             CreateSound();
    }
 
 }
 ```
 
-Here a class _Monkey_ is created. Each monkey you create in the code is of a certain kind and has an age. The age is an integer and the type of monkey is a string.
+Here a class _Monkey_ is created. Each monkey you create in the code has a species and an age. The age is an integer and the species is a string.
 
 Create a monkey with:
 

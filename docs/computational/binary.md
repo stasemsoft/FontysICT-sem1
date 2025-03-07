@@ -7,7 +7,7 @@ Welcome to this interactive introduction to binary numbers! We'll learn about bi
 ## Part 1: The Magic Trick
 
 ### The Setup
-We'll start with a familiar magic trick - you might know it already.
+We'll start with a magic trick.
 
 Take the cards with numbers (see last page). Give the 6 cards to someone and ask them to:
 1. Choose a number that appears on at least one card (without telling you)
@@ -19,17 +19,23 @@ You'll look at them and magically know the chosen number immediately!
 ### The Secret
 How do you know? Take the number in the top-left corner of each selected card and add them together! The sum is the chosen number. 
 
-> **Think about it:** How does this work? We'll explore this concept in detail later.
+> **Think about it:** How does this work? Will it always work? We'll explore this concept in detail later.
 
 ## Part 2: Warm-up Exercise
 
 ### Getting Started
 Let's begin with something simple. You'll need a set of 5 cards, as shown in the picture below:
 
+![[dots_vertical.png]]
+
+(At the end of this file you can find a link to a printable version) 
+
 ### Exercise 1: Basic Combinations
-1. Select some cards so that the total number of dots adds up to 10
-2. Did you manage? Great! Now find a combination that adds up to 13 dots
-3. Continue with numbers 4, 5, 6, 7, 8, 9, and 10
+1. Select some cards so that the total number of dots adds up to 12.
+2. Did you manage? Great! Now find a combination that adds up to 13 dots.
+3. Then 14 dots?
+4. And 15 dots?
+5. After doing some more: 16, 17, 18, 19, do you see the pattern for adding 1? 
 
 > **Discussion:** Do you see a pattern? Try explaining it to each other!
 
@@ -48,17 +54,17 @@ Below, on the right side, you'll see numbers. Using the same method as before:
 ### Binary Number Representations
 
 ```
-     .                     .                 .                .               .                  needed for number         20
+. . . . .   needed for number         20
 
-     .                     .                 .                .               .                  needed for number         23
+. . . . .   needed for number         23
 
-     .                     .                 .                .               .                  needed for number         7
+. . . . .   needed for number         7
 
-     .                     .                 .                .               .                  is the binary representation of number   8
+. . . . .   is the binary representation of number   8
 
-     .                     .                 .                .               .                  is the binary representation of number   9
+. . . . .   is the binary representation of number   9
 
-     .                     .                 .                .               .                  is the binary representation of number   10
+. . . . .   is the binary representation of number   10
 ```
 
 ### Observation Exercise
@@ -84,3 +90,7 @@ The connection between the magic trick and binary numbers will become clear as y
 - Consider how this connects to the magic trick from the beginning
 
 > **Hint:** The magic trick works because each card's top-left number represents a power of 2, and any number can be uniquely represented as a sum of these powers!
+
+
+
+[printable 'dot' cards](binary01.prn.pdf)

@@ -24,10 +24,11 @@ Below are some assignments that challenge your so-called computational thinking.
 
 ### Binary 1
 
-The digital world is made up of zeros and ones, '0' and '1' is all a computer knows. Oh yes, yes.
+The digital world is made up of zeros and ones, '0' and '1' is all a computer knows. Really? Really! 
 This assignment introduces binary counting:
 
-+ [Binary01](binary01.pdf)
++ [Binary01 (old)](binary01.pdf)
++ [Binary01](binary01)
 
 ### Binary 2
 

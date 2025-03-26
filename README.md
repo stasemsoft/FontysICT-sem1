@@ -75,6 +75,8 @@ This covers some non-programming aspects that a beginning software engineer shou
 
 + [Software Engineering](https://stasemsoft.github.io/FontysICT-sem1/docs/software%20engineering/)
 
+---
+
 ### 5. Learning material Artificial Intelligence
 
 In the 1950's programming and artificial intelligence started more or less  started to take form at the same time. For decennia programming was the most used way to instruct machines what to do, but since 2023 artificial intelligence started to fly... It's totally changing the way computer programs are built.

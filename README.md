@@ -1,6 +1,5 @@
 # Softwarematerial - Overview
 
-
 ## Introduction
 
 This is a collection of (open) software material from the starting semester FHICT (Fontys University of Applied Sciences for ICT). It is publicly accessible to all and free of copyright. It has been created and collected over the years by teachers, with additions here and there by students! FHICT refers to this material from a canvas course, there is the FHICT-specific info there, while these github pages are fairly FHICT-independent.
@@ -21,7 +20,7 @@ The assignments can be divided into:
 + `Training` (formerly exercises): `finger exercises`, belong to a piece of theory to practice, but are not to be used as evidence to convince your teacher.
 + `Competition`: to convince your teacher that you not only understand it but also do it, you are going to make up your own assignments, vary and expand on existing ones!
 
-See [more explanation](https://stasemsoft.github.io/FontysICT-sem1/docs/meta) on the principles. 
+See [more explanation](https://stasemsoft.github.io/FontysICT-sem1/docs/meta) on the principles.
 
 ---
 
@@ -32,11 +31,11 @@ See [more explanation](https://stasemsoft.github.io/FontysICT-sem1/docs/meta) on
 
 + [Frequently Asked Questions](https://stasemsoft.github.io/FontysICT-sem1/docs/FAQ): If you have questions about the course at FHICT: check out the FAQ first Whether others had the same question as well.
 + [some more really powerful help can be found here](https://chat.openai.com/chat)
-+ [or here](https://www.perplexity.ai), but be sure you understand the outcome!!; furthermore be explicit about using AI-help!! 
++ [or here](https://www.perplexity.ai), but be sure you understand the outcome!!; furthermore be explicit about using AI-help!!
 
 ---
 
-## Personas - Who Am I? 
+## Personas - Who Am I?
 
 Compare yourself to the personas and read the tips: Do you already have programming experience? Or just not at all?
 
@@ -54,7 +53,7 @@ The way of thinking, good to know something about.... Originally used as materia
 
 ---
 
-### 2. Toolbox Basics: Basic concepts of programming (without objects)
+### 2. Toolbox Basics: Basic concepts of programming without objects
 
 An introduction to programming (still without objects).
 
@@ -62,30 +61,25 @@ An introduction to programming (still without objects).
 
 ---
 
-### 3. Toolbox Deepening/Advanced: Objects and Classes
+### 3. Toolbox: Programming Objects and Classes
 
-Deepening, programming with objects
+Getting started with Object Oriented Programming (OOP)
 
-+ [Toolbox Deepening: Objects and Classes](https://stasemsoft.github.io/FontysICT-sem1/docs/objects/)
++ [Toolbox: Objects and Classes](https://stasemsoft.github.io/FontysICT-sem1/docs/objects/)
 
 ---
 
-
-## Miscellaneous
-
-### Software Engineering
+### 4. Software Engineering
 
 This covers some non-programming aspects that a beginning software engineer should know and be able to do.
 
 + [Software Engineering](https://stasemsoft.github.io/FontysICT-sem1/docs/software%20engineering/)
 
+### 5. Learning material Artificial Intelligence
 
-### Learning material Artificial Intelligence
+In the 1950's programming and artificial intelligence started more or less  started to take form at the same time. For decennia programming was the most used way to instruct machines what to do, but since 2023 artificial intelligence started to fly... It's totally changing the way computer programs are built.
 
-In the 1950's programming and artificial intelligence started more or less  started to take form at the same time. For decennia programming was the most used way to instruct machines what to do, but since 2023 artificial intelligence started to fly... It's totally changing the way computer programs are built. 
-
-- [AI - Artificial Intelligence](docs/artificial-intelligence/ai.md)
-
++ [AI - Artificial Intelligence](docs/artificial-intelligence/ai.md)
 
 ---
 
@@ -95,19 +89,19 @@ In the 1950's programming and artificial intelligence started more or less  star
 
 ---
 
-### finally...
+### finally
 
 + [Motivation, Concentration, Working from home](docs/process/motivatieconcentratie)
 + [Workshops](https://stasemsoft.github.io/FontysICT-sem1/docs/workshops/)
 
 ### Where to find this material
+
 + [op Github pages](https://stasemsoft.github.io/FontysICT-sem1/) (most readable here)
 or in a
 + [Github-repository](https://github.com/stasemsoft/FontysICT-sem1) (pull requests with improvements welcome)
 
 ### Origin
 
-These pages were originally in Dutch (which you could still see, mainly in pictures here and there...). 
-You can find the original pages at: 
+These pages were originally in Dutch (which you could still see, mainly in pictures here and there...).
+You can find the original pages at:
 [Originals in Dutch : https://stasemsoft.github.io/softwarematerial/](https://stasemsoft.github.io/softwarematerial/).
-

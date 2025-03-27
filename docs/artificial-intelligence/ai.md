@@ -34,23 +34,18 @@ discovering AI and/or GenAI. Have fun!
 
 ## Adviced Resources to look at regularly
 
-- [huggingface](https://huggingface.co/) lots of models here:
-Text-to-image, Image-to-text, Text-to-video, Visual questioning answering,
-Image classification, and lots and lots more!  
-Huggingface is a site to look at regularly: new models everyday!
+## Well hello world
 
-## Some more, if you want
+... in no particular order... just some possible gems
 
 - <https://github.com/aishwaryanr/awesome-generative-ai-guide>
+- [huggingface](https://huggingface.co/)
 - [Andy Clark about Active Interference: How the Brains shapes reality (60 min)](https://www.youtube.com/watch?v=A1Ghrd7NBtk)
 - <https://www.youtube.com/watch?v=3-q5GzRNEe0>
 - How AI is changing education: <https://www.youtube.com/watch?v=OaEk-ZYzh80>
+- [Amy Webb SxSW 2025 - Emerging Tech Trend](https://www.youtube.com/watch?v=oT33_MrqyHo)
 
 ## Some sites, nice to play around with
 
 - <https://skyreels.ai/>
 - <https://civitai.com/>
-
-## SxSW 2025
-
-- [Amy Webb SxSW 2025 - Emerging Tech Trend](https://www.youtube.com/watch?v=oT33_MrqyHo)

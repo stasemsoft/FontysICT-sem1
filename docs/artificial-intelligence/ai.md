@@ -1,5 +1,7 @@
 # AI, GenAI, artificial intelligence
 
+Mainly pointers to other places where you can find stuff... 
+
 ## What is AI?
 
 - When we talk about AI or Artificial Intelligence we mean everything done
@@ -32,13 +34,12 @@ discovering AI and/or GenAI. Have fun!
 - [IBM, Marina Danilevsky (7 min)](https://www.youtube.com/watch?v=T-D1OfcDW1M)
 - [https://www.deeplearning.ai/short-courses/ Great resource for courses!](https://www.deeplearning.ai/short-courses/)
 
-## Adviced Resources to look at regularly
-
 ## Well hello world
 
 ... in no particular order... just some possible gems
 
-- <https://github.com/aishwaryanr/awesome-generative-ai-guide>
+- [awesome generative ai guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
+- [data-to-viz: which visualization to use ?](https://www.data-to-viz.com/)
 - [huggingface](https://huggingface.co/)
 - [Andy Clark about Active Interference: How the Brains shapes reality (60 min)](https://www.youtube.com/watch?v=A1Ghrd7NBtk)
 - <https://www.youtube.com/watch?v=3-q5GzRNEe0>

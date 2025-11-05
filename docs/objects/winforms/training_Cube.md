@@ -12,6 +12,6 @@ Note: It is important that the cube remains visible
 when the user enlarges, reduces
 or minimizes and maximizes again.
 
-![fig:cube](figures/cube.png "cube")
+![fig:cube](../challenges/figures/cube.png "cube")
 Give the front side of the cube a color of your choice
 (so fill the front side with this color).

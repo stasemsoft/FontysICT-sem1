@@ -89,7 +89,7 @@ Hernoem de *Form1* `class` naar *TekeningForm*.
 Zet een knop onderaan het Form, noem deze knop *drawButton* en zet er het `label` *Draw* op.
 Maak vervolgens een `event-handler` aan voor het *Paint* `event` van het *TekeningForm*.
 
-![fig:EventHandler](figures/PropertyPaintEvent.png "Paint Event")
+![fig:EventHandler](../figures/PropertyPaintEvent.png "Paint Event")
 
 Dit kun je doen door in het `properties` venster van het *TekeningForm*
 te dubbelklikken op het *Paint* `event`.
@@ -274,10 +274,10 @@ Hier kunnen we kort over zijn: het direct aanroepen van `event-handlers` is niet
 
 #### Stap 5: Onderzoek coördinaten stelsel
 In de voorgaande opdrachten heb je geleerd hoe je kunt tekenen met een Graphics object.
-In deze opdracht ga je zelf onderzoeken hoe het coördinatenstelsel werkt waarmee getekend wordt. De uitkomst van dit onderzoekje heb je nodig als voorbereiding op de ‘BallenWereld’ opdracht.
+In deze opdracht ga je zelf onderzoeken hoe het coördinatenstelsel werkt waarmee getekend wordt. De uitkomst van dit onderzoekje heb je nodig als voorbereiding op de 'BallenWereld' opdracht.
 Doe:
 Maak een applicatie die de volgende figuren tekent op een form:
-![](figures/AppCirkels.png "Teken App")
+![](../figures/AppCirkels.png "Teken App")
 Eisen:
 - Elke cirkel heeft als diameter 75
 - In elke hoek staat één cirkel.

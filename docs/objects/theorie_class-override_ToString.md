@@ -26,7 +26,7 @@ public override string ToString()
 Here you can see a 'ToString method' that will display some more data about the boat. This can also be seen in the screenshot below. You can just copy-paste this ToString method into your Boot class. After you have done that you can use the new ToString method and try it out.
 
 
-![](figures/titanic.png "Titanic")
+![](figures/titanic.jpg "Titanic")
 
 
 Note that you also include the `override` keyword in the method definition. With that, C# knows you want to rewrite the standard ToString method. That one wasn't very useful anyway. So your own interpretation is probably better.

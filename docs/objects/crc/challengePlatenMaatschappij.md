@@ -21,4 +21,4 @@ In the case of a band, it should also be stored whether a special instrument is 
 The system must be secured by a user+password system. Users (users) can log in with a username and password after which they have access to all data in the system.
 
 
-![](figures/platenmaatschappij.png "platenmaatschappij")
+![](../challenges/figures/platenmaatschappij.png "platenmaatschappij")

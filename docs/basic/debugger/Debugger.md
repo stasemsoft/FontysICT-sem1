@@ -104,7 +104,7 @@ Now when you run the program it pauses at the `BreakPoint`. This line is not exe
 
   
 
-![](figures/debugger_yellowArrow.png)
+![](figures/debugger_gelePijl.png)
 
   
 
@@ -212,7 +212,7 @@ There are different types of windows such as Autos, Local, etc.
 
   
 
-![](figures/debugger_divWindows.png)
+![](figures/debugger_divVensters.png)
 
   
 

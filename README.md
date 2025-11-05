@@ -10,8 +10,8 @@ This is a collection of open-source software material for the starting semester 
 
 **New to programming?** Start here:
 
-- If you want to [Install Visual Studio](docs/process/infoVisualStudioInstallatie.md) - Set up your development environment
-- [Compare yourself to personas](docs/personas/intro) - Find out where you fit based on your experience level
+- [Install Visual Studio](https://stasemsoft.github.io/FontysICT-sem1/docs/process/infoVisualStudioInstallatie) - Set up your development environment
+- [Compare yourself to personas](https://stasemsoft.github.io/FontysICT-sem1/docs/personas/intro) - Find out where you fit based on your experience level
 - [Read the FAQ](https://stasemsoft.github.io/FontysICT-sem1/docs/FAQ) - Common questions answered
 
 ---
@@ -37,7 +37,7 @@ See [more explanation](https://stasemsoft.github.io/FontysICT-sem1/docs/meta) on
 ## First Aid when Getting Stuck
 
 - [How-to Guide](https://stasemsoft.github.io/FontysICT-sem1/docs/basic/howto): Technical questions and solutions. Can't find your answer? Let us know! (Even if you found it yourself - thanks!)
-- [How to use a Tutorial](docs/process/howtoLookAtATutorial.md)
+- [How to use a Tutorial](https://stasemsoft.github.io/FontysICT-sem1/docs/process/howtoLookAtATutorial)
 
 - [Frequently Asked Questions](https://stasemsoft.github.io/FontysICT-sem1/docs/FAQ): Course-related questions at FHICT? Check the FAQ first to see if others had the same question.
 - [AI Assistance](https://chat.openai.com/chat) or [Perplexity](https://www.perplexity.ai) - Powerful AI help available, but be sure you understand the results! Always be explicit about using AI assistance.
@@ -48,7 +48,7 @@ See [more explanation](https://stasemsoft.github.io/FontysICT-sem1/docs/meta) on
 
 Compare yourself to the personas and read the tips: Do you already have programming experience, or are you starting from scratch?
 
-[intro](docs/personas/intro)
+[intro](https://stasemsoft.github.io/FontysICT-sem1/docs/personas/intro)
 
 ---
 
@@ -96,7 +96,7 @@ Essential non-programming aspects that every beginning software engineer should 
 
 Programming and artificial intelligence emerged around the same time in the 1950s. For decades, programming was the primary way to instruct machines, but since 2023, artificial intelligence has taken off... It's fundamentally changing how computer programs are built.
 
-- [AI - Artificial Intelligence](docs/artificial-intelligence/ai.md)
+- [AI - Artificial Intelligence](https://stasemsoft.github.io/FontysICT-sem1/docs/artificial-intelligence/ai)
 
 ---
 
@@ -110,7 +110,7 @@ Information about choosing software as your specialization at FHICT.
 
 ## Additional Resources
 
-- [Motivation and Concentration](docs/process/motivatieconcentratie)
+- [Motivation and Concentration](https://stasemsoft.github.io/FontysICT-sem1/docs/process/motivatieconcentratie)
 - [Workshops](https://stasemsoft.github.io/FontysICT-sem1/docs/workshops/)
 
 ---

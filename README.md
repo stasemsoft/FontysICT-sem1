@@ -31,10 +31,6 @@ This is a collection of open-source software material for the starting semester 
 
 ## 🎯 New Student? Start Here
 
-<details>
-<summary><strong>👋 First time here? Follow this onboarding checklist:</strong></summary>
-
-
 ### Step 1: Know Yourself
 
 - [ ] [Compare yourself to personas](https://stasemsoft.github.io/FontysICT-sem1/docs/personas/intro) - Understand your starting point
@@ -67,7 +63,6 @@ This is a collection of open-source software material for the starting semester 
 - [ ] Know about [How-to guides](https://stasemsoft.github.io/FontysICT-sem1/docs/basic/howto) for technical questions
 - [ ] Understand when and how to use AI assistance
 
-</details>
 
 ---
 

@@ -199,6 +199,12 @@ Information about choosing software as your specialization at Fontys ICT.
   - Fixed image paths in `docs/objects/crc/challengePlatenMaatschappij.md` and `docs/objects/winforms/training_Cube.md` (redirected to `docs/objects/challenges/figures/`)
   - Fixed 2 image paths in `docs/objects/winforms/tutorial_Graphics.md` (redirected to parent `docs/objects/figures/`)
   - Removed broken link to missing `inspi/SintEnPiet.zip` from `docs/workshops/readme.md`
+- Fixed README formatting:
+  - Removed non-functional HTML `<details>` tags (converted to regular headings)
+  - Added proper spacing between sections for better readability
+- Replaced all instances of "FHICT" with "Fontys ICT" throughout documentation:
+  - Updated README.md and 10 documentation files across the docs directory
+  - Maintained technical references (URLs, repository names, filenames) unchanged
 - Updated README.md: Added changelog section and simplified "Motivation and Concentration" link text
 - Fixed broken links and file references across multiple documentation files:
   - Fixed image path in `docs/basic/collecties/Televisie.md`

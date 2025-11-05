@@ -60,5 +60,4 @@ Students work hard on the product because of the deadlines, possibly workshops o
 Some ideas and unfinished workshops. Take advantage of it!
 
 * [Web Create API](webApi01_CS/MaakJeEigenApi.pdf)
-* [Sinterklaas-demo-inspiration](inspi/SintEnPiet.zip)
 * [galgje-ish (demo) ](galgje-ish/galgjeish)

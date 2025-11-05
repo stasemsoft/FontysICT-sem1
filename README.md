@@ -191,6 +191,18 @@ Information about choosing software as your specialization at FHICT.
 
 ### 2025-11-05
 
+- Improved link checking script (`check_links.py`):
+  - Added proper detection of GitHub Pages links (now correctly identifies 38 links)
+  - Enhanced Unicode smart quote handling for image alt text
+  - Added code block filtering to avoid false positives from code examples
+- Fixed 14 broken internal links across multiple documentation files:
+  - Fixed 5 Git workshop image paths in `docs/workshops/git/git-ws-fhict.md` (redirected to `docs/process/figures/`)
+  - Fixed 2 debugger image filenames in `docs/basic/debugger/Debugger.md` (corrected Dutch names: `debugger_gelePijl.png`, `debugger_divVensters.png`)
+  - Fixed image filename in `docs/basic/methoden/training_BoterKaasEnEieren.md` (corrected translation: `Boter-kaas-eieren-ui.png`)
+  - Fixed file extension in `docs/objects/theorie_class-override_ToString.md` (`.png` → `.jpg` for `titanic.jpg`)
+  - Fixed image paths in `docs/objects/crc/challengePlatenMaatschappij.md` and `docs/objects/winforms/training_Cube.md` (redirected to `docs/objects/challenges/figures/`)
+  - Fixed 2 image paths in `docs/objects/winforms/tutorial_Graphics.md` (redirected to parent `docs/objects/figures/`)
+  - Removed broken link to missing `inspi/SintEnPiet.zip` from `docs/workshops/readme.md`
 - Updated README.md: Added changelog section and simplified "Motivation and Concentration" link text
 - Fixed broken links and file references across multiple documentation files:
   - Fixed image path in `docs/basic/collecties/Televisie.md`

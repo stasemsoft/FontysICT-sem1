@@ -13,7 +13,6 @@ During installation, select **".NET desktop development"** workload. This is suf
 **Recommended:** [Visual Studio Code](https://code.visualstudio.com/) - Free, cross-platform code editor.
 
 **Note:** Visual Studio Code doesn't support WinForms. If you need WinForms for assignments, consider:
-- **Alternative:** [Rider](https://www.jetbrains.com/rider/) (supports WinForms, free for students via JetBrains)
 - Boot Camp or Virtual Machine (VMWare/Parallels) with Windows + Visual Studio for Windows
 
 ## Your First Program

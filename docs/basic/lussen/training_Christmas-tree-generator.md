@@ -23,7 +23,7 @@ Tip: use **Console.ReadKey()** to prevent the program from shutting down again i
   
 
 
-![[christmas-tree.png]]
+![christmas-tree](figures/christmas-tree.png)
   
 
 ## Roadmap  

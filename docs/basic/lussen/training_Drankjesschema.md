@@ -10,4 +10,4 @@ Also keep track of the total number of drinks at the bottom of the list.
 
   
 
-![[Drankjesschema-ui.png]]
+![Drankjesschema-ui](figures/Drankjesschema-ui.png)

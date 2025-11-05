@@ -104,5 +104,5 @@ The connection between the magic trick and binary numbers will become clear as y
 
 ## Resources
 
-- [CS Unplugged](<https://www.csunplugged.org/en/>)
-- [printable 'dot' cards](binary01.prn.pdf)
+- [CS Unplugged](https://www.csunplugged.org/en/)
+- [printable 'dot' cards](figures/binary01.prn.pdf)

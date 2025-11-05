@@ -14,7 +14,7 @@ In software development, testing and bug fixing take more time than actually wri
 
 
 
-![[debugger_breakpoint.png]]
+![debugger_breakpoint](figures/debugger_breakpoint.png)
 
 ## Assignment  
 

@@ -6,7 +6,7 @@ To experience this, you will write a small program that simulates the random beh
 
 ## Assignment
 Create a user interface with 6 picture boxes and a button that looks like this:
-![[Dobbelsteen-ui.png]]
+![Dobbelsteen-ui](figures/Dobbelsteen-ui.png)
 
 There are six objects of type **PictureBox** and a "Roll dice!" button on the form. The **PictureBox** objects are all invisible when the program is running (the **Visible Property** is set to **false**).
 

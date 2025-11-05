@@ -99,7 +99,7 @@ In the 1950's programming and artificial intelligence started more or less  star
 
 ### finally
 
-+ [Motivation, Concentration, Working from home](docs/process/motivatieconcentratie)
++ [Motivation and Concentration](docs/process/motivatieconcentratie)
 + [Workshops](https://stasemsoft.github.io/FontysICT-sem1/docs/workshops/)
 
 ### Where to find this material
@@ -107,6 +107,26 @@ In the 1950's programming and artificial intelligence started more or less  star
 + [op Github pages](https://stasemsoft.github.io/FontysICT-sem1/) (most readable here)
 or in a
 + [Github-repository](https://github.com/stasemsoft/FontysICT-sem1) (pull requests with improvements welcome)
+
+---
+
+## Changelog
+
+### 2025-11-05
+
+- Updated README.md: Added changelog section and simplified "Motivation and Concentration" link text
+- Fixed broken links and file references across multiple documentation files:
+  - Fixed image path in `docs/basic/collecties/Televisie.md`
+  - Fixed URL in `docs/basic/var/training_ComputerRekenen.md` (added https://)
+  - Fixed file references in `docs/computational/binary.md`
+  - Fixed image path in `docs/objects/challenges/challenge_PatientDossier.md`
+  - Fixed link path in `docs/try-out/Learning Material for ....md`
+- Updated content in `docs/FAQ/readme.md`: Removed outdated reference to Semester 2 Asp.NET
+- Refactored `docs/process/motivatieconcentratie.md`: Updated title, simplified content, removed work-from-home specific assumptions
+- Updated workshop documentation:
+  - Fixed file name references in `docs/workshops/readme.md`
+  - Updated Python reference in `docs/workshops/OOP_languages/readme.md`
+- Created `.cursorrules` file with changelog maintenance guidelines
 
 ### Origin
 

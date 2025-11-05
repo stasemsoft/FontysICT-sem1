@@ -66,7 +66,6 @@
 
 + [Reference: Wat is Git?](https://www.youtube.com/watch?v=t7hLWkd0qok&list=PLMtxBdV6mf-4xgPCNX9EBYKSh8zg11mFY)
 + [Reference: Getting Started](https://www.youtube.com/watch?v=Fs3qpKD6GWE&list=PLMtxBdV6mf-4xgPCNX9EBYKSh8zg11mFY&index=2)
-+ [Reference: Commit, push en pull]()
 + [Reference: git](https://stasemsoft.github.io/softwarematerial/docs/legacy/infoENGit.pdf)
 + Unit tests
 

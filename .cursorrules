@@ -1,0 +1,9 @@
+When making changes to the codebase, update the README.md changelog section:
+- Add a date entry in format YYYY-MM-DD (e.g., 2025-01-15 for January 15th, 2025) if it doesn't exist yet
+- Add an itemized list (using `-` bullets) of changes made on that date under the date header
+- Place the changelog section at the end of README.md, before any "Origin" or "Where to find" sections
+- Format: `## Changelog` as section header, then `### YYYY-MM-DD` for each date, followed by bullet points
+- Only add a new date entry if changes were actually made on that day; append to existing date entry if updating on the same day
+
+When linking to files, prefer linking to .pdf files over .docx files if both formats are available.
+

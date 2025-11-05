@@ -33,7 +33,7 @@ View the class diagram (paste the url into a browser of your choice). Attach the
 http://yuml.me/diagram/scruffy/class/edit/OIS12,[Patient|naam:string;geboortejaar:int|GetLeeftijd();]&lt;*-arts-[Afspraak],[Afspraak|dagEnTijd:DateTime],[Afspraak]patient-*&gt;[Huisarts|naam:string], [Patient]
 ```
 
-[class diagram](figures/patientdossier_cd)
+![class diagram](figures/patientdossier_cd.png)
 
 Nothing needs to be saved, so when the program is closed and restarted we start again with the same initial situation as always!
 

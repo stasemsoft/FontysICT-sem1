@@ -39,19 +39,19 @@ A possible weekly schedule for FHICT. Teachers discuss within their cluster whic
 * unit test (game)
 * Read/write files
 * Database select/ insert/ update
-* [Web Create API](webApi01_CS/MaakJeigenApi.pdf)
-* demo: preview S2: interfaces & inheritance
+* [Web Create API](webApi01_CS/MaakJeEigenApi.pdf)
+* demo: interfaces & inheritance
 
-for the final profile selection
+for the final topic selection
 * [GUI vs Domain](GuivsDomain)
 
 ### Last weeks deepening
 
 Students work hard on the product because of the deadlines, possibly workshops on request or ad hoc.
 
-* [99 bottles of beer on the wall](99 BottlesOfBeer)
+* [99 bottles of beer on the wall](99bottlesOfBeer)
 * [Compare OOP in other languages?](OOP_languages/)
-1. Python: Infra uses python in semester 2.
+1. Python: Used in various profiles.
 2. Javascript: GUI nowadays often a web-GUI, then javascript is never far away.
 3. PHP: Many students come into contact with PHP anyway.
 4... any other languages?
@@ -60,6 +60,6 @@ Students work hard on the product because of the deadlines, possibly workshops o
 
 Some ideas and unfinished workshops. Take advantage of it!
 
-* [Web Create API](webApi01_CS/MaakJeigenApi.pdf)
+* [Web Create API](webApi01_CS/MaakJeEigenApi.pdf)
 * [Sinterklaas-demo-inspiration](inspi/SintEnPiet.zip)
 * [galgje-ish (demo) ](galgje-ish/galgjeish)

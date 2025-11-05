@@ -15,4 +15,4 @@ Create an application in which you put a listbox and a generatebutton. When you 
 Extend the game by also counting how many of each type (spades, hearts, clubs or diamonds) have been generated.
 
   
-![[kaartspel.png]]
+![kaartspel](figures/kaartspel.png)

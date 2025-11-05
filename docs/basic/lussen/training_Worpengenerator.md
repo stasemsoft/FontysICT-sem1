@@ -13,7 +13,7 @@ If you don't have dice at hand or you're programming a digital variant of a game
 The program you created at the end of this assignment looks like this:
 
 <img src="figures/Worpengenerator-ui.png" alt="ui" width="300" />
-![[Worpengenerator-ui.png]]
+![Worpengenerator-ui](figures/Worpengenerator-ui.png)
 
 ## Part 1.
 Create a new C# Windows Forms project. Create a user interface which looks like the one below (this is a simplified form of the final result, we will assume dice with 6 pips for now). The boxes (Settings and Results) are **GroupBox** objects. These allow you to put a number of GUI objects that belong together as a group and later, if necessary, move them e.g. as a whole. It is most convenient to create the **GroupBox** objects first so that you can put the other objects on this. The white output area is a **ListBox**.

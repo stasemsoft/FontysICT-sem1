@@ -10,15 +10,15 @@ Under 'Lecture material' there is a link 'Exercises: Arrays', which refers to a 
 name: 'softwarematerial/basic'
 url: 'https://stasemsoft.github.io/softwarematerial/docs/basic/'
 
-## Do I have to use C# in the starter?
+## Do I have to use C#?
 
-You need to convince your teacher that you master the required skills at the required level! In part, this may be possible with pieces of code in other languages and environments: Talk to your teacher!
+You need to convince your teacher that you master the required skills at the required level. In part, this may be possible with pieces of code in other languages and environments: Talk to your teacher!
 
-On the other hand: If you can continue to use a language you already know expect of course you can show some extras in there, and not just the minimum requested. We would also like to point out that Semester 2 on software goes further into Asp.NET: It's useful if you're already home in C#.
+
 
 A concept like 'methods with parameters and returns values' can be shown in a lot of languages. A teacher may ask questions about types (in statically typed languages).
 
-What about the pro job? Always consult with the teacher. For the deepening of software you always have to do business individually (consultation with your teacher), where the teacher may still require C#.
+Always consult with your teacher. For diving really into software you always have to discuss with your teacher, where the teacher may still require C#.
 
 And if there is one student on the team with a lot of experience who prefers a different language and tries to convince his teammates?
 What is important though is that everyone from the team who goes into S should be able to explain the software of the protask (not on every detail, but certainly globally). If the whole team's behind it and that one student realizes that he has to help the others, that you have to work together, there's talk about it.

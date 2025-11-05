@@ -16,7 +16,7 @@ Number of languages that are interesting to look at because there is a reasonabl
 + Java (C# and Java are close (how come?)).
 + Kotlin: Android.
 + Swift: iOS.
-+ Python: (Applied Data Science; Infra semester 2).
++ Python: (Applied Data Science; Infra).
 + C++ : devised to enable OOP in (an extension to) C. C++, like C, focuses on performance.
 + ... or are you interested in another language ...
 

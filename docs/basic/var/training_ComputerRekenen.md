@@ -133,7 +133,7 @@ With these you can ... different palindromes of 7 digits.
 ### Sources
 
 Some of these tasks come from
-[www.beterrekenen.nl](www.beterrekenen.nl) (also as a mobile app): A few minutes of challenges every day, sometimes easy, sometimes harder, some straightforward, sometimes really needing to draw a picture or call a laptop to the rescue.... brain gym in other words.... highly recommended!
+[www.beterrekenen.nl](https://www.beterrekenen.nl) (also as a mobile app): A few minutes of challenges every day, sometimes easy, sometimes harder, some straightforward, sometimes really needing to draw a picture or call a laptop to the rescue.... brain gym in other words.... highly recommended!
 
 ## Spoilers...
 

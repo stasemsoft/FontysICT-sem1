@@ -63,7 +63,7 @@ One site that has all kinds of (often mathematical) programming challenges on it
 
 Euler project 54 (called *poker hands*) has already been mentioned by software teachers
 as an example of a fun challenge.
-Other relevant Eulers: [[OIS11 en OIS12 - Project Euler challenges.pdf]]
+Other relevant Eulers: [OIS11 en OIS12 - Project Euler challenges](../legacy/OIS11 en OIS12 - Project Euler challenges.pdf)
 
 #### Dwitter.com
 

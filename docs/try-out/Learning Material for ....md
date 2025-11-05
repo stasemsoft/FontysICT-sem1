@@ -34,7 +34,7 @@ those provided by Coursera or edX.
 
 ## AI Applications - GPT, Models, and Techniques
 
-- [AI miscellaneous](artificial-intelligence/ai)
+- [AI miscellaneous](../artificial-intelligence/ai.md)
 - Staying updated on the latest advancements in artificial intelligence is
 crucial for understanding its applications. The [Microsoft
 OpenAI](https://openai.com/) website offers insights into various AI

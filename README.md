@@ -34,25 +34,35 @@ This is a collection of open-source software material for the starting semester 
 <details>
 <summary><strong>👋 First time here? Follow this onboarding checklist:</strong></summary>
 
+
 ### Step 1: Know Yourself
+
 - [ ] [Compare yourself to personas](https://stasemsoft.github.io/FontysICT-sem1/docs/personas/intro) - Understand your starting point
 - [ ] Read the tips for your persona type
 
+
 ### Step 2: Set Up Your Environment
+
 - [ ] [Install Visual Studio](https://stasemsoft.github.io/FontysICT-sem1/docs/process/infoVisualStudioInstallatie) (or VS Code on Mac)
 - [ ] Create your first "Hello World" program
 - [ ] Get familiar with your IDE
 
+
 ### Step 3: Understand the Material Structure
+
 - [ ] Read about [Tutorial vs How-to vs Reference](#-structure-of-this-material) below
 - [ ] Learn the difference between Training and Challenges
 
+
 ### Step 4: Start Learning
+
 - [ ] Begin with [Computational Thinking](https://stasemsoft.github.io/FontysICT-sem1/docs/computational) (conceptual foundation)
 - [ ] Then move to [Toolbox Basics](https://stasemsoft.github.io/FontysICT-sem1/docs/basic/) (practical programming)
 - [ ] Progress to [Objects and Classes](https://stasemsoft.github.io/FontysICT-sem1/docs/objects/) (OOP concepts)
 
+
 ### Step 5: Know Where to Get Help
+
 - [ ] Bookmark the [FAQ](https://stasemsoft.github.io/FontysICT-sem1/docs/FAQ)
 - [ ] Know about [How-to guides](https://stasemsoft.github.io/FontysICT-sem1/docs/basic/howto) for technical questions
 - [ ] Understand when and how to use AI assistance
@@ -68,7 +78,9 @@ Understanding how this material is organized will help you navigate it effective
 <details>
 <summary><strong>📘 Theory Material Types</strong></summary>
 
+
 The theory material is organized into these types:
+
 
 - **`Tutorial`**: Practical steps, learning-oriented. Shows how to get started with immediate results.
 - **`How-to guide`**: Practical steps, problem-oriented. Helps you solve specific issues.
@@ -80,7 +92,9 @@ The theory material is organized into these types:
 <details>
 <summary><strong>📝 Assignment Types</strong></summary>
 
+
 Assignments are divided into:
+
 
 - **`Training`** (formerly exercises): Practice exercises that help you master theory, but are not meant as proof of competency for your teacher.
 - **`Challenges`**: To demonstrate competency, create your own assignments, vary existing ones, and expand on them!
@@ -108,6 +122,7 @@ See [more explanation](https://stasemsoft.github.io/FontysICT-sem1/docs/meta) on
 
 <details>
 <summary><strong>💭 Do you already have programming experience, or are you starting from scratch?</strong></summary>
+
 
 [Find your persona](https://stasemsoft.github.io/FontysICT-sem1/docs/personas/intro) - Get personalized tips based on your experience level!
 

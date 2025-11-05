@@ -1,4 +1,3 @@
-<!-- TRANSLATED by md-translate -->
 # Explanation - Array & Lists
 
 C#, like most other programming languages, has more complex data types in addition to classes. Two examples of this are **array derivatives** and **lists**. Both types are intended to store multiple values of a type. For example, a set of numbers, a list of strings or a number of boats. Sometimes you don't know in advance exactly how many values to remember and sometimes it's just too many to store all as single variables. These are all good reasons to use collections.

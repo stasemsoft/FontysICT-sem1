@@ -1,4 +1,3 @@
-<!-- TRANSLATED by md-translate -->
 # Workshops (and insp for more...)
 
 Information for workshops and inspiration for more.

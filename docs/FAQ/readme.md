@@ -1,4 +1,3 @@
-<!-- TRANSLATED by md-translate -->
 # Frequently Asked Questions
 
 Here questions and answers are included that may be of interest to anyone working on this material.
@@ -22,10 +21,6 @@ Always consult with your teacher. For diving really into software you always hav
 
 And if there is one student on the team with a lot of experience who prefers a different language and tries to convince his teammates?
 What is important though is that everyone from the team who goes into S should be able to explain the software of the protask (not on every detail, but certainly globally). If the whole team's behind it and that one student realizes that he has to help the others, that you have to work together, there's talk about it.
-
-## What are the names OIS11, FUN12, OIS12 that I come across here and there?
-
-Part of the teaching material comes from the (former) subjects OIS11, FUN12 and OIS12 at FHICT, hence these afkos are (still) visible here and there. 'OIS' stood for Orientation in ICT & Software Engineering and 'FUN' for FUNdamentals.
 
 ## What's the first day look like?
 

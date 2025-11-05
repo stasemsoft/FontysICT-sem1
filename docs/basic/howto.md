@@ -1,4 +1,3 @@
-<!-- TRANSLATED by md-translate -->
 # How To ... (problem oriented)
 
 How can I open from one Form in a WinForm app with multiple Forms?

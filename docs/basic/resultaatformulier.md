@@ -1,4 +1,3 @@
-<!-- TRANSLATED by md-translate -->
 # Wat do I learn from these Basics?
 
 ## Info on the orienting level

@@ -1,4 +1,3 @@
-<!-- TRANSLATED by md-translate -->
 # Starting points for this software material
 
 This is a collection (open) software material from FHICT (Fontys University of ICT). Find this material

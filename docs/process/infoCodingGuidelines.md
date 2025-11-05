@@ -1,4 +1,4 @@
-About Coding Guidelines (FHICT)
+About Coding Guidelines (Fontys ICT)
 
 In every programming language there are agreements about what code looks like. Many teams make additional agreements about this.
 

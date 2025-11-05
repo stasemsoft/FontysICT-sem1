@@ -48,7 +48,7 @@ Learn:
 
 
 The idea essentially comes from *How to solve it?* by didactician *Polya*.
-It started as a so-called 100-hour survey by Coen at FHICT.
+It started as a so-called 100-hour survey by Coen at Fontys ICT.
 Many colleagues gave feedback to develop and make better.
 This included some alternatives, such as
 

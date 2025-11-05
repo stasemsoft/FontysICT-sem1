@@ -24,7 +24,7 @@ What is important though is that everyone from the team who goes into S should b
 
 ## What's the first day look like?
 
-Purpose: to meet: students among themselves and also with the teacher. We want them to get mixed up, talk, argue. At the same time we want to introduce them to typical software ideas & co. Under the title Computational Thinking are a number of challenges that students can work with on the first day without needing a development environment. The whiteboard pen is presented to them by FHICT, for which we ask them to draw schematics and models (not with a digital tool). They need that marker later here and there, so press the heart they keep (ISSD likes to sell them new ones, if they lose him...).
+Purpose: to meet: students among themselves and also with the teacher. We want them to get mixed up, talk, argue. At the same time we want to introduce them to typical software ideas & co. Under the title Computational Thinking are a number of challenges that students can work with on the first day without needing a development environment. The whiteboard pen is presented to them by Fontys ICT, for which we ask them to draw schematics and models (not with a digital tool). They need that marker later here and there, so press the heart they keep (ISSD likes to sell them new ones, if they lose him...).
 
 Everything is on the Homepage and in the Modules, there are no separate kick-off slides. Depending on your own style you walk through it or put yourself to reading. Demand Based: Let them look for themselves! A little unrest may well arise in the classroom... ;-)
 

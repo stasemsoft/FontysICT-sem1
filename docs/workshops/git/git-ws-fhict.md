@@ -46,8 +46,8 @@ which is free to download.
 ![](../../process/figures/git_newproject.png "new project")
 A repository is a place (typically online) where your code and
 all previous versions of it are stored. We will now create a repository at
-the so-called *git-lab* environment at FHICT
-(only available for FHICT-students;
+the so-called *git-lab* environment at Fontys ICT
+(only available for Fontys ICT-students;
 An alternative would be creating a repository at *GitHub.com*,
 which is very similar)
 Use a browser to go to

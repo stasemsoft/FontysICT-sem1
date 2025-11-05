@@ -15,7 +15,7 @@
 
 ## Introduction
 
-This is a collection of open-source software material for the starting semester at FHICT (Fontys University of Applied Sciences for ICT). The material is publicly accessible and free of copyright. It has been created and collected over the years by teachers, with contributions from students. FHICT references this material from a Canvas course (where FHICT-specific information is located), while these GitHub pages are fairly FHICT-independent.
+This is a collection of open-source software material for the starting semester at Fontys ICT (Fontys University of Applied Sciences for ICT). The material is publicly accessible and free of copyright. It has been created and collected over the years by teachers, with contributions from students. Fontys ICT references this material from a Canvas course (where Fontys ICT-specific information is located), while these GitHub pages are fairly Fontys ICT-independent.
 
 ---
 
@@ -96,7 +96,7 @@ See [more explanation](https://stasemsoft.github.io/FontysICT-sem1/docs/meta) on
 
 1. **[How-to Guide](https://stasemsoft.github.io/FontysICT-sem1/docs/basic/howto)**: Technical questions and solutions. Can't find your answer? Let us know! (Even if you found it yourself - thanks!)
 2. **[How to use a Tutorial](https://stasemsoft.github.io/FontysICT-sem1/docs/process/howtoLookAtATutorial)**: Learn how to get the most out of tutorials
-3. **[Frequently Asked Questions](https://stasemsoft.github.io/FontysICT-sem1/docs/FAQ)**: Course-related questions at FHICT? Check the FAQ first to see if others had the same question.
+3. **[Frequently Asked Questions](https://stasemsoft.github.io/FontysICT-sem1/docs/FAQ)**: Course-related questions at Fontys ICT? Check the FAQ first to see if others had the same question.
 4. **[AI Assistance](https://chat.openai.com/chat)** or **[Perplexity](https://www.perplexity.ai)**: Powerful AI help available, but be sure you understand the results! Always be explicit about using AI assistance.
 
 ---
@@ -163,7 +163,7 @@ Programming and artificial intelligence emerged around the same time in the 1950
 
 ### 🎓 The Profile 'ICT & Software Engineering' at Fontys ICT
 
-Information about choosing software as your specialization at FHICT.
+Information about choosing software as your specialization at Fontys ICT.
 
 ➡️ [Learn about the Profile](https://stasemsoft.github.io/FontysICT-sem1/docs/softwareprofiel/)
 

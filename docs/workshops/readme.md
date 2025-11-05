@@ -4,7 +4,7 @@ Information for workshops and inspiration for more.
 
 ## Week schedule Workshops
 
-A possible weekly schedule for FHICT. Teachers discuss within their cluster which workshops are done by whom (possibly together).
+A possible weekly schedule for Fontys ICT. Teachers discuss within their cluster which workshops are done by whom (possibly together).
 
 ## Design Challenge (between orientation and floor)
 

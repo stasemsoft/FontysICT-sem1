@@ -10,7 +10,7 @@ Preparation: If you watch the short intro video below and the example below, you
 
 + [Short intro video 'Using CRC cards'](https://www.youtube.com/watch?v=Bxgn6qJ-bYY)
 
-+ [Dutch Example startsemester FHICT](figures/crc_example_patientdossier.jpg)
++ [Dutch Example startsemester Fontys ICT](figures/crc_example_patientdossier.jpg)
 
 ## Practice materials
 

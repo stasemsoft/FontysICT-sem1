@@ -1,4 +1,4 @@
-# Information about the software profile at FHICT
+# Information about the software profile at Fontys ICT
 
 Once a semester we provide information about what the rest of study looks like if you choose software.
 

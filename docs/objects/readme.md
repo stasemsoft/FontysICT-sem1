@@ -112,6 +112,6 @@ If you had not yet watched the following video by Tim Corey, it is definitely re
 
 
 
-## Old material, no longer used at FHICT
+## Old material, no longer used at Fontys ICT
 
 + [link to old material: WinForms-specific](winforms/winforms-specific)

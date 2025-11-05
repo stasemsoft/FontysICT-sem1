@@ -70,31 +70,21 @@ This is a collection of open-source software material for the starting semester 
 
 Understanding how this material is organized will help you navigate it effectively.
 
-<details>
-<summary><strong>📘 Theory Material Types</strong></summary>
-
+### 📘 Theory Material Types
 
 The theory material is organized into these types:
-
 
 - **`Tutorial`**: Practical steps, learning-oriented. Shows how to get started with immediate results.
 - **`How-to guide`**: Practical steps, problem-oriented. Helps you solve specific issues.
 - **`Discussion`**: Theoretical, understanding-oriented. Explores concepts and ideas.
 - **`Reference`**: Theoretical, information-oriented. Accurate and complete documentation.
 
-</details>
-
-<details>
-<summary><strong>📝 Assignment Types</strong></summary>
-
+### 📝 Assignment Types
 
 Assignments are divided into:
 
-
 - **`Training`** (formerly exercises): Practice exercises that help you master theory, but are not meant as proof of competency for your teacher.
 - **`Challenges`**: To demonstrate competency, create your own assignments, vary existing ones, and expand on them!
-
-</details>
 
 See [more explanation](https://stasemsoft.github.io/FontysICT-sem1/docs/meta) on the principles.
 
@@ -115,13 +105,9 @@ See [more explanation](https://stasemsoft.github.io/FontysICT-sem1/docs/meta) on
 
 **Not sure where to start?** Compare yourself to the personas and read the tips:
 
-<details>
-<summary><strong>💭 Do you already have programming experience, or are you starting from scratch?</strong></summary>
-
+**💭 Do you already have programming experience, or are you starting from scratch?**
 
 [Find your persona](https://stasemsoft.github.io/FontysICT-sem1/docs/personas/intro) - Get personalized tips based on your experience level!
-
-</details>
 
 ---
 

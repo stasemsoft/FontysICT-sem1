@@ -1,12 +1,25 @@
 # Software Material - Overview
 
+## 📚 Table of Contents
+
+- [🚀 Quick Start](#-quick-start)
+- [🎯 New Student? Start Here](#-new-student-start-here)
+- [📖 Structure of this Material](#-structure-of-this-material)
+- [🆘 First Aid when Getting Stuck](#-first-aid-when-getting-stuck)
+- [👤 Personas - Who Am I?](#-personas---who-am-i)
+- [📚 Learning Content](#-learning-content)
+- [🔧 Additional Resources](#-additional-resources)
+- [📍 Where to Find This Material](#-where-to-find-this-material)
+
+---
+
 ## Introduction
 
 This is a collection of open-source software material for the starting semester at FHICT (Fontys University of Applied Sciences for ICT). The material is publicly accessible and free of copyright. It has been created and collected over the years by teachers, with contributions from students. FHICT references this material from a Canvas course (where FHICT-specific information is located), while these GitHub pages are fairly FHICT-independent.
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
 **New to programming?** Start here:
 
@@ -16,109 +29,161 @@ This is a collection of open-source software material for the starting semester 
 
 ---
 
-## Structure of this Material
+## 🎯 New Student? Start Here
+
+<details>
+<summary><strong>👋 First time here? Follow this onboarding checklist:</strong></summary>
+
+### Step 1: Know Yourself
+- [ ] [Compare yourself to personas](https://stasemsoft.github.io/FontysICT-sem1/docs/personas/intro) - Understand your starting point
+- [ ] Read the tips for your persona type
+
+### Step 2: Set Up Your Environment
+- [ ] [Install Visual Studio](https://stasemsoft.github.io/FontysICT-sem1/docs/process/infoVisualStudioInstallatie) (or VS Code on Mac)
+- [ ] Create your first "Hello World" program
+- [ ] Get familiar with your IDE
+
+### Step 3: Understand the Material Structure
+- [ ] Read about [Tutorial vs How-to vs Reference](#-structure-of-this-material) below
+- [ ] Learn the difference between Training and Challenges
+
+### Step 4: Start Learning
+- [ ] Begin with [Computational Thinking](https://stasemsoft.github.io/FontysICT-sem1/docs/computational) (conceptual foundation)
+- [ ] Then move to [Toolbox Basics](https://stasemsoft.github.io/FontysICT-sem1/docs/basic/) (practical programming)
+- [ ] Progress to [Objects and Classes](https://stasemsoft.github.io/FontysICT-sem1/docs/objects/) (OOP concepts)
+
+### Step 5: Know Where to Get Help
+- [ ] Bookmark the [FAQ](https://stasemsoft.github.io/FontysICT-sem1/docs/FAQ)
+- [ ] Know about [How-to guides](https://stasemsoft.github.io/FontysICT-sem1/docs/basic/howto) for technical questions
+- [ ] Understand when and how to use AI assistance
+
+</details>
+
+---
+
+## 📖 Structure of this Material
+
+Understanding how this material is organized will help you navigate it effectively.
+
+<details>
+<summary><strong>📘 Theory Material Types</strong></summary>
 
 The theory material is organized into these types:
 
-- `Tutorial`: Practical steps, learning-oriented. Shows how to get started with immediate results.
-- `How-to guide`: Practical steps, problem-oriented. Helps you solve specific issues.
-- `Discussion`: Theoretical, understanding-oriented. Explores concepts and ideas.
-- `Reference`: Theoretical, information-oriented. Accurate and complete documentation.
+- **`Tutorial`**: Practical steps, learning-oriented. Shows how to get started with immediate results.
+- **`How-to guide`**: Practical steps, problem-oriented. Helps you solve specific issues.
+- **`Discussion`**: Theoretical, understanding-oriented. Explores concepts and ideas.
+- **`Reference`**: Theoretical, information-oriented. Accurate and complete documentation.
+
+</details>
+
+<details>
+<summary><strong>📝 Assignment Types</strong></summary>
 
 Assignments are divided into:
 
-- `Training` (formerly exercises): Practice exercises that help you master theory, but are not meant as proof of competency for your teacher.
-- `Challenges`: To demonstrate competency, create your own assignments, vary existing ones, and expand on them!
+- **`Training`** (formerly exercises): Practice exercises that help you master theory, but are not meant as proof of competency for your teacher.
+- **`Challenges`**: To demonstrate competency, create your own assignments, vary existing ones, and expand on them!
+
+</details>
 
 See [more explanation](https://stasemsoft.github.io/FontysICT-sem1/docs/meta) on the principles.
 
 ---
 
-## First Aid when Getting Stuck
+## 🆘 First Aid when Getting Stuck
 
-- [How-to Guide](https://stasemsoft.github.io/FontysICT-sem1/docs/basic/howto): Technical questions and solutions. Can't find your answer? Let us know! (Even if you found it yourself - thanks!)
-- [How to use a Tutorial](https://stasemsoft.github.io/FontysICT-sem1/docs/process/howtoLookAtATutorial)
+**Can't solve a problem?** Try these in order:
 
-- [Frequently Asked Questions](https://stasemsoft.github.io/FontysICT-sem1/docs/FAQ): Course-related questions at FHICT? Check the FAQ first to see if others had the same question.
-- [AI Assistance](https://chat.openai.com/chat) or [Perplexity](https://www.perplexity.ai) - Powerful AI help available, but be sure you understand the results! Always be explicit about using AI assistance.
-
----
-
-## Personas - Who Am I?
-
-Compare yourself to the personas and read the tips: Do you already have programming experience, or are you starting from scratch?
-
-[intro](https://stasemsoft.github.io/FontysICT-sem1/docs/personas/intro)
+1. **[How-to Guide](https://stasemsoft.github.io/FontysICT-sem1/docs/basic/howto)**: Technical questions and solutions. Can't find your answer? Let us know! (Even if you found it yourself - thanks!)
+2. **[How to use a Tutorial](https://stasemsoft.github.io/FontysICT-sem1/docs/process/howtoLookAtATutorial)**: Learn how to get the most out of tutorials
+3. **[Frequently Asked Questions](https://stasemsoft.github.io/FontysICT-sem1/docs/FAQ)**: Course-related questions at FHICT? Check the FAQ first to see if others had the same question.
+4. **[AI Assistance](https://chat.openai.com/chat)** or **[Perplexity](https://www.perplexity.ai)**: Powerful AI help available, but be sure you understand the results! Always be explicit about using AI assistance.
 
 ---
 
-## Learning Content
+## 👤 Personas - Who Am I?
 
-### 1. Computational Thinking
+**Not sure where to start?** Compare yourself to the personas and read the tips:
+
+<details>
+<summary><strong>💭 Do you already have programming experience, or are you starting from scratch?</strong></summary>
+
+[Find your persona](https://stasemsoft.github.io/FontysICT-sem1/docs/personas/intro) - Get personalized tips based on your experience level!
+
+</details>
+
+---
+
+## 📚 Learning Content
+
+Your learning journey follows this progression:
+
+### 1️⃣ Computational Thinking
 
 Understanding how to think computationally - a valuable foundation. Originally designed for collaborative learning with teachers. Works best when discussed together with a whiteboard.
 
-- [Computational Thinking](https://stasemsoft.github.io/FontysICT-sem1/docs/computational)
+➡️ [Start learning Computational Thinking](https://stasemsoft.github.io/FontysICT-sem1/docs/computational)
 
 ---
 
-### 2. Toolbox Basics: Programming without Objects
+### 2️⃣ Toolbox Basics: Programming without Objects
 
 An introduction to programming fundamentals (before diving into objects).
 
-- [Toolbox Basics](https://stasemsoft.github.io/FontysICT-sem1/docs/basic/)
+➡️ [Start learning Toolbox Basics](https://stasemsoft.github.io/FontysICT-sem1/docs/basic/)
 
 ---
 
-### 3. Toolbox: Programming Objects and Classes
+### 3️⃣ Toolbox: Programming Objects and Classes
 
 Getting started with Object-Oriented Programming (OOP).
 
-- [Toolbox: Objects and Classes](https://stasemsoft.github.io/FontysICT-sem1/docs/objects/)
+➡️ [Start learning Objects and Classes](https://stasemsoft.github.io/FontysICT-sem1/docs/objects/)
 
 ---
 
-### 4. Software Engineering
+### 4️⃣ Software Engineering
 
 Essential non-programming aspects that every beginning software engineer should know and be able to do.
 
-- [Software Engineering](https://stasemsoft.github.io/FontysICT-sem1/docs/software%20engineering/)
+➡️ [Learn Software Engineering](https://stasemsoft.github.io/FontysICT-sem1/docs/software%20engineering/)
 
 ---
 
-### Documentation Toolbox
+### 📄 Documentation Toolbox
 
 - [A typst template for Fontys ICT](https://github.com/TomVer99/FHICT-typst-template)
 
 ---
 
-### 5. Artificial Intelligence Learning Material
+### 5️⃣ Artificial Intelligence Learning Material
 
 Programming and artificial intelligence emerged around the same time in the 1950s. For decades, programming was the primary way to instruct machines, but since 2023, artificial intelligence has taken off... It's fundamentally changing how computer programs are built.
 
-- [AI - Artificial Intelligence](https://stasemsoft.github.io/FontysICT-sem1/docs/artificial-intelligence/ai)
+➡️ [Explore AI Material](https://stasemsoft.github.io/FontysICT-sem1/docs/artificial-intelligence/ai)
 
 ---
 
-### The Profile 'ICT & Software Engineering' at Fontys ICT
+### 🎓 The Profile 'ICT & Software Engineering' at Fontys ICT
 
 Information about choosing software as your specialization at FHICT.
 
-- [The Profile](https://stasemsoft.github.io/FontysICT-sem1/docs/softwareprofiel/)
+➡️ [Learn about the Profile](https://stasemsoft.github.io/FontysICT-sem1/docs/softwareprofiel/)
 
 ---
 
-## Additional Resources
+## 🔧 Additional Resources
 
-- [Motivation and Concentration](https://stasemsoft.github.io/FontysICT-sem1/docs/process/motivatieconcentratie)
-- [Workshops](https://stasemsoft.github.io/FontysICT-sem1/docs/workshops/)
+- [Motivation and Concentration](https://stasemsoft.github.io/FontysICT-sem1/docs/process/motivatieconcentratie) - Tips for staying focused and motivated
+- [Workshops](https://stasemsoft.github.io/FontysICT-sem1/docs/workshops/) - Additional workshops and inspiration
 
 ---
 
-## Where to Find This Material
+## 📍 Where to Find This Material
 
-- [GitHub Pages](https://stasemsoft.github.io/FontysICT-sem1/) (most readable format)
-- [GitHub Repository](https://github.com/stasemsoft/FontysICT-sem1) (pull requests with improvements welcome)
+- **[GitHub Pages](https://stasemsoft.github.io/FontysICT-sem1/)** 📖 (most readable format - you're probably reading this here!)
+- **[GitHub Repository](https://github.com/stasemsoft/FontysICT-sem1)** 💻 (pull requests with improvements welcome)
 
 ---
 

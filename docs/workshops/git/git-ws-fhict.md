@@ -1,7 +1,7 @@
 # Git (version control)
 
 
-![](figures/gitlogo.png "git")
+![](../../process/figures/gitlogo.png "git")
 
 ## git basic concepts
 
@@ -43,7 +43,7 @@ which is free to download.
 
 ## Create a repository
 
-![](figures/git_newproject.png "new project")
+![](../../process/figures/git_newproject.png "new project")
 A repository is a place (typically online) where your code and
 all previous versions of it are stored. We will now create a repository at
 the so-called *git-lab* environment at FHICT
@@ -55,7 +55,7 @@ Use a browser to go to
 and create a git repository.
 Copy the https-url to your clipboard, we need it in a few moments.
 
-![](figures/gitHttpsUrl.png "git https")
+![](../../process/figures/gitHttpsUrl.png "git https")
 
 In Git you typically have a `repository` on a network somewhere where
 all files of your project are stored, including the history of
@@ -101,7 +101,7 @@ cd myProject
 Most of the time you don't have to type whole names like *Documents*:
 just type *Doc* and
 press the *tab* key and probably the *shell* will complete the name.
-![](figures/gitbash1.png "bash")
+![](../../process/figures/gitbash1.png "bash")
 In the `terminal` *clone* the git-repository from the server
 to your local directory by typing:
 
@@ -127,7 +127,7 @@ changes right from their `IDE`. Most *IDEs* and *editors* nowadays
 have built-in `git`-functionality.
 
 
-![](figures/gitgud.png "git gud")
+![](../../process/figures/gitgud.png "git gud")
 
 ## References
 

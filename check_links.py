@@ -9,9 +9,19 @@ from urllib.parse import urlparse
 def extract_links(content, file_path):
     """Extract all links from markdown content."""
     links = []
+    
+    # Remove code blocks to avoid extracting links from code examples
+    # Match code blocks: ```language ... ```
+    code_block_pattern = r'```[\s\S]*?```'
+    content_without_code = re.sub(code_block_pattern, '', content)
+    
+    # Also remove inline code: `code`
+    inline_code_pattern = r'`[^`]+`'
+    content_without_code = re.sub(inline_code_pattern, '', content_without_code)
+    
     # Match markdown links: [text](url) or ![text](url "alt")
     pattern = r'\]\(([^)]+)\)'
-    for match in re.finditer(pattern, content):
+    for match in re.finditer(pattern, content_without_code):
         link = match.group(1)
         # Skip anchor-only links
         if link.startswith('#'):
@@ -21,10 +31,13 @@ def extract_links(content, file_path):
             link = link[1:-1]
         # Remove quotes and alt text from image links
         # Handle: figures/image.png "alt text" -> figures/image.png
-        # Also handle smart quotes: "rock paper scissors" -> rock paper scissors
-        link = link.split('"')[0].split('"')[0].strip()
-        # Remove any trailing spaces or quotes
-        link = link.rstrip('"').rstrip("'").strip()
+        # Handle both regular and smart quotes (including Unicode curly quotes)
+        # Unicode left/right double quotes: \u201c \u201d
+        # Unicode left/right single quotes: \u2018 \u2019
+        # Use regex to remove everything after any quote character (including Unicode)
+        link = re.sub(r'["""''\u201c\u201d\u2018\u2019].*$', '', link)
+        # Remove any trailing spaces or quotes (including Unicode)
+        link = link.rstrip('"').rstrip("'").rstrip('"').rstrip("'").rstrip('\u201c').rstrip('\u201d').rstrip('\u2018').rstrip('\u2019').strip()
         if link:
             links.append(link)
     return links
@@ -33,17 +46,18 @@ def check_link(link, source_file):
     """Check if a link is valid."""
     source_dir = source_file.parent
     
-    # Handle external links
+    # Handle GitHub Pages links FIRST (before general external links)
+    # These are links to the GitHub Pages site and should be treated as valid
+    if 'stasemsoft.github.io' in link or 'stasemsoft.github.io/FontysICT-sem1' in link:
+        return {'type': 'github_pages', 'valid': None, 'link': link}
+    
+    # Handle external links (http/https)
     if link.startswith('http://') or link.startswith('https://'):
         return {'type': 'external', 'valid': None, 'link': link}
     
     # Handle mailto links
     if link.startswith('mailto:'):
         return {'type': 'mailto', 'valid': None, 'link': link}
-    
-    # Handle GitHub Pages links (internal but absolute)
-    if 'stasemsoft.github.io' in link:
-        return {'type': 'github_pages', 'valid': None, 'link': link}
     
     # Handle relative links
     # Remove anchor if present

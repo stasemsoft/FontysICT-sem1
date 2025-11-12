@@ -11,6 +11,9 @@
 - [🔧 Additional Resources](#-additional-resources)
 - [📍 Where to Find This Material](#-where-to-find-this-material)
 
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/stasemsoft/FontysICT-sem1)
+
 ---
 
 ## Introduction

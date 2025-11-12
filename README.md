@@ -12,6 +12,8 @@
 - [📍 Where to Find This Material](#-where-to-find-this-material)
 
 
+Maybe try and ask Deepwiki about it: 
+
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/stasemsoft/FontysICT-sem1)
 
 ---
